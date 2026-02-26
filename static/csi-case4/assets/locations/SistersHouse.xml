@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<location name="SistersHouse" displayName="Lina Perez's House" iconName="Lina Perez's House">
+	<person name="Langston"/>
+	<person name="LinaPerez"/>
+	<object name="DoorSistersExit" />
+	<visit num="1" ambient="SistersHouseAmbient">
+		<clickable name="Langston" type="required" action="dialog:LangstonSisterUnfinished" persist="true" />
+		<clickable name="LinaPerez" type="required" require="evidenceInHand:Oxycodone" action="dialog:LinaPerez2,clue:OxycodoneStolen,hide:Oxycodone" fail="dialog:LinaPerez1" checkDone="clue:OxycodoneStolen" >
+			<clickable name="LinaPerez" type="ignore" persist="true" action="dialog:LinaPerez2" />
+			<standalone action="message:message2" />
+			<unlock type="location" name="Hospital"/>
+			<set variable="visit:SistersHouse" value="2" />
+			<dev action="location:Hospital" />
+			<clickable name="Langston" type="ignore" action="dialog:LangstonSisterFinished" persist="true" />
+		</clickable>
+	</visit>
+	<visit num="2">
+		<clickable name="LinaPerez" type="ignore" action="dialog:LinaPerez2" persist="true" />
+		<clickable name="Langston" type="ignore" action="dialog:LangstonSisterFinished" />		
+		<clickable name="DoorSistersExit" type="ignore" action="location:Headquarters" />
+	</visit>
+</location>

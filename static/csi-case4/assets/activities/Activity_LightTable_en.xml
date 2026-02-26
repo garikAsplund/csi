@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<activity name="LightTable">
+	<screen name="mainScreen">
+		<instruct num="3"><![CDATA[Use the magnifying glass to search the space heater. There are three points of interest.]]></instruct>
+		<instruct num="2"><![CDATA[You still have two points of interest to find.]]></instruct>
+		<instruct num="1"><![CDATA[There is one point of interest left to find.]]></instruct>
+	</screen>
+	<screen name="cord1">
+		<title><![CDATA[Electrical Cord]]></title>
+		<text><![CDATA[Zoom in to the electrical cord.]]></text>
+		<caption num="1"><![CDATA[ZOOM]]></caption>
+	</screen>
+	<screen name="cord2">
+		<title><![CDATA[Electrical Cord]]></title>
+		<text><![CDATA[When an electrical cord is heated over the melting temperature of copper (1,085°C/1,985°F), the wires can melt.
+
+Upon cooling, the molten materials often assumes the shape of a bead.]]></text>
+		<caption><![CDATA[bead]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="cord3">
+		<title><![CDATA[Electrical Cord]]></title>
+		<text><![CDATA[What is the demarcation of our bead?]]></text>
+		<nextBtn><![CDATA[See examples]]></nextBtn>
+	</screen>
+	<screen name="cord4">
+		<title><![CDATA[Electrical Cord]]></title>
+		<text><![CDATA[The DEMARCATION of the bead is the border between the bead and the cylindrical portion of the wire.]]></text>
+		<example num="1"><![CDATA[Bead caused by an electrical spark, SHARP demarcation]]></example>
+		<example num="2"><![CDATA[Bead caused by burning from the outside, NO sharp demarcation]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="cord5">
+		<title><![CDATA[Electrical Cord]]></title>
+		<text><![CDATA[What is the demarcation of our bead?]]></text>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+		<caption num="1"><![CDATA[ZOOM]]></caption>
+		<option num="1" correct="false"><![CDATA[Sharp]]></option>			
+		<option num="2" correct="true"><![CDATA[Not sharp]]></option>
+		<option num="3" correct="false"><![CDATA[See examples]]></option>
+		<response num="1"><![CDATA[Are you sure? The demarcation doesn't look particularly sharp to me.]]></response>
+		<response num="2"><![CDATA[]]></response><!-- Go to dialog -->
+		<response num="3"><![CDATA[]]></response><!-- Fill with screen 4 data -->
+	</screen>
+	<screen name="controls1">
+		<title><![CDATA[Controls]]></title>
+		<text><![CDATA[Zoom into the controls.]]></text>
+		<zoom><![CDATA[ZOOM]]></zoom>
+	</screen>
+	<screen name="controls2">
+		<caption num="1"><![CDATA[high]]></caption>
+		<caption num="2"><![CDATA[medium]]></caption>
+		<caption num="3"><![CDATA[low]]></caption>
+		<caption num="4"><![CDATA[ON]]></caption>
+		<caption num="5"><![CDATA[OFF]]></caption>
+		<title><![CDATA[Controls]]></title>
+		<text><![CDATA[Was the heater running when the fire started?]]></text>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+		<option num="1" correct="true"><![CDATA[Yes]]></option>
+		<option num="2" correct="false"><![CDATA[No]]></option>
+		<option num="3" correct="false"><![CDATA[We can't tell]]></option>
+		<response num="1"><![CDATA[]]></response><!-- Pull up dialog -->
+		<response num="2"><![CDATA[Look more closely and try again.]]></response>
+		<response num="3"><![CDATA[The controls reflect the heater's state at the time of the fire.
+Try again.]]></response>
+	</screen>
+</activity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<tools>
+	<tool name="PDA">
+		<title><![CDATA[Smartphone]]></title>
+		<text><![CDATA[Dies ist ein smartphone.]]></text>
+	</tool>
+	<tool name="FireSceneToolKit">
+		<title><![CDATA[Feuer Scene Toolkit]]></title>
+		<text><![CDATA[Dies ist ein Feuer Szene-Toolkit.]]></text>
+	</tool>
+	<tool name="Camera">
+		<title><![CDATA[Kamera]]></title>
+		<text><![CDATA[Dies ist eine Kamera.]]></text>
+	</tool>
+</tools>

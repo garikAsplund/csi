@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<activity name="ArchiveSearch">
+	<file1>
+		<title><![CDATA[Patient prescription history]]></title>
+		<patient><![CDATA[Melissa McCoy]]></patient>
+		<dateLabel><![CDATA[Date prescribed]]></dateLabel>
+		<medLabel><![CDATA[Medication]]></medLabel>
+		<insuranceLabel><![CDATA[Visit covered by]]></insuranceLabel>
+		<row num="1">
+			<date>3/15/2011</date>
+			<prescription>Voltaren (NSAID) 75 mg</prescription>
+			<money>Insurance</money>
+		</row>
+		<row num="2">
+			<date>6/23/2011</date>
+			<prescription>Voltaren (NSAID) 75 mg</prescription>
+			<money>Insurance</money>
+		</row>
+		<row num="3">
+			<date>8/13/2011</date>
+			<prescription>Voltaren (NSAID) 75 mg, Soma (muscle relaxant) 250 mg</prescription>
+			<money>Insurance</money>
+		</row>
+		<row num="4">
+			<date>10/5/2011</date>
+			<prescription>Voltaren (NSAID) 75 mg, Soma (muscle relaxant) 350 mg</prescription>
+			<money>Insurance</money>
+		</row>
+		<row num="5">
+			<date>12/11/2011</date>
+			<prescription>Soma (muscle relaxant) 350 mg, OxyContin (opioid) 15 mg</prescription>
+			<money>Cash</money>
+		</row>
+		<row num="6">
+			<date>1/28/2012</date>
+			<prescription>Soma (muscle relaxant) 350 mg, OxyContin (opioid) 20 mg</prescription>
+			<money>Cash</money>
+		</row>
+		<row num="7">
+			<date>2/03/2012</date>
+			<prescription>Soma (muscle relaxant) 350 mg, OxyContin (opioid) 20 mg, Vicodin (opioid) 10 mg</prescription>
+			<money>Cash</money>
+		</row>
+		<row num="8">
+			<date>2/27/2012</date>
+			<prescription>Soma (muscle relaxant) 350 mg, OxyContin (opioid) 20 mg, Vicodin (opioid) 10 mg</prescription>
+			<money>Cash</money>
+		</row>
+		<row num="9">
+			<date>3/14/2012</date>
+			<prescription>Soma (muscle relaxant) 350 mg, OxyContin (opioid) 40 mg, Vicodin (opioid) 15 mg</prescription>
+			<money>Cash</money>
+		</row>
+		<row num="10">
+			<date>3/21/2012</date>
+			<prescription>Soma (muscle relaxant) 350 mg, OxyContin (opioid) 40 mg, Vicodin (opioid) 15 mg</prescription>
+			<money>Cash</money>
+		</row>
+	</file1>
+	<file2>
+		<formTop><![CDATA[AO 110 (Rev. 06/09) Subpoena to Testify Before a Grand Jury]]></formTop>
+		<court><![CDATA[United States District Court]]></court>
+		<forThe><![CDATA[for the]]></forThe>
+		<district><![CDATA[District of Nevada]]></district>
+		<subpoena><![CDATA[SUBPOENA TO TESTIFY BEFORE A GRAND JURY]]></subpoena>
+		<toLabel>To:</toLabel>
+		<to><![CDATA[Dr. Justine Phillips<br/>Pain Management Center, Las Vegas, Nevada]]></to>
+		<commandLine><![CDATA[YOU ARE COMMANDED to appear in this United States district court at the time, date, and place shown below to testify before the court’s grand jury.]]></commandLine>
+		<placeLabel>Place:</placeLabel>
+		<placeText><![CDATA[US District Court<br/>333 S. Las Vegas Blvd, Grand Jury Room 8272<br/>Las Vegas, NV 89101]]></placeText>
+		<dateTimeLabel>Date and Time:</dateTimeLabel>
+		<dateTime><![CDATA[May 03, 2012
+9:00 a.m.]]></dateTime>	
+		<bringWith><![CDATA[You must also bring with you the following documents, electronically stored information, or objects ]]></bringWith>
+		<subtext>(blank if not applicable):</subtext>
+		<bringWithText><![CDATA[All documents in your possession which evidence VIOLATION OF THE CONTROLLED SUBSTANCE ACT on the part of any former or current employee of the Pain Management Center.]]></bringWithText>
+		<date><![CDATA[Date:]]></date>
+		<dateContent></dateContent>
+		<by><![CDATA[CLERK OF COURT]]></by>
+		<signature>Signature of Clerk or Deputy Clerk</signature>
+		<footer><![CDATA[The name, address, e-mail, and telephone number of the United States attorney, or assistant United States attorney, who requests this subpoena, are:]]></footer>
+	</file2>
+</activity>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<activity name="MatchClues">
+	<header><![CDATA[CLUES]]></header>
+	<intro>
+		<title><![CDATA[Investigation Report]]></title>
+		<text><![CDATA[Drag the correct clues to the glowing boxes to answer the questions.
+Good luck!]]></text>
+	</intro>
+	<instructions><![CDATA[Click-and-Drag the clues to answer the questions.]]></instructions>
+	<submitBtn><![CDATA[SUBMIT ANSWERS]]></submitBtn>
+	<retryBtn><![CDATA[RETRY]]></retryBtn>
+	<question name="q1">
+		<![CDATA[What confirms that the fire was arson?]]>
+	</question>
+	<question name="q2">
+		<![CDATA[How do we know that the victim didn't die in the fire?]]>
+	</question>
+	<question name="q3">
+		<![CDATA[What killed our victim?]]>
+	</question>
+	<question name="q4">
+		<![CDATA[What evidence makes you suspect that Natalie was also a drug abuser?]]>
+	</question>
+	<outro>
+		<title><![CDATA[WELL DONE!]]></title>
+		<text><![CDATA[Natalie Perez was brought in for questioning based on the evidence you’ve collected. She has admitted to the arson. Now it’s your chance to talk to her. ]]></text>
+	</outro>
+</activity>

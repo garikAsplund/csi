@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<activity name="Photography">
+	<title num="1"><![CDATA[V-shaped burn pattern]]></title>
+	<title num="2"><![CDATA[Puddle-shaped burn pattern]]></title>
+	<title num="3"><![CDATA[Crazed glass]]></title>
+	<title num="4"><![CDATA[Protected surface]]></title>
+	<title num="5"><![CDATA[Burned outlet]]></title>
+	<caption num="1"><![CDATA[of 5]]></caption>
+	<caption num="2"><![CDATA[found]]></caption>
+	<cameraText><![CDATA[Click to take picture.]]></cameraText>
+</activity>

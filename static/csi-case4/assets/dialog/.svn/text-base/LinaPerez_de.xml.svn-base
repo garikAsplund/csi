@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<dialog name="LinaPerez">
+	<conversation location="SistersHouse" visit="1" name="1">
+		<statement num="1"><![CDATA[Wie kann ich Ihnen helfen?]]></statement>
+		<statement num="2"><![CDATA[Mein Name? Wie?]]></statement>
+		
+		<response num="1"><![CDATA[Frau Perez, ich bin derzeit eine Brandkatastrophe, und Ihren Namen kam.]]></response>
+		<response num="2"><![CDATA[Lassen Sie mich Ihnen etwas, das wir am Brandort gefunden.]]></response>
+	</conversation>	
+	
+	<conversation location="SistersHouse" visit="1" name="2">
+		<statement num="1"><![CDATA[Das ist mein Rezept. Ich verstehe nicht ...]]></statement>
+		<statement num="2"><![CDATA[Ich habe sie für eine Rückenverletzung vor ein paar Monaten. Ich glaube, ich habe zwei oder drei Pillen, bis die Verletzung verheilt ist. Ich dachte, ich hätte sie rausgeschmissen eine Weile her ...]]></statement>
+		<statement num="3"><![CDATA[Natalie ist meine Schwester. Oh nein, das wollte nichts mit ihr geschehen?]]></statement>
+		<statement num="4"><![CDATA[In der Klinik? Meine Güte.]]></statement>
+		<statement num="5"><![CDATA[Er ist Freund meiner Schwester, leider. Warum?]]></statement>
+		<statement num="6"><![CDATA[Natalie ist einfach nicht ihre übliche selbst, da sie aus ihm begonnen. Sie ist abgelenkt und nervös ... aber sie will mir nicht sagen, warum.]]></statement>
+		<statement num="7"><![CDATA[Ich weiß nicht ... Es würde mich nicht überraschen, wenn Trevor ihnen genommen hatte, als er und meine Schwester zu Besuch waren. Er scheint nicht ein ehrlicher Mensch werden.]]></statement>
+		
+		<response num="1"><![CDATA[Was hast du das Rezept für?]]></response>
+		<response num="2"><![CDATA[Kennen Sie jemanden namens Natalie Perez?]]></response>
+		<response num="3"><![CDATA[Natalie ist im Krankenhaus, aber sie ist gut.]]></response>
+		<response num="4"><![CDATA[Kennen Sie jemanden namens Trevor Johnson?]]></response>
+		<response num="5"><![CDATA[Leider? Was macht Sie so etwas sagen?]]></response>
+		<response num="6"><![CDATA[Haben Sie eine Ahnung, wie Ihr Rezept endete in Johnsons Badezimmer?]]></response>
+		<response num="7"><![CDATA[Vielen Dank für Ihre Zeit.]]></response>
+	</conversation>
+</dialog>

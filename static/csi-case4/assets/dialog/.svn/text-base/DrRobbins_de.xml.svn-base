@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<dialog name="DrRobbins">
+	<conversation location="Morgue" visit="1" name="1">
+		<statement num="1"><![CDATA[Gutes Timing, Ich habe gerade angefangen die Autopsie von Herr Johnson.]]></statement>
+		<statement num="2"><![CDATA[Es war Ruß auf den vorderen Flächen der seinen Körper und Kleidung, das heißt, er lag mit dem Gesicht auf.]]></statement>
+		<statement num="3"><![CDATA[Ich fand keine Wunden, schlage er angegriffen wurde, bevor das Feuer ausbrach würde.]]></statement>
+		<statement num="4"><![CDATA[Er hat keine Brandblasen oder andere Anzeichen von schweren Verbrennungen, so ist die wahrscheinlichste Ursache des Todes ist das Einatmen von Rauch. Eine interne Autopsie wird dies bestätigen.]]></statement>
+		<statement num="5"><![CDATA[Von der Körpertemperatur und die Temperatur, bei der Szene, würde ich schätzen, er starb einige Zeit von 01.00 Uhr bis 04.00 Uhr letzte Nacht.]]></statement>
+		<statement num="6"><![CDATA[Wir müssen sehen, ob es einen Ruß in unserer Opfers Atemwege. Sind Sie bereit für die Autopsie?]]></statement>
+		
+		<response num="1"><![CDATA[Was haben Sie bisher zu finden?]]></response>
+		<response num="2"><![CDATA[Was ist mit allen körperlichen Verletzungen?]]></response>
+		<response num="3"><![CDATA[Was war die Todesursache?]]></response>
+		<response num="4"><![CDATA[Was war der Zeitpunkt des Todes?]]></response>
+		<response num="5"><![CDATA[Was sollen wir jetzt tun?]]></response>
+		<response num="6"><![CDATA[Lassen Sie es uns tun.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy1">
+		<statement num="1"><![CDATA[Ich sehe keinen Ruß in den Mund. Allerdings müssen wir noch untersuchen, ob es einen Ruß in seine Luftröhre.]]></statement>
+		<response num="1"><![CDATA[Ich werde mit der Autopsie weiter.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy2">
+		<statement num="1"><![CDATA[Ja, ich stimme zu. Allerdings müssen wir noch untersuchen, ob es einen Ruß in seine Luftröhre.]]></statement>
+		<response num="1"><![CDATA[Ich werde mit der Autopsie weiter.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy3">
+		<statement num="1"><![CDATA[Nein, wenn es Ruß in der Luftröhre, wäre es innen schwarz.]]></statement>
+		<response num="1"><![CDATA[Ich werde mit der Autopsie weiter.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy4">
+		<statement num="1"><![CDATA[Ich bin damit einverstanden. Wenn es Ruß in der Luftröhre, wäre es innen schwarz.]]></statement>
+		<response num="1"><![CDATA[Ich werde mit der Autopsie weiter.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy5">
+		<statement num="1"><![CDATA[Well done. Sag mir, wäre zu welchem Zweck sammeln wir eine Blutprobe?]]></statement>
+		<statement num="2"><![CDATA[Nein, wir wissen bereits, die Identität des Opfers. Wir brauchen das Blut für etwas anderes.]]></statement>
+		<statement num="3"><![CDATA[Die Kenntnis der Blutgruppe wird uns nicht helfen, die Ursache des Todes. Versuchen Sie es erneut.]]></statement>
+		<statement num="4"><![CDATA[Genau. Auch wenn es kein Ruß in Mr. Johnson die Atemwege, kann er immer noch eine tödliche Menge an Kohlenmonoxid im Blut. Lassen Sie mich Ihnen zeigen, was passiert, wenn Kohlenmonoxid in den Körper eindringt.]]></statement>
+		<response num="1"><![CDATA[So führen Sie einen DNA-Test für das Opfer zu identifizieren.]]></response>
+		<response num="2"><![CDATA[Um zu testen, das Blut für Kohlenmonoxid.]]></response>
+		<response num="3"><![CDATA[Zur Bestimmung der Blutgruppe.]]></response>
+		<response num="4"><![CDATA[Lassen Sie es sehen.]]></response>		
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy6">
+		<statement num="1"><![CDATA[Die Messung der Prozentsatz der Carboxyhämoglobin in unserem Blut des Opfers wird dazu beitragen, festzustellen, ob er von CO-Vergiftung gestorben.]]></statement>
+		<statement num="2"><![CDATA[Eine weitere Sache. Ich finde es seltsam, dass unsere Opfer nicht entkommen konnte das Feuer, nicht wahr? Ich frage mich, ob er betrunken war. Vergewissern Sie sich, um zu sehen, ob es Drogen oder Alkohol in das Blut des Opfers sind.]]></statement>
+		<response num="1"><![CDATA[Ich werde sein Blut für Carboxyhämoglobin im Labor zu testen.]]></response>
+		<response num="2"><![CDATA[Ich werde das tun.]]></response>
+	</conversation>
+</dialog>

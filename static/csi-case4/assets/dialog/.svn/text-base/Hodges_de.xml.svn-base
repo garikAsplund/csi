@@ -1,0 +1,324 @@
+<?xml version="1.0" ?>
+<dialog name="Hodges">
+	<conversation location="Lab" visit="1" name="NoEvidence">
+		<statement num="1"><![CDATA[Sie haben noch keine Beweise dafür noch zu analysieren.]]></statement>
+		<statement num="2"><![CDATA[Gehe zum Tatort. Es ist unter den Standorten.]]></statement>
+		<response num="1"><![CDATA[Wo finde ich Beweise?]]></response>
+		<response num="2"><![CDATA[Ich fange das Sammeln von Beweisen.]]></response>
+		<response num="3"><![CDATA[Ich bin zum Tatort geführt.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="Evidence">
+		<statement num="1"><![CDATA[Wie kann ich Ihnen helfen?]]></statement>
+		<statement num="2"><![CDATA[Sie können auf jeder Station zu erfahren, was es für den Einsatz. Dann klicken Sie auf und bewegen Sie jedes Stück von Beweisen, um die richtige Station für die Analyse. Oder klicken Sie auf und bewegen Sie die Hinweise auf den PDA und es wird Ihnen sagen, was damit zu tun.]]></statement>
+		<statement num="3"><![CDATA[Noch nicht. Es gibt noch Beweise dafür, dass die analysiert werden muss.]]></statement>
+		<response num="1"><![CDATA[Wie kann ich Prozesses Beweise?]]></response>
+		<response num="2"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="3"><![CDATA[Ich bin bereit, Beweise Prozess.]]></response>
+		<response num="4"><![CDATA[Ich werde Prozess mehr Beweise.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="AllClues">
+		<statement num="1"><![CDATA[Wie kann ich Ihnen helfen?]]></statement>
+		<statement num="2"><![CDATA[Sie können auf jeder Station zu erfahren, was es für den Einsatz. Dann klicken Sie auf und bewegen Sie jedes Stück von Beweisen, um die richtige Station für die Analyse. Oder klicken Sie auf und bewegen Sie die Hinweise auf den PDA und es wird Ihnen sagen, was damit zu tun.]]></statement>
+		<statement num="3"><![CDATA[Ja, denn jetzt. Doc Robbins wartet auf Sie in der Leichenhalle.]]></statement>
+		<response num="1"><![CDATA[Wie kann ich Prozesses Beweise?]]></response>
+		<response num="2"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="3"><![CDATA[Ich bin bereit, Beweise Prozess.]]></response>
+		<response num="4"><![CDATA[Ich werde in die Leichenhalle gehen.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="2ndEvidenceUnfinished">
+		<statement num="1"><![CDATA[Haben Sie eine Frage?]]></statement>
+		<statement num="2"><![CDATA[Noch nicht. Es gibt mehr Tests, die durchgeführt werden müssen.]]></statement>
+		<response num="1"><![CDATA[Ich bin bereit, Beweise Prozess.]]></response>
+		<response num="2"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="3"><![CDATA[Ich halte die Analyse.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="2ndEvidenceFinished">
+		<statement num="1"><![CDATA[Haben Sie eine Frage?]]></statement>
+		<statement num="2"><![CDATA[Ja. Zeit zu gehen.]]></statement>
+		<response num="1"><![CDATA[Ich bin bereit, Beweise Prozess.]]></response>
+		<response num="2"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="3"><![CDATA[Ich wähle meine nächste Lage.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="Database1">
+		<statement num="1"><![CDATA[Mal sehen, was wir in unserer Datenbank finden Sie über diese Muster, die Sie am Tatort fotografiert.
+Es gibt viele Mythen mit Burn-Muster verbunden sind, so müssen wir sicherstellen, dass wir gründen unsere Schlussfolgerungen auf wissenschaftlichen Fakten.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="Database2">
+		<statement num="1"><![CDATA[Dieses Stück Stoff in der Nähe des Heizgerätes ist interessant. Wenn Brennstoffe wie dies auch für eine Heizung in der Nähe sind, können sie sich leicht entzünden.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="Database3">
+		<statement num="1"><![CDATA[Sie sehen, es gibt viele falsche Vorstellungen, wenn es um Ermittlungen Feuer kommt.
+Der einzige wirkliche Beweise für Brandstiftung wäre ein zündfähiges Flüssigkeit in dieser Pfütze-förmigen Muster.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="Fingerprints1">
+		<statement num="1"><![CDATA[Um zu überprüfen, für Fingerabdrücke, verwenden wir die "Sekundenkleber Rauchende Method". Die Abgase aus dem Verdampfen Sekundenkleber wird mit Aminosäuren und Ölen hinter die Dinge berühren wir links zu reagieren.
+Sie haben bereits einige Erfahrung mit, wie es geht, so wollen wir mal loslegen.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="Fingerprints2">
+		<statement num="1"><![CDATA[Ich werde Scan der Druck, so dass Sie es auf dem Computer analysieren können.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="Fingerprints3">
+		<statement num="1"><![CDATA[Also, Donald Parker Fingerabdrücke auf der Schachtel Streichhölzer. Wie seine Fingerabdrücke in die Datenbank IAFIS zu bekommen?]]></statement>
+		<statement num="2"><![CDATA[Nein, die wir nicht halten jeder Amerikaner die Fingerabdrücke in die Datenbank.]]></statement>
+		<statement num="3"><![CDATA[Welche Technik haben Sie verwenden, um die Fingerabdrücke zu erhalten?]]></statement>
+		<statement num="4"><![CDATA[Das ist nicht das, was die IAFIS Datenbank gesagt.
+Versuchen Sie es erneut.]]></statement>
+		<statement num="5"><![CDATA[Nein, Gaschromatographie nicht auf Fingerabdrücke zu arbeiten.
+Versuchen Sie es erneut.]]></statement>
+		<statement num="6"><![CDATA[Diesmal nicht.
+Versuchen Sie es erneut.]]></statement>
+		<statement num="7"><![CDATA[Was können Sie von der Fingerabdruck-Vergleich schließen?]]></statement>
+		<statement num="8"><![CDATA[Wir haben keine Möglichkeit zu wissen, dass.
+Versuchen Sie es erneut.]]></statement>
+		<statement num="9"><![CDATA[Wahrscheinlich war er am Tatort, aber wir wissen nicht, wann. Versuchen Sie es erneut.]]></statement>
+		<statement num="10"><![CDATA[Ich frage mich, was er zu sagen hat. Stellen Sie sicher, konfrontieren ihn mit den Beweisen.]]></statement>
+		<response num="1"><![CDATA[Jeder amerikanische Fingerabdrücke werden in der IAFIS Datenbank.]]></response>
+		<response num="2"><![CDATA[Er war für einen Angriff festgenommen.]]></response>
+		<response num="3"><![CDATA[Er war für einen Hintergrund zu überprüfen Fingerabdrücke.]]></response>
+		<response num="4"><![CDATA[Ich benutzte die Sekundenkleber Rauchende Methode.]]></response>
+		<response num="5"><![CDATA[Ich benutzte die Gaschromatographie.]]></response>
+		<response num="6"><![CDATA[Ich benutzte Fingerabdruck-Pulver.]]></response>
+		<response num="7"><![CDATA[Donald Parker das Haus in Brand.]]></response>
+		<response num="8"><![CDATA[Donald Parker wurde am Tatort, als das Feuer ausbrach.]]></response>
+		<response num="9"><![CDATA[Donald Parker wurde am Tatort.]]></response>
+		<response num="10"><![CDATA[Ich werde mit ihm reden später.]]></response>
+	</conversation>	
+	<conversation location="Lab" visit="1" name="LightTableStart">
+		<statement num="1"><![CDATA[Sie glauben also, die Raumheizung konnte der Ursprung des Feuers?
+Mal sehen, ob wir irgendwelche Beweise dafür zu finden.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="LightTableCord1">
+		<statement num="1"><![CDATA[Fehlerhafte elektrische Leitungen und die daraus resultierenden Funken sind häufige Ursachen von Wohn Bränden.
+Wir können den Schaden sehen, ob dieses Kabel war die Ursache für unser Feuer.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="LightTableCord2">
+		<statement num="1"><![CDATA[Ich bin damit einverstanden. Die Tatsache, dass es keine scharfe Abgrenzung legt nahe, dass unsere Perle durch die Verbrennung von außen verursacht wurde.
+Was bedeutet dies für unseren Fall bedeuten?]]></statement>
+		<statement num="2"><![CDATA[Denken Sie daran, wenn es einen Funken gewesen wäre, hätte der Demarkationslinie um unsere Kupfer Raupe scharf sind.
+Versuchen Sie es erneut.]]></statement>
+		<statement num="3"><![CDATA[Ja, wir können ausschließen, einen elektrischen Funken, als die Ursache des Feuers.]]></statement>
+		<response num="1"><![CDATA[Das Feuer wurde durch einen elektrischen Funken verursacht.]]></response>
+		<response num="2"><![CDATA[Das Feuer wurde nicht durch einen elektrischen Funken verursacht.]]></response>
+		<response num="3"><![CDATA[Ich werde für mehr Points of Interest zu suchen.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="LightTableControls1">
+		<statement num="1"><![CDATA[Checking the controls is crucial to determine if the heater was on during the fire.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="LightTableControls2">
+		<statement num="1"><![CDATA[Yes, that's what I see too.
+What can you deduce from this finding?]]></statement>
+		<statement num="2"><![CDATA[Wow, hold on. The fact that the heater was on alone doesn't mean that it caused the fire. Try again.]]></statement>
+		<statement num="3"><![CDATA[Yes, it could be. We need more evidence to confirm if it really caused the fire.]]></statement>
+		<response num="1"><![CDATA[The heater might have caused the fire.]]></response>
+		<response num="2"><![CDATA[The heater definitely caused the fire.]]></response>
+		<response num="3"><![CDATA[I'll look for more points of interest.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="LightTableCloth">
+		<statement num="1"><![CDATA[This looks like a piece of burned cloth, probably the remains of a piece of clothing or other combustible object that was thrown onto the heater.]]></statement>
+		<statement num="2"><![CDATA[Maybe, if the heater was on and we can rule out an electrical spark from the cord.]]></statement>
+		<statement num="3"><![CDATA[It's a slim possibility, but you should keep it in mind.]]></statement>
+		<response num="1"><![CDATA[Is this what caused the fire?]]></response>
+		<response num="2"><![CDATA[Did somebody throw the cloth onto the heater on purpose?]]></response>
+		<response num="3"><![CDATA[I'll look for more points of interest.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="LightTableEnd">
+		<statement num="1"><![CDATA[You've found everything there is to discover. Based on your findings, how could the fire have started?]]></statement>
+		<statement num="2"><![CDATA[Are you sure? Remember, the bead that was caused by the melting of the wires didn't have sharp demarcation lines, which means it wasn't caused by a spark. Try again.]]></statement>
+		<statement num="3"><![CDATA[If that was the case, there wouldn't be much left of it. Try again.]]></statement>
+		<statement num="4"><![CDATA[I agree. So, what's your conclusion?]]></statement>
+		<statement num="5"><![CDATA[The space heater examination doesn't point to that. Try again.]]></statement>
+		<statement num="6"><![CDATA[It is likely that the fire was an accident, but we do not know for sure. Try again.]]></statement>
+		<statement num="7"><![CDATA[That's what it seems like. Human negligence is the number one cause of house fires.]]></statement>
+		<statement num="8"><![CDATA[If it was arson, someone must have set the fire intentionally. The strongest argument against arson is if there are no ignitable liquids in the material that burned most intensely. Be sure to test for that.]]></statement>
+		<response num="1"><![CDATA[The heater's electric cord sparked.]]></response>
+		<response num="2"><![CDATA[The heater exploded.]]></response>
+		<response num="3"><![CDATA[A piece of clothing close to the heater caught fire.]]></response>
+		<response num="4"><![CDATA[The fire was most likely accidental.]]></response>
+		<response num="5"><![CDATA[The fire was most likely arson.]]></response>
+		<response num="6"><![CDATA[The fire was definitely accidental.]]></response>
+		<response num="7"><![CDATA[How can we be sure it wasn't arson?]]></response>
+		<response num="8"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="GCFlooring1">
+		<statement num="1"><![CDATA[Wood flooring normally contains many different chemicals.
+To find out if there are any foreign chemicals in the puddle sample, such as ignitable liquids, we need to compare the puddle sample to the unburned control sample.]]></statement>
+		<statement num="2"><![CDATA[First, we need to recover the chemical residues from the material. I’ll show you how to do it.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+		<response num="2"><![CDATA[Ok]]></response>	
+	</conversation>
+	<conversation location="Lab" visit="1" name="GCFlooring2">
+		<statement num="1"><![CDATA[Now we can analyze the samples with gas chromatography.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="GCFlooring3">
+		<statement num="1"><![CDATA[So, there's perchloroethylene in the sample.
+Where does that come from?]]></statement>
+		<statement num="2"><![CDATA[Remember, we used perchloroethylene for something in our analysis. Try again.]]></statement>
+		<statement num="3"><![CDATA[No. Instead, we used perchloroethylene for something in our analysis. Try again.]]></statement>
+		<statement num="4"><![CDATA[Correct, we added perchloroethylene to our samples after the recovery process.
+What can we conclude from the fact that we detected this standard in our analysis?]]></statement>
+		<statement num="5"><![CDATA[Remember, perchloroethylene is a standard, which means it's a positive control for the testing. Try again.]]></statement>
+		<statement num="6"><![CDATA[It does tell us something. Remember, perchloroethylene is a positive control. Try again.]]></statement>
+		<statement num="7"><![CDATA[I agree, our tests are reliable.]]></statement>
+		<response num="1"><![CDATA[It was in the burned flooring material.]]></response>
+		<response num="2"><![CDATA[It's an ignitable liquid.]]></response>
+		<response num="3"><![CDATA[It's one of our standards.]]></response>
+		<response num="4"><![CDATA[Our testing is accurate.]]></response>
+		<response num="5"><![CDATA[Our testing is not accurate.]]></response>
+		<response num="6"><![CDATA[We can't conclude anything.]]></response>
+		<response num="7"><![CDATA[I'll keep analyzing.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="GCFlooring4">
+		<statement num="1"><![CDATA[Interesting! Where do you think the gasoline comes from?]]></statement>
+		<statement num="2"><![CDATA[No, we didn't add gasoline to our sample. Try again.]]></statement>
+		<statement num="3"><![CDATA[Gasoline is not normally found in wood flooring. But we'll look at our control sample to make sure that the gasoline wasn't there to begin with. Try again.]]></statement>
+		<statement num="4"><![CDATA[Bingo! If our control sample turns out a negative for gasoline, we'll know that somebody must have poured gasoline on the floor.]]></statement>
+		<response num="1"><![CDATA[It's the standard we added to the flooring material.]]></response>
+		<response num="2"><![CDATA[It is normally found in wood flooring.]]></response>
+		<response num="3"><![CDATA[Somebody used it as ignitable liquid.]]></response>
+		<response num="4"><![CDATA[I'll keep analyzing.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="GCFlooring5">
+		<statement num="1"><![CDATA[Looks like this pattern is from chemicals normally found in oak flooring.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="GCFlooring6">
+		<statement num="1"><![CDATA[Why do you think you found 3-phenyltoluene in your sample?]]></statement>
+		<statement num="2"><![CDATA[No, 3-phenyltoluene was a chemical we used for something in the analysis. Try again.]]></statement>
+		<statement num="3"><![CDATA[Remember, we used 3-phenyltoluene for something in the analysis. Try again.]]></statement>
+		<statement num="4"><![CDATA[You got it. The fact that we detected 3-phenyltoluene in our gas chromatogram means that the charcoal strip really absorbed chemicals from the flooring.]]></statement>
+		<response num="1"><![CDATA[The samples were contaminated.]]></response>
+		<response num="2"><![CDATA[It's the standard we added to the flooring material.]]></response>
+		<response num="3"><![CDATA[Somebody used it as ignitable liquid.]]></response>
+		<response num="4"><![CDATA[I'll keep analyzing.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="1" name="GCFlooring7">
+		<statement num="1"><![CDATA[Yes, gasoline is a foreign chemical in the burned flooring material.
+Gasoline is a highly ignitable liquid. What can you conclude from this finding?]]></statement>
+		<statement num="2"><![CDATA[The presence of a foreign ignitable liquid in the flooring material means that somebody must have put it there. This points strongly toward arson. Try again.]]></statement>
+		<statement num="3"><![CDATA[No, we can conclude something from this result. Try again.]]></statement>
+		<statement num="4"><![CDATA[I agree. The only way how gasoline could have ended up in the flooring material is if somebody put it there. This is a strong indicator of arson.]]></statement>
+		<response num="1"><![CDATA[The fire was most likely arson.]]></response>
+		<response num="2"><![CDATA[The fire was most likely not arson.]]></response>
+		<response num="3"><![CDATA[It's inconclusive.]]></response>
+		<response num="4"><![CDATA[I'll keep analyzing.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="GCAlcohol1">
+		<statement num="1"><![CDATA[Now the samples are ready to be analyzed.
+We’re going to use the same machine as before, but a slightly different method, called headspace gas chromatography.]]></statement>
+		<statement num="2"><![CDATA[During headspace gas chromatography, the vials are heated, so that the chemicals vaporize into the “headspace”, the space above the liquid sample. These vapors are then injected into the machine.
+The rest of the process is the same as regular GC.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+		<response num="2"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="GCAlcoholDone">
+		<statement num="1"><![CDATA[So, the victim’s blood alcohol concentration is 0.08%, which is right at the legal driving limit.
+What do you make of that?]]></statement>
+		<statement num="2"><![CDATA[Even though 0.08% BAC is the legal driving limit, it doesn’t mean that the victim wasn’t impaired by the alcohol.
+Symptoms such as decreased inhibition or lack of concentration start at BAC levels of 0.05% or even lower. Try again.]]></statement>
+		<statement num="3"><![CDATA[Although too much alcohol can kill a person, a BAC of 0.08% wouldn’t have that consequence. Try again.]]></statement>
+		<statement num="4"><![CDATA[Correct. Negative effects of alcohol start at BAC levels even lower than 0.08%. It is possible that our victim’s reasoning was impaired and that he was disinhibited.
+However, a BAC of 0.08% would not kill someone.]]></statement>
+		<response num="1"><![CDATA[The alcohol couldn’t have affected the victim.]]></response>
+		<response num="2"><![CDATA[The victim was possibly impaired by alcohol.]]></response>
+		<response num="3"><![CDATA[The victim died from too much alcohol.]]></response>
+		<response num="4"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="GCMSDrugs1">
+		<statement num="1"><![CDATA[Now we can analyze the samples with gas chromatography/mass spectrometry (GC/MS).
+GC/MS is best suited to search for unknown chemicals because it is very specific.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="GCMSDrugs2">
+		<statement num="1"><![CDATA[So you found codeine-d3 in the blood sample. Where does that come from?]]></statement>
+		<statement num="2"><![CDATA[Can’t be – codeine-d3 is a modified form of codeine, not a drug of abuse. Try again.]]></statement>
+		<statement num="3"><![CDATA[The gas chromatograph doesn’t add chemicals to the samples. Try again.]]></statement>
+		<statement num="4"><![CDATA[Of course. The fact that codeine-d3 showed up in our sample means that the testing is accurate.]]></statement>
+		<response num="1"><![CDATA[It’s the drug the victim abused.]]></response>
+		<response num="2"><![CDATA[We used it as a standard.]]></response>
+		<response num="3"><![CDATA[It comes from the GC/MS machine.]]></response>
+		<response num="4"><![CDATA[I'll continue with my analysis.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="GCMSDrugsDone">
+		<statement num="1"><![CDATA[Aha! The victim’s blood contains oxycodone.]]></statement>
+		<statement num="2"><![CDATA[Oxycodone is a prescription medication used as an analgesic, or pain-reliever. It comes in the form of pills.]]></statement>
+		<statement num="3"><![CDATA[The gas chromatograph reading shows that the blood contained 1.6 micrograms oxycodone per milliliter.]]></statement>
+		<statement num="4"><![CDATA[He clearly didn’t take the pills in the prescribed dose.
+An oxycodone concentration this high is very likely to kill somebody, especially when taken together with alcohol.]]></statement>
+		<statement num="5"><![CDATA[I wonder if our victim had a prescription for the oxycodone. You should go back to his house and search if you can find it.
+Also, make sure you test the blood for alcohol if you haven’t already done so.]]></statement>
+		<response num="1"><![CDATA[What is oxycodone?]]></response>
+		<response num="2"><![CDATA[How much oxycodone is in the blood?]]></response>
+		<response num="3"><![CDATA[Did he die from the oxycodone?]]></response>
+		<response num="4"><![CDATA[What should I do next?]]></response>
+		<response num="5"><![CDATA[I'll keep investigating]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="ELISAStart">
+		<statement num="1"><![CDATA[We’ll use an ELISA, short for Enzyme-Linked ImmunoSorbent Assay, to screen the blood for certain types of drugs.]]></statement>
+		<statement num="2"><![CDATA[The ELISA does not detect the drugs directly. Rather, it detects antibodies bound to the drugs.
+Let’s get started, I’ll explain how it works.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+		<response num="2"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="ELISA1">
+		<statement num="1"><![CDATA[Are you with me here? Why are controls needed for the ELISA test?]]></statement>
+		<statement num="2"><![CDATA[No, we can’t influence if the test results are going to be positive or not. Try again.]]></statement>
+		<statement num="3"><![CDATA[No, the controls are not intended for practicing lab technique. Try again.]]></statement>
+		<statement num="4"><![CDATA[Absolutely. If the ELISA distinguishes between positive and negative results correctly, we’ll know that the test worked.]]></statement>
+		<response num="1"><![CDATA[To increase the chances of the test being positive.]]></response>
+		<response num="2"><![CDATA[To show what a negative or positive result should look like.]]></response>
+		<response num="3"><![CDATA[To give more practice in interpreting the results.]]></response>
+		<response num="4"><![CDATA[I'll continue with the ELISA.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="ELISADone">
+		<statement num="1"><![CDATA[What can you conclude from the ELISA test?]]></statement>
+		<statement num="2"><![CDATA[No, these two blood samples didn’t turn blue. Try again.]]></statement>
+		<statement num="3"><![CDATA[If that was the case, none of the blood samples would have turned blue. Try again.]]></statement>
+		<statement num="4"><![CDATA[You’re right, the blood samples in the wells containing the antibodies against opiates turned blue.]]></statement>
+		<statement num="5"><![CDATA[Opiates are a group of substances originally extracted from the opium plant, including morphine and codeine. Today, synthetic opiates are mainly used as analgesics, or pain-relievers, for example oxycodone.]]></statement>
+		<statement num="6"><![CDATA[To determine what kind of opiate is in the victim’s blood, you need to perform gas chromatography/mass spectrometry (GC/MS).]]></statement>
+		<response num="1"><![CDATA[The victim had opiates in his blood.]]></response>
+		<response num="2"><![CDATA[The victim had cocaine in his blood.]]></response>
+		<response num="3"><![CDATA[There were no drugs in the victim’s blood.]]></response>
+		<response num="4"><![CDATA[What are opiates?]]></response>
+		<response num="5"><![CDATA[What should I do next?]]></response>
+		<response num="6"><![CDATA[I'll keep analyzing.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="SpectrophotometryStart">
+		<statement num="1"><![CDATA[We’ll use spectrophotometry to analyze how much carboxyhemoglobin is in the blood.]]></statement>
+		<response num="1"><![CDATA[Weiter.]]></response>
+	</conversation>
+	<conversation location="Lab" visit="2" name="SpectrophotometryDone">
+		<statement num="1"><![CDATA[Before we interpret the results, let’s reflect on the method we used.
+Upon what principle is spectrophotometry based?]]></statement>
+		<statement num="2"><![CDATA[No, the light is produced by a light source in the spectrophotometer. Try again.]]></statement>
+		<statement num="3"><![CDATA[The molecules don’t detect light. There are special detectors in the spectrophotometer for this job. Try again.]]></statement>
+		<statement num="4"><![CDATA[You’ve got it. So, the concentration of carboxyhemoglobin in our victim’s blood is 3.25 %.
+Knowing that the carboxyhemoglobin concentration at which mild carbon monoxide (CO) poisoning occurs is around 15 %, what can you conclude?]]></statement>
+		<statement num="5"><![CDATA[There’s no evidence for that based on the spectrophotometry analysis. Try again.]]></statement>
+		<statement num="6"><![CDATA[Remember, the carboxyhemoglobin concentration at which mild CO poisoning occurs is around 15 %, but there’s only 3.25 % carboxyhemoglobin in the victim’s blood. Try again.]]></statement>
+		<statement num="7"><![CDATA[I agree. The carboxyhemoglobin content in his blood is normal.
+Last question: what does this result tell us about the situation when the fire started?]]></statement>
+		<statement num="8"><![CDATA[Not likely. If he had been alive when the fire started, he would have breathed in carbon monoxide, which would have caused a much higher blood carboxyhemoglobin content. Try again.]]></statement>
+		<statement num="9"><![CDATA[We can’t conclude this based on spectrophotometry. Try again.]]></statement>
+		<statement num="10"><![CDATA[Bingo! Are we looking at a murder case after all?]]></statement>
+		<response num="1"><![CDATA[The ability of molecules to produce light.]]></response>
+		<response num="2"><![CDATA[The ability of molecules to absorb light.]]></response>
+		<response num="3"><![CDATA[The ability of molecules to detect light.]]></response>
+		<response num="4"><![CDATA[Trevor Johnson died from a heart attack.]]></response>
+		<response num="5"><![CDATA[Trevor Johnson died from CO poisoning.]]></response>
+		<response num="6"><![CDATA[Trevor Johnson did not die from CO poisoning.]]></response>
+		<response num="7"><![CDATA[The victim was probably alive when the fire started.]]></response>
+		<response num="8"><![CDATA[The victim was probably already dead when the fire started.]]></response>
+		<response num="9"><![CDATA[The victim was drunk when the fire started.]]></response>
+		<response num="10"><![CDATA[The victim was drunk when the fire started.]]></response>
+	</conversation>
+</dialog>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<!-- ROOM -->
+	
+	<tag id="ID_TOOL_SAVED"><![CDATA[Tool Obtained!]]></tag>
+	<tag id="ID_CLUE_SAVED"><![CDATA[Clue Saved!]]></tag>
+	<tag id="ID_LOC_1"><![CDATA[Grissom's Office]]></tag>
+	<tag id="ID_LOC_2"><![CDATA[Apollo's Trailer]]></tag>
+	<tag id="ID_LOC_3"><![CDATA[CSI Morgue]]></tag>
+	<tag id="ID_LOC_4"><![CDATA[CSI Lab]]></tag>
+	<tag id="ID_LOC_5"><![CDATA[Vet's Office]]></tag>
+	<tag id="ID_LOC_6"><![CDATA[Murphy's Trailer]]></tag>
+
+	<tag id="ID_SPEAKER_LABEL_GRISSOM"><![CDATA[Dr. Gil Grissom]]></tag>
+	<tag id="ID_SPEAKER_LABEL_GRISSOM_OUTSIDE"><![CDATA[Dr. Gil Grissom]]></tag>
+	<tag id="ID_SPEAKER_LABEL_GREG"><![CDATA[Greg Sanders]]></tag>
+	<tag id="ID_SPEAKER_LABEL_DOC"><![CDATA[Dr. Al Robbins]]></tag>
+	<tag id="ID_SPEAKER_LABEL_DEBORAH"><![CDATA[Deborah Ranger]]></tag>
+	<tag id="ID_SPEAKER_LABEL_SARIEL"><![CDATA[Sariel Knox, Veterinarian]]></tag>
+	<tag id="ID_SPEAKER_LABEL_WESLEY"><![CDATA[Wesley Murphy]]></tag>
+	
+</strings>

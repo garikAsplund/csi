@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<activity name="FingerprintsVictim">
+	<text><![CDATA[Drag both fingerprints to the viewing areas]]></text>
+	<matchBtn><![CDATA[MATCH]]></matchBtn>
+	<noMatchBtn><![CDATA[NO MATCH]]></noMatchBtn>
+	<match><![CDATA[Match Found]]></match>
+	<popup>
+		<title><![CDATA[]]></title>
+		<desc><![CDATA[The fingerprints match.]]></desc>
+	</popup>	
+	<label name="bifurcation"><![CDATA[Bifurcation]]></label>
+	<label name="bridge"><![CDATA[Bridge]]></label>
+	<label name="ridgeEnd"><![CDATA[Ridge Ending]]></label>
+	<label name="island"><![CDATA[Island]]></label>
+	<print num="1"><![CDATA[Crime scene gun]]></print>
+	<print num="2"><![CDATA[Victim's print]]></print>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+	<viewingArea><![CDATA[VIEWING AREA]]></viewingArea>
+</activity>

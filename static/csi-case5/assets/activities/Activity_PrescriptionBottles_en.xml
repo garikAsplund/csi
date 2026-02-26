@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<activity name="PrescriptionBottles">
+	<person><![CDATA[Melissa McCoy]]></person>
+	<pharmacy><![CDATA[Edgar's Pharmacy]]></pharmacy>
+	<bottle num="1">
+		<title><![CDATA[Soma® (carisoprodol)]]></title>
+		<amount><![CDATA[Rx Only  350 mg]]></amount>
+	</bottle>
+	<bottle num="2">
+		<title><![CDATA[Voltaren® (diclofenac)]]></title>
+		<amount><![CDATA[Rx Only  75 mg]]></amount>
+	</bottle>
+	<bottle num="3">
+		<title><![CDATA[OxyContin® (oxycodone)]]></title>
+		<amount><![CDATA[Rx Only  40 mg]]></amount>
+	</bottle>
+	<bottle num="4">
+		<title><![CDATA[Vicodin® (hydrocodone)]]></title>
+		<amount><![CDATA[Rx Only  15 mg]]></amount>
+	</bottle>
+	<bottle num="5">
+		<title><![CDATA[Xanax® (aprazolam)]]></title>
+		<amount><![CDATA[Rx Only  1 mg]]></amount>
+	</bottle>
+</activity>

@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<location name="Lab" displayName="CSI Lab">
+   <person name="Sanders" />
+   <object name="DoorLabExit" />
+   <object name="GeneticAnalyzer" />
+   <object name="Computer" />
+   <object name="FingerprintStation" />
+   
+   <object name="VictimsComputer" />
+   <object name="Analyzer2" />
+   <visit num="1" ambient="LabAmbient">
+      <clickable name="Sanders" type="ignore" action="dialog:Sanders1" persist="true" />
+      <clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+      <clickable name="FingerprintStation" type="ignore" action="dialog:SandersExplainFingerprints" caption="Fingerprint Station" persist="true" />
+      <clickable name="Computer" type="ignore" action="dialog:SandersExplainComputer" caption="Computer station" persist="true" />
+      <clickable name="GeneticAnalyzer" type="ignore" action="dialog:SandersExplainGA" caption="Genetic Analyzer" persist="true" />
+   </visit>
+   
+   <visit num="2" ambient="LabAmbient">   
+      <clickable name="Sanders" type="ignore" fail="dialog:SandersWithEvidence" action="dialog:SandersEvidence1Done" require="activity:GA_BloodStain,clue:VictimPosition,clue:EmailPOI,activity:Fingerprints" persist="true" />
+      
+      <clickable name="GeneticAnalyzer" type="required" require="evidenceInHand:StainSample" action="activity:GA_BloodStain,hide:StainSample,custom:CheckAllClues" caption="Genetic Analyzer" checkDone="activity:GA_BloodStain" fail="dialog:SandersExplainGA">
+         <clickable name="GeneticAnalyzer" type="ignore" action="dialog:SandersExplainGA" caption="Genetic Analyzer"  persist="true" />
+      </clickable>
+      <!--insert funkyness here-->
+      <multiclick name="Computer" type="required" caption="Computer" action="multiclick" require="evidenceInHand:Photos,evidenceInHand:VictimComputer" persist="true">
+         <clickable require="evidenceInHand:Photos" name="Computer" type="required" action="activity:PhotoAnalysis,dialog:SandersPhotosEnd,clue:VictimPosition,hide:Photos,custom:CheckAllClues" checkDone="clue:VictimPosition" fail="dialog:SandersExplainComputer"/>
+         <clickable require="evidenceInHand:VictimComputer" type="required" name="Computer" action="dialog:SandersVictimComputerStart,activity:ComputerVictim,hide:VictimComputer,custom:GiveMessage1,custom:CheckAllClues" checkDone="clue:EmailPOI,clue:DrugAddiction,activity:ComputerVictim" fail="dialog:SandersExplainComputer">
+         </clickable>
+         <clickable name="Computer" type="ignore" action="dialog:SandersExplainComputer" persist="true" />
+      </multiclick>     
+      <clickable name="FingerprintStation" type="required" require="evidenceInHand:CrimeSceneWeapon" action="dialog:SandersFingerprints1,activity:Fingerprints,custom:CheckAllClues" caption="Fingerprint Station" checkDone="activity:Fingerprints" fail="dialog:SandersExplainFingerprints">
+         <clickable name="FingerprintStation" type="ignore" action="dialog:SandersExplainFingerprints" caption="Fingerprint Station" persist="true" />
+         <set variable="visit:BallisticsLab" value="2"/>
+      </clickable>
+      <clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <visit num="3" ambient="LabAmbient">
+      <clickable name="Sanders" type="ignore" action="dialog:SandersEvidence2Done" persist="true" fail="dialog:SandersWithEvidence" require="clue:VictimBloodStains,clue:ForeignSkin,clue:VictimFingerprints">
+      </clickable>
+      <clickable name="Computer" type="ignore" action="dialog:SandersExplainComputer" caption="Computer"  persist="true" />      
+      <multiclick name="GeneticAnalyzer" type="required" caption="Genetic Analyzer" action="multiclick" require="evidenceInHand:VictimBlood,evidenceInHand:VictimSkin" persist="true">
+         <clickable require="evidenceInHand:VictimBlood" name="GeneticAnalyzer" type="required" action="activity:GA_Blood,dialog:SandersVictimBloodAnalysis2,hide:VictimBlood,clue:VictimBloodStains,custom:CheckAllClues2" checkDone="clue:VictimBloodStains" fail="dialog:SandersExplainGA"/>
+         <clickable require="evidenceInHand:VictimSkin,clue:VictimBloodStains" name="GeneticAnalyzer" type="required" action="activity:GA_Skin,hide:VictimSkin,clue:ForeignSkin,custom:CheckAllClues2" checkDone="clue:ForeignSkin" />
+         <clickable require="evidenceInHand:VictimSkin" name="GeneticAnalyzer" type="ignore" action="dialog:SandersFingernailsRejected" caption="Genetic Analyzer" checkDone="clue:VictimBloodStains"/>
+         <clickable name="GeneticAnalyzer" type="ignore" action="dialog:SandersExplainGA" caption="Genetic Analyzer" persist="true" />
+      </multiclick>
+      <clickable name="FingerprintStation" type="required" require="evidenceInHand:VictimFingerprintsEvi" action="activity:FingerprintsVictim,dialog:SandersFingerprintsEnd,hide:VictimFingerprintsEvi,clue:VictimFingerprints,custom:CheckAllClues2" caption="Fingerprint Station" checkDone="clue:VictimFingerprints" fail="dialog:SandersExplainFingerprints" >         
+         <clickable name="FingerprintStation" type="ignore" action="dialog:SandersExplainFingerprints" caption="Fingerprint Station" persist="true" />
+      </clickable>
+      <clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <visit num="4" ambient="LabAmbient">
+      <clickable name="Sanders" type="ignore" fail="dialog:SandersWithEvidence" persist="true" require="activity:GA_McCoy" action="dialog:SandersEvidence2Done">
+      </clickable>
+      <clickable name="GeneticAnalyzer" type="required" require="evidenceInHand:McCoyDNA" action="activity:GA_McCoy,hide:McCoyDNA" caption="Genetic Analyzer" checkDone="activity:GA_McCoy" fail="dialog:SandersExplainGA">
+         <clickable name="GeneticAnalyzer" type="ignore" action="dialog:SandersExplainGA" caption="Genetic Analyzer" persist="true" />
+      </clickable>
+      <clickable name="FingerprintStation" type="ignore" action="dialog:SandersExplainFingerprints" caption="Fingerprint Station" persist="true" />
+      <clickable name="Computer" type="ignore" action="dialog:SandersExplainComputer" caption="Computer station" persist="true" />
+      <clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <visit num="5" ambient="LabAmbient">
+      <clickable name="Sanders" type="ignore" fail="dialog:SandersVisit3" persist="true" require="clue:AssistantPOI,clue:ToxResults" action="dialog:SandersEvidence2Done">
+      </clickable>
+      <clickable name="FingerprintStation" type="ignore" action="dialog:SandersExplainFingerprints" caption="Fingerprint Station" persist="true" />
+      <clickable name="GeneticAnalyzer" type="required" require="evidenceInHand:McCoyDNA" action="activity:GA_McCoy,hide:McCoyDNA" caption="Genetic Analyzer" checkDone="activity:GA_McCoy" fail="dialog:SandersExplainGA">
+         <clickable name="GeneticAnalyzer" type="ignore" action="dialog:SandersExplainGA" caption="Genetic Analyzer" persist="true" />
+      </clickable>
+      <clickable name="Tablet" require="message:message3" type="required" action="dialog:SandersDrugInteractionsStart,activity:DrugInteractions,dialog:SandersDrugInteractionsEnd,clue:ToxResults,custom:CheckAllClues3,custom:UnlockAssistantHouse" caption="Tablet" checkDone="clue:ToxResults"/>
+      <clickable name="Computer" require="clue:PrescriptionCash" type="required" action="dialog:SandersAccessLogStart,activity:AccessLog,dialog:SandersAccessLogEnd,clue:AssistantPOI,custom:UnlockMessage4,custom:UnlockAssistantHouse,custom:CheckAllClues3" caption="Click to view access log" checkDone="clue:AssistantPOI" fail="dialog:SandersExplainComputer">
+         <clickable name="Computer" type="ignore" action="dialog:SandersExplainComputer" caption="Computer station" persist="true" />
+      </clickable>
+      <clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <visit num="6" ambient="LabAmbient">
+      <clickable name="Sanders" type="ignore" fail="dialog:SandersVisit4" persist="true" action="dialog:SandersEvidence2Done" require="clue:PharmacistBank,clue:ToxResults" />
+      <clickable name="FingerprintStation" type="ignore" action="dialog:SandersExplainFingerprints" caption="Fingerprint Station" persist="true" />
+      <clickable name="Tablet" require="clue:PrescriptionCash" type="required" action="dialog:SandersDrugInteractionsStart,activity:DrugInteractions,dialog:SandersDrugInteractionsEnd,clue:ToxResults,custom:CheckAllClues4" caption="Tablet" checkDone="clue:ToxResults"/>
+      <clickable name="Computer" type="required" action="dialog:SandersBankAccountStart,activity:BankAccounts,dialog:SandersBankAccountEnd,clue:PharmacistBank,custom:CheckAllClues4" caption="Computer" checkDone="clue:PharmacistBank">
+         <clickable name="Computer" type="ignore" action="dialog:SandersExplainComputer" caption="Computer station" persist="true" />
+      </clickable>      
+      <multiclick name="GeneticAnalyzer" type="required" caption="Genetic Analyzer" action="multiclick" require="evidenceInHand:McCoyDNA,evidenceInHand:AssistantDNA" persist="true">       
+         <clickable name="GeneticAnalyzer" type="required" require="evidenceInHand:AssistantDNA" action="activity:GA_Assistant,hide:AssistantDNA" caption="Genetic Analyzer" checkDone="activity:GA_Assistant" fail="dialog:SandersExplainGA"/>
+         <clickable name="GeneticAnalyzer" type="ignore" require="evidenceInHand:McCoyDNA" action="activity:GA_McCoy,hide:McCoyDNA" caption="Genetic Analyzer" checkDone="activity:GA_McCoy" fail="dialog:SandersExplainGA"/>
+         <clickable name="GeneticAnalyzer" type="ignore" action="dialog:SandersExplainGA" caption="Genetic Analyzer" persist="true" />
+      </multiclick>
+      <clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <visit num="7" ambient="LabAmbient">
+      <clickable name="Sanders" type="ignore" fail="dialog:SandersVisit5" persist="true" require="clue:PharmacistSkin" action="dialog:SandersVisit5Done"></clickable>
+      <clickable name="FingerprintStation" type="ignore" action="dialog:SandersExplainFingerprints" caption="Fingerprint Station" persist="true" />
+      <clickable name="Computer" type="ignore" action="dialog:SandersExplainComputer" caption="Computer station" persist="true" />
+      
+      <multiclick name="GeneticAnalyzer" type="required" caption="Genetic Analyzer" action="multiclick" require="evidenceInHand:McCoyDNA,evidenceInHand:AssistantDNA,evidenceInHand:PharmacistDNA" persist="true">
+         <clickable name="GeneticAnalyzer" type="ignore" require="evidenceInHand:AssistantDNA" action="activity:GA_Assistant,hide:AssistantDNA" caption="Genetic Analyzer" checkDone="activity:GA_Assistant" fail="dialog:SandersExplainGA"/>
+         <clickable name="GeneticAnalyzer" type="ignore" require="evidenceInHand:McCoyDNA" action="activity:GA_McCoy,hide:McCoyDNA" caption="Genetic Analyzer" checkDone="activity:GA_McCoy" fail="dialog:SandersExplainGA"/>
+         <clickable name="GeneticAnalyzer" type="required" require="evidenceInHand:PharmacistDNA" action="activity:GA_Pharmacist,hide:PharmacistDNA,clue:PharmacistSkin,custom:CheckAllClues5" caption="Genetic Analyzer" checkDone="clue:PharmacistSkin" fail="dialog:SandersExplainGA">
+            <dev action="location:BallisticsLab" />
+         </clickable>
+         <clickable name="GeneticAnalyzer" type="ignore" action="dialog:SandersExplainGA" caption="Genetic Analyzer" persist="true" />
+      </multiclick>
+      <clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <custom name="CheckAllClues" require="activity:GA_BloodStain,clue:VictimPosition,clue:EmailPOI,clue:DrugAddiction,activity:ComputerVictim,activity:Fingerprints">
+      <set variable="visit:Headquarters" value="2"/>
+      <dev action="location:Morgue"/>
+   </custom>
+   <custom name="GiveMessage1">  
+      <standalone action="message:message1" type="required" />
+   </custom>
+   <custom name="CheckAllClues2" require="clue:VictimBloodStains,clue:ForeignSkin,clue:VictimFingerprints,clue:NoMatch">
+      <standalone action="message:message2" type="required">
+         <unlock type="location" name="McCoysHouse" />
+      </standalone>
+      <set variable="visit:Hospital" type="required" value="3"/>
+      <set variable="visit:HospitalCrimeScene" type="required" value="2"/>
+      <dev action="location:HospitalCrimeScene" />
+   </custom>
+   <custom name="UnlockAssistantHouse" require="clue:AssistantPOI,clue:ToxResults">      
+      <unlock type="location" name="AssistantsHouse" />
+   </custom>
+   <custom name="UnlockMessage4" >      
+      <standalone action="message:message4" />
+   </custom>   
+   <custom name="CheckAllClues3" require="clue:AssistantPOI,clue:ToxResults">
+      <dev action="location:BallisticsLab" />
+   </custom>
+   <custom name="CheckAllClues4" require="clue:PharmacistBank,clue:ToxResults">     
+      <unlock type="location" name="Pharmacy"/>
+      <set variable="visit:Pharmacy" type="required" value="2"/>
+      <unlock type="message" name="message6" />
+      <dev action="location:Pharmacy" />
+   </custom>
+   <custom name="CheckAllClues5" require="clue:PharmacistWeaponMatches,clue:PharmacistSkin">
+      <unlock type="message" name="message7">         
+         <standalone action="activity:MatchClues,activity:End" />
+      </unlock>
+   </custom>
+</location>

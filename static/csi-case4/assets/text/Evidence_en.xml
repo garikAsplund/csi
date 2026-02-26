@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<evidence>
+	<piece name="Matches">
+		<title><![CDATA[Matches]]></title>
+		<text><![CDATA[You’ve acquired some evidence: A box of matches from the fire scene 
+Did somebody use these matches to start the fire? Who do they belong to? 
+Use the FINGERPRINT STATION in the lab to obtain fingerprints from the box of matches.]]></text>
+	</piece>
+	<piece name="Photos">
+		<title><![CDATA[Photos]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Photos of the fire scene
+The photos show some interesting patterns. Could they tell us where the fire originated, and if it was arson? 
+Use the COMPUTER in the lab to analyze the fire scene photos.]]></text>
+	</piece>
+	<piece name="FlooringSample">
+		<title><![CDATA[Flooring sample]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Sample of burned wood flooring 
+The sample is from a puddle-shaped burn pattern. Patterns like this can occur where an ignitable liquid was poured on the floor, which would mean that somebody intentionally set the fire. 
+Use the GAS CHROMATOGRAPH in the lab to analyze the sample for residues of ignitable liquids.]]></text>
+	</piece>
+	<piece name="SpaceHeater">
+		<title><![CDATA[Space heater]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Space heater 
+This space heater is badly burned. Could it be the source of the fire? 
+Use the LIGHT TABLE in the lab to examine the space heater.]]></text>
+	</piece>
+	<piece name="BloodSample">
+		<title><![CDATA[Blood sample]]></title>
+		<text><![CDATA[You’ve acquired some evidence: The victim’s blood sample
+If there is a high amount of carboxyhemoglobin in the victim’s blood, we’ll know that he died from smoke inhalation. If the blood contains any drugs or alcohol, it may explain why he wasn’t able to escape the fire. 
+Use the SPECTROPHOTOMETER to measure the blood’s carboxyhemoglobin content, the ELISA station to test for drugs, and the HEADSPACE GAS CHROMATOGRAPH to search for alcohol.]]></text>
+	</piece>
+	<piece name="Oxycodone">
+		<title><![CDATA[Oxycodone]]></title>
+		<text><![CDATA[You’ve acquired some evidence: A bottle of oxycodone
+The prescription is on a patient named Lina Perez. Who is she? How did this prescription end up in the victim’s house?
+Show this bottle to Lina Perez to confront her with the evidence.]]></text>
+	</piece>
+</evidence>

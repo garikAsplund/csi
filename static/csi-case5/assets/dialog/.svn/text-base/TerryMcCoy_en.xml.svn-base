@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<dialog name="TerryMcCoy" displayName="Terry McCoy">
+	<conversation location="McCoysHouse" visit="1" name="1">
+		<statement num="1"><![CDATA[So you're here to ask about my daughter, Melissa?]]></statement>
+		<statement num="2"><![CDATA[She was driving on a highway when she lost control of her vehicle.
+
+The autopsy hasn't been done yet, but I suspect she was under the influence of those pills.]]></statement>
+		<statement num="3"><![CDATA[All of those pills that I found in her apartment.
+
+They're in the bag over there, feel free to have a look.]]></statement>
+		<statement num="4"><![CDATA[Patient? She went there to get the drugs from this so-called doctor.]]></statement>
+		<statement num="5"><![CDATA[Dr. Justine Phillips. She handed my daughter those drugs like candy, even though she knew Melissa abused them.]]></statement>
+		<statement num="6"><![CDATA[Shot? You don't think I have anything to do with that? I never wanted to harm her.]]></statement>
+		<statement num="7"><![CDATA[I was so upset... I just couldn't hold it in. I had to let her know that I knew what she did.]]></statement>
+		<statement num="8"><![CDATA[Please, go ahead.]]></statement>
+		<statement num="9"><![CDATA[Yes I do. It's in the chest of drawers behind me.]]></statement>
+		<response num="1"><![CDATA[I'm sorry for your loss. Can you tell me more about the car crash Melissa died in?]]></response>
+		<response num="2"><![CDATA[Did you know that Melissa was a patient at a local pain clinic?]]></response>
+		<response num="3"><![CDATA[What pills are you referring to?]]></response>
+		<response num="4"><![CDATA[What doctor are you talking about?]]></response>
+		<response num="5"><![CDATA[Dr. Phillips has been found shot.]]></response>
+		<response num="6"><![CDATA[We know that you threatened Dr. Phillips through Email.]]></response>
+		<response num="7"><![CDATA[I need a DNA sample from you.]]></response>
+		<response num="8"><![CDATA[Do you own a gun?]]></response>
+		<response num="9"><![CDATA[Thank you for the information]]></response>
+	</conversation>
+</dialog>

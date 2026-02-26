@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<messages>
+	<message name="">
+		<pic>Catherine</pic>
+		<character><![CDATA[Catherine]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[]]></title>
+		<text><![CDATA[]]></text>
+	</message>
+</messages>

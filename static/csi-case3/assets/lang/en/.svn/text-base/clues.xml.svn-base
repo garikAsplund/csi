@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<strings>
+
+	<!-- English -->
+	<tag id="ID_TEST">Hi [name], this is a test string from clues. </tag>
+
+	<!-- CLUES -->
+	
+	<tag id="ID_CLUE_DEFAULT_NAME"><![CDATA[Clue]]></tag>
+	<tag id="ID_CLUE_DEFAULT_IMAGE"><![CDATA[clue_default_cu_en]]></tag>
+	<tag id="ID_CLUE_DEFAULT_TITLE"><![CDATA[Clue Title]]></tag>
+	<tag id="ID_CLUE_DEFAULT_DESCRIPTION"><![CDATA[Clue Description]]></tag>
+		
+	<tag id="ID_CLUE_MURDERWEAPON_NAME"><![CDATA[Murder Weapon]]></tag>
+	<tag id="ID_CLUE_MURDERWEAPON_IMAGE"><![CDATA[clue_murderweapon_cu_en]]></tag>
+	<tag id="ID_CLUE_MURDERWEAPON_TITLE"><![CDATA[Hunting Knife is the Murder Weapon]]></tag>
+	<tag id="ID_CLUE_MURDERWEAPON_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Hunting Knife is the Murder Weapon</font></font>]]></tag>
+	<tag id="ID_CLUE_MURDERWEAPON_DESCRIPTION"><![CDATA[<font size="+2">	The knife you found in Lawrence Garvey's car was used to kill Freebird Reynolds.  But his car was broken into - someone could have planted this knife there.  There must be some evidence indicating who did it.
+	Who used this knife to kill Freebird?  Was it Lawrence Garvey, or was it someone else?  Does this knife hold more clues to discover?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+	
+	<tag id="ID_CLUE_PRINTSONBOTTLE_NAME"><![CDATA[Prints On Bottle]]></tag>
+	<tag id="ID_CLUE_PRINTSONBOTTLE_IMAGE"><![CDATA[clue_printsonbottle_cu_en]]></tag>
+	<tag id="ID_CLUE_PRINTSONBOTTLE_TITLE"><![CDATA[Agent's Prints on the Liquor Bottle]]></tag>
+	<tag id="ID_CLUE_PRINTSONBOTTLE_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Maury Wan's Prints on the Liquor Bottle</font></font>]]></tag>
+	<tag id="ID_CLUE_PRINTSONBOTTLE_DESCRIPTION"><![CDATA[<font size="+2">	You've found Maury Wan's fingerprints on the liquor bottle left at the crime scene.  He's a local talent scout, and there's no record of him having ever committed a crime; his fingerprints were entered into the system as part of a background check.
+	Why are Maury Wan's fingerprints at your crime scene?  Did he have something to do with the murder, or is there a less deadly explanation?</p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+	
+	<tag id="ID_CLUE_PRINTSONHUNTINGKNIFE_NAME"><![CDATA[Prints on Hunting Knife]]></tag>
+	<tag id="ID_CLUE_PRINTSONHUNTINGKNIFE_IMAGE"><![CDATA[clue_printsonhuntingknife_cu_en]]></tag>
+	<tag id="ID_CLUE_PRINTSONHUNTINGKNIFE_TITLE"><![CDATA[Gabriel Tam's Prints on Hunting Knife]]></tag>
+	<tag id="ID_CLUE_PRINTSONHUNTINGKNIFE_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Gabriel Tam's Prints on the Hunting Knife</font></font>]]></tag>
+	<tag id="ID_CLUE_PRINTSONHUNTINGKNIFE_DESCRIPTION"><![CDATA[<font size="+2">	You found this knife in Lawrence Garvey's car, yet it has Gabriel Tam's fingerprints on it.  The window on the car was broken, so anyone could have planted it inside the car.
+	Why are Gabriel Tam's fingerprints on this knife?  Is it related to Freebird's death?  What else do we know about this knife?</p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_VICTIMID_NAME"><![CDATA[Victim is Freebird Reynolds]]></tag>
+	<tag id="ID_CLUE_VICTIMID_IMAGE"><![CDATA[clue_victimid_cu_en]]></tag>
+	<tag id="ID_CLUE_VICTIMID_TITLE"><![CDATA[Victim is Freebird Reynolds]]></tag>
+	<tag id="ID_CLUE_VICTIMID_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Victim is Freebird Reynolds</font></font>]]></tag>
+	<tag id="ID_CLUE_VICTIMID_DESCRIPTION"><![CDATA[<font size="+2">	The DNA match comfirms it - the victim in the burned-out car is Freebird Reynolds, a local singer trying to make it big.  She was only 21 when she died, and her mother will be devastated when you tell her the news.
+	Who killed Freebird Reynolds?  How did she come to be in that car in the desert?  Did she know her attacker, or was this a random act of violence? We'll need to tell her mom and boyfriend whenever we finish examining our evidence here in the lab.</p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_STALKEREMAILS_NAME"><![CDATA[NO1FAN Emails]]></tag>
+	<tag id="ID_CLUE_STALKEREMAILS_IMAGE"><![CDATA[clue_stalkeremails_cu_en]]></tag>
+	<tag id="ID_CLUE_STALKEREMAILS_TITLE"><![CDATA[Freebird Received NO1FAN Emails]]></tag>
+	<tag id="ID_CLUE_STALKEREMAILS_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Freebird recieved emails from NO1FAN</font></font>]]></tag>
+	<tag id="ID_CLUE_STALKEREMAILS_DESCRIPTION"><![CDATA[<font size="+2">	This NO1FAN emailed Freebird twice before her last concert, and those e-mails are very interesting indeed.  One might even say they are slightly threatening.
+	Who is this NO1FAN?  Is he or she just a fan, or did Freebird have a stalker?  Could he or she know something about Freebird's death?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_SUSPECTSTALKER_NAME"><![CDATA[Suspect: Stalker]]></tag>
+	<tag id="ID_CLUE_SUSPECTSTALKER_IMAGE"><![CDATA[clue_suspectstalker_cu_en]]></tag>
+	<tag id="ID_CLUE_SUSPECTSTALKER_TITLE"><![CDATA[Suspect: Gabriel Tam]]></tag>
+	<tag id="ID_CLUE_SUSPECTSTALKER_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Suspect: Gabriel Tam</font></font>]]></tag>
+	<tag id="ID_CLUE_SUSPECTSTALKER_DESCRIPTION"><![CDATA[<font size="+2">	Gabriel was lying when he claimed he didn't know about the No1FAN emails. What was his intent when he emailed Freebird? Was he so obsessed that he might have harmed her?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>	
+
+	<tag id="ID_CLUE_SUSPECTATHOUSE_NAME"><![CDATA[Suspect at House]]></tag>
+	<tag id="ID_CLUE_SUSPECTATHOUSE_IMAGE"><![CDATA[clue_suspectathouse_cu_en]]></tag>
+	<tag id="ID_CLUE_SUSPECTATHOUSE_TITLE"><![CDATA[Suspect at Freebird's House]]></tag>
+	<tag id="ID_CLUE_SUSPECTATHOUSE_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Suspect was at Freebird's house</font></font>]]></tag>
+	<tag id="ID_CLUE_SUSPECTATHOUSE_DESCRIPTION"><![CDATA[<font size="+2">	The shoeprint impression from the crime scene is identical to the one you collected from outside Freebird's house.  Someone has been to both locations, but why?
+	Who made these shoeprints?  Why were they at both locations?  Did the murderer come by the house before or after the crime?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_STALKERATCRIMESCENE_NAME"><![CDATA[Stalker at Crime Scene]]></tag>
+	<tag id="ID_CLUE_STALKERATCRIMESCENE_IMAGE"><![CDATA[clue_stalkeratcrimescene_cu_en]]></tag>
+	<tag id="ID_CLUE_STALKERATCRIMESCENE_TITLE"><![CDATA[Gabriel Tam was at the Crime Scene]]></tag>
+	<tag id="ID_CLUE_STALKERATCRIMESCENE_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Gabriel Tam was at the Crime Scene</font></font>]]></tag>
+	<tag id="ID_CLUE_STALKERATCRIMESCENE_DESCRIPTION"><![CDATA[<font size="+2">	Gabriel Tam's shoes are a perfect match to the shoeprint from the crime scene.  The burned-out car was found in a secluded part of the desert - there's no good reason for him to be out that far.
+	Why was Gabriel Tam at the crime scene?  Was he there before or after Freebird was murdered?  Did he witness the crime, or did he commit it?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>	
+
+	<tag id="ID_CLUE_SINGERPERFORMED_NAME"><![CDATA[Singer Performed]]></tag>
+	<tag id="ID_CLUE_SINGERPERFORMED_IMAGE"><![CDATA[clue_singerperformed_cu_en]]></tag>
+	<tag id="ID_CLUE_SINGERPERFORMED_TITLE"><![CDATA[Freebird Performed the Night of her Death]]></tag>
+	<tag id="ID_CLUE_SINGERPERFORMED_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Freebird Reynolds performed the night she died</font></font>]]></tag>
+	<tag id="ID_CLUE_SINGERPERFORMED_DESCRIPTION"><![CDATA[<font size="+2">	Freebird was scheduled to perform the night she died, meaning your suspect pool just increased dramatically.  It's possible something happened at the concert that led to her death.
+	Was the murder at the concert?  Did something happen before, during, or after the concert to provoke the attack?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>	
+
+	<tag id="ID_CLUE_SUSPECTBOYFRIEND_NAME"><![CDATA[Suspect: Boyfriend]]></tag>
+	<tag id="ID_CLUE_SUSPECTBOYFRIEND_IMAGE"><![CDATA[clue_suspectboyfriend_cu_en]]></tag>
+	<tag id="ID_CLUE_SUSPECTBOYFRIEND_TITLE"><![CDATA[Suspect: Lawrence Garvey]]></tag>
+	<tag id="ID_CLUE_SUSPECTBOYFRIEND_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Suspect: Lawrence Garvey</font></font>]]></tag>
+	<tag id="ID_CLUE_SUSPECTBOYFRIEND_DESCRIPTION"><![CDATA[<font size="+2">	Maury Wan, Freebird's agent, said that her boyfriend was "jealous of her success."  Jealousy's a common motive for murder, but surely there would be more signs before it came to that.
+	Did Lawrence Garvey kill Freebird Reynolds?  Is there any evidence tying him to the crime?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>	
+
+	<tag id="ID_CLUE_ATTENTIONHUNGRY_NAME"><![CDATA[Attention Hungry Agent]]></tag>
+	<tag id="ID_CLUE_ATTENTIONHUNGRY_IMAGE"><![CDATA[clue_attentionhungry_cu_en]]></tag>
+	<tag id="ID_CLUE_ATTENTIONHUNGRY_TITLE"><![CDATA[Attention-Hungry Agent]]></tag>
+	<tag id="ID_CLUE_ATTENTIONHUNGRY_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Attention-Hungry Agent</font></font>]]></tag>
+	<tag id="ID_CLUE_ATTENTIONHUNGRY_DESCRIPTION"><![CDATA[<font size="+2">	Freebird's agent, Maury Wan, admitted to putting an empty liquor bottle in her car to get some attention from the press.  If he's willing to frame her for a DUI, he might be willing to do anything for publicity.
+	Did Maury Wan kill Freebird to make headlines?  Would he really profit that much from her death?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>	
+
+	<tag id="ID_CLUE_LIFEINSURANCE_NAME"><![CDATA[Singer Life Insurance]]></tag>
+	<tag id="ID_CLUE_LIFEINSURANCE_IMAGE"><![CDATA[clue_lifeinsurance_cu_en]]></tag>
+	<tag id="ID_CLUE_LIFEINSURANCE_TITLE"><![CDATA[Freebird's Life Insurance Policy]]></tag>
+	<tag id="ID_CLUE_LIFEINSURANCE_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Freebird Reynolds' Life Insurance Policy</font></font>]]></tag>
+	<tag id="ID_CLUE_LIFEINSURANCE_DESCRIPTION"><![CDATA[<font size="+2">	Maury Wan has a $500,000 life insurance claim on Freebird Reynolds.  Now that she's dead, he stands to become a very rich man - unless he had something to do with her death.
+	Did Maury Wan kill Freebird for the money?  Is there any evidence tying him to the crime scene or the murder weapon?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_BREAKUP_NAME"><![CDATA[Break Up]]></tag>
+	<tag id="ID_CLUE_BREAKUP_IMAGE"><![CDATA[clue_breakup_cu_en]]></tag>
+	<tag id="ID_CLUE_BREAKUP_TITLE"><![CDATA[Freebird Planned Break Up with Lawrence]]></tag>
+	<tag id="ID_CLUE_BREAKUP_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Freebird was going to break up with her boyfriend</font></font>]]></tag>
+	<tag id="ID_CLUE_BREAKUP_DESCRIPTION"><![CDATA[<font size="+2">	According to this diary entry, Freebird was planning to break-up with Lawrence on the night she died.  There's no explicit reason given.  She just says she was unhappy in their relationship.
+	Did Freebird follow through with her plan?  What was Lawrence's reaction to the break-up?  Did this break-up somehow lead to her death?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_FIREAGENT_NAME"><![CDATA[Fire Agent]]></tag>
+	<tag id="ID_CLUE_FIREAGENT_IMAGE"><![CDATA[clue_fireagent_cu_en]]></tag>
+	<tag id="ID_CLUE_FIREAGENT_TITLE"><![CDATA[Freebird was Going to Fire her Agent]]></tag>
+	<tag id="ID_CLUE_FIREAGENT_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Freebird was going to fire her agent</font></font>]]></tag>
+	<tag id="ID_CLUE_FIREAGENT_DESCRIPTION"><![CDATA[<font size="+2">	It looks like Freebird was going to fire Maury Wan and move to a new talent agency.  If her agent was about to lose one of his rising stars, he may have become desperate.  Even desperate enough to kill.
+	Did Maury Wan know Freebird was planning to fire him? </font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_ONDATE_NAME"><![CDATA[On a Date]]></tag>
+	<tag id="ID_CLUE_ONDATE_IMAGE"><![CDATA[clue_ondate_cu_en]]></tag>
+	<tag id="ID_CLUE_ONDATE_TITLE"><![CDATA[Freebird was on a Date]]></tag>
+	<tag id="ID_CLUE_ONDATE_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Freebird was on a date the night she went missing.</font></font>]]></tag>
+	<tag id="ID_CLUE_ONDATE_DESCRIPTION"><![CDATA[<font size="+2">	The receipt indicates that Freebird and another person had dinner together on the night she went missing.  The time stamp indicates this dinner occurred after her concert.
+	Who was Freebird dining with? </font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_SUSPECTAGENT_NAME"><![CDATA[Suspect: Agent]]></tag>
+	<tag id="ID_CLUE_SUSPECTAGENT_IMAGE"><![CDATA[clue_suspectagent_cu_en]]></tag>
+	<tag id="ID_CLUE_SUSPECTAGENT_TITLE"><![CDATA[Suspect: Maury Wan]]></tag>
+	<tag id="ID_CLUE_SUSPECTAGENT_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Suspect: Maury Wan</font></font>]]></tag>
+	<tag id="ID_CLUE_SUSPECTAGENT_DESCRIPTION"><![CDATA[<font size="+2">	Lawrence says he never liked Freebird's agent, Maury Wan.  He says Maury was only interested in the money and publicity she brought him.  If that's true, you have to wonder if Maury Wan would kill for publicity.
+	Did Maury Wan kill Freebird?  Is there any evidence tying him to the crime scene or murder weapon?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+	<tag id="ID_CLUE_FIGHTDURINGDATE_NAME"><![CDATA[Fight during date]]></tag>
+	<tag id="ID_CLUE_FIGHTDURINGDATE_IMAGE"><![CDATA[clue_fightduringdate_cu_en]]></tag>
+	<tag id="ID_CLUE_FIGHTDURINGDATE_TITLE"><![CDATA[Freebird Fought with Lawrence During Date]]></tag>
+	<tag id="ID_CLUE_FIGHTDURINGDATE_HEADER"><![CDATA[<font size="+2">New clue:  <font size="+1">Freebird and Lawrence fought during their date</font></font>]]></tag>
+	<tag id="ID_CLUE_FIGHTDURINGDATE_DESCRIPTION"><![CDATA[<font size="+2">	This picture indicates that Freebird Reynolds and Lawrence Garvey had a fight on the night she died.  If this fight escalated, it might have directly led to Freebird's murder.
+	What were Freebird and Lawrence fighting over?  Did Lawrence kill Freebird during or after this fight?</font></p>
+   <div style="color:#eeff00;font-size:14pt;">You received 5 clams!</div>]]></tag>
+
+		<!-- CLUE ANSWER INSTRUCTIONS -->
+
+	<tag id="ID_CLUE_INSTRUCT_HEADER"><![CDATA[Investigation Report]]></tag>
+	<tag id="ID_CLUE_INSTRUCT_MESSAGE"><![CDATA[Drag the correct clues to the glowing boxes to answer his questions.<br><br>Good luck!]]></tag>
+
+		<!-- CLUE ANSWER QUESTIONS -->
+
+	<tag id="ID_CLUE_QUESTION_1"><![CDATA[Who killed Freebird Reynolds?]]></tag>
+	<tag id="ID_CLUE_QUESTION_2"><![CDATA[What evidence shows that the suspect was at the murder scene?]]></tag>
+	<tag id="ID_CLUE_QUESTION_3"><![CDATA[What was the murder weapon?]]></tag>
+	<tag id="ID_CLUE_QUESTION_4"><![CDATA[What evidence is there that the suspect used the murder weapon?]]></tag>
+	<tag id="ID_CLUE_SUBMIT"><![CDATA[submit answers]]></tag>
+	<tag id="ID_CLUE_RETRY"><![CDATA[retry]]></tag>
+	<tag id="ID_CLUE_MINI_INSTRUCT"><![CDATA[Click-and-Drag the clues to answer the questions.]]></tag>
+
+		<!-- CLUE ANSWER SUCCESS SCREEN -->
+
+	<tag id="ID_CLUE_SUCCESS_HEADER"><![CDATA[Investigation SUCCESS!]]></tag>
+	<tag id="ID_CLUE_SUCCESS_MESSAGE"><![CDATA[You've got it!<br><br>We'll bring in Gabriel Tam for questioning]]></tag>
+
+</strings>

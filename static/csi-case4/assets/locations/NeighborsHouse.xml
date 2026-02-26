@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<location name="NeighborsHouse" displayName="Donald Parker's House" iconName="Neighbor's House">
+	<object name="Calendar" />
+	<person name="Langston"/>
+	<person name="DonaldParker"/>
+	<object name="Door" />
+	<visit num="1" ambient="NeighborsHouseAmbient">
+		<clickable name="Langston" type="required" action="dialog:LangstonNeighborUnfinished" persist="true" />
+		<clickable name="DonaldParker" type="required" require="evidenceInHand:Matches" action="dialog:Parker3,clue:NeighborAtWork,hide:Matches" checkDone="clue:NeighborAtWork" fail="dialog:Parker2">	
+			<clickable name="Langston" type="ignore" action="dialog:LangstonNeighborFinished" persist="true" />
+			<set variable="visit:Headquarters" type="required" value="2"/>
+			<dev action="location:Morgue" />
+			<clickable name="DonaldParker" type="ignore" persist="true" action="dialog:Parker3" />
+		</clickable>
+		<clickable name="Calendar" type="ignore" action="activity:Calendar" persist="true" />
+	</visit>
+	<custom name="CheckIfDone" require="clue:NeighborAtWork">
+		<clickable name="DonaldParker" type="ignore" action="dialog:Parker3" persist="true" />
+	</custom>
+</location>

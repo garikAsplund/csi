@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<strings>
+
+	<!-- English -->
+	<tag id="ID_TEST">Hi [name], this is a test string from clues. </tag>
+
+	<!-- CLUES -->
+	
+	<tag id="ID_CLUE_DEFAULT_NAME"><![CDATA[Clue]]></tag>
+	<tag id="ID_CLUE_DEFAULT_IMAGE"><![CDATA[clue_default_cu_en]]></tag>
+	<tag id="ID_CLUE_DEFAULT_TITLE"><![CDATA[Clue Title]]></tag>
+	<tag id="ID_CLUE_DEFAULT_DESCRIPTION"><![CDATA[Clue Description]]></tag>
+	
+	<tag id="ID_CLUE_SUSPECTVET_NAME"><![CDATA[Suspect: Veterinarian]]></tag>
+	<tag id="ID_CLUE_SUSPECTVET_IMAGE"><![CDATA[clue_suspectvet_cu_en]]></tag>
+	<tag id="ID_CLUE_SUSPECTVET_TITLE"><![CDATA[Suspect: Sariel Knox]]></tag>
+	<tag id="ID_CLUE_SUSPECTVET_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Competition veterinarian is a person of interest</font></font>]]></tag>
+	<tag id="ID_CLUE_SUSPECTVET_DESCRIPTION"><![CDATA[<font size="+2">Apollo's schedule was found at the crime scene. Besides Ms. Ranger and the victim, the only other person who knew the dog's schedule was the veterinarian.
+What else might the veterinarian know? It may be helpful to talk with her.</font>]]></tag>
+	
+	<tag id="ID_CLUE_MURPHYFINGERPRINTS_NAME"><![CDATA[Suspect: Wesley Murphy]]></tag>
+	<tag id="ID_CLUE_MURPHYFINGERPRINTS_IMAGE"><![CDATA[clue_murphyfingerprints_cu_en]]></tag>
+	<tag id="ID_CLUE_MURPHYFINGERPRINTS_TITLE"><![CDATA[Suspect: Wesley Murphy]]></tag>
+	<tag id="ID_CLUE_MURPHYFINGERPRINTS_HEADER"><![CDATA[<font size="+2">New clue: <font size="+1">Suspect: Wesley Murphy</font></font>]]></tag>
+	<tag id="ID_CLUE_MURPHYFINGERPRINTS_DESCRIPTION"><![CDATA[<font size="+2">The fingerprints we found at the crime scene matched to a dog breeder named Wesley Murphy. Could he be involved in this murder?</font> ]]></tag>
+	
+	<tag id="ID_CLUE_CYANIDEINDOGFOOD_NAME"><![CDATA[Cyanide In Dog Food]]></tag>
+	<tag id="ID_CLUE_CYANIDEINDOGFOOD_IMAGE"><![CDATA[clue_cyanideindogfood_cu_en]]></tag>
+	<tag id="ID_CLUE_CYANIDEINDOGFOOD_TITLE"><![CDATA[Apollo's food contains cyanide]]></tag>
+	<tag id="ID_CLUE_CYANIDEINDOGFOOD_HEADER"><![CDATA[<font size="+2">New clue: <font size="+1">Apollo's food contains cyanide</font></font>]]></tag>
+	<tag id="ID_CLUE_CYANIDEINDOGFOOD_DESCRIPTION"><![CDATA[<font size="+2">Apollo's food contains cyanide, which could have made him very ill or even killed him. Who would want to poison him? Is it because of the competition? How does this relate to Mr. Williams' death?</font> ]]></tag>
+
+	<tag id="ID_CLUE_SODIUMTHIOPENTALINBLOOD_NAME"><![CDATA[Sodium Thiopental In Blood]]></tag>
+	<tag id="ID_CLUE_SODIUMTHIOPENTALINBLOOD_IMAGE"><![CDATA[clue_sodiumthiopentalinblood_cu_en]]></tag>
+	<tag id="ID_CLUE_SODIUMTHIOPENTALINBLOOD_TITLE"><![CDATA[Victim's blood contains sodium thiopental]]></tag>
+	<tag id="ID_CLUE_SODIUMTHIOPENTALINBLOOD_HEADER"><![CDATA[<font size="+2">New clue: <font size="+1">Victim's blood contains sodium thiopental</font> </font> ]]></tag>
+	<tag id="ID_CLUE_SODIUMTHIOPENTALINBLOOD_DESCRIPTION"><![CDATA[<font size="+2">Mr. Williams' blood contains sodium thiopental -- not enough to kill him but to knock him unconscious. Who has access to sodium thiopental? Why was it injected to our victim?</font> ]]></tag>
+
+	<tag id="ID_CLUE_HUMANHAIRATSCENE_NAME"><![CDATA[Human Hair at Crime Scene]]></tag>
+	<tag id="ID_CLUE_HUMANHAIRATSCENE_IMAGE"><![CDATA[clue_humanhairatscene_cu_en]]></tag>
+	<tag id="ID_CLUE_HUMANHAIRATSCENE_TITLE"><![CDATA[Human hair found at the crime scene]]></tag>
+	<tag id="ID_CLUE_HUMANHAIRATSCENE_HEADER"><![CDATA[<font size="+2">New clue: <font size="+1">Human hair found at the crime scene</font> </font> ]]></tag>
+	<tag id="ID_CLUE_HUMANHAIRATSCENE_DESCRIPTION"><![CDATA[<font size="+2">The hair collected at the crime scene proved to be a human hair. To find out who the donor is, you need to collect samples from suspects who have similar hair.
+Use the COMPARISON MICROSCOPE in the LAB to compare the hair samples.</font> ]]></tag>
+
+	<tag id="ID_CLUE_BITBYHUMAN_NAME"><![CDATA[Victim Bit By Human]]></tag>
+	<tag id="ID_CLUE_BITBYHUMAN_IMAGE"><![CDATA[clue_bitbyhuman_cu_en]]></tag>
+	<tag id="ID_CLUE_BITBYHUMAN_TITLE"><![CDATA[Victim was bit by human]]></tag>
+	<tag id="ID_CLUE_BITBYHUMAN_HEADER"><![CDATA[<font size="+2">New clue: <font size="+1">Victim was bit by human</font> </font> ]]></tag>
+	<tag id="ID_CLUE_BITBYHUMAN_DESCRIPTION"><![CDATA[<font size="+2">Is it the bitemark of the murderer? Or is there a less deadly explanation? Start collecting bite impressions from suspects, so we can compare them to the bitemark on the victim.</font> ]]></tag>
+	
+	<tag id="ID_CLUE_MEETMURPHY_NAME"><![CDATA[Meet Murphy]]></tag>
+	<tag id="ID_CLUE_MEETMURPHY_IMAGE"><![CDATA[clue_meetmurphy_cu_en]]></tag>
+	<tag id="ID_CLUE_MEETMURPHY_TITLE"><![CDATA[Victim was to meet Murphy]]></tag>
+	<tag id="ID_CLUE_MEETMURPHY_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Victim was scheduled to meet with someone named Murphy at 12:30.</font> </font> ]]></tag>
+	<tag id="ID_CLUE_MEETMURPHY_DESCRIPTION"><![CDATA[<font size="+2">Why was the victim considering a new job offer? Didn't he get along with Ms. Ranger? Who is Murphy?</font> ]]></tag>
+	
+	<tag id="ID_CLUE_RATPOISON_NAME"><![CDATA[Rat Poison]]></tag>
+	<tag id="ID_CLUE_RATPOISON_IMAGE"><![CDATA[clue_ratpoison_cu_en]]></tag>
+	<tag id="ID_CLUE_RATPOISON_TITLE"><![CDATA[Murphy has access to Rat Poison]]></tag>
+	<tag id="ID_CLUE_RATPOISON_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Wesley Murphy has access to cyanide</font> </font> ]]></tag>
+	<tag id="ID_CLUE_RATPOISON_DESCRIPTION"><![CDATA[<font size="+2">Rat poison usually contains cyanide, a potentially deadly drug you found in Apollo's food.
+Is this just a coincidence? You may want to talk to Mr. Murphy about it.</font> ]]></tag>
+	
+	<tag id="ID_CLUE_MURPHYDOGCOMPETES_NAME"><![CDATA[Competing Dog]]></tag>
+	<tag id="ID_CLUE_MURPHYDOGCOMPETES_IMAGE"><![CDATA[clue_murphydogcompetes_cu_en]]></tag>
+	<tag id="ID_CLUE_MURPHYDOGCOMPETES_TITLE"><![CDATA[Murphy's dog competes with Apollo]]></tag>
+	<tag id="ID_CLUE_MURPHYDOGCOMPETES_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Wesley Murphy has a dog competing with Apollo</font> </font> ]]></tag>
+	<tag id="ID_CLUE_MURPHYDOGCOMPETES_DESCRIPTION"><![CDATA[Wesley Murphy seems to see Apollo as the number one competitor with his dog. He even made an attempt to hire Apollo's handler, Mr. Williams.
+How far would he go to ensure that his dog wins?]]></tag>
+
+	<tag id="ID_CLUE_APOLLOSICKOFTEN_NAME"><![CDATA[Apollo Sick]]></tag>
+	<tag id="ID_CLUE_APOLLOSICKOFTEN_IMAGE"><![CDATA[clue_apollosickoften_cu_en]]></tag>
+	<tag id="ID_CLUE_APOLLOSICKOFTEN_TITLE"><![CDATA[Apollo Often Sick]]></tag>
+	<tag id="ID_CLUE_APOLLOSICKOFTEN_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Apollo was often sick</font></font>]]></tag>
+	<tag id="ID_CLUE_APOLLOSICKOFTEN_DESCRIPTION"><![CDATA[Sariel Knox was worried about Apollo's health and upset about his owner's carelessness. She thought Ms. Ranger or Mr. Williams might be doing something to him.
+Is she right? Or are there other explanations?]]></tag>
+
+	<tag id="ID_CLUE_SODIUMTHIOPENTALATVETS_NAME"><![CDATA[Sodium Thiopental At Vets]]></tag>
+	<tag id="ID_CLUE_SODIUMTHIOPENTALATVETS_IMAGE"><![CDATA[clue_sodiumthiopentalatvets_cu_en]]></tag>
+	<tag id="ID_CLUE_SODIUMTHIOPENTALATVETS_TITLE"><![CDATA[Sodium Thiopental At Vets]]></tag>
+	<tag id="ID_CLUE_SODIUMTHIOPENTALATVETS_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Sodium thiopental was present in Sariel Knox's office</font> </font> ]]></tag>
+	<tag id="ID_CLUE_SODIUMTHIOPENTALATVETS_DESCRIPTION"><![CDATA[Dr. Knox has access to the same kind of drug found in our victim's body -- sodium thiopental. She even has the tool in her office to inject it!
+Did Sariel Knox inject the drug into our victim?]]></tag>
+
+	<tag id="ID_CLUE_SPCA_NAME"><![CDATA[SPCA]]></tag>
+	<tag id="ID_CLUE_SPCA_IMAGE"><![CDATA[clue_spca_cu_en]]></tag>
+	<tag id="ID_CLUE_SPCA_TITLE"><![CDATA[SPCA Told About Apollo]]></tag>
+	<tag id="ID_CLUE_SPCA_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Sariel Knox reported abuse of Apollo to the SPCA</font> </font> ]]></tag>
+	<tag id="ID_CLUE_SPCA_DESCRIPTION"><![CDATA[Dr. Knox reported to the Society for the Prevention of Cruelty to Animals (SPCA) and convinced them that Apollo was in need of immediate help.
+Did Deborah Ranger or Marco Williams know about it? How would they react?]]></tag>
+
+	<tag id="ID_CLUE_WILLIAMSBLOODATVETS_NAME"><![CDATA[Victim's Blood at Knox's]]></tag>
+	<tag id="ID_CLUE_WILLIAMSBLOODATVETS_IMAGE"><![CDATA[clue_williamsbloodatvets_cu_en]]></tag>
+	<tag id="ID_CLUE_WILLIAMSBLOODATVETS_TITLE"><![CDATA[Victim's Blood at Knox's]]></tag>
+	<tag id="ID_CLUE_WILLIAMSBLOODATVETS_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">The victim's blood was found in Dr. Knox's office</font> </font>]]></tag>
+	<tag id="ID_CLUE_WILLIAMSBLOODATVETS_DESCRIPTION"><![CDATA[The blood hidden behind a picture in Dr. Knox's office is proven to be from our victim.
+How did Marco Williams' blood end up in the veterinarian's office? Did the death of the victim occur there?]]></tag>
+	
+	<tag id="ID_CLUE_KNOXBITEMATCHESVICTIMBITEMARK_NAME"><![CDATA[Knox's Bitemark Matches Victim]]></tag>
+	<tag id="ID_CLUE_KNOXBITEMATCHESVICTIMBITEMARK_IMAGE"><![CDATA[clue_knoxbitematchesvictimbitemark_cu_en]]></tag>
+	<tag id="ID_CLUE_KNOXBITEMATCHESVICTIMBITEMARK_TITLE"><![CDATA[Knox's Bitemark Matches Victim]]></tag>
+	<tag id="ID_CLUE_KNOXBITEMATCHESVICTIMBITEMARK_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Sariel Knox's bite impression matches the bitemark on the victim</font> </font>]]></tag>
+	<tag id="ID_CLUE_KNOXBITEMATCHESVICTIMBITEMARK_DESCRIPTION"><![CDATA[It is possible that Dr. Knox bit Marco Williams before he died. To confirm this, you'll need to compare her DNA sample with the saliva from the bitemark.]]></tag>
+	
+	<tag id="ID_CLUE_KNOXSHAIRSAMEASATSCENE_NAME"><![CDATA[Knox's Hair Similar]]></tag>
+	<tag id="ID_CLUE_KNOXSHAIRSAMEASATSCENE_IMAGE"><![CDATA[clue_knoxshairsameasatscene_cu_en]]></tag>
+	<tag id="ID_CLUE_KNOXSHAIRSAMEASATSCENE_TITLE"><![CDATA[Knox's Hair Similar]]></tag>
+	<tag id="ID_CLUE_KNOXSHAIRSAMEASATSCENE_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Sariel Knox's Hair is similar to the Hair Found at the Crime Scene</font> </font>]]></tag>
+	<tag id="ID_CLUE_KNOXSHAIRSAMEASATSCENE_DESCRIPTION"><![CDATA[Is it truly her hair? You will need to find out.
+Use the DNA STATION in the Lab to run a mtDNA comparison, so we can have a confirmation.]]></tag>
+	
+	<tag id="ID_CLUE_KNOXSHAIRATSCENE_NAME"><![CDATA[Knox's Hair at Scene]]></tag>
+	<tag id="ID_CLUE_KNOXSHAIRATSCENE_IMAGE"><![CDATA[clue_knoxshairatscene_cu_en]]></tag>
+	<tag id="ID_CLUE_KNOXSHAIRATSCENE_TITLE"><![CDATA[Knox's Hair at Scene]]></tag>
+	<tag id="ID_CLUE_KNOXSHAIRATSCENE_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Mitochondrial DNA test confirms that the hair discovered at the crime scene matches Sariel Knox</font> </font>]]></tag>
+	<tag id="ID_CLUE_KNOXSHAIRATSCENE_DESCRIPTION"><![CDATA[Sariel Knox was probably present in Ms. Ranger's RV and left her hair there.
+If this is the case, why has she been there?]]></tag>
+	
+	<tag id="ID_CLUE_KNOXSDNAONBITEMARK_NAME"><![CDATA[Knox's DNA on Bitemark]]></tag>
+	<tag id="ID_CLUE_KNOXSDNAONBITEMARK_IMAGE"><![CDATA[clue_knoxsdnaonbitemark_cu_en]]></tag>
+	<tag id="ID_CLUE_KNOXSDNAONBITEMARK_TITLE"><![CDATA[Knox's DNA on Bitemark]]></tag>
+	<tag id="ID_CLUE_KNOXSDNAONBITEMARK_HEADER"><![CDATA[<font size="+2">You've acquired a CLUE: <font size="+1">Sariel Knox's DNA was found on the bitemark</font> </font>]]></tag>
+	<tag id="ID_CLUE_KNOXSDNAONBITEMARK_DESCRIPTION"><![CDATA[DNA test confirms that Sariel Knox is the person who bit our victim.
+What happened between her and Marco Williams? Why did she bite him?]]></tag>
+
+		<!-- CLUE ANSWER INSTRUCTIONS -->
+
+	<tag id="ID_CLUE_INSTRUCT_HEADER"><![CDATA[Investigation Report]]></tag>
+	<tag id="ID_CLUE_INSTRUCT_MESSAGE"><![CDATA[Drag the correct clues to the glowing boxes to answer his questions.<br><br>Good luck!]]></tag>
+
+		<!-- CLUE ANSWER QUESTIONS -->
+
+	<tag id="ID_CLUE_QUESTION_1"><![CDATA[What evidence shows that the suspect was at the crime scene?]]></tag>
+	<tag id="ID_CLUE_QUESTION_2"><![CDATA[Who has access to the drug found in our victim's body?]]></tag>
+	<tag id="ID_CLUE_QUESTION_3"><![CDATA[Who bit our victim before his death?]]></tag>
+	<tag id="ID_CLUE_QUESTION_4"><![CDATA[Where did the death of the victim likely occur?]]></tag>
+	<tag id="ID_CLUE_SUBMIT"><![CDATA[submit answers]]></tag>
+	<tag id="ID_CLUE_RETRY"><![CDATA[retry]]></tag>
+	<tag id="ID_CLUE_MINI_INSTRUCT"><![CDATA[Click-and-Drag the clues to answer the questions.]]></tag>
+
+		<!-- CLUE ANSWER SUCCESS SCREEN -->
+
+	<tag id="ID_CLUE_SUCCESS_HEADER"><![CDATA[EXCELLENT JOB!]]></tag>
+	<tag id="ID_CLUE_SUCCESS_MESSAGE"><![CDATA[You have gathered enough evidence to bring in Sariel Knox for questioning.]]></tag>
+
+</strings>

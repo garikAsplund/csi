@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<location name="McCoysHouse" displayName="Terry McCoy's House">
+	<person name="TerryMcCoy" />
+	<person name="Stokes" />
+	<object name="Bottles" />
+	<object name="Drawer" />
+	<visit num="1" ambient="CatherinesOfficeAmbient">
+		<clickable name="Stokes" action="dialog:StokesMcCoy1" checkDone="clue:Prescriptions,evidence:McCoyWeapon,evidence:McCoyDNA">
+			<clickable name="Stokes" fail="dialog:StokesMcCoyNotDone" persist="true" require="clue:Prescriptions,evidence:McCoyWeapon,evidence:McCoyDNA" action="dialog:StokesMcCoyDone"/>
+		</clickable>
+		<clickable name="TerryMcCoy" type="required" action="dialog:TerryMcCoy1" checkDone="dialog:TerryMcCoy1">
+			<clickable name="Stokes" fail="dialog:StokesMcCoyNotDone" persist="true" require="clue:Prescriptions,evidence:McCoyWeapon,evidence:McCoyDNA" action="dialog:StokesMcCoyDone"/>
+			<clickable name="Drawer" type="required" action="activity:FindMcCoyGun,evidence:McCoyWeapon,custom:UnlockBallistics3" checkDone="evidence:McCoyWeapon"/>
+			<clickable name="TerryMcCoy" type="required" require="toolInHand:Swabs" action="evidence:McCoyDNA" persist="true" fail="dialog:TerryMcCoy1" checkDone="evidence:McCoyDNA">
+				<set variable="visit:Lab" type="required" value="4"/>
+				<visible name="TerryMcCoy"/>
+			</clickable>
+			<clickable name="Bottles" type="required" action="activity:PrescriptionBottles,clue:Prescriptions,custom:UnlockPharmacy,custom:CheckMessageUnlock" checkDone="clue:Prescriptions">			
+			</clickable>
+		</clickable>
+	</visit>
+	<custom name="UnlockBallistics3">		
+		<set variable="visit:BallisticsLab" type="required" value="3"/>
+	</custom>
+	<custom name="UnlockPharmacy">		
+		<unlock type="location" name="Pharmacy" />	
+	</custom>
+	<custom name="CheckMessageUnlock" require="clue:PrescriptionCash,TalkedToFowler:true,clue:Prescriptions">
+		<unlock type="message" name="message3"/>
+		<set variable="visit:Lab" type="required" value="5"/>
+		<dev action="location:Lab"/>
+	</custom>
+</location>

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<activity name="WaterTank1">
+	<text num="1"><![CDATA[Just pick up the gun, stick it into the opening, and fire.]]></text>
+	<text num="2"><![CDATA[You know the drill.
+	
+Just pick up the gun, stick it into the opening, and fire.]]></text>
+	<text num="3"><![CDATA[Just pick up the gun, stick it into the opening, and fire.]]></text>
+</activity>

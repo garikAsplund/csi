@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<location name="Pharmacy" displayName="Pharmacy">
+	<person name="EdgarWhite"/>
+	<person name="Stokes"/>
+	<object name="GunHidden"/>
+	<visit num="1" ambient="CatherinesOfficeAmbient">
+		<clickable name="Stokes" action="dialog:StokesPharmacy1" type="ignore">
+			<clickable name="Stokes" fail="dialog:StokesPharmacyNotDone" type="ignore" persist="true" require="dialog:EdgarWhite1" action="dialog:StokesPharmacyDone" />
+		</clickable>	
+		<clickable name="EdgarWhite" action="dialog:EdgarWhite1" type="ignore" checkDone="dialog:EdgarWhite1">
+			<clickable name="EdgarWhite" action="dialog:EdgarWhite2" type="ignore" persist="true"/>
+			<clickable name="Stokes" fail="dialog:StokesPharmacyNotDone" type="ignore" persist="true" require="dialog:EdgarWhite1" action="dialog:StokesPharmacyDone" />		
+		</clickable>	
+	</visit>
+	<visit num="2" ambient="CatherinesOfficeAmbient">
+		<clickable name="Stokes" action="dialog:StokesPharmacy2" type="ignore" checkDone="evidence:PharmacistWeapon,evidence:PharmacistDNA">
+			<clickable name="Stokes" fail="dialog:StokesPharmacyNotDone2" type="ignore" persist="true" action="dialog:StokesPharmacyDone2" require="evidence:PharmacistWeapon,evidence:PharmacistDNA" />
+		</clickable>	
+		<clickable name="EdgarWhite" action="dialog:EdgarWhite3" type="required" checkDone="dialog:EdgarWhite3">
+			<clickable name="EdgarWhite" require="toolInHand:Swabs" action="evidence:PharmacistDNA,custom:CheckDNADone,custom:CheckAllDone" type="required" fail="dialog:EdgarWhite3" persist="true" checkDone="evidence:PharmacistDNA">				
+				<visible name="EdgarWhite"/>
+			</clickable>
+			<clickable name="Stokes" fail="dialog:StokesPharmacyNotDone2" type="ignore" persist="true" action="dialog:StokesPharmacyDone2" require="evidence:PharmacistWeapon,evidence:PharmacistDNA" />
+			<clickable name="GunHidden" type="required" action="evidence:PharmacistWeapon,custom:CheckGunDone,custom:CheckAllDone"/>
+		</clickable>
+	</visit>
+	<visit num="3" ambient="CatherinesOfficeAmbient">
+		<clickable name="Stokes" action="dialog:StokesPharmacyDone2" type="ignore" persist="true"/>	
+		<visible name="EdgarWhite"/>
+	</visit>
+	<custom name="CheckAllDone" require="evidence:PharmacistWeapon,evidence:PharmacistDNA" >	
+		<set variable="visit:Pharmacy" type="required" value="3"/>
+		<dev action="location:Lab"/>
+	</custom>
+   <custom name="CheckGunDone" require="evidence:PharmacistWeapon" >  
+      <set variable="visit:BallisticsLab" type="required" value="4"/>
+   </custom>
+   <custom name="CheckDNADone" require="evidence:PharmacistDNA" >  
+      <set variable="visit:Lab" type="required" value="7"/>
+   </custom>      
+</location>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room001 - grissom's office. </tag>
+	
+		<!-- GRISSOM0  -->
+		
+	<tag id="ID_GRISSOM0A"><![CDATA[I hope you're ready for your first case, rookie. A burned-out car was found in the desert—with a badly burned body inside.  Nick's already on the scene.]]></tag>
+	<tag id="ID_GRISSOM0B"><![CDATA[Be sure to get your PDA and toolkit. The toolkit contains everything you need to process the scene.]]></tag>
+	<tag id="ID_GRISSOM0C"><![CDATA[Your gear is on my desk.]]></tag>
+	<tag id="ID_GRISSOM0D"><![CDATA[Find the crime scene icon under your LOCATIONS tab. When you get to the crime scene, talk to Nick before you start looking for evidence.]]></tag>
+	
+		<!-- REPLIES TO GRISSOM -->
+
+	<tag id="ID_USER0A"><![CDATA[How can I help?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[How do I get my PDA and my toolkit?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[How do I get to the crime scene?]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[I'm ready to get my gear and head to the crime scene.]]></tag>
+	
+	
+</strings>	

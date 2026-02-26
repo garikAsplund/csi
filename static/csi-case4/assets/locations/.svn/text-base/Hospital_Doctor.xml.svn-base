@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<location name="Hospital_Doctor" displayName="Doctor's Office">
+	<person name="DrSharlaLewis"/>
+	<object name="DoorDoctorExit" />
+	<object name="Simulation" />
+	<object name="Report" />
+	<visit num="1" ambient="HospitalAmbient">
+		<clickable name="DrSharlaLewis" type="required" action="dialog:DrLewis1" checkDone="dialog:DrLewis1,clue:OxycodoneNatalieBlood" persist="true">
+			<clickable name="Report" type="required" action="activity:PatientReport,clue:OxycodoneNatalieBlood,custom:CheckIfDone" checkDone="clue:OxycodoneNatalieBlood">
+				<clickable name="DrSharlaLewis" type="required" action="dialog:DrLewis2" checkDone="dialog:DrLewis2,clue:OxycodoneAddictive" persist="true">
+					<clickable name="Simulation" type="required" action="activity:BrainSimulation,clue:OxycodoneAddictive,custom:CheckIfDone" checkDone="clue:OxycodoneAddictive" >
+						<visible name="DrSharlaLewis" />
+					</clickable>
+				</clickable>
+			</clickable>
+		</clickable>
+		<clickable name="DoorDoctorExit" type="ignore" action="location:Hospital" caption="EXIT TO HALLWAY" />
+	</visit>
+	<custom name="CheckIfDone" require="clue:OxycodoneNatalieBlood,clue:SuspectDenies,clue:OxycodoneAddictive">
+		<set variable="visit:Hospital" value="3" />
+		<unlock type="message" name="message3">
+			<standalone action="activity:MatchClues,location:InterrogationRoom" />
+		</unlock>
+		<dev action="location:Hospital"/>
+	</custom>
+</location>

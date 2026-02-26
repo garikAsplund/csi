@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<dialog name="Catherine">
+	<conversation location="CatherinesOffice" visit="1" name="1">
+		<statement num="1"><![CDATA[Es gab ein Feuer, möglicherweise Brandstiftung, in einem lokalen Haus. Ein junger Mann wurde getötet.]]></statement>
+		<statement num="2"><![CDATA[Wir wissen noch nicht. Offenbar entging einer Person das Feuer.]]></statement>
+		<statement num="3"><![CDATA[Langston ist bereits bei der Szene, konnte er brauche eine Hand. Sie benötigen Ihren Smartphone, einer Kamera und einem Brandort Tool-Kit.]]></statement>
+		<statement num="4"><![CDATA[Es ist auf meinem Schreibtisch.]]></statement>
+		<statement num="5"><![CDATA[Sie finden es unter der Registerkarte finden.]]></statement>
+		<response num="1"><![CDATA[Was ist passiert?]]></response>
+		<response num="2"><![CDATA[Wie kann ich helfen?]]></response>
+		<response num="3"><![CDATA[Wie bekomme ich meine Ausrüstung?]]></response>
+		<response num="4"><![CDATA[Wie kann ich den Tatort zu bekommen?]]></response>
+		<response num="5"><![CDATA[Ich hole meine Sachen und fahren zum Tatort.]]></response>
+	</conversation>
+</dialog>

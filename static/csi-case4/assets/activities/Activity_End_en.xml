@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<activity name="End">
+	<paperName><![CDATA[The Vegas Chronicle]]></paperName>
+	<headline><![CDATA[House Fire Was Arson]]></headline>
+	<mainTitle><![CDATA[CONGRATULATIONS]]></mainTitle>
+	<text><![CDATA[Natalie Perez was charged with possession of a controlled dangerous substance and first degree arson.
+Her lawyer has advised her to plead guilty to the drug possession charge, for which she could be sentenced to four years in prison. She is trying to claim that the arson was committed without criminal intent.
+Natalie is currently out on bail awaiting her trial.]]></text>
+	<button num="1"><![CDATA[Cool Links]]></button>
+	<button num="2"><![CDATA[Feedback]]></button>
+	<button num="3"><![CDATA[Home]]></button>
+	<button num="4"><![CDATA[More games]]></button>
+</activity>

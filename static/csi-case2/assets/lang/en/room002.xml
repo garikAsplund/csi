@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room002. </tag>
+	
+		<!-- GRISSOM0  -->
+		
+	<tag id="ID_GRISSOM0A"><![CDATA[Do you have a question for me?]]></tag>
+	<tag id="ID_GRISSOM0B"><![CDATA[Doc Robbins' team has already collected it. He's probably already started the autopsy.]]></tag>
+	<tag id="ID_GRISSOM0C"><![CDATA[Have you talked with Ms. Ranger to see what she knows? Also, you need to search this room for evidence.]]></tag>
+	<tag id="ID_GRISSOM0D"><![CDATA[Not in this case. Part of the agreement to enter the dog show was to give the show access to search all property. We've got the permission to search everything and everywhere.]]></tag>
+	<tag id="ID_GRISSOM0E"><![CDATA[Not quite. I think you should ask Ms. Ranger about the schedule.]]></tag>
+	<tag id="ID_GRISSOM0F"><![CDATA[I think there's more work to do.]]></tag>
+	<tag id="ID_GRISSOM0G"><![CDATA[Yes. Let's move on to the Morgue and see how Dr. Robbins can help us.]]></tag>
+	
+		<!-- REPLIES TO GRISSOM -->
+
+	<tag id="ID_USER0A"><![CDATA[Where's the dead body?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[What should I do here?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Are we finished here?]]></tag>
+	<tag id="ID_USER0D"><![CDATA[Don't we need a warrant or her permission to search this place?]]></tag>
+	<tag id="ID_USER0E"><![CDATA[I'm going to ask her now.]]></tag>
+	<tag id="ID_USER0F"><![CDATA[I'll keep investigating.]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[I'm going to the Morgue now.]]></tag>
+	
+		<!-- RANGER0  -->
+		
+	<tag id="ID_RANGER1A"><![CDATA[Where's my Apollo? Do you have any news about my Apollo?]]></tag>
+	<tag id="ID_RANGER1B"><![CDATA[Apollo! He's my prize-winning pure-bred Cocker Spaniel, and if he's to win Best in Show you have to find him NOW! He's scheduled to compete in three hours!]]></tag>
+	<tag id="ID_RANGER1C"><![CDATA[My fabulous dog had been stolen! A crime has occurred, but no one's doing anything about it! You have to catch the dog-napper!]]></tag>
+	<tag id="ID_RANGER1D"><![CDATA[Marco Williams? He's Apollo's handler. He looks after Apollo before and during the competitions. Obviously, he failed to protect Apollo from the dog-nappers!]]></tag>
+	<tag id="ID_RANGER1E"><![CDATA[I assume he was killed during the dog-napping. Oh, my poor baby - he must have been so frightened.]]></tag>
+	<tag id="ID_RANGER1F"><![CDATA[It must have been around 10 or 11. I always visit Apollo during his morning bath time. When I came back after lunch, Marco was dead and Apollo was GONE!]]></tag>
+	<tag id="ID_RANGER1G"><![CDATA[No, I didn't. But, that's Apollo's daily schedule! Only myself and Marco know his schedule - oh, and the competition veterinarian.]]></tag>
+	<tag id="ID_RANGER1H"><![CDATA[Uh...What's her name again? It must be written on the prescription paper somewhere here. She's the only other person who knows Apollo's schedule, but what could she have to do with this?]]></tag>
+
+	<tag id="ID_RANGER1J"><![CDATA[Anything else?]]></tag>
+	
+		<!-- REPLIES TO RANGER -->
+
+	<tag id="ID_USER1A"><![CDATA[Who's Apollo?]]></tag>
+	<tag id="ID_USER1B"><![CDATA[Do you know what happened here?]]></tag>
+	<tag id="ID_USER1C"><![CDATA[What can you tell me about the deceased?]]></tag>
+	<tag id="ID_USER1D"><![CDATA[Do you know how Mr. Williams died?]]></tag>
+	<tag id="ID_USER1E"><![CDATA[When was the last time you saw Mr. Williams alive?]]></tag>
+	<tag id="ID_USER1F"><![CDATA[Did you write this note?]]></tag>
+	<tag id="ID_USER1G"><![CDATA[Who is the competition veterinarian?]]></tag>
+	<tag id="ID_USER1EXIT"><![CDATA[Thank you for your time.]]></tag>	
+	
+	
+	<tag id="ID_GRISSOM1A"><![CDATA[How can I help you?]]></tag>
+	<tag id="ID_GRISSOM1B"><![CDATA[I don't think so. We found the body here without much blood, so Dr. Robbins suggested that we search for blood in other places to find out where the death of the victim occurred.]]></tag>
+	<tag id="ID_GRISSOM1C"><![CDATA[Unless she voluntarily agrees, we will need to get a warrant. Ask her if she agrees to provide samples.]]></tag>
+	<tag id="ID_GRISSOM1D"><![CDATA[Your tweezers are a good tool to collect evidence like human head hair.]]></tag>
+	<tag id="ID_GRISSOM1E"><![CDATA[Use your swabs to collect cheek cells.]]></tag>
+	<tag id="ID_GRISSOM1F"><![CDATA[Try using the impression materials and have people bite on it.]]></tag>
+	<tag id="ID_GRISSOM1G"><![CDATA[Are you sure? I think there is more work to do here.]]></tag>
+	<tag id="ID_GRISSOM1H"><![CDATA[I agree. Let's move on.]]></tag>
+	
+	<tag id="ID_USER2A"><![CDATA[Do I search for blood here?]]></tag>
+	<tag id="ID_USER2B"><![CDATA[How do I collect evidence from Ms. Ranger?]]></tag>
+	<tag id="ID_USER2C"><![CDATA[I think I'm done here.]]></tag>
+	<tag id="ID_USER2D"><![CDATA[How do I get a hair sample?]]></tag>
+	<tag id="ID_USER2E"><![CDATA[How do I get a DNA sample?]]></tag>
+	<tag id="ID_USER2F"><![CDATA[How do I get a bite impression?]]></tag>
+	<tag id="ID_USER2G"><![CDATA[I'll keep investigating.]]></tag>
+	<tag id="ID_USER2H"><![CDATA[I'll select our next place.]]></tag>
+	
+	<tag id="ID_RANGER2A"><![CDATA[Well? What have you learned so far? Have you found my Apollo?]]></tag>
+	<tag id="ID_RANGER2B"><![CDATA[Well, why aren't you out looking for him! Why are you wasting your time here?]]></tag>
+	<tag id="ID_RANGER2C"><![CDATA[Evidence? What kind of evidence? You don't honestly believe I had anything to do with this?]]></tag>
+	<tag id="ID_RANGER2D"><![CDATA[Well, if that's the case, take whatever you need.]]></tag>
+	<tag id="ID_RANGER2E"><![CDATA[Well, alright. Just be gentle, this hairdo cost me a fortune.]]></tag>
+	<tag id="ID_RANGER2F"><![CDATA[Oh, I faint at the sight of blood. I hope you've brought the right tool for a bloodless collection.]]></tag>
+	<tag id="ID_RANGER2G"><![CDATA[You need a what? Well, if it will help to find my Apollo, you're welcome to it.]]></tag>
+	
+	<tag id="ID_USER3A"><![CDATA[We haven't found Apollo yet.]]></tag>
+	<tag id="ID_USER3B"><![CDATA[May I collect some evidence from you?]]></tag>
+	<tag id="ID_USER3C"><![CDATA[What can you tell me about the deceased?]]></tag>
+	<tag id="ID_USER3D"><![CDATA[We can use the evidence to help eliminate suspects.]]></tag>
+	<tag id="ID_USER3E"><![CDATA[I'll need a hair sample.]]></tag>
+	<tag id="ID_USER3F"><![CDATA[I'll need a DNA sample.]]></tag>
+	<tag id="ID_USER3G"><![CDATA[I'll need a bite impression.]]></tag>
+	<tag id="ID_USER3H"><![CDATA[I'm going to collect the evidence now.]]></tag>
+	
+</strings>	

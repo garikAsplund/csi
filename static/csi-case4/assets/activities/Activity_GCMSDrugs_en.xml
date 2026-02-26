@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<activity name="GCMSDrugs">
+	<screen name="screen1">
+		<instruct><![CDATA[As a standard, we’ll use codeine-d3, which is a modified form of the opiate codeine. If this standard shows up later in our graphs, we’ll know that the test worked.
+
+Use the pipette to add a specific amount of standard to each vial.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+		<label num="4"><![CDATA[Codeine-d3]]></label>
+	</screen>
+	<screen name="screen2">
+		<instruct><![CDATA[As a positive control, we’ll use a mixture of opiates in known concentrations.
+
+Use the pipette to add a specific amount of the opiate mix to the vial labeled “positive control”.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+		<label num="4"><![CDATA[Opiate mix]]></label>
+	</screen>
+	<screen name="screen3">
+		<instruct><![CDATA[Good. Now you can add a specific amount of blood to the vial labeled “blood”.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+	</screen>
+	<screen name="screen4">
+		<instruct><![CDATA[Lastly, you need to fill up all three vials with a specific amount of diluting solution.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+		<label num="4"><![CDATA[Diluting solution]]></label>
+	</screen>
+	<screen name="screen5">
+		<instruct><![CDATA[Place all three vials in the gas chromatograph.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+	</screen>
+	<screen name="screen6">
+		<instruct><![CDATA[Let me explain the process while we’re waiting for the results.]]></instruct>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen7">
+		<instruct><![CDATA[First, the chemicals in the sample are separated based on their properties.
+
+This part is the same as the regular gas chromatography you already know from analyzing the flooring samples.]]></instruct>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen8">
+		<instruct><![CDATA[The gas chromatograph is connected to a mass spectrometer, which will help us identify the unknown chemical.
+
+The first step is that each chemical in the sample gets a positive charge in the ion source and breaks into fragments.]]></instruct>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<caption num="1"><![CDATA[ION SOURCE]]></caption>
+	</screen>
+	<screen name="screen9">
+		<instruct><![CDATA[The analyzer sorts the fragments of each chemical based on their properties.]]></instruct>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<caption num="1"><![CDATA[ANALYZER]]></caption>
+	</screen>
+	<screen name="screen10">
+		<instruct><![CDATA[Finally, the detector adds up the number of fragments of each type.]]></instruct>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<caption num="1"><![CDATA[DETECTOR]]></caption>
+	</screen>
+	<screen name="screen11">
+		<instruct><![CDATA[The results are ready. Click on the monitor to analyze the data.]]></instruct>
+	</screen>
+	<screen name="screen12">
+		<instruct><![CDATA[First, we’ll look at the gas chromatogram, which shows the chemicals as they came out of the gas chromatograph column.
+
+Looks like we have two different chemicals in our sample. Click on the first one to obtain the mass spectrum.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram blood sample]]></caption>
+		<caption num="2"><![CDATA[time (minutes)]]></caption>
+	</screen>
+	<screen name="screen13">
+		<instruct><![CDATA[Graphs like this, called mass spectra, are generated for each chemical found in the sample.
+
+Click on the terms "Mass spectrum" and "Peaks" to learn more about the graph.]]></instruct>
+		<caption num="1"><![CDATA[Mass spectrum]]></caption>
+		<caption num="2"><![CDATA[ of detected chemical #1]]></caption>
+		<caption num="3"><![CDATA[Peaks]]></caption>
+		<caption num="4"><![CDATA[Rel. Abundance]]></caption>
+		<caption num="5"><![CDATA[m/z]]></caption>
+		<spectrumPopup><![CDATA[The graph of a specific
+ chemical created by the
+  mass spectrometer.]]></spectrumPopup>
+		<peaksPopup><![CDATA[Each fragment of a chemical
+ appears as a separate peak.
+  Each chemical has its own
+   specific patterns of peaks.]]></peaksPopup>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen14">
+		<instruct><![CDATA[It’s time to identify the first chemical. We’ll use our positive control to identify the chemicals in the blood.]]></instruct>
+		<caption num="1"><![CDATA[Mass spectrum of detected chemical #1]]></caption>
+		<caption num="2"><![CDATA[Rel. Abundance]]></caption>
+		<caption num="3"><![CDATA[m/z]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen15">
+		<instruct><![CDATA[Click the green arrows to tab through the positive control.
+
+When you find a graph that matches our first mass spectrum, drag and drop the graph from the database onto our graph.]]></instruct>
+		<caption num="1"><![CDATA[Mass spectrum of detected chemical #1]]></caption>
+		<caption num="2"><![CDATA[Rel. Abundance]]></caption>
+		<caption num="3"><![CDATA[m/z]]></caption>
+		<caption num="4"><![CDATA[POSITIVE CONTROL]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<graph num="1" correct="false"><![CDATA[Graph 1 of 5: Morphine]]></graph>
+		<graph num="2" correct="false"><![CDATA[Graph 2 of 5: Codeine]]></graph>
+		<graph num="3" correct="true"><![CDATA[Graph 3 of 5: Codeine-d3]]></graph>
+		<graph num="4" correct="false"><![CDATA[Graph 4 of 5: Oxycodone]]></graph>
+		<graph num="5" correct="false"><![CDATA[Graph 5 of 5: Thebaine]]></graph>	
+		<answer>
+			<caption num="1"><![CDATA[CODEINE-D3 DETECTED]]></caption>
+			<caption num="2"><![CDATA[FORMULA]]></caption>
+			<caption num="3"><![CDATA[STRUCTURE]]></caption>
+		</answer>
+		<noMatch><![CDATA[NO MATCH]]></noMatch>
+		<match><![CDATA[MATCH FOUND]]></match>
+	</screen>
+	<screen name="screen16">
+		<instruct><![CDATA[Now let’s identify the second chemical you found in the blood sample.
+
+Click on the peak of the second chemical in the gas chromatogram to obtain the mass spectrum.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram blood sample]]></caption>
+		<caption num="2"><![CDATA[time (minutes)]]></caption>
+	</screen>
+	<screen name="screen17">
+		<instruct><![CDATA[Click the green arrows to tab through the positive control.
+
+When you find a graph that matches our second mass spectrum, drag and drop the graph from the database onto our graph.]]></instruct>
+		<caption num="1"><![CDATA[Mass spectrum of detected chemical #2]]></caption>
+		<caption num="2"><![CDATA[Rel. Abundance]]></caption>
+		<caption num="3"><![CDATA[m/z]]></caption>
+		<caption num="4"><![CDATA[POSITIVE CONTROL]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<graph num="1" correct="false"><![CDATA[Graph 1 of 5: Morphine]]></graph>
+		<graph num="2" correct="false"><![CDATA[Graph 2 of 5: Codeine]]></graph>
+		<graph num="3" correct="false"><![CDATA[Graph 3 of 5: Codeine-d3]]></graph>
+		<graph num="4" correct="true"><![CDATA[Graph 4 of 5: Oxycodone]]></graph>
+		<graph num="5" correct="false"><![CDATA[Graph 5 of 5: Thebaine]]></graph>	
+		<answer>
+			<caption num="1"><![CDATA[OXYCODONE DETECTED]]></caption>
+			<caption num="2"><![CDATA[FORMULA]]></caption>
+			<caption num="3"><![CDATA[STRUCTURE]]></caption>
+		</answer>
+		<noMatch><![CDATA[NO MATCH]]></noMatch>
+		<match><![CDATA[MATCH FOUND]]></match>
+	</screen>
+</activity>

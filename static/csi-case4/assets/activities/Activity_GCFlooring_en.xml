@@ -1,0 +1,310 @@
+<?xml version="1.0" ?>
+<activity name="GCFlooring">
+	<screen name="screen1">
+		<instruct><![CDATA[These containers are not just simple cans. There is an activated charcoal strip inside each one.
+
+Click on the container with the puddle sample to see a close-up.]]></instruct>
+		<caption num="1"><![CDATA[Control sample]]></caption>
+		<caption num="2"><![CDATA[Puddle sample]]></caption>
+		<caption num="3"><![CDATA[Activated charcoal strip]]></caption>
+		<caption num="4"><![CDATA[Sample of burned flooring]]></caption>
+		<closeBtn><![CDATA[Continue]]></closeBtn>
+	</screen>
+	<screen name="screen2">
+		<instruct><![CDATA[As a standard, we'll use 3-phenyltoluene. If 3-phenyltoluene is detected later in our analysis, we'll know that the recovery worked.
+
+Use the pipette to add a small amount of 3-phenyltoluene to the puddle sample.]]></instruct>
+		<caption num="1"><![CDATA[Control sample]]></caption>
+		<caption num="2"><![CDATA[Puddle sample]]></caption>
+		<caption num="3"><![CDATA[3-phenyl-toluene]]></caption>
+	</screen>
+	<screen name="screen3">
+		<instruct><![CDATA[Great. Now use the pipette with a new tip to add the same amount of 3-phenyltoluene to the control sample.]]></instruct>
+		<caption num="1"><![CDATA[Control sample]]></caption>
+		<caption num="2"><![CDATA[Puddle sample]]></caption>
+		<caption num="3"><![CDATA[3-phenyl-toluene]]></caption>
+	</screen>
+	<screen name="screen4">
+		<instruct><![CDATA[The next step is to heat the samples.
+
+Put the containers into the oven.]]></instruct>
+		<caption num="1"><![CDATA[Control sample]]></caption>
+		<caption num="2"><![CDATA[Puddle sample]]></caption>
+	</screen>
+	<screen name="screen5">
+		<instruct><![CDATA[We’ll have to heat the sample at 80 °C (176 °F) for 16 hours.
+
+Close the oven and switch it on to start the process.]]></instruct>
+		<caption num="1"><![CDATA[Control sample]]></caption>
+		<caption num="2"><![CDATA[Puddle sample]]></caption>
+	</screen>
+	<screen name="screen6">
+		<instruct><![CDATA[Upon heating, chemicals in the flooring material will vaporize into the container’s air space.
+
+The activated charcoal strip will absorb any vapors in the air space.]]></instruct>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<caption num="1"><![CDATA[Activated charcoal strip]]></caption>
+		<caption num="2"><![CDATA[Sample of burned flooring]]></caption>
+	</screen>
+	<screen name="screen7">
+		<caption num="1"><![CDATA[hours]]></caption>
+	</screen>
+	<screen name="screen8">
+		<instruct><![CDATA[The next step is to recover the vapors absorbed by the activated charcoal strips.
+
+Use the forceps to transfer the little black strip from the LID of the can to the glass vial labeled "puddle".]]></instruct>
+		<caption num="1"><![CDATA[puddle]]></caption>
+		<caption num="2"><![CDATA[control]]></caption>
+		<caption num="3"><![CDATA[Control sample]]></caption>
+		<caption num="4"><![CDATA[Puddle sample]]></caption>
+	</screen>
+	<screen name="screen9">
+		<instruct><![CDATA[Good. Next, transfer the little black charcoal strip with the forceps from the LID of the can to the glass vial labeled “control”.]]></instruct>
+		<caption num="1"><![CDATA[puddle]]></caption>
+		<caption num="2"><![CDATA[control]]></caption>
+		<caption num="3"><![CDATA[Control sample]]></caption>
+		<caption num="4"><![CDATA[Puddle sample]]></caption>
+	</screen>
+	<screen name="screen10">
+		<instruct><![CDATA[Now use the pipette to transfer a certain amount of diethyl ether to both vials.]]></instruct>
+		<caption num="1"><![CDATA[puddle]]></caption>
+		<caption num="2"><![CDATA[control]]></caption>
+		<caption num="3"><![CDATA[Diethyl ether]]></caption>
+	</screen>
+	<screen name="screen11">
+		<instruct><![CDATA[The diethyl ether will dissolve any ignitable liquid residues that have been absorbed by the activated charcoal strips.
+
+Close the vials and shake both of them gently.]]></instruct>
+		<caption num="1"><![CDATA[puddle]]></caption>
+		<caption num="2"><![CDATA[control]]></caption>
+	</screen>
+	<screen name="screen12">
+		<instruct><![CDATA[We’ll keep the charcoal strips in case we have to run the analysis again.
+
+Use the forceps to take out each of the charcoal strips and place them into corresponding empty vials.]]></instruct>
+		<caption num="1"><![CDATA[puddle]]></caption>
+		<caption num="2"><![CDATA[control]]></caption>
+	</screen>
+	<screen name="screen13">
+		<instruct><![CDATA[As a second standard, we’ll use perchloroethylene. If we detect perchloroethylene later in our analysis, we’ll know that the testing is accurate.
+
+Add a small amount of perchloroethylene to the puddle sample.]]></instruct>
+		<caption num="1"><![CDATA[puddle]]></caption>
+		<caption num="2"><![CDATA[control]]></caption>
+		<caption num="3"><![CDATA[Perchloro-ethylene]]></caption>
+	</screen>
+	<screen name="screen14">
+		<instruct><![CDATA[Next, add the same amount of perchloroethylene to the control sample.]]></instruct>
+		<caption num="1"><![CDATA[puddle]]></caption>
+		<caption num="2"><![CDATA[control]]></caption>
+		<caption num="3"><![CDATA[Perchloro-ethylene]]></caption>
+	</screen>
+	<screen name="screen15">
+		<instruct><![CDATA[Place both vials in the gas chromatograph.]]></instruct>
+		<caption num="1"><![CDATA[puddle]]></caption>
+		<caption num="2"><![CDATA[control]]></caption>
+	</screen>
+	<screen name="screen16">
+		<instruct><![CDATA[The gas chromatograph separates the chemicals in the sample.
+
+This can take up to 20 minutes. Let me explain the process while we’re waiting.]]></instruct>
+		<nextBtn><![CDATA[Okay.]]></nextBtn>
+	</screen>
+	<screen name="screen17">
+		<instruct><![CDATA[When the sample is placed into the injector, the chemicals in the sample are transported through a large, thin column.]]></instruct>
+		<caption num="1"><![CDATA[Injector]]></caption>
+		<caption num="2"><![CDATA[Detector]]></caption>
+		<caption num="3"><![CDATA[Column]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen18">
+		<instruct><![CDATA[Based on their different properties, the chemicals move through the column at different speeds.]]></instruct>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen19">
+		<instruct><![CDATA[Each chemical is detected as it comes out of the column and plotted into a graph.]]></instruct>
+		<caption num="1"><![CDATA[Time (minutes)]]></caption>
+		<caption num="2"><![CDATA[Detector]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen20">
+		<instruct><![CDATA[This is how the resulting graph looks.
+
+Click on the "Gas chromatogram" and "Peak" to learn more about the graph.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram]]></caption>
+		<caption num="2"><![CDATA[Peak]]></caption>
+		<caption num="3"><![CDATA[Time (minutes)]]></caption>
+		<popup num="1"><![CDATA[The gas chromatogram is the graph
+ that shows all of the chemicals in
+  a sample plotted against the time
+   they came out of the column.]]></popup>
+		<popup num="2"><![CDATA[A peak represents one particular
+ chemical in a sample. The peak's
+  height depends on the abundance
+   of the chemical in the sample.]]></popup>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen21">
+		<instruct><![CDATA[Some substances, such as gasoline and other fuels, are a mixture of different chemicals.
+
+The resulting gas chromatogram is a pattern with several peaks.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram of gasoline]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen22">
+		<instruct><![CDATA[The results are ready. Click on the monitor to analyze the data.]]></instruct>
+	</screen>
+	<screen name="screen23">
+		<instruct><![CDATA[First, we’ll identify the patterns in the gas chromatogram of the puddle sample.]]></instruct>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+		<text><![CDATA[Click on the first pattern in the gas chromatogram of the puddle sample.]]></text>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+	</screen>
+	<screen name="screen24">
+		<instruct><![CDATA[Use the green arrows to tab through the database.
+
+Click MATCH if you found a match to the highlighted pattern in the puddle sample.]]></instruct>
+		<matchBtn><![CDATA[MATCH]]></matchBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<noMatch><![CDATA[NO MATCH]]></noMatch>
+		<match><![CDATA[MATCH FOUND]]></match>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<graph num="1"><![CDATA[Diesel fuel]]></graph>
+		<graph num="2"><![CDATA[Lighter fluid]]></graph>
+		<graph num="3"><![CDATA[Kerosene]]></graph>
+		<graph num="4"><![CDATA[Naphthalene-d8]]></graph>
+		<graph num="5"><![CDATA[Gasoline]]></graph>
+		<graph num="6"><![CDATA[Oak flooring]]></graph>
+		<graph num="7"><![CDATA[3-phenyltoluene]]></graph>
+		<graph num="8"><![CDATA[Perchloroethylene]]></graph>
+	</screen>
+	<screen name="screen25">
+		<instruct><![CDATA[Click on the second pattern in the gas chromatogram of the puddle sample.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+	</screen>
+	<screen name="screen26">
+		<instruct><![CDATA[Use the green arrows to tab through the database.
+
+Click MATCH if you found a match to the highlighted pattern in the puddle sample.]]></instruct>
+		<matchBtn><![CDATA[MATCH]]></matchBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<noMatch><![CDATA[NO MATCH]]></noMatch>
+		<match><![CDATA[MATCH FOUND]]></match>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+		<graph num="1"><![CDATA[Diesel fuel]]></graph>
+		<graph num="2"><![CDATA[Lighter fluid]]></graph>
+		<graph num="3"><![CDATA[Kerosene]]></graph>
+		<graph num="4"><![CDATA[Naphthalene-d8]]></graph>
+		<graph num="5"><![CDATA[Gasoline]]></graph>
+		<graph num="6"><![CDATA[Oak flooring]]></graph>
+		<graph num="7"><![CDATA[3-phenyltoluene]]></graph>
+		<graph num="8"><![CDATA[Perchloroethylene]]></graph>
+	</screen>
+	<screen name="screen27">
+		<instruct><![CDATA[Click on the third pattern in the gas chromatogram of the puddle sample.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+		<caption num="4"><![CDATA[Gasoline]]></caption>
+	</screen>
+	<screen name="screen28">
+		<instruct><![CDATA[Use the green arrows to tab through the database.
+
+Click MATCH if you found a match to the highlighted pattern in the puddle sample.]]></instruct>
+		<matchBtn><![CDATA[MATCH]]></matchBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<noMatch><![CDATA[NO MATCH]]></noMatch>
+		<match><![CDATA[MATCH FOUND]]></match>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+		<caption num="4"><![CDATA[Gasoline]]></caption>
+		<graph num="1"><![CDATA[Diesel fuel]]></graph>
+		<graph num="2"><![CDATA[Lighter fluid]]></graph>
+		<graph num="3"><![CDATA[Kerosene]]></graph>
+		<graph num="4"><![CDATA[Naphthalene-d8]]></graph>
+		<graph num="5"><![CDATA[Gasoline]]></graph>
+		<graph num="6"><![CDATA[Oak flooring]]></graph>
+		<graph num="7"><![CDATA[3-phenyltoluene]]></graph>
+		<graph num="8"><![CDATA[Perchloroethylene]]></graph>
+	</screen>
+	<screen name="screen29">
+		<instruct><![CDATA[Click on the fourth pattern in the gas chromatogram of the puddle sample.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+		<caption num="4"><![CDATA[Gasoline]]></caption>
+		<caption num="5"><![CDATA[Oak flooring]]></caption>
+	</screen>
+	<screen name="screen30">
+		<instruct><![CDATA[Use the green arrows to tab through the database.
+
+Click MATCH if you found a match to the highlighted pattern in the puddle sample.]]></instruct>
+		<matchBtn><![CDATA[MATCH]]></matchBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+		<noMatch><![CDATA[NO MATCH]]></noMatch>
+		<match><![CDATA[MATCH FOUND]]></match>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+		<caption num="4"><![CDATA[Gasoline]]></caption>
+		<caption num="5"><![CDATA[Oak flooring]]></caption>
+		<graph num="1"><![CDATA[Diesel fuel]]></graph>
+		<graph num="2"><![CDATA[Lighter fluid]]></graph>
+		<graph num="3"><![CDATA[Kerosene]]></graph>
+		<graph num="4"><![CDATA[Naphthalene-d8]]></graph>
+		<graph num="5"><![CDATA[Gasoline]]></graph>
+		<graph num="6"><![CDATA[Oak flooring]]></graph>
+		<graph num="7"><![CDATA[3-phenyltoluene]]></graph>
+		<graph num="8"><![CDATA[Perchloroethylene]]></graph>
+	</screen>
+	<screen name="screen31">
+		<instruct><![CDATA[The last step of our analysis is to compare the puddle sample to the control sample.
+
+Click “Add control sample” to start the comparison.]]></instruct>
+		<nextBtn><![CDATA[Add control sample]]></nextBtn>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+		<caption num="4"><![CDATA[Gasoline]]></caption>
+		<caption num="5"><![CDATA[Oak flooring]]></caption>
+		<caption num="6"><![CDATA[3-phenyltoluene]]></caption>
+	</screen>
+	<screen name="screen32">
+		<instruct><![CDATA[Are the patterns in the two gas chromatograms the same or different?]]></instruct>
+		<wrongText><![CDATA[Are you sure? The patterns look different to me.
+
+Look at the different peaks and try again.]]></wrongText>
+		<option num="1" correct="false"><![CDATA[They're the same.]]></option>			
+		<option num="2" correct="true"><![CDATA[They're different.]]></option>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+		<caption num="4"><![CDATA[Gasoline]]></caption>
+		<caption num="5"><![CDATA[Oak flooring]]></caption>
+		<caption num="6"><![CDATA[3-phenyltoluene]]></caption>
+		<caption num="7"><![CDATA[Gas chromatogram #2: control sample]]></caption>
+	</screen>
+	<screen name="screen33">
+		<instruct><![CDATA[Which of the chemicals in the puddle sample cannot be found in the control sample?]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram #1: puddle sample]]></caption>
+		<caption num="2"><![CDATA[Time (minutes)]]></caption>
+		<caption num="3"><![CDATA[Perchloroethylene]]></caption>
+		<caption num="4"><![CDATA[Gasoline]]></caption>
+		<caption num="5"><![CDATA[Oak flooring]]></caption>
+		<caption num="6"><![CDATA[3-phenyltoluene]]></caption>
+		<caption num="7"><![CDATA[Gas chromatogram #2: control sample]]></caption>
+		<option num="1" correct="false"><![CDATA[Perchloroethylene]]></option>			
+		<option num="2" correct="true"><![CDATA[Gasoline]]></option>
+		<option num="3" correct="false"><![CDATA[Oak Flooring]]></option>
+		<option num="4" correct="false"><![CDATA[3-phenyltoluene]]></option>
+		<wrongText><![CDATA[Look closer and try again.]]></wrongText>
+	</screen>
+</activity>

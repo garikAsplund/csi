@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<activity name="Fingerprints">
+	<screen name="screen1"><![CDATA[Place the matches in the fuming chamber.]]></screen>
+	<screen name="screen2"><![CDATA[Add Superglue to the warming tray.]]></screen>
+	<screen name="screen3"><![CDATA[Place the warming tray on the hot plate inside the fuming chamber.]]></screen>
+	<screen name="screen4"><![CDATA[Close the door and turn on the machine.]]></screen>
+	<screen name="screen5"><![CDATA[The bottom of the machine serves as the hot plate, and it heats up to the appropriate temperature.]]></screen>
+	<screen name="screen6"><![CDATA[Drag a fingerprint to a "Viewing area" to begin.]]></screen>
+	<closeBtn><![CDATA[Continue]]></closeBtn>
+	<screen name="screen7">
+		<text><![CDATA[Search the database.]]></text>
+		<searchBtn><![CDATA[SEARCH]]></searchBtn>
+		<popup>
+			<title><![CDATA[IAFIS]]></title>
+			<desc><![CDATA[The Integrated Automated Fingerprint Identification System (IAFIS) is the FBI's national fingerprint database. It contains over 470,000,000 fingerprints. On average, it takes about two hours to search the entire database.]]></desc>
+			<closeBtn><![CDATA[Continue]]></closeBtn>
+		</popup>
+	</screen>
+	<screen name="screen8">
+		<text><![CDATA[Select a second fingerprint for comparison.]]></text>
+		<matchBtn><![CDATA[MATCH]]></matchBtn>
+		<noMatch><![CDATA[No Match]]></noMatch>
+		<match><![CDATA[Match Found]]></match>
+		<continueBtn><![CDATA[Continue]]></continueBtn>
+		<popup>
+			<title><![CDATA[Match Detected!]]></title>
+			<desc><![CDATA[Name: Donald Parker<br/>Occupation: Waiter<br/>Address: 837 Harborough Street, Las Vegas, NV
+Fingerprint Source: Arrest for first degree assault on Feb. 14, 2003]]></desc>
+			<closeBtn><![CDATA[Continue]]></closeBtn>
+		</popup>
+	</screen>
+</activity>

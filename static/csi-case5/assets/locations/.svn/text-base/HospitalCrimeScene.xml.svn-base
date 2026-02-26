@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<location name="HospitalCrimeScene" displayName="Crime Scene - Dr. Phillips' Office">
+	<object name="DoorHallway" />
+	<object name="Photos" />
+	<object name="BloodStains" />
+	<object name="Computer" />
+	<object name="Gun" />
+	<person name="Stokes" />
+	<visit num="1" ambient="CatherinesOfficeAmbient">
+		<clickable name="Computer" type="required" action="evidence:VictimComputer,custom:UnlockLab2,custom:CheckIfDone" checkDone="evidence:VictimComputer">
+			<set variable="general:StartedCrimeScene1" value="true"/>
+		</clickable>
+		<visible name="Gun" type="ignore" checkDone="evidence:CrimeSceneWeapon">			
+			<standalone action="hide:Gun"/>
+		</visible>
+		<clickable name="Photos" type="required" require="toolInHand:Camera" action="activity:Photography,evidence:Photos,custom:UnlockLab2,custom:CheckIfDone" checkDone="evidence:Photos">
+			<set variable="general:StartedCrimeScene1" value="true"/>
+			<clickable name="Gun" type="required" action="evidence:CrimeSceneWeapon,custom:CheckIfDone" checkDone="evidence:CrimeSceneWeapon" />
+			<visible name="Photos" checkDone="evidence:CrimeSceneWeapon,evidence:VictimComputer,evidence:Photos,evidence:StainSample">
+				<standalone action="hide:Photos"/>
+			</visible>
+			<clickable name="BloodStains" type="required" require="toolInHand:Swabs" action="evidence:StainSample,custom:CheckIfDone" checkDone="evidence:StainSample">
+				<visible name="BloodStains"/>
+			</clickable>
+		</clickable>
+		<clickable name="DoorHallway" action="location:Hospital" caption="EXIT TO HALLWAY" />
+	</visit>
+	<visit num="2" ambient="CatherinesOfficeAmbient">
+		<clickable name="Files" type="required" action="activity:ArchiveSearch,custom:CheckMessageUnlock" checkDone="clue:PrescriptionCash">
+			<set variable="general:StartedCrimeScene2" value="true"/>
+			<set variable="visit:HospitalOffice" type="required" value="2" />
+			<dev action="location:HospitalOffice" />
+			<standalone require="dialog:DrFowler1">
+				<set variable="visit:HospitalOffice" type="ignore" value="3" />
+			</standalone>
+		</clickable>
+		<clickable name="DoorHallway" action="location:Hospital" caption="EXIT TO HALLWAY" />
+	</visit>
+	<custom name="UnlockLab2">
+		<set variable="visit:Lab" type="required" value="2"/>
+	</custom>
+	<custom name="CheckIfDone" require="evidence:CrimeSceneWeapon,evidence:VictimComputer,evidence:Photos,evidence:StainSample">
+		<set variable="visit:Hospital" type="required" value="2"/>
+		<dev action="location:Lab" />
+	</custom>
+	<custom name="CheckMessageUnlock" require="clue:PrescriptionCash,TalkedToFowler:true,clue:Prescriptions">
+		<set variable="visit:Lab" type="required" value="5" />
+		<unlock type="message" name="message3"/>
+	</custom>
+</location>

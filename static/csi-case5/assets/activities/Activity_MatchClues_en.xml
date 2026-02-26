@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<activity name="MatchClues">
+	<header><![CDATA[CLUES]]></header>
+	<intro>
+		<title><![CDATA[Investigation Report]]></title>
+		<text><![CDATA[Drag the correct clues to the boxes on the right to answer the questions.
+
+Good luck!]]></text>
+	</intro>
+	<instructions><![CDATA[Click-and-Drag the clues to answer the questions.]]></instructions>
+	<submitBtn><![CDATA[SUBMIT ANSWERS]]></submitBtn>
+	<retryBtn><![CDATA[RETRY]]></retryBtn>
+	<question name="q1" clue="NoMatch">
+		<![CDATA[What suggests that Dr. Phillips was murdered?]]>
+	</question>
+	<question name="q2" clue="PharmacistWeaponMatches">
+		<![CDATA[Whose weapon was the deadly shot fired from?]]>
+	</question>
+	<question name="q3" clue="PharmacistSkin">
+		<![CDATA[Who was in close contact with the victim shortly before she died?]]>
+	</question>
+	<question name="q4" clue="Subpoena,PharmacistBank">
+		<![CDATA[What suggests that the pain clinic was involved in illegal activities?]]>
+	</question>
+	<outro>
+		<title><![CDATA[WELL DONE!]]></title>
+		<text><![CDATA[The evidence you collected was enough to charge Edgar White with murder. His lawyer advised him not to talk.
+
+Looks like this case will be going to trial.]]></text>
+	</outro>
+</activity>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<dialog name="Catherine" displayName="Catherine Willows">
+	<conversation location="CatherinesOffice" visit="1" name="1">
+		<statement num="1"><![CDATA[Hi, thanks for coming by to help.
+
+There was a fire, possibly arson, at a local home. A young man was killed.]]></statement>
+		<statement num="2"><![CDATA[We don't know yet. Apparently, one person escaped the fire.]]></statement>
+		<statement num="3"><![CDATA[Sara is already at the scene; she might need a hand.
+
+You'll need your smartphone, a camera and a fire scene tool kit.]]></statement>
+		<statement num="4"><![CDATA[It's on my desk.]]></statement>
+		<statement num="5"><![CDATA[You can relocate to the crime scene by using the locations tab on the bottom of the screen.]]></statement>
+		<response num="1"><![CDATA[What happened?]]></response>
+		<response num="2"><![CDATA[How can I help?]]></response>
+		<response num="3"><![CDATA[How do I get my gear?]]></response>
+		<response num="4"><![CDATA[How do I get to the crime scene?]]></response>
+		<response num="5"><![CDATA[I'll pick up my gear and head to the crime scene.]]></response>
+	</conversation>
+</dialog>

@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<dialog name="Stokes">
+	<conversation location="Hospital" name="1">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2,3"/>
+		<statement num="3" push="4"/>
+		<statement num="4" push="4" />
+		<statement num="5" push="5,6"/>
+		<statement num="6" push="7"/>
+		<statement num="7" push="7"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4"/>
+		<response num="4" require="2,3" goto="5"/>
+		<response num="5" goto="6"/>
+		<response num="6" goto="7"/>
+		<response num="7" require="5,6" goto="end"/>
+	</conversation>
+	<conversation location="Hospital" name="HospitalNotDone">
+		<statement num="1" push="1"/> 
+		<statement num="2" push="2" notDone="true" /> 
+		<statement num="2_1" notDone="evidence:VictimComputer"/> 
+		<statement num="2_2" notDone="evidence:Photos"/> 
+		<statement num="2_3" notDone="evidence:StainSample"/> 
+		<statement num="2_4" notDone="evidence:CrimeSceneWeapon"/> 
+		<response num="1" goto="2"/> 
+		<response num="2" goto="end"/> 
+	</conversation>
+	<conversation location="Hospital" name="HospitalDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital" name="Visit2">
+		<statement num="1" push="1,2"/>
+		<statement num="2" />
+		<statement num="3" push="3"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" require="1,2" goto="end"/>
+	</conversation>	
+	<conversation location="Hospital" name="Visit2NotDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2" notDone="true" />
+			<statement num="2_1" notDone="clue:Subpoena,clue:PrescriptionCash"/>
+			<statement num="2_2" notDone="TalkedToFowler:true"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+	<conversation location="Hospital" name="Visit2Done">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>		
+	<conversation location="McCoysHouse" name="McCoy1">
+		<statement num="1" push="1,2"/>
+		<statement num="2" push="3" />
+		<statement num="3" push="3"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" require="1,2" goto="end" />
+	</conversation>	
+	<conversation location="McCoysHouse" name="McCoyNotDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2" notDone="true" />
+			<statement num="2_1" notDone="dialog:TerryMcCoy1"/>
+			<statement num="2_2" notDone="evidence:McCoyWeapon,clue:Prescriptions"/>
+			<statement num="2_3" notDone="evidence:McCoyDNA"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+	<conversation location="McCoysHouse" name="McCoyDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+	<conversation location="Pharmacy" name="Pharmacy1">
+		<statement num="1" push="1"/>
+		<response num="1" goto="end"/>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyNotDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+	<conversation location="Pharmacy" name="Pharmacy2">
+		<statement num="1" push="1,2"/>
+		<statement num="2" push="3"/>
+		<statement num="3" push="3"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="end" require="1,2"/>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyNotDone2">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2" notDone="true" />
+			<statement num="2_1" notDone="dialog:EdgarWhite3"/>
+			<statement num="2_2" notDone="evidence:PharmacistWeapon"/>
+			<statement num="2_3" notDone="evidence:PharmacistDNA"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyDone2">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyIgnore">
+		<statement num="1" push="1"/>
+		<response num="1" goto="end"/>
+	</conversation>	
+	<conversation location="AssistantsHouse" name="Assistant1">
+		<statement num="1" push="1,2"/>
+		<statement num="2" push="3"/>
+		<statement num="3" push="3"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" require="1,2" goto="end"/>
+	</conversation>	
+	<conversation location="AssistantsHouse" name="AssistantNotDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2" notDone="true" />
+			<statement num="2_1" notDone="dialog:AnnaStewardHouse"/>
+			<statement num="2_2" notDone="evidence:AssistantDNA"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+	<conversation location="AssistantsHouse" name="AssistantDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>	
+</dialog>

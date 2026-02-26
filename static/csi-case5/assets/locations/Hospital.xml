@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<location name="Hospital" displayName="Pain Clinic">
+	<person name="Stokes" />
+	<object name="DoorCrimeScene" />
+	<object name="DoorOffice" />
+	<person name="AnnaSteward" />
+	<visit num="1" ambient="CatherinesOfficeAmbient">		
+		<clickable name="Stokes" action="dialog:Stokes1" checkDone="StartedCrimeScene1:true">
+			<clickable name="Stokes" fail="dialog:StokesHospitalNotDone" persist="true" action="dialog:StokesHospitalDone" require="evidence:CrimeSceneWeapon,evidence:VictimComputer,evidence:Photos,evidence:StainSample"/>
+		</clickable>
+		<clickable name="AnnaSteward" action="dialog:AnnaStewardDesk" persist="true" />
+		<clickable name="DoorCrimeScene" action="location:HospitalCrimeScene" caption="Dr. Phillips' Office" />
+		<dev action="location:HospitalCrimeScene"/>
+	</visit>
+	<visit num="2" ambient="CatherinesOfficeAmbient">
+		<clickable name="Stokes" action="dialog:StokesHospitalDone" persist="true"/>
+		<clickable name="AnnaSteward" action="dialog:AnnaStewardDesk" persist="true" />
+		<clickable name="DoorCrimeScene" action="location:HospitalCrimeScene" caption="Dr. Phillips' Office" />
+	</visit>
+	<visit num="3" ambient="CatherinesOfficeAmbient">
+		<clickable name="Stokes" action="dialog:StokesVisit2NotDone" require="StartedCrimeScene2:true" fail="dialog:StokesVisit2" persist="true"/>
+		<clickable name="DoorCrimeScene" action="location:HospitalCrimeScene" caption="Dr. Phillips' Office" />
+		<clickable name="DoorOffice" action="location:HospitalOffice" caption="Dr. Fowler's Office" />
+	</visit>
+	<visit num="4" ambient="CatherinesOfficeAmbient">
+		<clickable name="Stokes" action="dialog:StokesVisit2Done" persist="true"/>
+		<clickable name="DoorCrimeScene" action="location:HospitalCrimeScene" caption="Dr. Phillips' Office" />
+		<clickable name="DoorOffice" action="location:HospitalOffice" caption="Dr. Fowler's Office" />
+	</visit>
+</location>

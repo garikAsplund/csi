@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<dialog name="AnnaSteward" displayName="Anna Steward">
+	<conversation location="Hospital" name="Desk">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[Yes... it's horrible. When I came to work, the lights in Dr. Phillips' office were on and I went in... and there she was, lying on the floor.]]></statement>
+		<statement num="3"><![CDATA[Dr. Justine Phillips joined this pain clinic not even a year ago. Such an enthusiastic young doctor.]]></statement>
+		<statement num="4"><![CDATA[I joined the clinic shortly after it was opened in 2005.]]></statement>
+		<statement num="5"><![CDATA[Dr. Brody Fowler, but he's not in yet.]]></statement>
+		<statement num="6"><![CDATA[Yes, she notified me about it a couple of weeks ago.]]></statement>
+		<statement num="7"><![CDATA[She seemed a little worn out lately. No wonder, considering the amount of patients we see here every day.]]></statement>
+		<response num="1"><![CDATA[Did you find the victim?]]></response>
+		<response num="2"><![CDATA[Can you tell me more about the victim?]]></response>
+		<response num="3"><![CDATA[How long have you worked here?]]></response>
+		<response num="4"><![CDATA[Who else works here?]]></response>
+		<response num="5"><![CDATA[Do you know if Dr. Phillips kept a gun in her office?]]></response>
+		<response num="6"><![CDATA[How would you describe Dr. Phillips' demeanor of late?]]></response>
+		<response num="7"><![CDATA[Thank you for the information.]]></response>
+	</conversation>
+	<conversation location="AssistantsHouse" name="House">
+		<statement num="1"><![CDATA[So you have some more questions about Dr. Phillips? I don't know if I can help you.]]></statement>
+		<statement num="2"><![CDATA[Yes, I was there. I went back to grab my cellphone, which I had left on my desk.]]></statement>
+		<statement num="3"><![CDATA[Only Dr. Phillips. It is not unusual for our doctors to work overtime.
+
+And she was still very much alive, if that's what you're asking.]]></statement>
+		<statement num="4"><![CDATA[I don't know what you need my DNA for, but yes. I hope it's painless.]]></statement>
+		<statement num="5"><![CDATA[Absolutely not. I have expensive things here that I don't want people to touch.
+
+You'll have to come back with a warrant.]]></statement>
+		<statement num="6"><![CDATA[No, I never have.]]></statement>
+		<response num="1"><![CDATA[We know that you were at the clinic around the time Dr. Phillips died.]]></response>
+		<response num="2"><![CDATA[Did you see Dr. Phillips or anybody else?]]></response>
+		<response num="3"><![CDATA[Would you be willing to provide a DNA sample?]]></response>
+		<response num="4"><![CDATA[May we search your place?]]></response>
+		<response num="5"><![CDATA[Do you own a gun?]]></response>
+		<response num="6"><![CDATA[Thank you for your time.]]></response>
+	</conversation>
+</dialog>

@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room004 - csi lab. </tag>
+	
+		<!-- CATHERINE0 (normal conversation) -->
+		
+	<tag id="ID_CATHERINE0A"><![CDATA[Welcome to the Crime Lab, how can I help you?]]></tag>
+	<tag id="ID_CATHERINE0B"><![CDATA[Click-and-drag any piece of evidence to the correct processing station for analysis.  Or click-and-drag the evidence to your P.D.A and it will tell you what to do with it.]]></tag>
+	<tag id="ID_CATHERINE0C"><![CDATA[Sure, I can tell you about any of them.  What do you want to know?]]></tag>
+	<tag id="ID_CATHERINE0D"><![CDATA[Hair, blood, spit, sweat - this is the place to analyze it.  The computer also lets us search DNA samples through CODIS.]]></tag>
+	<tag id="ID_CATHERINE0E"><![CDATA[That station has all the powders and chemicals you need to process any item for fingerprints.  Use the computer to search for prints in IAFIS.]]></tag>
+	<tag id="ID_CATHERINE0F"><![CDATA[This is the computer we use for database searches - license plates, addresses, anything.  Also, if you have any digital evidence, like a computer or a flash drive, this is the place to take it.]]></tag>
+	<tag id="ID_CATHERINE0G"><![CDATA[What do you want to know?]]></tag>
+	<tag id="ID_CATHERINE0H"><![CDATA[That table is very useful for analyzing and comparing large pieces of evidence like shoe prints.]]></tag>
+	<tag id="ID_CATHERINE0I"><![CDATA[This is the station for comparing toolmarks with the tools that make them.  First, you'll make an impression of the toolmark, then compare it under the microscope.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 0 -->
+
+	<tag id="ID_USER0A"><![CDATA[How do I process evidence?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[Tell me about the processing stations.]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Tell me about the DNA station.]]></tag>
+	<tag id="ID_USER0D"><![CDATA[Tell me about the fingerprint station.]]></tag>
+	<tag id="ID_USER0E"><![CDATA[Tell me about the digital forensics station.]]></tag>
+	<tag id="ID_USER0F"><![CDATA[I want to ask about a different station.]]></tag>
+	<tag id="ID_USER0G"><![CDATA[Tell me about the light table.]]></tag>
+	<tag id="ID_USER0H"><![CDATA[Tell me about the toolmark comparison station.]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[I'm ready to process evidence now.]]></tag>
+	
+		<!-- CATHERINE1 (after matching shoe print at crime scene to shoe print at singer's house) -->
+		
+	<tag id="ID_CATHERINE1A"><![CDATA[What did you learn from the impression evidence?]]></tag>
+	<tag id="ID_CATHERINE1B"><![CDATA[What was identical between the shoe impressions?]]></tag>
+	<tag id="ID_CATHERINE1C"><![CDATA[That's a good result, but it's meaningless unless you identify who made both impressions.]]></tag>
+	<tag id="ID_CATHERINE1WRONG"><![CDATA[That's not right, try again.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 1 -->
+
+	<tag id="ID_USER1A"><![CDATA[Someone was at both the crime scene and Freebird's house.]]></tag>
+	<tag id="ID_USER1B"><![CDATA[The person who wore these shoes killed Freebird Reynolds.]]></tag>
+	<tag id="ID_USER1C"><![CDATA[There were multiple people at the crime scene.]]></tag>
+	<tag id="ID_USER1D"><![CDATA[The class characteristics.]]></tag>
+	<tag id="ID_USER1E"><![CDATA[The individual characteristics.]]></tag>
+	<tag id="ID_USER1F"><![CDATA[Both the class and individual characteristics.]]></tag>
+	<tag id="ID_USER1EXIT"><![CDATA[I'll continue with my investigation.]]></tag>
+	
+		<!-- CATHERINE2 (after matching shoe print to stalker's shoe) -->
+		
+	<tag id="ID_CATHERINE2A"><![CDATA[What did you learn from the impression evidence?]]></tag>
+	<tag id="ID_CATHERINE2B"><![CDATA[How do you know other shoes can't have the same individual characteristics?]]></tag>
+	<tag id="ID_CATHERINE2C"><![CDATA[It's interesting, but it doesn't prove he murdered Freebird.  You'll need to combine this with other clues.]]></tag>
+	<tag id="ID_CATHERINE2WRONG"><![CDATA[We can't jump to that conclusion, try again.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 2 -->
+
+	<tag id="ID_USER2A"><![CDATA[Gabriel Tam killed Freebird Reynolds.]]></tag>
+	<tag id="ID_USER2B"><![CDATA[Gabriel Tam was present at both the crime scene and Freebird's house.]]></tag>
+	<tag id="ID_USER2C"><![CDATA[Gabriel Tam altered his shoes to disguise them.]]></tag>
+	<tag id="ID_USER2D"><![CDATA[Some shoes DO have the same individual characteristics.]]></tag>
+	<tag id="ID_USER2E"><![CDATA[Individual characteristics are caused by unique wear-and-tear during the life of the shoe.]]></tag>
+	<tag id="ID_USER2F"><![CDATA[Gabriel Tam created the individual characteristics to deceive us.]]></tag>
+	<tag id="ID_USER2EXIT"><![CDATA[I'll go continue my investigation.]]></tag>
+	
+		<!-- CATHERINE3 (after matching bottle print to agent's print) -->
+		
+	<tag id="ID_CATHERINE3A"><![CDATA[What did you learn from the fingerprint comparison?]]></tag>
+	<tag id="ID_CATHERINE3B"><![CDATA[How did Maury Wan's fingerprints get into IAFIS?]]></tag>
+	<tag id="ID_CATHERINE3C"><![CDATA[What technique did you use to develop the fingerprints on the liquor bottle?]]></tag>
+	<tag id="ID_CATHERINE3D"><![CDATA[Maury Wan's last known address is included in his IAFIS profile.  We should go see if he knows anything about this.]]></tag>
+	<tag id="ID_CATHERINE3WRONG1"><![CDATA[We can't jump to that conclusion, try again.]]></tag>
+	<tag id="ID_CATHERINE3WRONG2"><![CDATA[That's not true, try again.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 3 -->
+
+	<tag id="ID_USER3A"><![CDATA[Someone named Maury Wan killed our victim.]]></tag>
+	<tag id="ID_USER3B"><![CDATA[Someone named Maury Wan likes to drink this type of liquor.]]></tag>
+	<tag id="ID_USER3C"><![CDATA[Someone named Maury Wan left his fingerprints on a bottle found at the crime scene.]]></tag>
+	<tag id="ID_USER3D"><![CDATA[Obviously, he must have committed a crime.]]></tag>
+	<tag id="ID_USER3E"><![CDATA[He was fingerprinted for a background check.]]></tag>
+	<tag id="ID_USER3F"><![CDATA[Every American's fingerprint is in IAFIS.]]></tag>
+	<tag id="ID_USER3G"><![CDATA[I brushed the bottle with fingerprint powder.]]></tag>
+	<tag id="ID_USER3H"><![CDATA[I used the Superglue Fuming Method.]]></tag>
+	<tag id="ID_USER3I"><![CDATA[The fingerprints were naturally visible on the surface of the bottle.]]></tag>
+	<tag id="ID_USER3EXIT"><![CDATA[I'll head to his office when I'm done here.]]></tag>
+	
+		<!-- CATHERINE4 (after matching hunting knife print to stalker's print) -->
+		
+	<tag id="ID_CATHERINE4A"><![CDATA[What did you learn from the fingerprint comparison?]]></tag>
+	<tag id="ID_CATHERINE4B"><![CDATA[When you used the superglue to develop the fingerprints on the hunting knife, what did the superglue react with?]]></tag>
+	<tag id="ID_CATHERINE4C"><![CDATA[That's a very interesting result.  You should see what else you can learn about this hunting knife.]]></tag>
+	<tag id="ID_CATHERINE4WRONG1"><![CDATA[We can't jump to that conclusion, try again.]]></tag>
+	<tag id="ID_CATHERINE4WRONG2"><![CDATA[I don’t think so, try again.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 4 -->
+
+	<tag id="ID_USER4A"><![CDATA[Gabriel Tam murdered Freebird Reynolds.]]></tag>
+	<tag id="ID_USER4B"><![CDATA[Gabriel Tam once handled this hunting knife.]]></tag>
+	<tag id="ID_USER4C"><![CDATA[Someone planted Gabriel Tam's fingerprints on this knife.]]></tag>
+	<tag id="ID_USER4D"><![CDATA[The natural oils and amino acids left behind by Gabriel's skin.]]></tag>
+	<tag id="ID_USER4E"><![CDATA[The fingerprint powder I spread on the hunting knife.]]></tag>
+	<tag id="ID_USER4F"><![CDATA[I didn't use superglue fuming on the hunting knife.]]></tag>
+	<tag id="ID_USER4EXIT"><![CDATA[I'll see what other forensic tests I can run on the hunting knife.]]></tag>
+	
+		<!-- CATHERINE5 (after determining that the hunting knife was the murder weapon) -->
+		
+	<tag id="ID_CATHERINE5A"><![CDATA[It looks like your toolmark comparison experiment is going well.  What did you learn?]]></tag>
+	<tag id="ID_CATHERINE5B"><![CDATA[What part of the stab wound and hunting knife toolmarks were identical?]]></tag>
+	<tag id="ID_CATHERINE5C"><![CDATA[Finally, what lab equipment did you use to compare the striations?]]></tag>
+	<tag id="ID_CATHERINE5D"><![CDATA[Well, you've determined that the hunting knife was the murder weapon.  Now you need to link it to a particular suspect.]]></tag>
+	<tag id="ID_CATHERINE5WRONG1"><![CDATA[We can't jump to that conclusion, try again.]]></tag>
+	<tag id="ID_CATHERINE5WRONG2"><![CDATA[That's not true, try again.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 5 -->
+
+	<tag id="ID_USER5A"><![CDATA[Lawrence Garvey murdered Freebird Reynolds.]]></tag>
+	<tag id="ID_USER5B"><![CDATA[The hunting knife made the wound that killed Freebird Reynolds.]]></tag>
+	<tag id="ID_USER5C"><![CDATA[All knives make identical stab wounds.]]></tag>
+	<tag id="ID_USER5D"><![CDATA[The shape of the wound.]]></tag>
+	<tag id="ID_USER5E"><![CDATA[The striations (small thin lines) left on the material by the blade.]]></tag>
+	<tag id="ID_USER5F"><![CDATA[The class characteristics left on the material by the blade.]]></tag>
+	<tag id="ID_USER5G"><![CDATA[A light table.]]></tag>
+	<tag id="ID_USER5H"><![CDATA[A comparison microscope.]]></tag>
+	<tag id="ID_USER5I"><![CDATA[An electron microscope.]]></tag>
+	<tag id="ID_USER5EXIT"><![CDATA[I'll get right on that.]]></tag>
+	
+		<!-- CATHERINE6 (after finding no match in CODIS) -->
+		
+	<tag id="ID_CATHERINE6A"><![CDATA[What did you learn from the DNA profile?]]></tag>
+	<tag id="ID_CATHERINE6B"><![CDATA[What are you going to do next?]]></tag>
+	<tag id="ID_CATHERINE6C"><![CDATA[I hope Doc Robbins has found something.  You'll find him in the morgue.]]></tag>
+	<tag id="ID_CATHERINE6WRONG1"><![CDATA[We can't jump to that conclusion, try again.]]></tag>
+	<tag id="ID_CATHERINE6WRONG2"><![CDATA[I don’t think so, try again.]]></tag>
+	<tag id="ID_CATHERINE6WRONG3"><![CDATA[You can't give up just because you hit a roadblock.  There's bound to be other things you can do.]]></tag>
+	<tag id="ID_CATHERINE6WRONG4"><![CDATA[That's not feasible.  There's got to be a more realistic solution.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 6 -->
+
+	<tag id="ID_USER6A"><![CDATA[There was a matching DNA profile in CODIS.]]></tag>
+	<tag id="ID_USER6B"><![CDATA[There was NOT a matching DNA profile in CODIS.]]></tag>
+	<tag id="ID_USER6C"><![CDATA[This is fake DNA; it is impossible not to have a match in CODIS.]]></tag>
+	<tag id="ID_USER6D"><![CDATA[There is nothing else to do.  I give up.]]></tag>
+	<tag id="ID_USER6E"><![CDATA[I'll go see if Doc Robbins has had any luck identifying the victim.]]></tag>
+	<tag id="ID_USER6F"><![CDATA[I'll collect DNA profiles from everyone in Las Vegas to find a match.]]></tag>
+	<tag id="ID_USER6EXIT"><![CDATA[See you later!]]></tag>
+	
+		<!-- CATHERINE7 (after determining that the Mrs. Reynolds was the victim's mother) -->
+		
+	<tag id="ID_CATHERINE7A"><![CDATA[What did you learn from the DNA profiles?]]></tag>
+	<tag id="ID_CATHERINE7B"><![CDATA[Are you sure?  How many of their DNA markers are identical?]]></tag>
+	<tag id="ID_CATHERINE7C"><![CDATA[If 50% of our victim's DNA markers are identical to Sallie Reynolds, where did the other 50% come from?]]></tag>
+	<tag id="ID_CATHERINE7D"><![CDATA[You do good work, Rookie.  Our victim finally has a name:  Freebird Reynolds.]]></tag>
+	<tag id="ID_CATHERINE7WRONG1"><![CDATA[We can't jump to that conclusion, try again.]]></tag>
+	<tag id="ID_CATHERINE7WRONG2"><![CDATA[That's not true, try again.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 7 -->
+
+	<tag id="ID_USER7A"><![CDATA[Sallie Reynolds killed Freebird Reynolds.]]></tag>
+	<tag id="ID_USER7B"><![CDATA[Sallie Reynolds is our victim's daughter.]]></tag>
+	<tag id="ID_USER7C"><![CDATA[Sallie Reynolds is our victim's mother.]]></tag>
+	<tag id="ID_USER7D"><![CDATA[Their DNA is exactly identical.]]></tag>
+	<tag id="ID_USER7E"><![CDATA[They have 50 identical markers.]]></tag>
+	<tag id="ID_USER7F"><![CDATA[50% of their DNA markers are identical.]]></tag>
+	<tag id="ID_USER7G"><![CDATA[The other 50% are completely random.]]></tag>
+	<tag id="ID_USER7H"><![CDATA[The other 50% are from the victim's father.]]></tag>
+	<tag id="ID_USER7I"><![CDATA[The other 50% are continually changing as a person grows older.]]></tag>
+	<tag id="ID_USER7EXIT"><![CDATA[I'll go see if there's more evidence to process.]]></tag>
+	
+		<!-- CATHERINE8 (after going through the victim's computer) -->
+		
+	<tag id="ID_CATHERINE8A"><![CDATA[Are you sure you've done a thorough investigation?  What's the first thing you did with Freebird's computer?]]></tag>
+	<tag id="ID_CATHERINE8B"><![CDATA[Why did you image the hard drive?]]></tag>
+	<tag id="ID_CATHERINE8C"><![CDATA[What files did you look at on the imaged drive?]]></tag>
+	<tag id="ID_CATHERINE8D"><![CDATA[Sounds like a good initial digital forensic investigation.  I'll have our experts go over it with a fine-tooth comb to make sure we didn't miss anything.  What did you learn?]]></tag>
+	<tag id="ID_CATHERINE8E"><![CDATA[I'll ask Brass to get a warrant for the internet company's records.  We'll find out who this "No1FAN" is.]]></tag>
+	<tag id="ID_CATHERINE8WRONG1"><![CDATA[Is that all you did?]]></tag>
+	<tag id="ID_CATHERINE8WRONG2"><![CDATA[That's not true, try again.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 8 -->
+
+	<tag id="ID_USER8A"><![CDATA[I imaged the hard drive.]]></tag>
+	<tag id="ID_USER8B"><![CDATA[I erased the hard drive.]]></tag>
+	<tag id="ID_USER8C"><![CDATA[I read all her emails.]]></tag>
+	<tag id="ID_USER8D"><![CDATA[To protect the lab computers from any computer viruses.]]></tag>
+	<tag id="ID_USER8E"><![CDATA[To find any illegal files.]]></tag>
+	<tag id="ID_USER8F"><![CDATA[To create a complete and accurate copy of all the digital evidence.]]></tag>
+	<tag id="ID_USER8G"><![CDATA[I read her e-mails.]]></tag>
+	<tag id="ID_USER8H"><![CDATA[I looked at her recently modified documents.]]></tag>
+	<tag id="ID_USER8I"><![CDATA[I looked at her deleted files.]]></tag>
+	<tag id="ID_USER8J"><![CDATA[I examined her e-mails, the recently modified documents, and her deleted files.]]></tag>
+	<tag id="ID_USER8K"><![CDATA[Freebird and her boyfriend are engaged.]]></tag>
+	<tag id="ID_USER8L"><![CDATA[Freebird had a fight with her mother.]]></tag>
+	<tag id="ID_USER8M"><![CDATA[Freebird received some strange e-mails from a "No1FAN."]]></tag>
+	<tag id="ID_USER8EXIT"><![CDATA[Great.  I'll continue my investigation.]]></tag>
+	
+		<!-- CATHERINE9 (after going through the stalker's computer) -->
+		
+	<tag id="ID_CATHERINE9A"><![CDATA[That was an ... interesting ... investigation!  Why did you have to re-image the drive?]]></tag>
+	<tag id="ID_CATHERINE9B"><![CDATA[What did those booby-traps do?]]></tag>
+	<tag id="ID_CATHERINE9C"><![CDATA[Exactly.  Working on the imaged drive kept all the original evidence safe and secure from the booby-traps.  So what were the booby-traps protecting?]]></tag>
+	<tag id="ID_CATHERINE9D"><![CDATA[That's good investigating.  I'll have our digital experts go over the drive more to make sure we didn't miss anything.  Why don't you go continue your investigation?]]></tag>
+	<tag id="ID_CATHERINE9WRONG1"><![CDATA[That's not true, try again.]]></tag>
+
+		<!-- REPLIES TO CATHERINE 9 -->
+
+	<tag id="ID_USER9A"><![CDATA[Gabriel Tam booby-trapped his computer.]]></tag>
+	<tag id="ID_USER9B"><![CDATA[The lab computer kept erasing the hard drive.]]></tag>
+	<tag id="ID_USER9C"><![CDATA[Gabriel Tam infected the lab computer with a virus.]]></tag>
+	<tag id="ID_USER9D"><![CDATA[They erased the lab computer.]]></tag>
+	<tag id="ID_USER9E"><![CDATA[They erased our copy of his hard drive.]]></tag>
+	<tag id="ID_USER9F"><![CDATA[They erased all the digital evidence we collected.]]></tag>
+	<tag id="ID_USER9G"><![CDATA[A picture of Lawrence murdering Freebird.]]></tag>
+	<tag id="ID_USER9H"><![CDATA[A picture of Gabriel Tam murdering Freebird.]]></tag>
+	<tag id="ID_USER9I"><![CDATA[The "No1FAN" emails that Gabriel Tam sent to Freebird.]]></tag>
+	<tag id="ID_USER9EXIT"><![CDATA[I'll go see what Gabriel has to say about this.]]></tag>
+
+		<!-- STATION POP-UP DIALOGS -->
+
+	<tag id="ID_WRONG_STATION"><![CDATA[There's a better station to use to analyze that evidence.<br><br>Try using it somewhere else.]]></tag>
+	<tag id="ID_MATCH_BUTTON"><![CDATA[MATCH]]></tag>
+	<tag id="ID_HELP_BUTTON"><![CDATA[HELP]]></tag>
+	<tag id="ID_SEARCH_BUTTON"><![CDATA[SEARCH]]></tag>
+	<tag id="ID_SUBMIT_BUTTON"><![CDATA[SUBMIT]]></tag>
+	<tag id="ID_BEGIN_BUTTON"><![CDATA[BEGIN]]></tag>
+	<tag id="ID_DONE_BUTTON"><![CDATA[DONE]]></tag>
+	<tag id="ID_START_OVER_BUTTON"><![CDATA[START OVER]]></tag>
+	<tag id="ID_GET_HELP_BUTTON"><![CDATA[GET HELP]]></tag>
+	<tag id="ID_TELLMEMORE_LABEL"><![CDATA[Tell me more]]></tag>
+
+		<!-- LIGHT TABLE TEXT -->
+	<tag id="ID_LIGHT_TABLE_INSTRUCTIONS_1"><![CDATA[Use the magnifying glass to identify any unique markings on both shoes.]]></tag>
+	<tag id="ID_LIGHT_TABLE_ABOUT"><![CDATA[This is the light table.<br />Use it to analyze evidence such as shoes and shoeprint impressions.]]></tag>
+	<tag id="ID_SHOEPRINT_COMPARISON_1"><![CDATA[These seem to be a match.  They have many class characteristics in common, including:
+	&#x2022; shoe size<br>	&#x2022; manufacturer<br>	&#x2022; approximate age.<br><br>Use the magnifying glass to identify any unique markings on both shoes.  Then we can be sure they're identical.]]></tag>
+	<tag id="ID_SHOEPRINT_COMPARISON_2"><![CDATA[You've identified the individual characteristics for these shoes - small, distinctive wear-and-tear marks unique for each individual shoe.<br><br>Unfortunately, these shoes do not have the same individual characteristics.  They are NOT a match.]]></tag>
+	<tag id="ID_SHOEPRINT_COMPARISON_3"><![CDATA[Now that's a good match.<br><br>All the individual characteristics - the small, unique marks from normal wear-and-tear - are identical between these impressions.  They must have come from the same shoe.]]></tag>
+	<tag id="ID_SHOEPRINT_COMPARISON_4"><![CDATA[The individual characteristics between the shoe and the shoe print are identical!  You made a good match, rookie.]]></tag>
+
+	<tag id="ID_SHOE_LABEL"><![CDATA[Shoes]]></tag>
+	<tag id="ID_IMPRESSION_LABEL"><![CDATA[Impression]]></tag>
+	<tag id="ID_CRIMESCENE_LABEL"><![CDATA[Crime Scene]]></tag>
+	<tag id="ID_HOUSE_LABEL"><![CDATA[Freebird's House]]></tag>
+	<tag id="ID_AGENT_LABEL"><![CDATA[Maury Wan's]]></tag>
+	<tag id="ID_STALKER_LABEL"><![CDATA[Lawrence Garvey's]]></tag>
+	<tag id="ID_BOYFRIEND_LABEL"><![CDATA[Gabriel Tam's]]></tag>
+
+		<!-- FINGERPRINT STATION TEXT -->
+	<tag id="ID_FINGERPRINT_ABOUT"><![CDATA[This is the fingerprint station.<br />Use it to gather fingerprints from evidence you have collected and to compare fingerprints you have collected.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_1"><![CDATA[We'll use the "Superglue Fuming Method" to develop these fingerprints.  It can detect even the faintest prints.<br><br>First, set up the experiment.  It will only take 10 minutes or so to develop the prints.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_1"><![CDATA[Place the object in the fuming chamber.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_2"><![CDATA[Add Superglue to the warming tray.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_3"><![CDATA[Place the warming tray on the heater inside the fuming chamber.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_4"><![CDATA[Turn on the heater]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_5"><![CDATA[Close lid of chamber]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_2"><![CDATA[Fumes from the evaporating superglue react with amino acids and oils left behind on everything we touch.  The reaction produces a white, sticky material, and makes the fingerprint easy to see.<br><br>I'll scan this print into the computer for you to analyze.]]></tag>
+
+	<tag id="ID_NEW_PRINT_TEXT"><![CDATA[<font size="+1">Print Added</font><br><br>This new print source has been added to the computer for comparison with the prints found during the investigation.]]></tag>
+	<tag id="ID_CLASS_COMPARE_INSTRUCT_1"><![CDATA[Drag a fingerprint to a "Viewing area" to begin.]]></tag>
+	<tag id="ID_CLASS_COMPARE_INSTRUCT_2"><![CDATA[Identify as many ridge characteristics in the fingerprint as possible. ]]></tag>
+	<tag id="ID_CLASS_COMPARE_INSTRUCT_3"><![CDATA[Select a second fingerprint for comparison, or search the database.]]></tag>
+	<tag id="ID_CLASS_QUESTION_TEXT"><![CDATA[<font size="+1"><u>Class Characteristics</u></font><br><br>Is this fingerprint a loop, whorl, or arch?]]></tag>
+	<tag id="ID_SCANNED_FINGERPRINTS_LABEL"><![CDATA[Scanned fingerprints:]]></tag>
+	<tag id="ID_POSSIBLE_MATCHES_LABEL"><![CDATA[Possible matches:]]></tag>
+	<tag id="ID_LOOP_LABEL"><![CDATA[Loop]]></tag>
+	<tag id="ID_WHORL_LABEL"><![CDATA[Whorl]]></tag>
+	<tag id="ID_ARCH_LABEL"><![CDATA[Arch]]></tag>
+	<tag id="ID_CLASS_EXPLANATION_TEXT"><![CDATA[<font size="+1">Class Characteristics of Fingerprints</font><br><br>Class Characteristics of fingerprints are shared by an entire group or type of fingerprints.  For example, there are three main classes of fingerprints:]]></tag>
+	<tag id="ID_LOOP_DESCRIPTION_LABEL"><![CDATA[LOOP<br>The ridges enter and exit the same side of the finger]]></tag>
+	<tag id="ID_WHORL_DESCRIPTION_LABEL"><![CDATA[WHORL<br>The ridges form a circular or spiral pattern]]></tag>
+	<tag id="ID_ARCH_DESCRIPTION_LABEL"><![CDATA[ARCH<br>The ridges run from one side of the finger to the other]]></tag>
+	<tag id="ID_INDIVIDUAL_EXPLANATION_TEXT"><![CDATA[<font size="+1">Individual Characteristics of Fingerprints</font><br><br>Individual Characteristics are unique to specific, individual fingerprints.  These are also called ridge characteristics or minutia.<br><br>Common Ridge Characteristics]]></tag>
+	<tag id="ID_BIFURCATION_LABEL"><![CDATA[BIFURCATION]]></tag>
+	<tag id="ID_ISLAND_LABEL"><![CDATA[ISLAND (SHORT RIDGE)]]></tag>
+	<tag id="ID_HOOK_LABEL"><![CDATA[HOOK (SPUR)]]></tag>
+	<tag id="ID_LAKE_LABEL"><![CDATA[LAKE (ENCLOSURE)]]></tag>
+	<tag id="ID_ENDING_LABEL"><![CDATA[RIDGE ENDING]]></tag>
+	<tag id="ID_BIFURCATION_TAG"><![CDATA[Bifurcation]]></tag>
+	<tag id="ID_ISLAND_TAG"><![CDATA[Island]]></tag>
+	<tag id="ID_HOOK_TAG"><![CDATA[Hook]]></tag>
+	<tag id="ID_LAKE_TAG"><![CDATA[Lake]]></tag>
+	<tag id="ID_ENDING_TAG"><![CDATA[Ridge Ending]]></tag>
+	<tag id="ID_IAFIS_EXPLANATION_TEXT"><![CDATA[<font size="+1">IAFIS</font><br><br>The Integrated Automated Fingerprint Identification System (IAFIS) is the FBI's national fingerprint database.  It contains over 470,000,000 fingerprints.  On average, it takes about two hours to search the entire database.]]></tag>
+	<tag id="ID_AGENT_MATCH_DETECTED_TEXT"><![CDATA[<font size="+1">Match detected!</font><br><br>Name: Maury Wan<br>Occupation: Publicity Agent<br>Address: 1589 Avenue A, Las Vegas<br><br>Fingerprint Source: Pre-employment Background Check]]></tag>
+	<tag id="ID_BOYFRIEND_MATCH_DETECTED_TEXT"><![CDATA[<font size="+1">Match detected!</font><br><br>Name: Lawrence Garvey<br><br><br>Fingerprint Source: Collected during investigation]]></tag>
+	<tag id="ID_STALKER_MATCH_DETECTED_TEXT"><![CDATA[<font size="+1">Match detected!</font><br><br>Name: Gabriel Tam<br><br><br>Fingerprint Source: Collected during investigation]]></tag>
+
+		<!-- TOOLMARK STATION TEXT -->
+	
+	<tag id="ID_NOT_ENOUGH_TOOLMARK_TOOLS"><![CDATA[You don't have the right tools to use this machine.  You need the wound impression, impression gel, and to use at least one weapon on this station to proceed.]]></tag>
+	<tag id="ID_TOOLMARK_COLLECTOR_1"><![CDATA[To compare this weapon with the impression left in our victim's cartilage, we will need to make a cast of its cut.<br><br>We'll be using a material similar in consistency to rib cartilage.  I'll walk you through the procedure.]]></tag>
+	<tag id="ID_TOOLMARK_COLLECTOR_INSTRUCT_1"><![CDATA[Cut the cartilage-like material with the weapon.]]></tag>
+	<tag id="ID_TOOLMARK_COLLECTOR_INSTRUCT_2"><![CDATA[Use the impression gel on the edges of the cut.]]></tag>
+	<tag id="ID_TOOLMARK_COLLECTOR_INSTRUCT_3"><![CDATA[Allow the casting gel to harden]]></tag>
+	<tag id="ID_TOOLMARK_COLLECTOR_INSTRUCT_4"><![CDATA[Remove the hardened cast for analysis.]]></tag>
+	<tag id="ID_TOOLMARK_COLLECTOR_2"><![CDATA[Waiting for gel to harden.]]></tag>
+	<tag id="ID_TOOLMARK_COLLECTOR_3"><![CDATA[Not bad.  Now we can analyze the cast under the comparison microscope.  It will have the same individual characteristics as the knife that made the cut if it is the murder weapon.]]></tag>
+	<tag id="ID_TOOLMARK_CARTILAGE_LABEL"><![CDATA[Cartilage Cast]]></tag>
+	<tag id="ID_TOOLMARK_HUNTINGKNIFE_LABEL"><![CDATA[Hunting Knife Cast]]></tag>
+	<tag id="ID_TOOLMARK_SWORD_LABEL"><![CDATA[Sword Cast]]></tag>
+
+		<!-- DNA STATION TEXT -->
+
+	<tag id="ID_DNA_CONVERSATION_1"><![CDATA[You have some experience in processing DNA during your Rookie Training, so I'll handle that part of it.  I'll send the DNA profile to the computer when I'm done.]]></tag>
+	<tag id="ID_DNA_CONVERSATION_2"><![CDATA[Processing DNA ...]]></tag>
+	<tag id="ID_DNA_CONVERSATION_3"><![CDATA[DNA Profiling<br><br>A DNA profile contains 13 unique genetic markers (known DNA sequences).  No two individuals (except identical twins) have the same exact markers.]]></tag>
+	<tag id="ID_DNA_CONVERSATION_4"><![CDATA[CODIS<br><br>The <u>Co</u>mbined <u>D</u>NA <u>I</u>ndex <u>S</u>ystem (CODIS) is a database of over 4 million DNA profiles.  The profiles come from convicted felons, evidence, and missing persons.]]></tag>
+	<tag id="ID_DNA_CONVERSATION_5"><![CDATA[Possible parental match detected!  Initializing Familial comparison program...]]></tag>
+	<tag id="ID_DNA_CONVERSATION_6"><![CDATA[Family DNA Comparisons<br><br>Everyone inherits 2 copies of each DNA marker - one from the mother, one from the father.  Each peak has a number code. You can tell which copies you've inherited by looking at the numbers coded underneath the peaks.]]></tag>
+	<tag id="ID_DNA_CONVERSATION_7"><![CDATA[Click on the number of the peak that the son inherited.
+]]></tag>
+	<tag id="ID_DNA_CONVERSATION_8"><![CDATA[Family DNA Comparisons<br><br>Can you determine which DNA markers the son inherited from both his parents?]]></tag>
+	<tag id="ID_DNA_CONVERSATION_9"><![CDATA[You are now ready to begin the family DNA comparison.<br><br><u>DIRECTIONS</u><br>For each marker in the DNA profiles, click only the marker numbers shared by both the mother and the victim.  When you think you have found all the identical marker numbers, click "SUBMIT"]]></tag>
+	<tag id="ID_DNA_CONVERSATION_10"><![CDATA[50% DNA Match Confirmed!<br><br>DNA samples are from a parent and child.]]></tag>
+	<tag id="ID_PROCESSED_DNA_PROFILES_LABEL"><![CDATA[Victim DNA Profile:]]></tag>
+	<tag id="ID_POSSIBLE_MATCHES_LABEL"><![CDATA[Possible Matches:]]></tag>
+	<tag id="ID_VICTIM_DNA_LABEL"><![CDATA[Victim's Bone Sample]]></tag>
+	<tag id="ID_MOTHER_DNA_LABEL"><![CDATA[Sallie Reynolds]]></tag>
+	<tag id="ID_SEARCH_CODIS_LABEL"><![CDATA[SEARCH CODIS]]></tag>
+	<tag id="ID_CONFIRM_MATCH_LABEL"><![CDATA[CONFIRM MATCH]]></tag>
+	<tag id="ID_RUN_FAMILY_COMPARISON_LABEL"><![CDATA[RUN FAMILY COMPARISON]]></tag>
+	<tag id="ID_FAMILIAL_MOTHER_LABEL"><![CDATA[Mother's DNA]]></tag>
+	<tag id="ID_FAMILIAL_FATHER_LABEL"><![CDATA[Father's DNA]]></tag>
+	<tag id="ID_FAMILIAL_SON_LABEL"><![CDATA[Son's DNA]]></tag>
+	<tag id="ID_DRAG_TARGET_LABEL"><![CDATA[Drag DNA sample here to view.]]></tag>
+	<tag id="ID_NO_SAMPLE_ERROR_LABEL"><![CDATA[No sample loaded in the viewing area.]]></tag>
+	<tag id="ID_NOT_IDENTICAL_ERROR_LABEL"><![CDATA[DNA samples are NOT identical.]]></tag>
+	<tag id="ID_NO_FAMILIAL_ERROR_LABEL"><![CDATA[No familial match detected.]]></tag>
+	<tag id="ID_NO_DNA_ERROR_LABEL"><![CDATA[I couldn't find any DNA on that piece of evidence.]]></tag>
+	<tag id="ID_DNA_INSTRUCT_1"><![CDATA[Drag the Victim’s DNA to the left field]]></tag>
+	<tag id="ID_DNA_INSTRUCT_2"><![CDATA[Drag a possible match to the right field to compare them]]></tag>
+	<tag id="ID_DNA_INSTRUCT_3"><![CDATA[Now drag Sallie Reynold's DNA to the right field to compare them]]></tag>
+	<tag id="ID_DNA_INSTRUCT_4"><![CDATA[Click only the marker numbers shared by both the mother and the victim.]]></tag>
+
+		<!-- DIGITAL STATION TEXT -->
+
+	<tag id="ID_DIGITAL_FORENSICS_DIALOG"><![CDATA[<i>DIGITAL FORENSICS</i><br><br>Analyzing digital evidence consists of <i>TWO PARTS</i>:<br><br>	&#x2022;	Create an <i>EXACT COPY</i> of all digital evidence.<br>	&#x2022;	<i>ANALYZE</i> that evidence for interesting activity.<br><br>Freebird's computer has already been connected to the lab computers, so we are ready to begin.]]></tag>
+	<tag id="ID_DIGITAL_CHECKLIST_HEADER"><![CDATA[Critical Steps in a Digital Forensics Investigation:]]></tag>
+	<tag id="ID_DIGITAL_CHECKLIST_ITEM_1"><![CDATA[Make a copy of the suspect's hard drive.]]></tag>
+	<tag id="ID_DIGITAL_CHECKLIST_ITEM_2"><![CDATA[Examine all e-mail correspondence.]]></tag>
+	<tag id="ID_DIGITAL_CHECKLIST_ITEM_3"><![CDATA[Examine any recently<br>altered files.]]></tag>
+	<tag id="ID_DIGITAL_CHECKLIST_ITEM_4"><![CDATA[Examine all deleted files.]]></tag>
+	<tag id="ID_DIGITAL_IMAGING_WAITING_TAG"><![CDATA[Ready to begin Drive Imaging]]></tag>
+	<tag id="ID_DIGITAL_IMAGING_TAG"><![CDATA["Imaging" the Hard Drive<br><br>To preserve the evidence, investigators NEVER work directly on the suspect's hard drive.  Instead, they create a copy, or <i>IMAGE</i> of all the digital information on the drive.  It is vital that the image is both <i>ACCURATE</i> and <i>COMPLETE</i>.]]></tag>
+	<tag id="ID_DIGITAL_IMAGING_PROGRESS_TAG"><![CDATA[Imaging Progress:]]></tag>
+	<tag id="ID_DIGITAL_IMAGING_BEGIN_TAG"><![CDATA[BEGIN EXAMINATION]]></tag>
+	<tag id="ID_FREEBIRD_TRASH_ICON"><![CDATA[Recycle Bin]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_ICON"><![CDATA[My E-mail]]></tag>
+	<tag id="ID_FREEBIRD_RECENT_ICON"><![CDATA[My Recent Documents]]></tag>
+	<tag id="ID_FREEBIRD_PICS_ICON"><![CDATA[My Pics]]></tag>
+	<tag id="ID_FREEBIRD_MUSIC_ICON"><![CDATA[Music Maker]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_HEADER"><![CDATA[My E-mail Client]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_TAG"><![CDATA[Inbox]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_SENT_TAG"><![CDATA[Sent]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_TRASH_TAG"><![CDATA[Trash]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_PERSON_1"><![CDATA[Lawrence]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_PERSON_2"><![CDATA[Sallie Reynolds]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_PERSON_3"><![CDATA[No1FAN]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_PERSON_4"><![CDATA[No1FAN]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_SUBJECT_1"><![CDATA[Where are you?]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_SUBJECT_2"><![CDATA[Call Mom!]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_SUBJECT_3"><![CDATA[Can't wait to see you!]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_SUBJECT_4"><![CDATA[Your #1 Fan - ALWAYS]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_BODY_1"><![CDATA[From:  Lawrence Garvey<br>To:  Freebird Reynolds<br><br>Where are you?<br>I'm sorry about what I said.<br>We really need to talk.<br>Call me!!!!!!!]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_BODY_2"><![CDATA[From:  Sallie Reynolds<br>To:  Freebird Reynolds<br><br>Loved the concert, honey - you were amazing!<br>We need to talk about dinner next week, k?<br>I want to catch up with you!]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_BODY_3"><![CDATA[From:  No1FAN<br>To:  Freebird Reynolds<br><br>I'm lookin 4ward 2 your concert 2nite, Frebird!  I can't wait 2 finalE Meet U in person!  I'll b lookin 4 U after the concert!]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_INBOX_BODY_4"><![CDATA[From:  No1FAN<br>To:  Freebird Reynolds<br><br>Freebird, U don't knO me, but U will soon.  I tink you're absolUtly amazing, & 1 day I hope 2 tell U n person how much I rly, rly luv U!]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_SENT_PERSON_1"><![CDATA[Mom, Lawrence]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_SENT_SUBJECT_1"><![CDATA[Concert]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_SENT_BODY_1"><![CDATA[From:  Freebird Reynolds<br>To:  Sallie Reynolds, Lawrence<br><br>Hey both of you!  I've arranged for your tickets to the concert.<br><br>Lawrence, can you and I do dinner afterwards?  We need to talk.]]></tag>
+	<tag id="ID_FREEBIRD_EMAIL_TRASH_CONTENTS"><![CDATA[THIS FOLDER IS EMPTY]]></tag>
+	<tag id="ID_FREEBIRD_RECENT_HEADER"><![CDATA[My Recent Documents]]></tag>
+	<tag id="ID_FREEBIRD_RECENT_DOC_HEADER"><![CDATA[Document Editor]]></tag>
+	<tag id="ID_FREEBIRD_RECENT_DOC_TITLE_1"><![CDATA[Resignation Letter]]></tag>
+	<tag id="ID_FREEBIRD_RECENT_DOC_TITLE_2"><![CDATA[Super Secret Diary Code]]></tag>
+	<tag id="ID_FREEBIRD_RECENT_DOC_BODY_1"><![CDATA[Mr. Wan,<br><br>This letter is to inform you I wish to end our contract together.  I have decided to pursue<br><br>(Note to self: finish later after the concert)]]></tag>
+	<tag id="ID_FREEBIRD_RECENT_DOC_BODY_2"><![CDATA[A=J<br>B=E<br>C=S<br>D=M<br>E=A<br>F=O<br>G=W<br>H=!]]></tag>
+	<tag id="ID_FREEBIRD_TRASH_HEADER"><![CDATA[Recycle Bin]]></tag>
+	<tag id="ID_FREEBIRD_TRASH_CONTENTS"><![CDATA[This folder is empty.]]></tag>
+	<tag id="ID_FREEBIRD_MUSIC_HEADER"><![CDATA[Music Maker]]></tag>
+	<tag id="ID_FREEBIRD_PICS_HEADER"><![CDATA[My Pictures]]></tag>
+	<tag id="ID_TAM_EMAIL_ICON"><![CDATA[Postage E-mail]]></tag>
+	<tag id="ID_TAM_RECENT_ICON"><![CDATA[Recent Files]]></tag>
+	<tag id="ID_TAM_TRASH_ICON"><![CDATA[Trash]]></tag>
+	<tag id="ID_TAM_WARNING_ICON"><![CDATA[DO NOT OPEN]]></tag>
+	<tag id="ID_TAM_EMAIL_HEADER"><![CDATA[Postage E-mail Client]]></tag>
+	<tag id="ID_TAM_EMAIL_INBOX_TAG"><![CDATA[Inbox]]></tag>
+	<tag id="ID_TAM_EMAIL_SENT_TAG"><![CDATA[Sent]]></tag>
+	<tag id="ID_TAM_EMAIL_TRASH_TAG"><![CDATA[Trash]]></tag>
+	<tag id="ID_TAM_EMAIL_INBOX_CONTENTS"><![CDATA[THIS FOLDER IS EMPTY]]></tag>
+	<tag id="ID_TAM_EMAIL_SENT_CONTENTS"><![CDATA[THIS FOLDER IS EMPTY]]></tag>
+	<tag id="ID_TAM_EMAIL_TRASH_CONTENTS"><![CDATA[THIS FOLDER IS EMPTY]]></tag>
+	<tag id="ID_TAM_RECENT_HEADER"><![CDATA[Recent Documents]]></tag>
+	<tag id="ID_TAM_WARNING_HEADER"><![CDATA[DO NOT OPEN folder]]></tag>
+	<tag id="ID_TAM_RECENT_PURGE_MSG"><![CDATA[H4CK1NG 4CT1V1TY D3T3C3T3D!!!!!!<br><br>N0w 3r4s1ng H4rd Dr1v3]]></tag>
+	<tag id="ID_TAM_RECENT_PWN3D"><![CDATA[Y0U'V3 B33N<br>PWN3D!!!!]]></tag>
+	<tag id="ID_DIGITAL_RESTART_DIALOG"><![CDATA[Run into problems?<br><br>Now you see why we always image the drive first.  That booby-trap only erased our copy.  The actual evidence is still intact.<br><br>You'll have to create a new image of the drive to continue.  Watch out for more booby-traps.]]></tag>
+	<tag id="ID_TAM_TRASH_HEADER"><![CDATA[Trash]]></tag>
+	<tag id="ID_TAM_TRASH_GAME"><![CDATA[4r3 y0u sur3?<br><br>My tr4sh 1s pr0t3ct3d!!<br><br>Y0u w1ll h4v3 t0 34rn th3 r1ght t0 l00k thr0ugh @ th1s f0ld3r!]]></tag>
+	<tag id="ID_DIGITAL_GAME_FAILURE_SCREEN_1"><![CDATA[It looks like his deleted files are well protected.  I wonder what he's hiding?<br><br>Tell you what.  I can give you a hand to get past this, or you can start over and do it on your own.<br><br>Which do you choose?]]></tag>
+	<tag id="ID_DIGITAL_GAME_FAILURE_SCREEN_2"><![CDATA[You'll have to re-image the hard drive again.  That trap completely erased our copy.<br><br>Keep an eye out - there may be more traps or defenses.]]></tag>
+	<tag id="ID_DIGITAL_GAME_GETTING_HELP"><![CDATA[Good thing this trap erased only our copy of the drive.  No evidence was harmed.<br><br>I'll re-image the drive and get to work.  Watch and learn, rookie.]]></tag>
+	<tag id="ID_DIGITAL_GAME_SUCCESS"><![CDATA[That should do it.<br><br>Now let's see what files he was protecting.]]></tag>
+	<tag id="ID_DIGITAL_GAME_INSTRUCT"><![CDATA[USE ARROW KEYS TO MOVE AND SPACE BAR TO SHOOT.]]></tag>
+	<tag id="ID_TAM_TRASH_CONTENT_ICON_1"><![CDATA[Saved E-mails]]></tag>
+	<tag id="ID_TAM_TRASH_CONTENT_ICON_2"><![CDATA[My Pics]]></tag>
+	<tag id="ID_TAM_TRASH_CONTENT_HEADER_1"><![CDATA[Postage E-mail (Deleted E-mails)]]></tag>
+	<tag id="ID_TAM_TRASH_EMAIL_PERSON_1"><![CDATA[Freebird Reynolds]]></tag>
+	<tag id="ID_TAM_TRASH_EMAIL_PERSON_2"><![CDATA[Freebird Reynolds]]></tag>
+	<tag id="ID_TAM_TRASH_EMAIL_SUBJECT_1"><![CDATA[Can't wait to see you!]]></tag>
+	<tag id="ID_TAM_TRASH_EMAIL_SUBJECT_2"><![CDATA[Your #1 Fan - ALWAYS]]></tag>
+	<tag id="ID_TAM_TRASH_EMAIL_BODY_1"><![CDATA[From:  No1FAN<br>To:  Freebird Reynolds<br><br>I'm lookin 4ward 2 your concert 2nite, Frebird!  I can't wait 2 finalE Meet U in person!  I'll b lookin 4 U after the concert!]]></tag>
+	<tag id="ID_TAM_TRASH_EMAIL_BODY_2"><![CDATA[From:  No1FAN<br>To:  Freebird Reynolds<br><br>Freebird, U don't knO me, but U will soon.  I tink you're absolUtly amazing, & 1 day I hope 2 tell U n person how much I rly, rly luv U!]]></tag>
+	<tag id="ID_NOT_DIGITAL_ERROR_TAG"><![CDATA[This station is for analyzing digital evidence - computer, flash drives, cell phones, etc.]]></tag>
+	
+	
+</strings>	

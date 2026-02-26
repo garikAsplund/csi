@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<activity name="GA_Blood">
+	<instruct num="1"><![CDATA[Drag the DNA profile from the bloodstains to the left viewing area.]]></instruct>		
+	<instruct num="2"><![CDATA[Drag the reference DNA profile to the right viewing area.]]></instruct>	
+	<instruct num="3"><![CDATA[Do these DNA profiles match?]]></instruct>
+	<wrongText><![CDATA[The DNA profiles are identical.]]></wrongText>
+	<label name="wall"><![CDATA[Bloodstains on wall]]></label>
+	<label name="floor"><![CDATA[Bloodstains on floor]]></label>
+	<label name="lysis"><![CDATA[Lysis buffer]]></label>
+	<label name="f"><![CDATA[F]]></label>
+	<label name="w"><![CDATA[W]]></label>
+	<label name="filter"><![CDATA[Tubes with filter]]></label>
+	<label name="eluting"><![CDATA[Eluting buffer]]></label>
+	<markerPrefix><![CDATA[Marker # ]]></markerPrefix>
+	<markerHeading num="1" name="wall"><![CDATA[DNA PROFILE - BLOODSTAINS ON WALL]]></markerHeading>
+	<markerHeading num="2" name="floor"><![CDATA[DNA PROFILE - BLOODSTAINS ON FLOOR]]></markerHeading>
+	<markerHeading num="3" name="stains"><![CDATA[DNA PROFILE - BLOODSTAINS]]></markerHeading>
+	<markerHeading num="4" name="victim"><![CDATA[VICTIM'S DNA PROFILE]]></markerHeading>
+	<markerHeading num="5" name="swab1"><![CDATA[DNA PROFILE #1 - FINGERNAIL SWABS]]></markerHeading>
+	<markerHeading num="6" name="swab2"><![CDATA[DNA PROFILE #2 - FINGERNAIL SWABS]]></markerHeading>
+	<profile num="1" name="wall"><![CDATA[Bloodstains on the wall]]></profile>
+	<profile num="2" name="floor"><![CDATA[Bloodstains on the floor]]></profile>
+	<profile num="3" name="stains"><![CDATA[Bloodstains]]></profile>
+	<profile num="4" name="victim"><![CDATA[Victim]]></profile>
+	<profile num="5" name="swab1"><![CDATA[Fingernail swabs #1]]></profile>
+	<profile num="5" name="swab2"><![CDATA[Fingernail swabs #2]]></profile>
+	<profileUNK><![CDATA[Unknown DNA Profiles]]></profileUNK>
+	<profileREF><![CDATA[Reference DNA Profiles]]></profileREF>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+	<matchBtn><![CDATA[MATCH]]></matchBtn>
+	<noMatchBtn><![CDATA[NO MATCH]]></noMatchBtn>
+	<okBtn><![CDATA[Okay.]]></okBtn>
+	<searchBtn><![CDATA[SEARCH CODIS]]></searchBtn>
+</activity>

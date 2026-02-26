@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<dialog name="LinaPerez" displayName="Lina Perez">
+	<conversation location="SistersHouse" visit="1" name="1">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[My name? How?]]></statement>
+		
+		<response num="1"><![CDATA[Ms. Perez, I'm currently investigating a fire incident, and your name came up.]]></response>
+		<response num="2"><![CDATA[Let me show you something we found at the fire scene.]]></response>
+	</conversation>	
+	<conversation location="SistersHouse" visit="1" name="2">
+		<statement num="1"><![CDATA[This is my prescription. I don't understand...]]></statement>
+		<statement num="2"><![CDATA[I got them for a back injury a few months ago. I think I took two or three pills until the injury healed.
+		
+I thought I had thrown them out a while ago...]]></statement>
+		<statement num="3"><![CDATA[Natalie is my sister. Oh no, did anything happen to her?]]></statement>
+		<statement num="4"><![CDATA[In the hospital! I'll be there as soon as I can.]]></statement>
+		<statement num="5"><![CDATA[He's my sister's boyfriend, unfortunately. Why?]]></statement>
+		<statement num="6"><![CDATA[Natalie is just not her usual self since she started dating him.
+
+She is distracted and nervous...but she won't tell me why.]]></statement>
+		<statement num="7"><![CDATA[I don't know... It wouldn't surprise me if Trevor had taken them when he and my sister were visiting.
+
+He doesn't seem to be an honest person.]]></statement>
+		<response num="1"><![CDATA[What did you get the prescription for?]]></response>
+		<response num="2"><![CDATA[Do you know somebody named Natalie Perez?]]></response>
+		<response num="3"><![CDATA[Natalie is in the hospital, but she's doing fine.]]></response>
+		<response num="4"><![CDATA[Do you know somebody named Trevor Johnson?]]></response>
+		<response num="5"><![CDATA[Unfortunately? What makes you say that?]]></response>
+		<response num="6"><![CDATA[Do you have any idea how your prescription ended up in Mr. Johnson's bathroom?]]></response>
+		<response num="7"><![CDATA[Thank you for your time.]]></response>
+	</conversation>
+</dialog>

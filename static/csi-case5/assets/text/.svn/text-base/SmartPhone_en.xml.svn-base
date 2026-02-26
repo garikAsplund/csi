@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<smartphone>
+	<title><![CDATA[Main Menu]]></title>
+	<messages>
+		<title><![CDATA[Messages]]></title>
+		<inbox><![CDATA[INBOX]]></inbox>
+		<sender><![CDATA[SENDER]]></sender>
+		<attach><![CDATA[ATTACHMENT]]></attach>
+	</messages>
+	<clues>
+		<title><![CDATA[Clues]]></title>
+		<select><![CDATA[Select a clue.]]></select>
+	</clues>
+	<evidence>
+		<title><![CDATA[Evidence by Location]]></title>
+		<current><![CDATA[Current Location:]]></current>
+		<select><![CDATA[Select a piece of evidence.]]></select>
+	</evidence>
+	<options>
+		<title><![CDATA[Options]]></title>
+		<saveBtn><![CDATA[SAVE<br>GAME]]></saveBtn>
+		<scroll><![CDATA[Scroll lock is ]]></scroll>
+		<bgm><![CDATA[Background Music is ]]></bgm>
+		<on><![CDATA[On]]></on>
+		<off><![CDATA[Off]]></off>
+	</options>
+	<menuBtn><![CDATA[M E N U]]></menuBtn>
+	<continueBtn><![CDATA[CONTINUE]]></continueBtn>
+</smartphone>

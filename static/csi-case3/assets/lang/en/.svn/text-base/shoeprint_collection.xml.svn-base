@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<!-- SHOEPRINT COLLECTION INTERACTIVE -->
+	
+	<tag id="ID_INSTRUCT_1"><![CDATA[<font size="+2">We can make impression evidence from these shoeprints.<br><br>First, spray the shoeprints with hairspray.  This will bind the sand particles together and make it easier to mold.</font>]]></tag>
+	<tag id="ID_INSTRUCT_2"><![CDATA[<font size="+2">We'll use dental plaster to make the cast.  The cast will be hard and durable, yet still have lots of detail.<br><br>Mix the dental plaster with the water in the bowl.</font>]]></tag>
+	<tag id="ID_INSTRUCT_3"><![CDATA[<font size="+2">Lastly, pour the mix <u>NEXT TO</u> the impression.  This way the dental plaster will gradually fill the impression without damaging it.</font>]]></tag>
+	<tag id="ID_INSTRUCT_4"><![CDATA[<font size="+2">The casted mold should be hard enough now.  Gently use the spatula to remove it from the impression.</font>]]></tag>
+	<tag id="ID_TIME_POPUP"><![CDATA[30 minutes later ...]]></tag>
+	<tag id="ID_OPTION_TO_SKIP"><![CDATA[<font size="+2">You've already gotten experience casting shoeprint impressions.  I can handle this one, if you want.</font>]]></tag>
+	<tag id="ID_CONTINUE_BUTTON"><![CDATA[<font size="+2">Do it yourself</font>]]></tag>
+	<tag id="ID_SKIP_BUTTON"><![CDATA[<font size="+2">Get Nick to do it</font>]]></tag>
+
+	
+</strings>
+
+
+
+
+
+

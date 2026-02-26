@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room001 - grissom's office. </tag>
+	
+		<!-- GRISSOM0  -->
+		
+	<tag id="ID_GRISSOM0A"><![CDATA[There's been a murder and possible "dog-napping" at the Las Vegas Dog Show.]]></tag>
+	<tag id="ID_GRISSOM0B"><![CDATA[The best dog breeders in the country are here to show off their dogs and compete for prize money. It's new to Vegas, but publicity like this won't help it.]]></tag>
+	<tag id="ID_GRISSOM0C"><![CDATA[Early reports are sketchy. We'll know more once we're on the scene.]]></tag>
+	<tag id="ID_GRISSOM0D"><![CDATA[Get your PDA and field kit on my desk before you go to the crime scene -- the PDA will keep track of the clues you find. Everything else you need is in the field kit.]]></tag>
+	<tag id="ID_GRISSOM0E"><![CDATA[We're a little short-staffed, so I'll be assisting you on this one. Let's get to it.]]></tag>
+	
+		<!-- REPLIES TO GRISSOM -->
+
+	<tag id="ID_USER0A"><![CDATA[What's the Las Vegas Dog Show?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[What happened?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[What tools will I need?]]></tag>
+	<tag id="ID_USER0D"><![CDATA[Who will be assisting me on this case?]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[I'll get my gear and then head to the scene.]]></tag>
+	
+	<tag id="ID_FIELDKIT_HOVER"><![CDATA[You cannot check out the field kit without Grissom's permission.]]></tag>
+	<tag id="ID_PDA_HOVER"><![CDATA[PDA cannot be issued before you talk to Grissom.]]></tag>
+	
+</strings>	

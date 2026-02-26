@@ -1,0 +1,187 @@
+<?xml version="1.0" ?>
+<activity name="DrugInteractions">
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+	<exampleBtn><![CDATA[Examples]]></exampleBtn>
+	<effectsBtn><![CDATA[Effects]]></effectsBtn>
+	<beginBtn><![CDATA[Begin]]></beginBtn>
+	<mechanismBtn><![CDATA[Mechanism of action]]></mechanismBtn>
+	<toxReport>
+		<title><![CDATA[TOXICOLOGY REPORT]]></title>
+		<name><![CDATA[Name:	Melissa McCoy]]></name>
+		<analyst><![CDATA[Analyst:	David Hodges]]></analyst>
+		<label num="1"><![CDATA[SPECIMEN]]></label>
+		<label num="2"><![CDATA[DRUG]]></label>
+		<label num="3"><![CDATA[LEVEL]]></label>
+		<line num="1">
+			<field num="1">Blood</field>
+			<field num="2">Xanax®</field>
+			<field num="3">0.008 g/ml</field>
+		</line>
+		<line num="2">
+			<field num="1">Blood</field>
+			<field num="2">Oxycodone</field>
+			<field num="3">0.42 g/ml</field>
+		</line>
+		<line num="3">
+			<field num="1">Urine</field>
+			<field num="2">Xanax®</field>
+			<field num="3">positive</field>
+		</line>
+		<line num="4">
+			<field num="1">Urine</field>
+			<field num="2">Oxycodone</field>
+			<field num="3">positive</field>
+		</line>
+		<line num="5">
+			<field num="1">Urine</field>
+			<field num="2">Soma®</field>
+			<field num="3">positive</field>
+		</line>
+		<popup num="1">
+			<title>Xanax®</title>
+			<content><![CDATA[<b>Xanax® (Alprazolam)</b><br/>• Class: benzodiazepine
+   (CNS depressant)<br/>• Prescribed for: anxiety]]></content>
+		</popup>
+		<popup num="2">
+			<title>Oxycodone</title>
+			<content><![CDATA[<b>Oxycodone</b><br/>• Class: opioid<br/>• Prescribed for: pain]]></content>
+		</popup>
+		<popup num="3">
+			<title>Soma®</title>
+			<content><![CDATA[<b>Soma® (Carisoprodol)</b><br/>• Class: muscle relaxant<br/>• Prescribed for: muscle
+   stiffness]]></content>
+		</popup>
+	</toxReport>
+	<autopsy>
+		<title><![CDATA[AUTOPSY SUMMARY]]></title>
+		<decedent><![CDATA[Decedent:				Melissa McCoy, 23-year old white female]]></decedent>
+		<examiner><![CDATA[Medical examiner:		Albert Robbins, MD]]></examiner>
+		<content><![CDATA[<span class="white">Immediate Cause of Death:</span> Trauma to the chest during automobile accident
+		
+<span class="white">Manner of Death:</span> Accident
+
+<span class="white">Remarks:</span> At the time of death, Melissa McCoy was under the influence of multiple drugs (see toxicology report). Although the drugs were not the immediate cause of death, it can be assumed that <span class="white">toxicity associated with drug interactions</span> was a contributing factor in her automobile accident. Her death can be classified as <span class="white">drug-related.</span>]]></content>
+	</autopsy>
+	<drugInteractions>
+		<screen num="1">
+			<title>DRUG INTERACTIONS</title>
+			<text><![CDATA[Drug interactions can occur if a person takes TWO OR MORE DRUGS at the same time that shouldn’t be combined.]]></text>
+		</screen>
+		<screen num="2">
+			<title>DRUG INTERACTIONS</title>
+			<text><![CDATA[Which drugs shouldn’t be combined depends on the CLASS of drugs to which they belong.]]></text>
+			<text2><![CDATA[Turn the wheel to familiarize yourself with some common drug classes that can cause drug interactions. Click the wheel to begin.]]></text2>
+		</screen>
+		<type name="cns" num="1">
+			<wheel>CNS DEPRESSANTS</wheel>
+			<title>CNS DEPRESSANTS</title>
+			<desc>also known as tranquilizers or sedatives</desc>
+			<shortEx><![CDATA[]]></shortEx>
+			<example><![CDATA[<span class="boldOrange">• Barbiturates</span><br/>	• examples: Mebaral®, Nembutal®<br/><span class="boldOrange">• Benzodiazepines</span><br/>	• examples: Valium®, Xanax®<br/><span class="boldOrange">• Newer sleep medications</span><br/>	• examples: Ambien®, Lunesta®<br/>• All promote sleep; benzodiazepines also treat
+   anxiety disorders<br/><span class="boldOrange">• Alcohol</span> also belongs to the class of CNS
+   depressants]]></example>
+			<effects><![CDATA[Make you feel <span class="boldOrange">calm, sleepy,</span> or <span class="boldOrange">drowsy</span> by slowing down normal activity in the brain.]]></effects>
+			<mechanism><![CDATA[CNS depressants increase the
+action of <span class="boldOrange">gamma aminobutyric acid (GABA),</span> a neurotransmitter that INHIBITS the activity of brain cells.]]></mechanism>
+		</type>
+		<type name="opioids" num="2">
+			<wheel>OPIOIDS</wheel>
+			<title>OPIOIDS</title>
+			<shortEx><![CDATA[]]></shortEx>
+			<example><![CDATA[<span class="boldNavy">• Natural opioids (found in poppy plant)</span><br/>	• Codeine, morphine, and thebaine<br/><span class="boldNavy">• Synthetic opioids (derived from natural opioids)</span><br/>	• examples: OxyContin®, Vicodin®, Heroine<br/>• Opioids are <span class="boldNavy">analgesics</span> (pain relievers), often
+   prescribed after surgery or to relieve severe,
+   chronic pain<br/>• The human body also produces opioids, including
+   endorphins, to relieve pain.]]></example>
+			<effects><![CDATA[Opioid drugs work in the same way as body-produced opioids to <span class="boldNavy">relieve pain.</span>]]></effects>
+			<mechanism><![CDATA[• By binding to <span class="boldNavy">opioid receptors</span> in
+   the brain and spinal cord, opioids
+   minimize the perception of pain.<br/>• By binding to opioid receptors in the
+   brain’s <span class="boldNavy">reward system,</span> opioids can
+   induce feelings of pleasure.]]></mechanism>
+		</type>			
+		<type name="relaxant" num="3">
+			<wheel>MUSCLE RELAXANTS</wheel>
+			<title>MUSCLE RELAXANTS</title>
+			<shortEx><![CDATA[]]></shortEx>
+			<example><![CDATA[• Includes all medications that are used to treat
+   tenderness and pain associated with muscle
+   spasms<br/><span class="boldGreen">• Example: Carisoprodol (Soma®)</span><br/>	• relieves muscle spasms caused by
+        musculoskeletal conditions, such as back
+	   pain and neck pain]]></example>
+			<effects><![CDATA[Example: <span class="boldGreen">Carisoprodol (Soma®)</span>]]></effects>
+			<mechanism><![CDATA[Carisoprodol increases the action
+of <span class="boldGreen">gamma aminobutyric acid (GABA),</span> a neurotransmitter that INHIBITS the activity of brain cells.]]></mechanism>
+		</type>
+		<type name="stim" num="4">
+			<wheel>STIMULANTS</wheel>
+			<title>STIMULANTS</title>
+			<about>2 subclasses</about>
+			<shortEx><![CDATA[]]></shortEx>
+			<example><![CDATA[<span class="boldPink">• Amphetamines</span><br/>	• example: Adderall®<br/><span class="boldPink">• Methylphenidate</span><br/>	• examples: Ritalin®, Concerta®<br/>• treat <span class="boldPink">ADHD</span> (attention deficit hyperactivity
+   disorder) and <span class="boldPink">narcolepsy</span> (sleep disorder)]]></example>
+			<effects><![CDATA[Increase <span class="boldPink">alertness, attention,</span> and <span class="boldPink">energy.</span>]]></effects>
+			<mechanism><![CDATA[Stimulants cause neurons to
+release two <span class="boldPink">neurotransmitters:<br/>• dopamine</span> produces feelings of
+   well-being<br/><span class="boldPink">• norepinephrine</span> (or noradrenaline)
+   increases blood pressure and heart
+   rate and stimulates the respiratory
+   system]]></mechanism>
+		</type>
+		<type name="otc" num="5">
+			<wheel>OTC</wheel>
+			<title>OVER-THE-COUNTER (OTC) DRUGS</title>
+			<shortEx><![CDATA[]]></shortEx>
+			<example><![CDATA[• Group includes all medications that are sold
+   directly without a prescription<br/><span class="boldBlue">• Example: Dextromethorphan (DXM)</span><br/>	• found in various cough and cold medications<br/>	• suppresses cough]]></example>
+			<effects><![CDATA[Example: <span class="boldBlue">Dextromethorphan (DXM)</span>]]></effects>
+			<mechanism><![CDATA[DXM (Dextromethorphan) <span class="boldBlue">decreases the activity</span> of the medulla, a part of the brain stem that activates coughing.]]></mechanism>
+			<caption>Brain stem</caption>
+		</type>
+		<screen num="3">
+			<title>DRUG INTERACTIONS</title>
+			<text><![CDATA[Some drugs shouldn’t be combined because they …]]></text>
+			<caption num="1"><![CDATA[… can PROLONG each other’s effects]]></caption>
+			<caption num="2"><![CDATA[… can INTENSIFY each other’s effects]]></caption>
+		</screen>
+		<screen num="4">
+			<title>Turn both wheels to find drug interactions that might have affected Melissa McCoy.</title>			
+		</screen>
+		<screen num="5">
+			<title>Turn both wheels to find drug interactions that might have affected Melissa McCoy.</title>
+			<tableTitle>Name: Melissa McCoy</tableTitle>
+			<th num="1">Drug (A)</th>
+			<th num="2">Interaction with Drug (B)</th>
+			<th num="3">Consequence</th>
+			<interaction num="1">Xanax® (CNS Depressant)</interaction>
+			<interaction num="2">Oxycodone (Opioid)</interaction>
+			<interaction num="3">Soma® (Muscle Relaxant)</interaction>
+			<instruct>Click and drag Consequence to the table above</instruct>
+			<warning num="1" show="brain,lungs,warning"><![CDATA[• Memory loss<br/>• “Passing out”<br/>• Slowed breathing (can be fatal)<br/>• Addiction (barbiturates )]]></warning>
+			<warning num="2" show="lungs,warning"><![CDATA[• Fatal respiratory distress (breathing stops)]]></warning>
+			<warning num="3" show="brain,warning"><![CDATA[• Extreme sedation]]></warning>
+			<warning num="5" show="brain,warning"><![CDATA[• Increased sedation (some stimulants can actually block the metabolism of CNS depressants)]]></warning>
+			<warning num="7" show="brain,lungs,warning"><![CDATA[• Extreme sedation<br/>• Slowed breathing (can be fatal)]]></warning>
+			<warning num="4" show="brain,lungs,warning"><![CDATA[• Severe respiratory complications (can be fatal)<br/>• Addiction]]></warning>
+			<warning num="6" show="lungs,warning"><![CDATA[• Slowed breathing (can be fatal)]]></warning>
+			<warning num="10" show="question"><![CDATA[• Opioids and stimulants usually work in opposite directions, but combined effects in humans have not been studied carefully.]]></warning>
+			<warning num="14" show="lungs,warning"><![CDATA[• Slowed breathing (can be fatal)]]></warning>
+			<warning num="9" show="lungs,warning"><![CDATA[• Slowed breathing (can be fatal)]]></warning>
+			<warning num="15" show="question"><![CDATA[• Muscle relaxants and stimulants usually work in opposite directions, but combined effects in humans have not been studied carefully.]]></warning>
+			<warning num="21" show="brain,lungs,warning"><![CDATA[• Extreme sedation<br/>• Slowed breathing (can be fatal)]]></warning>
+			<warning num="25" show="heart,warning"><![CDATA[• Irregular heartbeat<br/>• Dangerously high body temperatures<br/>• Heart attack]]></warning>
+			<warning num="35" show="heart,warning"><![CDATA[• Increased heart rate<br/>• Increased body temperature]]></warning>
+			<warning num="49" show="brain,heart,warning"><![CDATA[• “Dissociative” effects (feelings of being detached from the environment)<br/>• Distorted perceptions and emotions<br/>• Increased heart rate/blood pressure]]></warning>
+		</screen>
+		<screen num="6">
+			<title>DRUG INTERACTION SUMMARY</title>
+			<nameLabel>Name: Melissa McCoy</nameLabel>
+			<drugTitle>Drugs detected:</drugTitle>
+			<drugContent><![CDATA[• Xanax® (CNS Depressant)<br/>• Oxycodone (Opioid)<br/>• Soma® (Muscle Relaxant)]]></drugContent>
+			<consequenceTitle>Possible interaction consequences:</consequenceTitle>
+			<respiratoryTitle>Respiratory</respiratoryTitle>
+			<respiratoryContent><![CDATA[• Fatal respiratory distress (breathing stops)<br/>• Slowed breathing (can be fatal)]]></respiratoryContent>
+			<otherTitle>Other</otherTitle>
+			<otherContent><![CDATA[• Extreme sedation<br/>]]></otherContent>
+		</screen>
+	</drugInteractions>
+</activity>

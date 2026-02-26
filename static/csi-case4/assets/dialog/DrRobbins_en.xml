@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<dialog name="DrRobbins" displayName="Dr. Al Robbins">
+	<conversation location="Morgue" visit="1" name="1">
+		<statement num="1"><![CDATA[Good timing, I just started the autopsy of Mr. Johnson.]]></statement>
+		<statement num="2"><![CDATA[There was soot on the anterior surfaces of his body and clothing, meaning he was lying face up.]]></statement>
+		<statement num="3"><![CDATA[I didn't find any wounds that would suggest he was attacked before the fire started.]]></statement>
+		<statement num="4"><![CDATA[He doesn't have burn blisters or other signs of severe burns, so the most likely cause of death is smoke inhalation. An internal autopsy will confirm this.]]></statement>
+		<statement num="5"><![CDATA[From the body temperature and the temperature at the scene, I'd estimate he died some time between 1 am and 4 am last night.]]></statement>
+		<statement num="6"><![CDATA[We need to see if there is any soot in our victim's airways.]]></statement>
+		
+		<response num="1"><![CDATA[What did you find so far?]]></response>
+		<response num="2"><![CDATA[What about any physical injuries?]]></response>
+		<response num="3"><![CDATA[What was the cause of death?]]></response>
+		<response num="4"><![CDATA[What was the time of death?]]></response>
+		<response num="5"><![CDATA[What should we do now?]]></response>
+		<response num="6"><![CDATA[Let's do it.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="2">
+		<statement num="1"><![CDATA[We need to see if there is any soot in our victim's airways.]]></statement>
+		<response num="1"><![CDATA[Let's do it.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy1">
+		<statement num="1"><![CDATA[I don't see any soot in his mouth. However, we still need to examine if there is any soot in his trachea.
+
+The autopsy will be graphic, so I’d understand if you chose to opt out. Your call.]]></statement>
+		<response num="1"><![CDATA[I want to perform the autopsy.]]></response>
+		<response num="2"><![CDATA[I want to skip the autopsy.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy2">
+		<statement num="1"><![CDATA[Yes, I agree. However, we still need to examine if there is any soot in his trachea.
+
+The autopsy will be graphic, so I’d understand if you chose to opt out. Your call.]]></statement>
+		<response num="1"><![CDATA[I want to perform the autopsy.]]></response>
+		<response num="2"><![CDATA[I want to skip the autopsy.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy3">
+		<statement num="1"><![CDATA[No, if there was soot in the trachea, it would be black inside.]]></statement>
+		<response num="1"><![CDATA[I'll continue with the autopsy.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy4">
+		<statement num="1"><![CDATA[I agree. If there was soot in the trachea, it would be black inside.]]></statement>
+		<response num="1"><![CDATA[I'll continue with the autopsy.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="AutopsySkipped">
+		<statement num="1"><![CDATA[I have finished the autopsy. There was no soot in Mr. Johnson's trachea. 
+
+However, he can still have a deadly amount of carbon monoxide in his blood. Let me show you what happens when carbon monoxide enters the body.]]></statement>
+		<response num="1"><![CDATA[Let's see it.]]></response>		
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy5">
+		<statement num="1"><![CDATA[Well done. Tell me, for what purpose would we collect a blood sample?]]></statement>
+		<statement num="2"><![CDATA[No, we already know the victim's identity. We need the blood for something else.]]></statement>
+		<statement num="3"><![CDATA[Knowing the blood type won't help us find the cause of death. Try again.]]></statement>
+		<statement num="4"><![CDATA[Precisely. Even though there is no soot in Mr. Johnson's airways, he can still have a deadly amount of carbon monoxide in his blood.
+
+Let me show you what happens when carbon monoxide enters the body.]]></statement>
+		<response num="1"><![CDATA[To perform a DNA test to identify the victim.]]></response>
+		<response num="2"><![CDATA[To test the blood for carbon monoxide.]]></response>
+		<response num="3"><![CDATA[To determine the blood type.]]></response>
+		<response num="4"><![CDATA[Let's see it.]]></response>		
+	</conversation>
+	<conversation location="Morgue" visit="1" name="AutopsyEnd">
+		<statement num="1"><![CDATA[Measuring the percentage of carboxyhemoglobin in our victim's blood will help determine if he died from CO poisoning.]]></statement>
+		<statement num="2"><![CDATA[One more thing. I find it strange that our victim couldn't escape the fire, don't you?
+		
+I'm wondering if he was intoxicated. Make sure you check to see if there are drugs or alcohol in the victim's blood.]]></statement>
+		<response num="1"><![CDATA[I'll test his blood for carboxyhemoglobin in the lab.]]></response>
+		<response num="2"><![CDATA[I'll do that.]]></response>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="AutopsySkippedEnd">
+		<statement num="1"><![CDATA[If I gave you a sample of the victim's blood, what would you do with it?]]></statement>
+		<statement num="2"><![CDATA[No, we already know the victim's identity. We need the blood for something else.]]></statement>
+		<statement num="3"><![CDATA[Knowing the blood type won't help us find the cause of death. Try again.]]></statement>
+		<statement num="4"><![CDATA[Correct. Measuring the percentage of carboxyhemoglobin in our victim's blood will help determine if he died from CO poisoning.]]></statement>
+		<statement num="5"><![CDATA[One more thing. I find it strange that our victim couldn't escape the fire, don't you?
+		
+I'm wondering if he was intoxicated. Make sure you check to see if there are drugs or alcohol in the victim's blood.]]></statement>
+		<response num="1"><![CDATA[Perform a DNA test to identify the victim.]]></response>
+		<response num="2"><![CDATA[Test how much carboxyhemoglobin is in it.]]></response>
+		<response num="3"><![CDATA[Determine the blood type.]]></response>
+		<response num="4"><![CDATA[I'll test his blood for carboxyhemoglobin in the lab.]]></response>
+		<response num="5"><![CDATA[I'll do that.]]></response>		
+	</conversation>
+</dialog>

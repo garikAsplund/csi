@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<dialog name="DrLewis" displayName="Dr. Sharla Lewis">
+	<conversation location="Hospital_Doctor" visit="1" name="1">
+		<statement num="1"><![CDATA[What can I help you with?]]></statement>
+		<statement num="2"><![CDATA[Yes, what do you want to know?]]></statement>
+		<statement num="3"><![CDATA[Natalie presented with mild symptoms of carbon monoxide poisoning, including dizziness and nausea.
+
+She should be fine soon.]]></statement>
+		<statement num="4"><![CDATA[Please, go ahead. The report is by the desk.]]></statement>
+		<response num="1"><![CDATA[I am here to inquire about your patient, Natalie Perez. I have a search warrant to obtain medical data.]]></response>
+		<response num="2"><![CDATA[Can you describe Natalie's symptoms for me?]]></response>
+		<response num="3"><![CDATA[I would like to have a look at Natalie's patient report.]]></response>
+		<response num="4"><![CDATA[Thank you for your cooperation.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="2">
+		<statement num="1"><![CDATA[Do you have any questions about the report?]]></statement>
+		<statement num="2"><![CDATA[No - and we didn't find a prescription in her medical records.]]></statement>
+		<statement num="3"><![CDATA[That's hard to say.
+
+Oxycodone comes in different doses, and how much is absorbed into the bloodstream depends on a person's metabolism.]]></statement>
+		<statement num="4"><![CDATA[Upon admission, Natalie seemed to be very confused.
+
+That could be normal under the circumstances, but confusion is also a short-term effect of oxycodone.]]></statement>
+		<statement num="5"><![CDATA[It is, but only if you are in pain and have a prescription for it.
+
+I have some very good information about oxycodone on my computer. Feel free to look at it.]]></statement>
+		<response num="1"><![CDATA[Did you prescribe Natalie oxycodone?]]></response>
+		<response num="2"><![CDATA[How much oxycodone did she take?]]></response>
+		<response num="3"><![CDATA[How did the oxycodone affect her?]]></response>
+		<response num="4"><![CDATA[Shouldn't oxycodone be safe to use?]]></response>
+		<response num="5"><![CDATA[Thanks, that would be helpful.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation1">
+		<statement num="1"><![CDATA[So you need more information about oxycodone.
+
+What do you want to know first?]]></statement>
+		<statement num="2"><![CDATA[Oxycodone is very similar to molecules the body produces.
+
+Let me show you.]]></statement>
+		<statement num="3"><![CDATA[Oxycodone acts on the nervous system, mainly the brain.
+
+I have a simulation here to show you.]]></statement>
+		<response num="1"><![CDATA[What is oxycodone?]]></response>
+		<response num="2"><![CDATA[Where does oxycodone act in the body?]]></response>
+		<response num="3"><![CDATA[Let's see it.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationA1">
+		<statement num="1"><![CDATA[Let’s reflect. What group of chemicals does oxycodone belong to?]]></statement>
+		<statement num="2"><![CDATA[No, the body doesn't produce oxycodone. Try again.]]></statement>
+		<statement num="3"><![CDATA[No, but heroin and oxycodone belong to the same class of chemicals. Try again.]]></statement>
+		<statement num="4"><![CDATA[That’s correct.
+
+Oxycodone is an opioid. It is manufactured from a chemical found in opium.]]></statement>
+		<response num="1"><![CDATA[Body-produced painkillers.]]></response>
+		<response num="2"><![CDATA[Opioids.]]></response>
+		<response num="3"><![CDATA[Heroin.]]></response>
+		<response num="4"><![CDATA[Please continue.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationA2">
+		<statement num="1"><![CDATA[What do you want to know next?]]></statement>
+		<statement num="2"><![CDATA[Oxycodone acts on the nervous system, mainly the brain.
+
+I have a simulation here to show you.]]></statement>
+		<response num="1"><![CDATA[Where does oxycodone act in the body?]]></response>
+		<response num="2"><![CDATA[Let's see it.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationB1">
+		<statement num="1"><![CDATA[So both oxycodone as well as body-produced painkillers can act on the same brain system.
+
+Do you remember its name?]]></statement>
+		<statement num="2"><![CDATA[No, that's not it. Try again.]]></statement>
+		<statement num="3"><![CDATA[That's not what it's called. Try again.]]></statement>
+		<statement num="4"><![CDATA[Yes. While they both fight pain by acting on other parts of the nervous system, they produce feelings of pleasure when acting on the reward system.]]></statement>
+		<response num="1"><![CDATA[Reward system]]></response>
+		<response num="2"><![CDATA[Control system]]></response>
+		<response num="3"><![CDATA[Oxycodone system]]></response>
+		<response num="4"><![CDATA[I see.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationB2">
+		<statement num="1"><![CDATA[What do you want to know next?]]></statement>
+		<statement num="2"><![CDATA[Oxycodone acts on the nervous system, mainly the brain.
+
+I have a simulation here to show you.]]></statement>
+		<response num="1"><![CDATA[What is oxycodone?]]></response>
+		<response num="2"><![CDATA[Let's see it.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation2">
+		<statement num="1"><![CDATA[Do you have more questions about oxycodone?]]></statement>
+		<statement num="2"><![CDATA[When the body is in pain, oxycodone works together with the body’s own painkillers to fight it.]]></statement>
+		<response num="1"><![CDATA[Why is oxycodone safe if somebody has a prescription?]]></response>
+		<response num="2"><![CDATA[I want to learn more about that.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation3">
+		<statement num="1"><![CDATA[It’s really smart how the brain reacts to pain, isn’t it?]]></statement>
+		<statement num="2"><![CDATA[Sometimes, if the pain is really bad, body-produced painkillers might not be strong or fast enough.
+
+A prescription pain reliever such as oxycodone is needed.]]></statement>
+		<response num="1"><![CDATA[Why are prescription pain relievers even needed then?]]></response>
+		<response num="2"><![CDATA[How does the brain react to oxycodone?]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation4">
+		<statement num="1"><![CDATA[Oxycodone is a very powerful pain-reliever when used as prescribed.]]></statement>
+		<statement num="2"><![CDATA[That’s what many people believe, but when taken without a prescription, oxycodone can be very harmful.]]></statement>
+		<response num="1"><![CDATA[So shouldn’t oxycodone be safe even without a prescription?]]></response>
+		<response num="2"><![CDATA[Can you show me why?]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation5">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[The brain actually changes if a person keeps taking oxycodone.
+
+If that happens, the drug will just not have the same effects that it had before.]]></statement>
+		<response num="1"><![CDATA[Why can’t a person just keep taking oxycodone?]]></response>
+		<response num="2"><![CDATA[I want to know more.]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation6">
+		<statement num="1"><![CDATA[Do you see? If a person who is not in pain takes oxycodone, addiction can develop.]]></statement>
+		<statement num="2"><![CDATA[Sadly, an oxycodone overdose can lead to death.]]></statement>
+		<response num="1"><![CDATA[What are the consequences of oxycodone addiction?]]></response>
+		<response num="2"><![CDATA[Death? How so?]]></response>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationEnd">
+		<statement num="1"><![CDATA[Let me ask you a few questions to see if you have your facts straight.
+
+When the level of body-produced painkillers increases if a person is in pain, how does it change when the pain stops?]]></statement>
+		<statement num="2"><![CDATA[No - after the pain stops, there is no need for an increased amount of painkillers.
+Try again.]]></statement>
+		<statement num="3"><![CDATA[Remember, the brain always maintains a certain level of painkillers. Try again.]]></statement>
+		<statement num="4"><![CDATA[You’re right, after the pain is gone, the brain decreases its painkiller production until a normal level is reached.
+
+Tell me, how does the level of body-produced painkillers change if a person takes oxycodone WITHOUT being in pain?]]></statement>
+		<statement num="5"><![CDATA[Remember, the brain always adapts to changes in the amount of painkillers. Try again.]]></statement>
+		<statement num="6"><![CDATA[No. If not in pain, the body doesn’t need more painkillers. Try again.]]></statement>
+		<statement num="7"><![CDATA[Correct. When not in pain, a normal level of painkillers is sufficient. If oxycodone is present, the brain will adapt by reducing it’s own painkillers.
+
+A person develops tolerance if they continue to take oxycodone without a prescription. What does that mean?]]></statement>
+		<statement num="8"><![CDATA[Unfortunately, that’s not the case. Try again.]]></statement>
+		<statement num="9"><![CDATA[Not true. The drug will still have side effects. Try again.]]></statement>
+		<statement num="10"><![CDATA[Yes. Tolerance develops because the drug physically changes the brain. That’s why addiction is considered a brain disease.
+
+Last question: What is one effect of a nervous system depressant such as oxycodone?]]></statement>
+		<statement num="11"><![CDATA[Increased heart rate is an effect of a stimulant, which is quite the opposite of a nervous system depressant. Try again.]]></statement>
+		<statement num="12"><![CDATA[Oxycodone does not induce hallucinations. Try again.]]></statement>
+		<statement num="13"><![CDATA[Correct. If oxycodone is overdosed, breathing can be slowed down so much that the person dies.]]></statement>
+		<response num="1"><![CDATA[It increases further.]]></response>
+		<response num="2"><![CDATA[It decreases to a normal level.]]></response>
+		<response num="3"><![CDATA[It decreases to zero.]]></response>		
+		<response num="4"><![CDATA[It doesn't change.]]></response>
+		<response num="5"><![CDATA[It increases above the normal level.]]></response>
+		<response num="6"><![CDATA[It decreases below the normal level.]]></response>		
+		<response num="7"><![CDATA[More of the drug is needed to produce the same effect.]]></response>
+		<response num="8"><![CDATA[Less of the drug is needed to produce the same effect.]]></response>
+		<response num="9"><![CDATA[The body tolerates the drug's side effects.]]></response>		
+		<response num="10"><![CDATA[Increased heart rate]]></response>
+		<response num="11"><![CDATA[Hallucinations]]></response>
+		<response num="12"><![CDATA[Slowed breathing]]></response>
+		<response num="13"><![CDATA[Thanks for all the information.]]></response>
+	</conversation>
+</dialog>

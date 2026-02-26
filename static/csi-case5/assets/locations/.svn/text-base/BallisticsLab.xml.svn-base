@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<location name="BallisticsLab" displayName="Firearms & Toolmarks">
+   <person name="Sidle" />
+   <object name="DoorExit" />
+   <object name="Microscope" />
+   <object name="WaterTank" />
+   <visit num="1" ambient="LabAmbient">
+      <clickable name="Sidle" type="ignore" require="evidence:CrimeSceneWeapon" action="dialog:Sidle1" fail="dialog:Sidle1" checkDone="evidence:CrimeSceneWeapon" >
+         <clickable name="Sidle" type="ignore" require="dialog:SidleGetBullet" action="dialog:SidlePriorAutopsy" persist="true" fail="dialog:SidleWithEvidence" />
+      </clickable>
+      <clickable name="DoorExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+      <clickable name="WaterTank" type="ignore" require="evidenceInHand:CrimeSceneWeapon" action="dialog:SidleGetBullet" fail="dialog:SidleExplainFiringStation" caption="Water tank" persist="true" />
+      <clickable name="Microscope" type="ignore" action="dialog:SidleExplainMicroscope" caption="Microscope" persist="true" />
+   </visit>
+   
+   <visit num="2" ambient="LabAmbient">
+      <clickable name="Sidle" type="ignore" action="dialog:SidleWithEvidence" checkDone="evidence:CrimeSceneBullet" >
+         <clickable name="Sidle" type="ignore" action="dialog:SidleDone" persist="true" require="dialog:SidleCrimeSceneBulletEnd" fail="dialog:SidleNotDone"/>
+      </clickable>
+      <clickable name="Microscope" type="required" require="evidenceInHand:DeadlyBullet" action="dialog:SidleDeadlyBullet,activity:BulletComparison1,hide:DeadlyBullet,custom:CheckAllClues2" checkDone="activity:BulletComparison1" fail="dialog:SidleExplainMicroscope" caption="Microscope" persist="true" />
+      <clickable name="WaterTank" type="required" require="evidenceInHand:CrimeSceneWeapon" action="custom:setTank1,dialog:SidleFiringStation1,activity:WaterTank1,hide:CrimeSceneWeapon,evidence:CrimeSceneBullet" caption="Water tank" checkDone="evidence:CrimeSceneBullet" fail="dialog:SidleExplainFiringStation" >
+         <clickable name="WaterTank" type="ignore" action="dialog:SidleExplainFiringStation" caption="Water tank" persist="true" />
+         <multiclick name="Microscope" type="required" caption="Microscope" action="multiclick" require="evidenceInHand:CrimeSceneBullet,evidenceInHand:DeadlyBullet" persist="true">
+            <clickable name="Microscope" type="ignore" require="evidenceInHand:CrimeSceneBullet" action="dialog:SidleComparisonWait" checkDone="activity:BulletComparison1"/>
+            <clickable name="Microscope" type="required" require="evidenceInHand:CrimeSceneBullet,activity:BulletComparison1" action="dialog:SidleCrimeSceneBulletStart,activity:BulletComparison2,dialog:SidleCrimeSceneBulletEnd,clue:NoMatch,hide:CrimeSceneBullet,custom:CheckAllClues2" checkDone="activity:BulletComparison2">
+               <set variable="visit:Lab" type="required" value="3"/>
+               <dev action="location:Lab" />
+            </clickable>
+            <clickable name="Microscope" type="required" require="evidenceInHand:DeadlyBullet" action="dialog:SidleDeadlyBullet,activity:BulletComparison1,hide:DeadlyBullet,custom:CheckAllClues2" checkDone="activity:BulletComparison1">
+            </clickable>
+            <clickable name="Microscope" type="ignore" action="dialog:SidleExplainMicroscope" />
+         </multiclick>
+      </clickable>
+      <clickable name="DoorExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <visit num="3" ambient="LabAmbient">
+      <clickable name="Sidle" type="ignore" action="dialog:SidleWithNextEvidence" checkDone="evidence:McCoyBullet" >
+         <clickable name="Sidle" type="ignore" require="dialog:SidleMcCoyBulletEnd" action="dialog:SidleDone" fail="dialog:SidleNotDone" checkDone="dialog:SidleMcCoyBulletEnd" persist="true">
+         </clickable>
+      </clickable>
+      <clickable name="Microscope" type="ignore" action="dialog:SidleExplainMicroscope" caption="Microscope" persist="true" />
+      <clickable name="WaterTank" type="required" require="evidenceInHand:McCoyWeapon" action="custom:setTank2,activity:WaterTank1,hide:McCoyWeapon,evidence:McCoyBullet" caption="Water tank" checkDone="evidence:McCoyBullet" fail="dialog:SidleExplainFiringStation">
+         <clickable name="WaterTank" type="ignore" action="dialog:SidleExplainFiringStation" caption="Water tank" persist="true" />
+         <clickable name="Microscope" type="required" require="evidenceInHand:McCoyBullet" action="dialog:SidleMcCoyBulletStart,activity:BulletComparison3,hide:McCoyBullet" caption="Microscope" checkDone="activity:BulletComparison3" fail="dialog:SidleExplainMicroscope" >
+            <clickable name="Microscope" type="ignore" action="dialog:SidleExplainMicroscope" caption="Microscope" persist="true" />
+            <clickable name="Sidle" type="ignore" action="dialog:SidleDone" persist="true"/>
+            <dev action="location:AssistantsHouse" />
+         </clickable>
+      </clickable>
+      <clickable name="DoorExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <visit num="4" ambient="LabAmbient">
+      <clickable name="Sidle" type="ignore" action="dialog:SidleWithNextEvidence" checkDone="evidence:PharmacistBullet">
+         <clickable name="Sidle" type="ignore" fail="dialog:SidleNotDone" persist="true" require="clue:PharmacistWeaponMatches" action="dialog:SidleDoneFinal">
+         </clickable>
+      </clickable>
+      <multiclick name="WaterTank" type="required" caption="Water tank" action="multiclick" require="evidenceInHand:McCoyWeapon,evidenceInHand:PharmacistWeapon" persist="true">     
+         <clickable name="WaterTank" type="required" require="evidenceInHand:PharmacistWeapon" action="custom:setTank3,activity:WaterTank1,hide:PharmacistWeapon,evidence:PharmacistBullet" checkDone="evidence:PharmacistBullet" />
+         <clickable name="WaterTank" type="ignore" require="evidenceInHand:McCoyWeapon" action="custom:setTank2,activity:WaterTank1,hide:McCoyWeapon,evidence:McCoyBullet" checkDone="evidence:McCoyBullet"/>
+         <clickable name="WaterTank" type="ignore" action="dialog:SidleExplainFiringStation" persist="true" />
+      </multiclick>
+         <clickable name="Microscope" type="required" require="evidenceInHand:PharmacistBullet" action="dialog:SidlePharmacistBulletStart,activity:BulletComparison4,dialog:SidlePharmacistBulletEnd,clue:PharmacistWeaponMatches,hide:PharmacistBullet,custom:CheckIfDone" checkDone="clue:PharmacistWeaponMatches"/>
+         <clickable name="Microscope" type="ignore" require="evidenceInHand:McCoyBullet" action="dialog:SidleMcCoyBulletStart,activity:BulletComparison3,hide:McCoyBullet" checkDone="activity:BulletComparison3" />
+         <clickable name="Microscope" type="ignore" action="dialog:SidleExplainMicroscope" persist="true" />
+      <clickable name="DoorExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+   </visit>
+   
+   <custom name="setTank1">
+      <set variable="general:TankClicked" value="1"/>
+   </custom>
+   <custom name="setTank2">
+      <set variable="general:TankClicked" value="2"/>
+   </custom>
+   <custom name="setTank3">
+      <set variable="general:TankClicked" value="3"/>
+   </custom>
+   <custom name="CheckIfDone" require="clue:PharmacistWeaponMatches,clue:PharmacistSkin">
+      <unlock type="message" name="message7">  
+         <standalone action="activity:MatchClues,activity:End" />
+      </unlock>
+   </custom>   
+   <custom name="CheckAllClues2" require="clue:VictimBloodStains,clue:ForeignSkin,clue:VictimFingerprints,clue:NoMatch">
+      <standalone action="message:message2" type="required">
+         <unlock type="location" name="McCoysHouse" />
+      </standalone>
+      <set variable="visit:Hospital" type="required" value="3"/>
+      <set variable="visit:HospitalCrimeScene" type="required" value="2"/>
+   </custom>
+</location>

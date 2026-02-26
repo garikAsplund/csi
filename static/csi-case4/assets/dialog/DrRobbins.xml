@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<dialog name="DrRobbins">
+	<conversation location="Morgue" visit="1" name="1">
+		<statement num="1" push="1,3,4" />
+		<statement num="2" push="2" />
+		<statement num="3" push="5" />
+		<statement num="4" push="5" />
+		<statement num="5" push="5" />
+		<statement num="6" push="6" />		
+		<response num="1" goto="2" />
+		<response num="2" goto="3" />
+		<response num="3" goto="4" />
+		<response num="4" goto="5" />
+		<response num="5" goto="6" require="2,3,4" />
+		<response num="6" goto="end" />
+	</conversation>
+	<conversation location="Morgue" visit="1" name="2">
+		<statement num="1" push="1"/>
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy1">
+		<statement num="1" push="1,2"/>
+		<response num="1" setVar="general:DoAutopsy:true" goto="end"/>
+		<response num="2" setVar="general:DoAutopsy:false" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy2">
+		<statement num="1" push="1,2"/>
+		<response num="1" setVar="general:DoAutopsy:true" goto="end"/>
+		<response num="2" setVar="general:DoAutopsy:false" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy3">
+		<statement num="1" push="1" />
+		<response num="1" goto="end" />
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy4">
+		<statement num="1" push="1" />
+		<response num="1" goto="end" />
+	</conversation>
+	<conversation location="Morgue" visit="1" name="AutopsySkipped">
+		<statement num="1" push="1"/>
+		<response num="1" goto="end"/>		
+	</conversation>
+	<conversation location="Morgue" visit="1" name="Autopsy5">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2" push=""/>
+		<statement num="3" push=""/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="AutopsyEnd">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" visit="1" name="AutopsySkippedEnd">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2" push=""/>
+		<statement num="3" push=""/>
+		<statement num="4" push="4"/>
+		<statement num="5" push="5"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="5"/>
+		<response num="5" goto="end"/>
+	</conversation>
+</dialog>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<location name="Hospital_Patient" displayName="Patient's Room">
+	<person name="NataliePerez"/>
+	<object name="DoorPatientExit" />
+	<object name="Report" />
+	<visit num="1" ambient="HospitalAmbient">
+		<clickable name="NataliePerez" type="required" action="dialog:NataliePerez1,clue:SuspectDenies,custom:CheckIfDone" checkDone="clue:SuspectDenies" persist="true" />
+		<clickable name="DoorPatientExit" type="ignore" action="location:Hospital" caption="EXIT TO HALLWAY" />
+		<dev action="location:Hospital_Doctor"/>
+	</visit>
+	<custom name="CheckIfDone" require="clue:OxycodoneNatalieBlood,clue:SuspectDenies,clue:OxycodoneAddictive">
+		<set variable="visit:Hospital" value="3" />
+		<unlock type="message" name="message3">
+			<standalone action="activity:MatchClues,location:InterrogationRoom" />
+		</unlock>
+	</custom>
+</location>

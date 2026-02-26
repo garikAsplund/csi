@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<clues>
+	<clue name="MatchboxWithRestaurant">
+		<title><![CDATA[Matchbox Mit Restaurant Logo]]></title>
+		<text><![CDATA[Eine Schachtel Streichhölzer mit einem Restaurant-Logo.]]></text>
+		<icon><![CDATA[smallIcon10]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="GirlfriendSuspect">
+		<title><![CDATA[Victim Freundin ist ein POI]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Opfer die Freundin ist eine Person von Interesse (POI)
+Donald Parker, das Opfer zum Nächsten, sagte er oft gehört, das Opfer zu kämpfen mit seiner Freundin Natalie Perez. Hat sie absichtlich das Feuer gelegt und rief dann die Feuerwehr zu tun, es war ein Unfall?]]></text>
+		<icon><![CDATA[smallIcon6]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>	
+	<clue name="NeighborSuspect">
+		<title><![CDATA[Nachbar ist ein POI]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Nachbar ist eine Person von Interesse (POI)
+Das Opfer der Nächstenliebe, Donald Parker, erwähnte einige Run-Ins er mit dem Opfer hatte. Würde er wollen, ihm zu schaden? Er behauptete, dass er von der Arbeit kam um 5:30 Uhr, noch lange nachdem das Feuer ausbrach. War er wirklich die ganze Nacht?]]></text>
+		<icon><![CDATA[smallIcon13]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="Alcohol">
+		<title><![CDATA[Alkohol könnte beteiligt gewesen sein]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Alkohol kann beteiligt gewesen sein
+Alkohol verlangsamt werden kann eine Person die Reaktionszeit. Könnte der Grund, das Opfer nicht entging das Feuer sein, dass er betrunken war? Testen Sie, das Blut des Opfers für Alkohol.]]></text>
+		<icon><![CDATA[smallIcon2]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="Wallet">
+		<title><![CDATA[Natalie linken Brieftasche hinter]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Natalie linken Brieftasche Feuer Szene
+Menschen, die Brandstiftung zu begehen oft entfernen ihre wichtigsten Habseligkeiten aus der Szene. Wenn das Feuer ist ein Unfall, es gibt keine Zeit dafür. Möchten Natalie lassen sie alle ihre Kreditkarten und Ausweise hinter zu vertuschen wegen Brandstiftung, oder hat sie wirklich aus in Panik?]]></text>
+		<icon><![CDATA[smallIcon1]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="NeighborAtCrimeScene">
+		<title><![CDATA[Nachbar war am Tatort]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Donald Parker wurde am Tatort
+Die Fingerabdrücke auf der Schachtel Streichhölzer wir am Tatort gefunden Match Donald Parker, das Opfer der Nächstenliebe. Warum war er dort? Hat er die Spiele, um das Feuer zu starten?]]></text>
+		<icon><![CDATA[smallIcon11]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="FireOrigin">
+		<title><![CDATA[Mögliche Ursprung des Feuers]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Stillstandsheizung möglichen Ursprung des Feuers
+Die v-förmigen Muster brennen über dem Heizgerät Punkte für die Heizung als Ursprung des Feuers. Ein Kleidungsstück war sehr nahe an der Heizung, es könnte Feuer gefangen haben.
+Verwenden Sie den Leuchttisch Zur weiteren Untersuchung der Raumheizung.]]></text>
+		<icon><![CDATA[smallIcon4]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="Liquids">
+		<title><![CDATA[Keine brennbarer Flüssigkeiten]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Keine zündfähigen Flüssigkeiten in Pfütze Probe
+Die Gaschromatographie-Analyse zeigte, dass es keine zündfähigen Flüssigkeiten inder Pfütze-förmigen verbrannt Bodenbelag. Wenn kein zündfähiges Flüssigkeiten verwendet wurden, um das Feuer zu beginnen, was könnte sonst das Feuer Ursprungs sein?]]></text>
+		<icon><![CDATA[smallIcon9]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="FireSource">
+		<title><![CDATA[Quelle des Feuers]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Stillstandsheizung mögliche Quelle des Feuers
+Sie fand ein Stück verbrannt Tuch, wahrscheinlich die Überreste von einem Kleidungsstück auf der Raumheizung. Brennbare, dass zu nah an laufenden Heizungen sind eine häufige Ursache von Bränden.
+War unser Feuer ein Fall von menschlicher Nachlässigkeit? Wie kam es dazu?]]></text>
+		<icon><![CDATA[smallIcon5]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="NoSoot">
+		<title><![CDATA[Kein Ruß]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Kein Ruß in den Atemwegen des Opfers 
+Die Autopsie ergab kein Ruß in Trevor Johnson Atemwege, die zu ungewöhnlich sein würde, wenn er an Rauchvergiftung gestorben.
+Allerdings ist kein Ruß nicht immer bedeuten, dass es nicht eine tödliche Menge an Carboxyhämoglobin im Blut. Testen Sie, das Blut des Opfers im Labor.]]></text>
+		<icon><![CDATA[smallIcon14]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="NotFire">
+		<title><![CDATA[Victim nicht vom Feuer sterben]]></title>
+		<text><![CDATA[Du hast eine CLUE erworben: Opfer nicht aus Feuer sterben
+Die Konzentration von Carboxyhämoglobin in das Blut des Opfers war normal, was bedeutet, dass das Opfer nicht einatmen Rauch und war vermutlich schon tot, als das Feuer ausbrach.
+Wenn nicht das Feuer, was könnte sonst Trevor Johnson getötet haben?]]></text>
+		<icon><![CDATA[smallIcon15]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="NeighborAtWork">
+		<title><![CDATA[Neighbor was at work]]></title>
+		<text><![CDATA[You've acquired a CLUE: Neighbor was working when the fire started]]></text>
+		<icon><![CDATA[smallIcon12]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="AlcoholBlood">
+		<title><![CDATA[Alcohol in victim's blood]]></title>
+		<text><![CDATA[You've acquired a CLUE: Victim's blood contains alcohol.]]></text>
+		<icon><![CDATA[smallIcon2]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OpiatesBlood">
+		<title><![CDATA[Opiates in victim's blood]]></title>
+		<text><![CDATA[You've acquired a CLUE: Victim's blood contains opiates]]></text>
+		<icon><![CDATA[smallIcon16]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OxycodoneBlood">
+		<title><![CDATA[Oxycodone in victim's blood]]></title>
+		<text><![CDATA[You've acquired a CLUE: Victim's blood contains oxycodone]]></text>
+		<icon><![CDATA[smallIcon19]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="LinaSuspect">
+		<title><![CDATA[Lina Perez is a POI]]></title>
+		<text><![CDATA[You've acquired a CLUE: Lina Perez is a person of interest (POI)]]></text>
+		<icon><![CDATA[smallIcon7]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OxycodoneStolen">
+		<title><![CDATA[Oxycodone was stolen]]></title>
+		<text><![CDATA[You've acquired a CLUE: Somebody stole oxycodone from Lina]]></text>
+		<icon><![CDATA[smallIcon23]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OxycodoneNatalieBlood">
+		<title><![CDATA[Oxycodone in Natalie's blood]]></title>
+		<text><![CDATA[You've acquired a CLUE: Victim's blood contains oxycodone]]></text>
+		<icon><![CDATA[smallIcon22]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OxycodoneNatalieAddiction">
+		<title><![CDATA[Addicted to oxycodone]]></title>
+		<text><![CDATA[You've acquired a CLUE: Natalie claims she is addicted to oxycodone]]></text>
+		<icon><![CDATA[smallIcon21]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OxycodoneStolenVictim">
+		<title><![CDATA[Victim stole oxycodone]]></title>
+		<text><![CDATA[You've acquired a CLUE: Victim stole Lina's oxycodone]]></text>
+		<icon><![CDATA[smallIcon24]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="FireAccident">
+		<title><![CDATA[Fire probably accident]]></title>
+		<text><![CDATA[You've acquired a CLUE: Fire might have been an accident]]></text>
+		<icon><![CDATA[smallIcon3]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OxycodoneAbuse">
+		<title><![CDATA[Oxycodone is often abused]]></title>
+		<text><![CDATA[You've acquired a CLUE: Oxycodone is often abused]]></text>
+		<icon><![CDATA[smallIcon17]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="SuddenDeath">
+		<title><![CDATA[Sudden death]]></title>
+		<text><![CDATA[You've acquired a CLUE: Sudden death from oxycodone overdose]]></text>
+		<icon><![CDATA[smallIcon8]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OxycodoneAddictive">
+		<title><![CDATA[Oxycodone is addictive]]></title>
+		<text><![CDATA[You've acquired a CLUE: Oxycodone is addictive]]></text>
+		<icon><![CDATA[smallIcon18]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+	<clue name="OxycodoneJudgment">
+		<title><![CDATA[Oxycodone alters judgment]]></title>
+		<text><![CDATA[You've acquired a CLUE: Oxycodone alters judgment]]></text>
+		<icon><![CDATA[smallIcon20]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+	</clue>
+</clues>

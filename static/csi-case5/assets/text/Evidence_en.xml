@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<evidence>
+	<piece name="Photos">
+		<title><![CDATA[Crime scene photos]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Crime scene photos
+These photos can be used to determine the position of the victim at the time she was shot.
+Use the COMPUTER STATION in the lab to analyze the crime scene photos.]]></text>
+	</piece>
+	<piece name="StainSample">
+		<title><![CDATA[Blood stain samples]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Blood stain samples
+Are the blood stains on the wall and on the floor only from the victim?
+Use the GENETIC ANALYZER in the lab to determine the source of the blood.]]></text>
+	</piece>
+	<piece name="VictimComputer">
+		<title><![CDATA[Victim's computer]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Victim’s computer
+Why would Dr. Phillips have wanted to kill herself? Maybe her computer reveals an answer. 
+Use the COMPUTER STATION in the lab to analyze digital evidence.]]></text>
+	</piece>	
+	<piece name="CrimeSceneWeapon">
+		<title><![CDATA[Crime scene gun]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Gun found at crime scene
+Is this really the gun that fired the deadly shot? Is the victim the only person who used this gun?
+Use the FINGERPRINT STATION in the lab to search the gun for fingerprints, and take it to the FIREARMS AND TOOLMARKS lab to retrieve a bullet.]]></text>
+	</piece>
+	<piece name="VictimSkin">
+		<title><![CDATA[Fingernail swabs]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Fingernail swabs
+These fingernail swabs can be used to create DNA profiles. If there is any foreign tissue underneath the fingernails, then a DNA profile different from the victim’s will be found. 
+Use the GENETIC ANALYZER in the lab to create DNA profiles from these samples.]]></text>
+	</piece>
+	<piece name="VictimFingerprintsEvi">
+		<title><![CDATA[Victim's print]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Victim’s print
+Is the fingerprint you found on the crime scene gun from the victim or from somebody else? 
+Use the FINGERPRINT STATION in the lab to compare this print to the one found on the gun.]]></text>
+	</piece>
+	<piece name="DeadlyBullet">
+		<title><![CDATA[Autopsy bullet]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Autopsy bullet
+The bullet retrieved from the victim’s head is crucial. Whatever weapon matches this bullet is the murder weapon. 
+Use the COMPARISON MICROSCOPE in the firearms & toolmarks lab to analyze this bullet.]]></text>
+	</piece>
+	<piece name="VictimBlood">
+		<title><![CDATA[Victim's blood]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Victim’s blood
+If the DNA isolated from this blood matches the bloodstains found at the crime scene, you’ll know that the victim was the sole bleeder. You’ll also need the DNA from this sample as a reference for the fingernail swabs.
+Use the GENETIC ANALYZER in the lab to analyze this sample.]]></text>
+	</piece>
+	<piece name="CrimeSceneBullet">
+		<title><![CDATA[Crime scene bullet]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Bullet from crime scene gun
+You have produced a test fired bullet from the gun the victim was holding in her hands.
+Use the COMPARISON MICROSCOPE in the lab to compare this bullet to the autopsy bullet.]]></text>
+	</piece>
+	<piece name="McCoyWeapon">
+		<title><![CDATA[McCoy’s gun]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Terry McCoy’s gun
+Could this be the murder weapon?
+Take this gun to the FIREARMS & TOOLMARKS lab to produce a test fired bullet and compare the bullet to the one that killed the victim.]]></text>
+	</piece>
+	<piece name="McCoyDNA">
+		<title><![CDATA[McCoy's DNA]]></title>
+		<text><![CDATA[You’ve acquired some evidence: DNA sample from Terry McCoy
+If this DNA sample matches the DNA you found in the victim’s fingernail swabs, we know that Terry McCoy was the person she was in close contact with shortly before she died.
+Use the GENETIC ANALYZER in the lab to analyze this DNA sample.]]></text>
+	</piece>
+	<piece name="McCoyBullet">
+		<title><![CDATA[McCoy's bullet]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Bullet from McCoy’s gun
+You have produced a test fired bullet from Terry McCoy’s gun.
+Use the COMPARISON MICROSCOPE in the lab to compare this bullet to the autopsy bullet.]]></text>
+	</piece>
+	<piece name="AssistantDNA">
+		<title><![CDATA[Assistant's DNA]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Assistant’s DNA sample
+If this DNA sample matches the DNA you found in the victim’s fingernail swabs, we know that Anna Steward was the person she was in close contact with shortly before she died.
+Use the GENETIC ANALYZER in the lab to analyze this DNA sample.]]></text>
+	</piece>
+	<piece name="PharmacistDNA">
+		<title><![CDATA[Pharmacist's DNA]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Pharmacist’s DNA sample
+If this DNA sample matches the DNA you found in the victim’s fingernail swabs, we know that Edgar White was the person she was in close contact with shortly before she died.
+Use the GENETIC ANALYZER in the lab to analyze this DNA sample.]]></text>
+	</piece>
+	<piece name="PharmacistWeapon">
+		<title><![CDATA[Pharmacist's Gun]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Pharmacist’s gun
+Is this the gun the bullet that killed our victim was fired from?
+Take this gun to the FIREARMS & TOOLMARKS lab to produce a test fired bullet and compare the bullet to the reference bullet. ]]></text>
+	</piece>
+	<piece name="PharmacistBullet">
+		<title><![CDATA[Pharmacist's bullet]]></title>
+		<text><![CDATA[You’ve acquired some evidence: Bullet from pharmacist’s gun
+You have produced a test fired bullet from Edgar White’s gun.
+Use the COMPARISON MICROSCOPE in the lab to compare this bullet to the autopsy bullet. ]]></text>
+	</piece>
+</evidence>

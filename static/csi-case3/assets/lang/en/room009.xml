@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room009 - inside Freebird's house. </tag>
+	
+		<!-- MOTHER0 (BEFORE MOTHER/DAUGHTER DNA MATCH) -->
+		
+	<tag id="ID_MOTHER0A"><![CDATA[Are you here to help us look for Freebird?  She's been gone almost 2 days now!]]></tag>
+	<tag id="ID_MOTHER0B"><![CDATA[I'll help in any way I can.  I just want to get my daughter home safe.]]></tag>
+	<tag id="ID_MOTHER0C"><![CDATA[It was just two days ago.  She gave a concert at the Celestial Casino.  Lawrence and I both went to watch her perform.]]></tag>
+	<tag id="ID_MOTHER0D"><![CDATA[Of course.  I'll help in any way I can.  Just show me the picture.]]></tag>
+	<tag id="ID_MOTHER0E"><![CDATA[Oh, she was so kind and gentle.  She has no enemies.]]></tag>
+	<tag id="ID_MOTHER0F"><![CDATA[Lawrence is her boyfriend.  He and Freebird went out that night after the show.]]></tag>
+	
+		<!-- REPLIES TO FREEBIRD'S MOTHER, PART 0 -->
+
+	<tag id="ID_USER0A"><![CDATA[I'm involved in an ongoing case that may be related.  May I ask you some questions?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[When was the last time you saw Freebird?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[May I show you a picture of someone we think might be Freebird?]]></tag>
+	<tag id="ID_USER0D"><![CDATA[Would anyone want to hurt Freebird?]]></tag>
+	<tag id="ID_USER0E"><![CDATA[Who's Lawrence?]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[Thank you for your time.]]></tag>
+	
+
+		<!-- MOTHER1 (WHEN PLAYER USES RECONSTRUCTION PICTURE ON MOTHER) -->
+		
+	<tag id="ID_MOTHER1A"><![CDATA[Oh, that looks almost like my daughter, but the hair's all wrong.  And her eyes are blue, not brown.]]></tag>
+	<tag id="ID_MOTHER1B"><![CDATA[Of course.  Just show me what to do.]]></tag>
+	
+		<!-- REPLIES TO FREEBIRD'S MOTHER, PART 1 -->
+
+	<tag id="ID_USER1A"><![CDATA[Can I take a DNA sample for comparison?]]></tag>
+	<tag id="ID_USER1EXIT"><![CDATA[I'll use my DNA swabs to get a saliva sample.]]></tag>
+	
+
+		<!-- MOTHER2 (AFTER MOTHER/DAUGHTER DNA MATCH) -->
+		
+	<tag id="ID_MOTHER2A"><![CDATA[Well?  Have you learned anything more about my daughter?]]></tag>
+	<tag id="ID_MOTHER2B"><![CDATA[Oh, no.  No, no, no, no, no.  Please, you've got to find who did this!]]></tag>
+	
+		<!-- REPLIES TO FREEBIRD'S MOTHER, PART 2 -->
+
+	<tag id="ID_USER2A"><![CDATA[I'm sorry to tell you, but Freebird is dead.  Her body was found in the desert.]]></tag>
+	<tag id="ID_USER2EXIT"><![CDATA[Thank you for your time.]]></tag>
+
+
+	
+		<!-- BOYFRIEND0 (BEFORE MOTHER/DAUGHTER DNA MATCH) -->
+	
+	<tag id="ID_BOYFRIEND0A"><![CDATA[Do you know anything about my missing girlfriend?  Freebird Reynolds?]]></tag>
+	<tag id="ID_BOYFRIEND0B"><![CDATA[Of course.  I'll help out in any way I can.]]></tag>
+	<tag id="ID_BOYFRIEND0C"><![CDATA[I saw her show at the Celestial two day ago.  We went out to dinner afterwards, then split up.  But she was acting strange all through dinner ...]]></tag>
+	<tag id="ID_BOYFRIEND0D"><![CDATA[Oh, man, that doesn't sound good.  But I'll take a look at it, sure.]]></tag>
+	<tag id="ID_BOYFRIEND0E"><![CDATA[No ... well, maybe.  I never liked her agent - he didn't care for Freebird, just the money she made.  And he'd do anything for publicity.]]></tag>
+	<tag id="ID_BOYFRIEND0F"><![CDATA[She just seemed nervous and on-edge.  She ... she wasn't herself.]]></tag>
+	
+		<!-- REPLIES TO FREEBIRD'S BOYFRIEND, PART 0 -->
+
+	<tag id="ID_USER3A"><![CDATA[I'm involved in an ongoing case that may be related.  May I ask you some questions?]]></tag>
+	<tag id="ID_USER3B"><![CDATA[When was the last time you saw Freebird?]]></tag>
+	<tag id="ID_USER3C"><![CDATA[May I show you a picture of someone we think might be Freebird?]]></tag>
+	<tag id="ID_USER3D"><![CDATA[Would anyone want to hurt Freebird?]]></tag>
+	<tag id="ID_USER3E"><![CDATA[What was strange about your dinner date?]]></tag>
+	<tag id="ID_USER3EXIT"><![CDATA[Thank you for your time.]]></tag>
+	
+
+		<!-- BOYFRIEND1 (SHOWN RECONSTRUCTION PICTURE) -->
+	
+	<tag id="ID_BOYFRIEND1A"><![CDATA[That almost looks like Freebird, but ... I can't be sure.]]></tag>
+	
+		<!-- REPLIES TO FREEBIRD'S BOYFRIEND, PART 1 -->
+
+	<tag id="ID_USER4EXIT"><![CDATA[Thank you for your assistance.]]></tag>
+	
+
+		<!-- BOYFRIEND2 (AFTER MOTHER/DAUGHTER DNA MATCH) -->
+	
+	<tag id="ID_BOYFRIEND2A"><![CDATA[Well?  Do you have any new information about Freebird?]]></tag>
+	<tag id="ID_BOYFRIEND2B"><![CDATA[Oh, no.  That's ... I can't believe it.  I just can't.]]></tag>
+	<tag id="ID_BOYFRIEND2C"><![CDATA[Man, I'll help anyway I can.  What do you need?]]></tag>
+	<tag id="ID_BOYFRIEND2D"><![CDATA[No problem.  They're the same ones I am wearing right now, but you can have them.]]></tag>
+	<tag id="ID_BOYFRIEND2E"><![CDATA[You can have anything, if it will help find Freebird's killer.]]></tag>
+	<tag id="ID_BOYFRIEND2F"><![CDATA[Yes, that's my car.  Why?]]></tag>
+	<tag id="ID_BOYFRIEND2G"><![CDATA[What!  It wasn't broken when I drove here!  How could that have happened?]]></tag>
+	<tag id="ID_BOYFRIEND2H"><![CDATA[No!  I've never seen that knife before.]]></tag>
+	
+		<!-- REPLIES TO FREEBIRD'S BOYFRIEND, PART 2 -->
+
+	<tag id="ID_USER5A"><![CDATA[I'm sorry, but Freebird's dead.  Her body was found in the desert.]]></tag>
+	<tag id="ID_USER5B"><![CDATA[I need to get some evidence from you.]]></tag>
+	<tag id="ID_USER5C"><![CDATA[I need the shoes you wore the night of the concert]]></tag>
+	<tag id="ID_USER5D"><![CDATA[I need to get your fingerprints.]]></tag>
+	<tag id="ID_USER5E"><![CDATA[Do you know who owns the car out front?]]></tag>
+	<tag id="ID_USER5F"><![CDATA[Are you aware your window is broken?]]></tag>
+	<tag id="ID_USER5G"><![CDATA[Is this your hunting knife I found in the car?]]></tag>
+	<tag id="ID_USER5EXIT"><![CDATA[Thank you for your time.]]></tag>
+
+	
+
+		<!-- NICK0 (BEFORE PICTURE IDENTIFICATION) -->
+	
+	<tag id="ID_NICK0A"><![CDATA[What can I help you with?]]></tag>
+	<tag id="ID_NICK0B"><![CDATA[Did you talk to the mother and the boyfriend?  Maybe you should show them your facial reconstruction picture.]]></tag>
+	<tag id="ID_NICK0C"><![CDATA[We need concrete evidence to proceed.  The mother will let you take a DNA sample.  Why not put those swabs in your inventory to work?]]></tag>
+	<tag id="ID_NICK0D"><![CDATA[I think there's more evidence here.]]></tag>
+	<tag id="ID_NICK0E"><![CDATA[I think we're done here.  Time to move on.]]></tag>
+	
+		<!-- REPLIES TO NICK, PART 0 -->
+
+	<tag id="ID_USER6A"><![CDATA[How can I find out if our victim is the missing girl?]]></tag>	
+	<tag id="ID_USER6B"><![CDATA[The mother maybe recognized Freebird in the picture.  Now what?]]></tag>	
+	<tag id="ID_USER6C"><![CDATA[I'll go do that.]]></tag>
+	<tag id="ID_USER6D"><![CDATA[Are we finished here?]]></tag>
+	<tag id="ID_USER6BADEXIT"><![CDATA[I'll keep looking for more evidence.]]></tag>
+	<tag id="ID_USER6EXIT"><![CDATA[Let's get out of here.]]></tag>
+
+
+		<!-- NICK0 (AFTER PICTURE IDENTIFICATION) -->
+	
+	<tag id="ID_NICK1A"><![CDATA[What can I help you with?]]></tag>
+	<tag id="ID_NICK1B"><![CDATA[You need to do a thorough digital forensics investigation, but not here.  We'll use the computers at the lab to process the evidence.]]></tag>
+	<tag id="ID_NICK1C"><![CDATA[I think there's more evidence here.]]></tag>
+	<tag id="ID_NICK1D"><![CDATA[I think we're done here. Time to move on.]]></tag>
+	<tag id="ID_NICK1E"><![CDATA[Where's the last place we found some footprints?  Remember, we need some way of getting the prints to the lab.]]></tag>
+	<tag id="ID_NICK1F"><![CDATA[Freebird may have written down the code somewhere.  We should examine all her possessions, including her computer.]]></tag>
+	<tag id="ID_NICK1G"><![CDATA[You printed out the diary code from her computer, right?  Try using it on the diary.]]></tag>
+	<tag id="ID_NICK1Q"><![CDATA[Have you checked outside?]]></tag>
+	
+		<!-- REPLIES TO NICK, PART 1 -->
+
+	<tag id="ID_USER7A"><![CDATA[What can I do with Freebird's computer?]]></tag>
+	<tag id="ID_USER7B"><![CDATA[Are we finished here?]]></tag>
+	<tag id="ID_USER7C"><![CDATA[What should I do about the footprints out front?]]></tag>
+	<tag id="ID_USER7BADEXIT"><![CDATA[I'll keep looking for more evidence.]]></tag>
+	<tag id="ID_USER7EXIT"><![CDATA[Let's get out of here.]]></tag>
+	<tag id="ID_USER7KNIFE"><![CDATA[Not yet. I'll go take a look outside.]]></tag>
+
+		<!-- NOTES IN TRASHCAN -->
+
+	<tag id="ID_TRASH_NOTE_1"><![CDATA[REMEMBER - <br><br>Call Mom about dinner at her house Sunday night]]></tag>
+	<tag id="ID_TRASH_NOTE_2"><![CDATA[Ms. Reynolds,<br><br>The Starry Night Talent Agency would be delighted to accept you as a client, provided you are able to break out of your ongoing contract with Mr. Maury Wan.<br><br>We look forward to working with you soon.<br><br>Sincerely,<br>The Starry Night Talent Agency]]></tag>
+	<tag id="ID_TRASH_NOTE_3"><![CDATA[Nightlife Cafe<br><br>2 entrees - $52.00<br>2 drinks - $23.00<br>2 desserts - $20.00<br><br>Total - $95.00<br><br>Paid with credit card ending in 1234<br>Ms. Freebird Reynolds]]></tag>
+	<tag id="ID_TRASH_NOTE_4"><![CDATA[Shopping List<br><br>Fresh fruit<br>Coffee<br>Bread<br>Milk<br>Cereal<br>Ice Cream]]></tag>
+	
+	
+</strings>	

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<location name="Lab" displayName="CSI Lab">
+	<person name="Hodges" />
+	<object name="DoorLabExit" />
+	<object name="Computer" />
+	<object name="ELISA" />
+	<object name="GasChromatograph" />
+	<object name="Spectrophotometer" />
+	<object name="LightTable" />
+	<object name="FingerprintStation" />
+	<visit num="1" ambient="LabAmbient">
+		<clickable name="Hodges" type="ignore" action="dialog:HodgesNoEvidence" persist="true" />
+		<clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+	</visit>
+	<visit num="2" ambient="LabAmbient">
+		<clickable name="Hodges" type="required" action="dialog:HodgesEvidence" persist="true" />
+		<clickable name="Computer" type="required" require="evidenceInHand:Photos" action="dialog:HodgesDatabase1,activity:Database,dialog:HodgesDatabase3,hide:Photos,custom:CheckAllClues" caption="Computer" checkDone="activity:Database,dialog:HodgesDatabase1,dialog:HodgesDatabase3" fail="dialog:HodgesExplainComputer">
+		</clickable>
+		<clickable name="GasChromatograph" type="required" require="evidenceInHand:FlooringSample" action="dialog:HodgesGCFlooring1,activity:GCFlooring,dialog:HodgesGCFlooring7,clue:Liquids,hide:FlooringSample,custom:CheckAllClues" caption="Gas chromatograph" checkDone="clue:Liquids" fail="dialog:HodgesExplainGC" />
+		<clickable name="LightTable" type="required" require="evidenceInHand:SpaceHeater" action="dialog:HodgesLightTableStart,activity:LightTable,dialog:HodgesLightTableEnd,clue:FireSource,hide:SpaceHeater,custom:CheckAllClues" caption="Light table" checkDone="clue:FireSource" fail="dialog:HodgesExplainLightTable" />
+		<clickable name="FingerprintStation" type="required" require="evidenceInHand:Matches" action="dialog:HodgesFingerprints1,activity:Fingerprints,dialog:HodgesFingerprints3,clue:NeighborAtCrimeScene,custom:CheckAllClues" caption="Fingerprint station" checkDone="clue:NeighborAtCrimeScene" fail="dialog:HodgesExplainFingerprints" />
+		<clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+	</visit>
+	<visit num="3" ambient="LabAmbient">
+		<clickable name="Hodges" type="required" action="dialog:Hodges2ndEvidenceUnfinished" persist="true" />
+		<clickable name="Spectrophotometer" type="required" require="evidenceInHand:BloodSample" action="dialog:HodgesSpectrophotometryStart,activity:Spectrophotometry,dialog:HodgesSpectrophotometryDone,clue:NotFire,custom:CheckAllClues2" caption="Spectrophotometer" checkDone="clue:NotFire" fail="dialog:HodgesExplainSpectrophotometer" />
+		<clickable name="ELISA" type="required" require="evidenceInHand:BloodSample" action="dialog:HodgesELISAStart,activity:ELISA,clue:OpiatesBlood,custom:CheckAllClues2" caption="ELISA" checkDone="clue:OpiatesBlood" fail="dialog:HodgesExplainELISA" />
+		<clickable name="GasChromatograph" require="evidenceInHand:BloodSample" type="required" action="dialog:HodgesGCMSChoose" persist="true" caption="Gas chromatograph" checkDone="clue:AlcoholBlood,clue:OxycodoneBlood" fail="dialog:HodgesExplainGC">
+			<standalone require="Alcohol:true" type="ignore">
+				<!--only do the activity if it's not done yet-->
+				<standalone require="clue:AlcoholBlood" action="dialog:HodgesActivityDone" fail="activity:GCAlcohol,dialog:HodgesGCAlcoholDone,clue:AlcoholBlood,custom:CheckGCMS,custom:CheckAllClues2">
+				</standalone>
+				<set variable="general:Alcohol" value="undefined"/>			
+			</standalone>
+			<standalone require="Drugs:true" type="ignore">
+				<standalone require="clue:OpiatesBlood" fail="dialog:HodgesGCMSDrugsFail" type="required">
+					<!--only do the activity if it's not done yet-->
+					<standalone require="clue:OxycodoneBlood,clue:AlcoholBlood,clue:NotFire" type="required" action="dialog:HodgesActivityDone" fail="dialog:HodgesGCMSDrugsStart,activity:GCMSDrugs,dialog:HodgesGCMSDrugsDone,clue:OxycodoneBlood,custom:UnlockBathroom,custom:CheckGCMS,custom:CheckAllClues2">
+					</standalone>
+				</standalone>
+				<set variable="general:Drugs" value="undefined"/>
+			</standalone>
+			<dev action="activity:GCAlcohol,dialog:HodgesGCAlcoholDone,clue:AlcoholBlood,custom:CheckAllClues2" />
+			<dev action="activity:GCMSDrugs,dialog:HodgesGCMSDrugsDone,clue:OxycodoneBlood,custom:UnlockBathroom,custom:CheckAllClues2" />
+		</clickable>
+		<clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+	</visit>
+	<visit num="4" ambient="LabAmbient">		
+		<clickable name="Hodges" type="required" action="dialog:HodgesAllClues" persist="true" />
+		<clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY"/>
+	</visit>
+	<visit num="5" ambient="LabAmbient">		
+		<clickable name="Hodges" type="required" action="dialog:Hodges2ndEvidenceFinished" persist="true" />
+		<clickable name="DoorLabExit" action="location:Headquarters" caption="EXIT TO HALLWAY"/>
+	</visit>
+	<custom name="CheckAllClues" require="activity:Database,clue:Liquids,clue:FireSource,clue:NeighborAtCrimeScene">
+      <unlock type="location" name="NeighborsHouse" checkDone="location:NeighborsHouse" />   
+		<clickable name="Hodges" type="ignore" action="dialog:HodgesAllClues" persist="true" />
+		<dev action="location:NeighborsHouse" />
+		<set variable="visit:Lab" type="required" value="4"/>
+	</custom>
+	<custom name="CheckAllClues2" require="clue:NotFire,clue:AlcoholBlood,clue:OpiatesBlood,clue:OxycodoneBlood">
+      <unlock type="location" name="CrimeScene_Bathroom"/>
+      <set variable="visit:CrimeScene_Bathroom" type="required" value="1"/>
+      <set variable="visit:CrimeScene" type="required" value="4"/>               
+		<clickable name="Hodges" type="required" action="dialog:Hodges2ndEvidenceFinished" persist="true" />
+		<set variable="visit:Lab" value="5"/>
+		<visible name="GasChromatograph" persist="true" type="ignore" />
+		<standalone action="hide:BloodSample"/>
+		<dev action="location:CrimeScene_Bathroom" />
+	</custom>
+	<custom name="CheckGCMS" require="clue:AlcoholBlood,clue:OxycodoneBlood">
+		<visible name="GasChromatograph" persist="true" type="ignore" />
+	</custom>  
+</location>

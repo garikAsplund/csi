@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<dialog name="NataliePerez" displayName="Natalie Perez">
+	<conversation location="Hospital_Patient" visit="1" name="1">
+		<statement num="1"><![CDATA[Yes?]]></statement>
+		<statement num="2"><![CDATA[Sure, but I'm afraid there's not much I can tell you.]]></statement>
+		<statement num="3"><![CDATA[I don't know... all of a sudden there were flames, right in front of the space heater...]]></statement>
+		<statement num="4"><![CDATA[I was with Trevor in his living room watching TV.]]></statement>
+		<statement num="5"><![CDATA[I wish I knew! I screamed at him, yelling he should get up, but then there was all this smoke, and I panicked and ran out...]]></statement>
+		<statement num="6"><![CDATA[Gasoline? I have no idea.]]></statement>
+		<statement num="7"><![CDATA[Prescription what? No, I didn't know that.]]></statement>
+		<statement num="8"><![CDATA[No, never.]]></statement>
+		<response num="1"><![CDATA[May I ask you some questions about what happened last night?]]></response>
+		<response num="2"><![CDATA[How did the fire start?]]></response>
+		<response num="3"><![CDATA[Where were you at the time the fire started?]]></response>
+		<response num="4"><![CDATA[Why was Mr. Johnson unable to escape the fire?]]></response>
+		<response num="5"><![CDATA[We found gasoline in the flooring around the space heater. How do you explain that?]]></response>
+		<response num="6"><![CDATA[Were you aware that your boyfriend abused prescription oxycodone?]]></response>
+		<response num="7"><![CDATA[So you haven't seen any pills in his house?]]></response>
+		<response num="8"><![CDATA[Thank you for your time.]]></response>
+	</conversation>
+	<conversation location="Hospital_Patient" visit="1" name="End">
+		<statement num="1"><![CDATA[Why are you here? I already told the officer everything.]]></statement>
+		<statement num="2"><![CDATA[How... okay, I admit that Trevor and I took oxycodone, but please don't tell my family!]]></statement>
+		<statement num="3"><![CDATA[No, I have taken it a couple of times before.
+
+Trevor said it was safe because it's a prescription drug, so I didn't think twice about it.]]></statement>
+		<statement num="4"><![CDATA[Ever since I knew him.
+
+He always said the pills made him feel better, less depressed, you know. He was getting really messed up without them.]]></statement>
+		<statement num="5"><![CDATA[I don't know how he usually got them, but one time he took my sister's prescription.
+
+I thought it was okay since she didn't need it anymore.]]></statement>
+		<statement num="6"><![CDATA[Remember when I told you that I couldn't wake him up?
+
+Well that was because Trevor was dead. DEAD!]]></statement>
+		<statement num="7"><![CDATA[When I found Trevor dead, I knew that everything would come out... the drugs, the stealing... So I took the gasoline from the garage, poured it over the space heater, and set it on fire.
+
+I didn’t hurt him - I just couldn’t let the drugs ruin my future!]]></statement>
+		<response num="1"><![CDATA[There was oxycodone in your blood the night of the fire.]]></response>
+		<response num="2"><![CDATA[Was this the first time you abused oxycodone?]]></response>
+		<response num="3"><![CDATA[How long had Trevor abused the drug?]]></response>
+		<response num="4"><![CDATA[How did you get the drugs?]]></response>
+		<response num="5"><![CDATA[Trevor died from an oxycodone overdose.]]></response>
+		<response num="6"><![CDATA[And then what happened?]]></response>
+		<response num="7"><![CDATA[I'm not sure if arson looks better on your resume.]]></response>
+	</conversation>
+</dialog>

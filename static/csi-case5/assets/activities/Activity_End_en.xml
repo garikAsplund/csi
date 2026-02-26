@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<activity name="End">
+	<paperName><![CDATA[The Vegas Chronicle]]></paperName>
+	<headline><![CDATA[Pharmacist killed doctor to cover prescription scam]]></headline>
+	<mainTitle><![CDATA[CONGRATULATIONS]]></mainTitle>
+	<text><![CDATA[Edgar White was charged with first degree murder and violation against the Controlled Substance Act. He is currently in prison, waiting for the beginning of his trial.
+
+Dr. Brody Fowler is currently under investigation in connection with the unlawful dispensing of controlled substances. If convicted, he could face several years in prison.]]></text>
+	<button num="1"><![CDATA[Cool Links]]></button>
+	<button num="2"><![CDATA[Feedback]]></button>
+	<button num="3"><![CDATA[Home]]></button>
+	<button num="4"><![CDATA[More games]]></button>
+</activity>

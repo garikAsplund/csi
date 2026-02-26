@@ -1,0 +1,201 @@
+<?xml version="1.0" ?>
+<clues>
+	<clue name="VictimPosition">
+		<title><![CDATA[Position of victim]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Position of victim
+		
+The bloodstain analysis revealed that the victim must have been standing when the bullet hit her head.
+
+Did she shoot herself standing? What were the circumstances of her death?]]></text>
+		<icon><![CDATA[smallIcon1]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Body position]]></iconName>
+	</clue>	
+	<clue name="EmailPOI">
+		<title><![CDATA[Email sender is a person of interest (POI)]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Email sender is a person of interest (POI)
+		
+The anonymous sender of these threatening emails claimed that Dr. Phillips turned his or her daughter into an addict by prescribing drugs she didn’t need. 
+
+Who wrote these emails? How far would this person go to avenge his or her daughter’s death?]]></text>
+		<icon><![CDATA[smallIcon2]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Email sender POI]]></iconName>
+	</clue>
+	<clue name="DrugAddiction">
+		<title><![CDATA[Prescriptions rising]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Prescriptions rising
+		
+According to a document the victim was writing,  titled “RESPONSE TO SUBPOENA”, the number of opioid analgesics and muscle relaxants the pain management center prescribed increased over the years. 
+
+Why was Dr. Phillips concerned about these numbers? What subpoena is she referring to?]]></text>
+		<icon><![CDATA[smallIcon3]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Drugs rising]]></iconName>
+	</clue>
+	<clue name="TOD">
+		<title><![CDATA[Time of death]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Time of death
+		
+Based on the body temperature and the status of rigor mortis, Doc Robbins estimated that the victim died between 6 pm and 11 pm.
+
+Was she alone? Make sure to check the clinic’s access log when it arrives to find out if anybody else was at the office around that time.]]></text>
+		<icon><![CDATA[smallIcon4]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Time of death]]></iconName>
+	</clue>
+	<clue name="LongDistShot">
+		<title><![CDATA[Longer distance shot]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Longer distance shot
+		
+The presence of powder tattooing and the absence of any markings that are characteristic of a contact wound means that the deadly shot must have been fired from an intermediate range.
+
+Should we consider that somebody else shot her?]]></text>
+		<icon><![CDATA[smallIcon5]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Long distance shot]]></iconName>
+	</clue>
+	<clue name="Bruises">
+		<title><![CDATA[Victim was in a struggle]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Victim was in a struggle
+		
+The contusion around the victim’s arm suggests that somebody grabbed her arm forcefully shortly before she died. 
+
+Who could have caused the bruising?]]></text>
+		<icon><![CDATA[smallIcon6]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Bruises]]></iconName>
+	</clue>	
+	<clue name="NoMatch">
+		<title><![CDATA[Crime scene gun no match to deadly bullet]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Crime scene gun no match to deadly bullet
+		
+The fact that the gun the victim was holding in her hand did not fire the deadly shot means that somebody must have staged the scene to make it look like she killed herself. 
+
+Who did this? Where is the real murder weapon?]]></text>
+		<icon><![CDATA[smallIcon7]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[No match]]></iconName>
+	</clue>	
+	<clue name="VictimFingerprints">
+		<title><![CDATA[Victim’s print on gun]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Victim’s print on gun
+		
+The fingerprint on the gun the victim was holding in her hand when she was found is from her.
+
+Did she use this gun to shoot herself? How else could the gun have ended up in her hand?]]></text>
+		<icon><![CDATA[smallIcon8]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Victim's print]]></iconName>
+	</clue>
+	<clue name="VictimBloodStains">
+		<title><![CDATA[Bloodstains from victim]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Bloodstains from victim
+		
+The DNA profile generated from the DNA in the bloodstain samples matches the victim’s DNA profile.
+
+There is nobody else’s blood at the crime scene – but does that mean nobody else was there?]]></text>
+		<icon><![CDATA[smallIcon9]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Blood Stains]]></iconName>
+	</clue>
+	<clue name="ForeignSkin">
+		<title><![CDATA[Foreign tissue under victim's fingernails]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Foreign tissue under victim's fingernails
+		
+The DNA profile generated from tissue underneath the victim’s fingernails matches neither the victim nor anybody in CODIS.
+
+Whose tissue is it? Collect DNA samples from persons of interest to search for a match.]]></text>
+		<icon><![CDATA[smallIcon10]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Foreign tissue]]></iconName>
+	</clue>
+	<clue name="Subpoena">
+		<title><![CDATA[Subpoena]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Subpoena
+		
+Dr. Phillips was ordered to testify before court and bring documents connected to violation of the controlled substance act by employees of the pain management center. 
+
+What kind of violations were happening here, and who was involved? How is this connected to our case?]]></text>
+		<icon><![CDATA[smallIcon11]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Subpoena]]></iconName>
+	</clue>
+	<clue name="PrescriptionCash">
+		<title><![CDATA[Switch to cash]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Switch to cash
+		
+Melissa McCoy, the late daughter of the email sender who threatened our victim, was prescribed increasing amounts of pain relievers and muscle relaxants. She also started paying cash for her doctor visits. 
+
+If Melissa needed all these drugs, why didn’t her insurance pay for it?]]></text>
+		<icon><![CDATA[smallIcon12]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Cash]]></iconName>
+	</clue>
+	<clue name="Prescriptions">
+		<title><![CDATA[Daughter's prescriptions]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Daughter’s prescriptions
+		
+The prescription drugs Melissa’s father found in her apartment include pain killers, muscle relaxants, and Xanax, an anti-anxiety medication. They are all from Edgar’s pharmacy. 
+
+Pharmacists are required to warn patients about the risks of taking too many drugs together. You should visit Edgar’s pharmacy and ask about this.]]></text>
+		<icon><![CDATA[smallIcon13]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Drugs]]></iconName>
+	</clue>
+	<clue name="AssistantPOI">
+		<title><![CDATA[Assistant is a person of interest (POI)]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Assistant is a person of interest (POI)
+		
+The access log revealed that Anna Steward was at the crime scene around the time Dr. Phillips died.
+
+Could she have witnessed who shot our victim? Or was she the one who pulled the trigger?]]></text>
+		<icon><![CDATA[smallIcon15]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Anna Steward POI]]></iconName>
+	</clue>
+	<clue name="ToxResults">
+		<title><![CDATA[Drug-related death]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Drug-related death
+		
+Melissa’s autopsy results suggest that multiple drug interactions contributed to her fatal accident. 
+
+Most of these drugs are controlled substances. How did she get all the prescriptions?]]></text>
+		<icon><![CDATA[smallIcon14]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Drug-related death]]></iconName>
+	</clue>
+	<clue name="PharmacistBank">
+		<title><![CDATA[Pharmacist received large sum]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Pharmacist received large sum
+		
+Edgar White, the pharmacist who handed Melissa McCoy the prescription drugs that caused drug interactions, received $5,000 from the pain clinic.
+
+It is very unusual for a clinic to pay a pharmacist. What was this money for?]]></text>
+		<icon><![CDATA[smallIcon16]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Large sum]]></iconName>
+	</clue>
+	<clue name="PharmacistSkin">
+		<title><![CDATA[Pharmacist’s tissue on victim]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Pharmacist’s tissue on victim
+		
+This finding means that Edgar White was the one the victim was in physical contact with shortly before she died. 
+
+Were they in a struggle? What were they fighting over?]]></text>
+		<icon><![CDATA[smallIcon17]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Edgar White's skin]]></iconName>
+	</clue>
+	<clue name="PharmacistWeaponMatches">
+		<title><![CDATA[Pharmacist’s gun matches autopsy bullet]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Pharmacist’s gun matches autopsy bullet
+		
+The bullet comparison revealed that the deadly shot was fired from Edgar White’s gun. 
+
+Was he also the shooter?]]></text>
+		<icon><![CDATA[smallIcon18]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Edgar White's gun]]></iconName>
+	</clue>
+</clues>

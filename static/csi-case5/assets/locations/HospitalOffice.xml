@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<location name="HospitalOffice" displayName="Dr. Fowler's Office">
+	<person name="DrFowler"/>
+	<object name="DoorDoctorExit" />
+	<visit num="1" ambient="CatherinesOfficeAmbient">
+		<clickable name="DrFowler" type="required" action="dialog:DrFowler1" checkDone="clue:Subpoena,clue:PrescriptionCash" persist="true">			
+			<set variable="general:StartedCrimeScene2" value="true"/>
+		</clickable>
+		<clickable name="DoorDoctorExit" action="location:Hospital" caption="EXIT TO HALLWAY" />
+	</visit>
+	<visit num="2" ambient="CatherinesOfficeAmbient">
+		<clickable name="DrFowler" type="required" action="dialog:DrFowlerAll,custom:CheckMessageUnlock" persist="true">
+			<set variable="general:StartedCrimeScene2" value="true"/>
+			<set variable="general:TalkedToFowler" value="true"/>
+			<set variable="visit:Hospital" value="4"/>
+			<set variable="visit:HospitalOffice" value="4"/>
+			<dev action="location:McCoysHouse" />
+		</clickable>
+		<clickable name="DoorDoctorExit" action="location:Hospital" caption="EXIT TO HALLWAY" />
+	</visit>
+	<visit num="3" ambient="CatherinesOfficeAmbient">
+		<clickable name="DrFowler" type="ignore" action="dialog:DrFowler2,custom:CheckMessageUnlock" persist="true">
+			<set variable="general:StartedCrimeScene2" value="true"/>
+			<set variable="general:TalkedToFowler" value="true"/>
+			<set variable="visit:Hospital" value="4"/>
+			<set variable="visit:HospitalOffice" value="4"/>
+		</clickable>
+		<clickable name="DoorDoctorExit" action="location:Hospital" caption="EXIT TO HALLWAY" />
+	</visit>
+	<visit num="4" ambient="CatherinesOfficeAmbient">
+		<visible name="DrFowler"/>
+		<clickable name="DoorDoctorExit" action="location:Hospital" caption="EXIT TO HALLWAY" />
+	</visit>
+	<custom name="CheckMessageUnlock" require="clue:PrescriptionCash,evidence:McCoyDNA,evidence:McCoyWeapon,clue:Prescriptions">
+		<unlock type="message" name="message3"/>
+		<set variable="visit:Lab" type="required" value="5"/>
+		<set variable="visit:BallisticsLab" type="required" value="3"/>
+	</custom>
+</location>

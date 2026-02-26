@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room011 - interrogation room. </tag>
+	
+		<!-- FAN0  -->
+		
+	<tag id="ID_FAN0A"><![CDATA[You again?  What do you want now?]]></tag>
+	<tag id="ID_FAN0B"><![CDATA[Yeah, that police officer showed me all the evidence you collected.  We worked out a plea bargain, so there's no point to denying it - I killed her.]]></tag>
+	<tag id="ID_FAN0C"><![CDATA[I really wanted to meet her that night after the concert.  And after I saw her fighting with her "boyfriend," I thought maybe ... well ... but then it all went wrong!]]></tag>
+	<tag id="ID_FAN0D"><![CDATA[After she and her boy-toy split, I thought "This is my chance!"  I said I'd be her boyfriend, that I'd treat her right and make her happy!  But she insulted me!  The things she called me!  But ... things got a little out of hand ...]]></tag>
+	<tag id="ID_FAN0E"><![CDATA[To hide the evidence!  I thought if you couldn't identify her, you'd never get me.]]></tag>
+	<tag id="ID_FAN0F"><![CDATA[I don't know ... I panicked.  I just wanted her to shut up ... she hit me with her purse, then I had my knife ... then there was blood everywhere, and I knew I had to hide her ...]]></tag>
+	<tag id="ID_FAN0G"><![CDATA[Since they fought that night, I thought her boyfriend would make a great suspect.  And if he had the murder weapon, well ... maybe you'd arrest him and never find out about me.]]></tag>
+	
+		<!-- REPLIES TO FAN -->
+
+	<tag id="ID_USER0A"><![CDATA[I know that you killed Freebird Reynolds.]]></tag>
+	<tag id="ID_USER0B"><![CDATA[When did you kill Freebird?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Why did you kill Freebird?]]></tag>
+	<tag id="ID_USER0D"><![CDATA[Why did you burn the body?]]></tag>
+	<tag id="ID_USER0E"><![CDATA[What happened?]]></tag>
+	<tag id="ID_USER0F"><![CDATA[What did you do with the knife?]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[I'm done here.]]></tag>
+
+		<!-- END SCREEN -->
+
+	<tag id="ID_NEWSPAPER_NAME"><![CDATA[The Vegas Chronicle]]></tag>
+	<tag id="ID_NEWSPAPER_HEADLINE"><![CDATA[CSI Solves Starlet Slaughter]]></tag>
+	<tag id="ID_CONGRATS"><![CDATA[CONGRATULATIONS!]]></tag>
+	<tag id="ID_CONGRATS_DETAILS"><![CDATA[You've solved the case.<br><br>]]></tag>
+	<tag id="ID_NEXT_TITLE"><![CDATA[]]></tag>
+	<tag id="ID_LINK_HEADER"><![CDATA[Meanwhile, make sure to check out the links below:]]></tag>
+	<tag id="ID_LINK_DESCRIPTION_1"><![CDATA[For cool links and more online CSI activities:]]></tag>
+	<tag id="ID_LINK_DESCRIPTION_2"><![CDATA[To leave feedback about this web adventure:]]></tag>
+	<tag id="ID_LINK_DESCRIPTION_3"><![CDATA[To play more games go to http://webadventures.rice.edu]]></tag>
+	<tag id="ID_LINK_CLICK_TEXT"><![CDATA[Click Here to go Back to Whyville!]]></tag>
+	
+	
+</strings>	

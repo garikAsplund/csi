@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+<activity name="BrainSimulation">
+	<block name="opiates">
+		<caption num="1"><![CDATA[Opiates]]></caption>
+		<caption num="2"><![CDATA[Occur naturally in opium derived from poppy plant]]></caption>
+		<caption num="3"><![CDATA[Papaver somniferum]]></caption>
+		<caption num="4"><![CDATA[Thebaine]]></caption>
+		<caption num="5"><![CDATA[Codeine]]></caption>
+		<caption num="6"><![CDATA[Morphine]]></caption>
+		<caption num="7"><![CDATA[Oxycodone]]></caption>
+		<caption num="8"><![CDATA[Heroin]]></caption>
+		<caption num="9"><![CDATA[Synthetic]]></caption>
+	</block>
+	<block name="brain">
+		<caption num="1"><![CDATA[Normal level of body-produced painkillers]]></caption>
+		<caption num="2"><![CDATA[Body-produced painkillers]]></caption>		
+		<caption num="3"><![CDATA[Increased level of body-produced painkillers]]></caption>		
+		<caption num="4"><![CDATA[Body-produced painkillers + oxycodone]]></caption>		
+		<caption num="5"><![CDATA[Oxycodone]]></caption>	
+		<caption num="6"><![CDATA[Decreased level of body-produced painkillers]]></caption>
+	</block>
+	<screen name="menu">
+		<button num="1"><![CDATA[Oxycodone]]></button>
+		<button num="2"><![CDATA[Reward system]]></button>
+		<button num="3"><![CDATA[With prescription]]></button>
+		<button num="4"><![CDATA[Without prescription]]></button>
+		<button num="5"><![CDATA[Oxycodone overdose]]></button>
+	</screen>
+	<screen name="screenA1">
+		<text><![CDATA[Oxycodone is a powerful ANALGESIC (pain reliever) prescribed to treat moderate to severe pain.
+		
+It belongs to a group of substances called OPIATES.]]></text>
+		<nextBtn><![CDATA[What are opiates?]]></nextBtn>
+	</screen>
+	<screen name="screenA2">
+		<text><![CDATA[Opiates are chemicals that naturally occur in opium.]]></text>
+	</screen>
+	<screen name="screenA3">
+		<text><![CDATA[There are three different opiates: thebaine, codeine, and morphine.]]></text>
+	</screen>
+	<screen name="screenA4">
+		<text><![CDATA[Oxycodone is a synthetic drug that is made from thebaine. Another drug derived from opiates is heroin, which is made from morphine.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screenA5">
+		<text><![CDATA[When a person is in pain, the body also produces its own analgesics (painkillers).]]></text>
+		<nextBtn><![CDATA[Brain produces pain-relieving substances]]></nextBtn>
+	</screen>
+	<screen name="screenA6">
+		<text><![CDATA[These body-produced painkillers are very similar to opiates and the drugs made from them, oxycodone and heroin.]]></text>
+		<caption num="1"><![CDATA[Body-produced painkillers]]></caption>
+		<caption num="2"><![CDATA[Produced in
+the brain in
+reaction to
+pain]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screenA7">
+		<text><![CDATA[Because of their similarity, they are grouped together under the name OPIOIDS.]]></text>
+		<caption num="1"><![CDATA[Body-produced painkillers]]></caption>
+		<caption num="2"><![CDATA[Produced in
+the brain in
+reaction to
+pain]]></caption>
+		<caption num="3"><![CDATA[All of these are opioids]]></caption>
+	</screen>
+	<screen name="screenA8">
+		<text><![CDATA[In addition to help overcome pain, body-produced painkillers are also responsible for the pleasurable, relaxing feelings we experience when we laugh or exercise.]]></text>
+		<caption num="1"><![CDATA[Body-produced painkillers]]></caption>
+		<caption num="2"><![CDATA[Produced in
+the brain in
+reaction to
+pain]]></caption>
+		<caption num="3"><![CDATA[Produced when laughing or exercising]]></caption>
+	</screen>
+	<screen name="screenB1">
+		<text><![CDATA[When a person is physically hurting, the brain generates its own painkillers to relieve the pain.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screenB2">
+		<text><![CDATA[The same body-produced painkillers are released when a person exercises or laughs. The chemicals then don't act as painkillers, but induce feelings of pleasure and happiness.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screenB3">
+		<text><![CDATA[Body-produced painkillers act on many different structures in the brain and spinal cord to fight pain. However, to produce feelings
+of pleasure, they act on the brain's ]]></text>
+		<nextBtn><![CDATA[reward system]]></nextBtn>
+	</screen>
+	<screen name="screenB4">
+		<text><![CDATA[The reward system is a collection of different brain structures that work closely together.]]></text>
+		<caption num="1"><![CDATA[Reward system]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screenB5">
+		<text><![CDATA[Body-produced painkillers stimulate the reward system, which then "rewards" the person by producing feelings of pleasure.]]></text>
+		<caption num="1"><![CDATA[Reward system]]></caption>
+		<caption num="2"><![CDATA[Body-produced painkillers]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screenB6">
+		<text><![CDATA[Synthetic painkillers such as <b>oxycodone</b> can also act on the reward system.]]></text>
+		<text2><![CDATA[The brain cannot distinguish between the two.]]></text2>
+		<caption num="1"><![CDATA[Reward system]]></caption>
+		<caption num="2"><![CDATA[Body-produced painkillers]]></caption>
+		<caption num="3"><![CDATA[Oxycodone]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screenB7">
+		<text><![CDATA[Thus, in addition to fighting pain, oxycodone also produces feelings of pleasure when acting on the reward system.]]></text>
+		<caption num="1"><![CDATA[Reward system]]></caption>
+		<caption num="2"><![CDATA[Body-produced painkillers]]></caption>
+		<caption num="3"><![CDATA[Oxycodone]]></caption>
+	</screen>
+	<screen name="screen1">
+		<text><![CDATA[The body produces its own painkillers to overcome pain. There is always a certain <b>normal level</b> of these painkillers present in the brain.]]></text>
+		<caption num="1"><![CDATA[Click button to see what happens if somebody is in pain]]></caption>
+		<nextBtn><![CDATA[PAIN]]></nextBtn>
+	</screen>
+	<screen name="screen2">
+		<text><![CDATA[If a person is in pain, the brain produces <b>more painkillers</b>.]]></text>
+	</screen>
+	<screen name="screen3">
+		<text><![CDATA[The effects of the painkillers in the brain help to lower the feeling of pain so it’s not so intense.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen4">
+		<text><![CDATA[As the pain is reduced and more manageable, the body decreases its production of painkillers until a normal level is reached.
+This process is called]]></text>
+<bigtext><![CDATA[NEUROADAPTATION.]]></bigtext>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen5">
+		<text><![CDATA[Once the body’s natural painkillers return to normal levels, the person is usually okay and can deal with small amounts of pain.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	
+	<screen name="screen6">
+		<text><![CDATA[What if the pain is so strong that body-produced painkillers are not enough?]]></text>
+		<caption num="1"><![CDATA[Click button to start pain]]></caption>
+		<nextBtn><![CDATA[PAIN]]></nextBtn>
+	</screen>
+	<screen name="screen7">
+		<text><![CDATA[Again, the brain produces more painkillers to help the body reduce the pain. However, this time the pain is stronger than the body can handle. A doctor prescribes oxycodone.]]></text>
+		<nextBtn><![CDATA[Oxycodone]]></nextBtn>
+	</screen>
+	<screen name="screen8">
+		<text><![CDATA[When a person in pain takes oxycodone, it adds to the effect of the high level of painkillers already produced by the body because oxycodone is so similar to them. This helps the body to overcome pain more than with body-produced painkillers alone.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen9">
+		<text><![CDATA[As the pain is reduced, the person can stop taking oxycodone, and the body decreases its production of painkillers again until a normal level is reached.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen10">
+		<text><![CDATA[Now, the person is okay with a normal level of body-produced painkillers.]]></text>
+	</screen>
+	
+	<screen name="screen11">
+		<text><![CDATA[Some people take advantage of the relaxing feelings oxycodone produces and take the drug to get high, without being in pain.]]></text>
+		<nextBtn><![CDATA[Oxycodone]]></nextBtn>
+	</screen>
+	<screen name="screen12">
+		<text><![CDATA[In a healthy person, the level of body-produced painkillers is normal. Oxycodone is added on top of that. For a short time, the person feels high.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen13">
+		<text><![CDATA[However, the brain adapts by <b>decreasing</b> the production of its own painkillers, because without pain, the brain doesn’t need more than the constant level of painkillers.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen14">
+		<text><![CDATA[As long as the person takes oxycodone, the level of painkillers in the brain is normal. However, they would not feel a “high” anymore.
+But what if the oxycodone intake is stopped?]]></text>
+		<nextBtn><![CDATA[STOP oxycodone]]></nextBtn>
+	</screen>
+	<screen name="screen15">
+		<text><![CDATA[When the person stops taking oxycodone, the brain ends up with a very low level of body-produced painkillers.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	
+	<screen name="screen16">
+		<text><![CDATA[If the level of the body’s own painkillers is low, oxycodone will not produce a “high” anymore.
+A person might feel the urge to take oxycodone to just feel normal again.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen17">
+		<text><![CDATA[However, if a person continues to abuse oxycodone, the body gets used to it.
+The person needs to take larger amounts of oxycodone to get the same effect initially felt from a smaller dose.
+This is known as TOLERANCE.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen18">
+		<text><![CDATA[If the person stops taking oxycodone, they can experience symptoms of]]></text>
+		<withdrawalBtn><![CDATA[WITHDRAWAL]]></withdrawalBtn>
+		<bullet num="1"><![CDATA[nausea and vomiting]]></bullet>
+		<bullet num="2"><![CDATA[chills]]></bullet>
+		<bullet num="3"><![CDATA[muscle pain]]></bullet>
+		<bullet num="4"><![CDATA[diarrhea]]></bullet>
+		<bullet num="5"><![CDATA[sadness and depression]]></bullet>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen19">
+		<text><![CDATA[The person might <b>CRAVE</b> more oxycodone and abuse the drug compulsively, despite negative consequences.
+
+Withdrawal and craving are signs of]]></text>
+		<nextBtn><![CDATA[ADDICTION]]></nextBtn>
+	</screen>
+	<screen name="screen20">
+		<text><![CDATA[Many changes in the brain can occur as one becomes addicted to oxycodone, and that’s why addiction is called a disease of the brain.]]></text>
+	</screen>
+	
+	<screen name="screen21">
+		<text><![CDATA[Oxycodone is a <b>nervous system depressant</b>, meaning it slows down the nervous system.
+
+Since the brain controls basic functions such as heart rate and breathing, these functions are slowed too.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen22">
+		<text><![CDATA[Overdosing oxycodone can slow breathing so much that it stops altogether, resulting in death.]]></text>
+	</screen>
+</activity>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<dialog name="DrFowler" displayName="Dr. Brody Fowler">
+	<conversation location="HospitalOffice" name="1">
+		<statement num="1"><![CDATA[I can't believe what happened here.]]></statement>
+		<statement num="2"><![CDATA[Dr. Justine Phillips was a highly skilled young doctor. I'm devastated to have lost her.]]></statement>
+		<statement num="3"><![CDATA[I founded this pain management center in 2005.]]></statement>
+		<statement num="4"><![CDATA[No, I wasn't aware of that.]]></statement>
+		<statement num="5"><![CDATA[She seemed normal to me. But there's not a lot of time for chatting in this job.]]></statement>
+		<response num="1"><![CDATA[What can you tell me about the victim?]]></response>
+		<response num="2"><![CDATA[How long have you worked here?]]></response>
+		<response num="3"><![CDATA[Do you know that Dr. Phillips kept a gun in her office?]]></response>
+		<response num="4"><![CDATA[How would you describe Dr. Phillips' demeanor of late?]]></response>
+		<response num="5"><![CDATA[Thank you for the information.]]></response>
+	</conversation>
+	<conversation location="HospitalOffice" name="2">
+		<statement num="1"><![CDATA[Do you have more questions?]]></statement>
+		<statement num="2"><![CDATA[Subpoena? For what? No, this is news to me.]]></statement>
+		<statement num="3"><![CDATA[Sure, if they don't have insurance.]]></statement>
+		<response num="1"><![CDATA[Do you know anything about the subpoena Dr. Phillips received?]]></response>
+		<response num="2"><![CDATA[Is it normal that patients pay cash for their doctor visits?]]></response>
+		<response num="3"><![CDATA[Thank you for the information]]></response>
+	</conversation>
+	<conversation location="HospitalOffice" name="All">
+		<statement num="1"><![CDATA[I can't believe what happened here.]]></statement>
+		<statement num="2"><![CDATA[Dr. Justine Phillips was a highly skilled young doctor. I'm devastated to have lost her.]]></statement>
+		<statement num="3"><![CDATA[I founded this pain management center in 2005.]]></statement>
+		<statement num="4"><![CDATA[No, I wasn't aware of that.]]></statement>
+		<statement num="5"><![CDATA[She seemed normal to me. But there's not a lot of time for chatting in this job.]]></statement>
+		<statement num="6"><![CDATA[Subpoena? For what? No, this is news to me.]]></statement>
+		<statement num="7"><![CDATA[Sure, if they don't have insurance.]]></statement>
+		<response num="1"><![CDATA[What can you tell me about the victim?]]></response>
+		<response num="2"><![CDATA[How long have you worked here?]]></response>
+		<response num="3"><![CDATA[Do you know that Dr. Phillips kept a gun in her office?]]></response>
+		<response num="4"><![CDATA[How would you describe Dr. Phillips' demeanor of late?]]></response>
+		<response num="5"><![CDATA[Do you know anything about the subpoena Dr. Phillips received?]]></response>
+		<response num="6"><![CDATA[Is it normal that patients pay cash for their doctor visits?]]></response>
+		<response num="7"><![CDATA[Thank you for the information.]]></response>
+	</conversation>
+</dialog>

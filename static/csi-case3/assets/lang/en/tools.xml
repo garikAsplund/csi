@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<strings>
+
+	<!-- English -->
+	<tag id="ID_TEST">Hi [name], this is a test string from tools. </tag>
+
+	<!-- TOOLS -->
+	
+	<tag id="ID_TOOL_TOOLKIT_NAME"><![CDATA[Tool Kit]]></tag>
+	<tag id="ID_TOOL_TOOLKIT_IMAGE"><![CDATA[tool_toolkit_cu_en]]></tag>
+	<tag id="ID_TOOL_TOOLKIT_TITLE"><![CDATA[Tool Kit]]></tag>
+	<tag id="ID_TOOL_TOOLKIT_DESCRIPTION"><![CDATA[<font size="+2">You've acquired a <font color="#D6DEFE" size="+1">Tool Kit</font>.
+	It contains casting mix, impression gel, and swabs. To use an item in the toolkit, select the tool and move it over an object at the crime scene. Now go collect some evidence!</font>]]></tag>
+	
+	<tag id="ID_TOOL_GLOVES_NAME"><![CDATA[Gloves]]></tag>
+	<tag id="ID_TOOL_GLOVES_IMAGE"><![CDATA[tool_gloves_cu_en]]></tag>
+	<tag id="ID_TOOL_GLOVES_TITLE"><![CDATA[Gloves]]></tag>
+	<tag id="ID_TOOL_GLOVES_DESCRIPTION"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE" size="+1">Latex Gloves</font>.
+	These gloves serve two purposes - they protect you from the evidence, and they protect the evidence from you!  ALWAYS wear gloves at a crime scene or anywhere you are collecting evidence, so the evidence isn't contaminated with your fingerprints or DNA.
+	Use the gloves to collect larger pieces of evidence that may be important to your investigation.</font>]]></tag>
+
+	<tag id="ID_TOOL_CASTINGMIX_NAME"><![CDATA[Casting Mix]]></tag>
+	<tag id="ID_TOOL_CASTINGMIX_IMAGE"><![CDATA[tool_castingmix_cu_en]]></tag>
+	<tag id="ID_TOOL_CASTINGMIX_TITLE"><![CDATA[Casting Mix]]></tag>
+	<tag id="ID_TOOL_CASTINGMIX_DESCRIPTION"><![CDATA[<font size="+2">You've acquired some <font color="#D6DEFE" size="+1">Casting Mix</font>.
+	Dental stone is useful for casting shoeprint impressions - simply mix with water and pour into the impression.  When it hardens, it creates a very durable impression that still holds a lot of detail.
+	Use this casting mix to create impressions of any shoeprint evidence you find.  The impressions can then be compared to shoes collected from suspects.</font>]]></tag>
+
+	<tag id="ID_TOOL_PDA_NAME"><![CDATA[LV-PDA]]></tag>
+	<tag id="ID_TOOL_PDA_IMAGE"><![CDATA[tool_pda_cu_en]]></tag>
+	<tag id="ID_TOOL_PDA_TITLE"><![CDATA[PDA]]></tag>
+	<tag id="ID_TOOL_PDA_DESCRIPTION"><![CDATA[You've acquired a handheld <font color="#D6DEFE">PDA</font>.<br><br>Check out these great features:<br>&#x2022; <font color="#D6DEFE">Messages</font> - Instant communications!<br>&#x2022; <font color="#D6DEFE">Clues</font> - Records every clue you find.<br>&#x2022; <font color="#D6DEFE">Evidence</font> - Records all the evidence you find by location.<br>&#x2022; <font color="#D6DEFE">Options</font> - Contol your game and save your progress.<br><br><font color="#D6DEFE">TO USE THE PDA:<br>   click the <font color="#D6DEFE">right-most icon</font> in the dashboard.</font><br><br>The PDA can describe any tools you are carrying<br>     -simply drop them to its icon.</font>]]></tag>
+
+	<tag id="ID_TOOL_IMPRESSIONGEL_NAME"><![CDATA[Impression Gel]]></tag>
+	<tag id="ID_TOOL_IMPRESSIONGEL_IMAGE"><![CDATA[tool_impressiongel_cu_en]]></tag>
+	<tag id="ID_TOOL_IMPRESSIONGEL_TITLE"><![CDATA[Impression Gel]]></tag>
+	<tag id="ID_TOOL_IMPRESSIONGEL_DESCRIPTION"><![CDATA[<font size="+2">You've acquired some <font color="#D6DEFE" size="+1">Impression Gel</font>.
+	Impression Gel is used to make impressions or molds of smaller objects, like tool marks or bit impressions.  The gel is thicker than casting mix and doesn't need a frame to support it.
+	Use the impression gel to make smaller castings of tool marks or similar evidence.  These impression can be compared with a comparison microscope.</font>]]></tag>
+
+	<tag id="ID_TOOL_SWABS_NAME"><![CDATA[Swabs]]></tag>
+	<tag id="ID_TOOL_SWABS_IMAGE"><![CDATA[tool_swabs_cu_en]]></tag>
+	<tag id="ID_TOOL_SWABS_TITLE"><![CDATA[Swabs]]></tag>
+	<tag id="ID_TOOL_SWABS_DESCRIPTION"><![CDATA[<font size="+2">You've acquired some <font color="#D6DEFE" size="+1">Swabs</font>.
+	The cotton swabs are useful for collecting samples of liquids or semi-liquids.  For example, you can swab the inside of a suspect's cheek for a DNA sample, or swab a puddle of an unknown liquid for GC/MS analysis.
+	Use the swabs to collect DNA samples from people, or to collect samples of unknown fluids.</font>]]></tag>
+
+
+</strings>

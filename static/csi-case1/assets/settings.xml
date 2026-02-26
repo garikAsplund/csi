@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game version="0.5b">
+<username>Guest</username>
+<global_settings>15</global_settings>
+<tools>0,0,0,0,0,0</tools>
+<evidence>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</evidence>
+<clues>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</clues>
+<flags>0,001,0,0,0,0,0,0</flags>
+<activity_flags>0,0</activity_flags>
+</game>

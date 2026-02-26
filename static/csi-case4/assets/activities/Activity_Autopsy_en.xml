@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<activity name="Autopsy">
+	<screen num="1"><![CDATA[First, examine if there is any black soot in the victim's mouth.]]></screen>
+	<screen num="2">
+		<text><![CDATA[What do you see?]]></text>
+		<sootBtn><![CDATA[There's soot in the victim's mouth]]></sootBtn>
+		<noSootBtn><![CDATA[There's no soot in the victim's mouth]]></noSootBtn>
+	</screen>
+	<screen num="3"><![CDATA[To open the body, follow the marks with your scalpel to perform a Y-incision.]]></screen>
+	<screen num="4"><![CDATA[Next, remove the rib cage with the rib cutter to expose the inner organs.]]></screen>
+	<screen num="5"><![CDATA[Now, use the scalpel to open the trachea.]]></screen>
+	<screen num="6">
+		<text><![CDATA[What do you see?]]></text>
+		<sootBtn><![CDATA[There's soot in the victim's trachea]]></sootBtn>
+		<noSootBtn><![CDATA[There's no soot in the victim's trachea]]></noSootBtn>		
+	</screen>
+	<screen num="7"><![CDATA[Lastly, we need to take a blood sample. Use the syringe to draw blood from the heart.]]></screen>
+	<screen num="8">
+		<text><![CDATA[Once carbon monoxide enters the bloodstream, it binds to the hemoglobin in the red blood cells. 
+
+Click on a red blood cell to zoom in.]]></text>
+		<caption><![CDATA[Blood vessel]]></caption>
+	</screen>
+	<screen num="9">
+		<text><![CDATA[Each red blood cell contains thousands of hemoglobin molecules.
+If hemoglobin doesn’t contain oxygen, it is called deoxyhemoglobin, or deoxyHb. 
+
+Click a deoxyhemoglobin molecule to proceed.]]></text>
+		<caption num="1"><![CDATA[Red blood cell]]></caption>
+		<caption num="2"><![CDATA[Deoxyhemoglobin (deoxyHb)]]></caption>
+	</screen>
+	<screen num="10">
+		<text><![CDATA[Hemoglobin functions as the oxygen carrier in the blood. Oxygen molecules (O<sub>2</sub>) that are absorbed into the blood from the lungs bind to deoxyhemoglobin, which is then called oxyhemoglobin (O<sub>2</sub> Hb). 
+
+Click on the O2 button to start the process.]]></text>
+		<caption num="1"><![CDATA[Deoxyhemoglobin (deoxyHb)]]></caption>
+	</screen>
+	<screen num="11">
+		<text><![CDATA[However, if a person inhales carbon monoxide (CO), the oxygen that is bound to oxyhemoglobin will be replaced with carbon monoxide, and carboxyhemoglobin (COHb) is formed.
+
+Click on the CO button to release carbon monoxide.]]></text>
+		<caption num="1"><![CDATA[Deoxyhemoglobin (deoxyHb)]]></caption>
+		<caption num="2"><![CDATA[Oxyhemoglobin (O<sub>2</sub>Hb)]]></caption>
+	</screen>
+	<screen num="12"><text><![CDATA[The reason that hemoglobin prefers carbon monoxide over oxygen is that hemoglobin has a greater chemical AFFINITY, or attraction, to carbon monoxide.]]></text>
+		<caption num="1"><![CDATA[Deoxyhemoglobin (deoxyHb)]]></caption>
+		<caption num="2"><![CDATA[Oxyhemoglobin (O<sub>2</sub>Hb)]]></caption>	
+		<caption num="3"><![CDATA[Carboxyhemoglobin (COHb)]]></caption>	
+		<replayBtn><![CDATA[Replay]]></replayBtn>	
+		<nextBtn><![CDATA[Continue]]></nextBtn>	
+	</screen>
+	<screen num="13">
+		<text><![CDATA[The human body tolerates a small amount of carboyhemoglobin (COHb). Higher percentages, however, are toxic or even deadly.
+
+Use the yellow slider to increase the CO concentration.]]></text>
+		<caption num="1"><![CDATA[COHb (%)]]></caption>
+		<caption num="2"><![CDATA[Status of hemoglobin in blood]]></caption>
+		<caption num="3"><![CDATA[Consequence]]></caption>
+		<consequence num="1"><![CDATA[Tolerance]]></consequence>
+		<consequence num="2"><![CDATA[Mild CO poisoning]]></consequence>
+		<consequence num="3"><![CDATA[Severe CO poisoning]]></consequence>
+		<consequence num="4"><![CDATA[Life-threatening CO poisoning]]></consequence>
+		<consequence num="5"><![CDATA[Deadly CO poisoning]]></consequence>
+		<result num="1"><![CDATA[<br>Healthy]]></result>
+		<result num="2"><![CDATA[Headache, fatigue, dizziness, nausea]]></result>
+		<result num="3"><![CDATA[Severe headache, dim vision, dizziness, nausea, irritability, heart arrhythmia]]></result>
+		<result num="4"><![CDATA[Unconsciousness, coma, seizures, death]]></result>
+		<result num="5"><![CDATA[<br>Death]]></result>
+		<nextBtn><![CDATA[Continue]]></nextBtn>	
+	</screen>
+</activity>

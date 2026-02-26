@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<dialog name="Russell" displayName="D. B. Russell">
+	<conversation location="CSIOffice" name="1" tag="">
+		<statement num="1"><![CDATA[Glad you're here. I hear you’re qualified to solve tough cases like the one at hand.
+
+A doctor at a local pain clinic has been found shot.]]></statement>
+		<statement num="2"><![CDATA[Not much. Nick is expecting you at the scene, he should have more information by now.]]></statement>
+		<statement num="3"><![CDATA[Pick up your field gear from my desk, then head to the pain clinic.]]></statement>
+		<statement num="4"><![CDATA[You'll need a phone, a camera, and some swabs.]]></statement>
+		<statement num="5"><![CDATA[Select the crime scene in the locations tab on the bottom of the screen.]]></statement>
+		<response num="1"><![CDATA[What do we know?]]></response>
+		<response num="2"><![CDATA[What should I do next?]]></response>
+		<response num="3"><![CDATA[What equipment do I need?]]></response>
+		<response num="4"><![CDATA[How do I get to the pain clinic?]]></response>
+		<response num="5"><![CDATA[I'll pick up my gear and head to the crime scene.]]></response>
+	</conversation>
+</dialog>

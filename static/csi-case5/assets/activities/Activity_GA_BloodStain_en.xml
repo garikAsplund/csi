@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<activity name="GA_BloodStain">
+	<screen name="screen1">		
+		<instruct><![CDATA[First we need to extract the DNA from the bloodstain samples.
+
+Open both containers and take out the swabs, then use the scissors to cut both of them.]]></instruct>
+	</screen>
+	<screen name="screen2">		
+		<instruct><![CDATA[Great. I’ve labeled two tubes filled with lysis buffer with F for “floor” and W for “wall”.
+
+Use the tweezers to transfer the swabs to the corresponding tubes.]]></instruct>
+	</screen>
+	<screen name="screen3">	
+		<instruct><![CDATA[The lysis buffer breaks the blood cells apart and sets the DNA free.
+
+That takes about 30 minutes.]]></instruct>
+		<caption num="1"><![CDATA[DNA]]></caption>
+		<caption num="2"><![CDATA[Blood cell]]></caption>
+		<caption num="3"><![CDATA[Cell particle]]></caption>
+	</screen>
+	<screen name="screen4">	
+		<instruct><![CDATA[Next, transfer the swabs over to the empty tubes.
+
+We’ll keep them just in case something goes wrong with the analysis.]]></instruct>
+	</screen>
+	<screen name="screen5">	
+		<instruct><![CDATA[Now place both samples in the centrifuge to separate the DNA in the fluid from the broken cell material.]]></instruct>		
+	</screen>
+	<screen name="screen6">		
+		<instruct><![CDATA[As the sample is centrifuged, the broken-up cell particles move to the bottom of the tube and form a pellet, while the DNA stays in the supernatant, the fluid above the pellet.]]></instruct>
+		<caption num="1"><![CDATA[DNA]]></caption>
+		<caption num="2"><![CDATA[Cell particle]]></caption>
+		<caption num="3"><![CDATA[Pellet]]></caption>
+		<caption num="4"><![CDATA[Supernatant]]></caption>
+	</screen>
+	<screen name="screen7">		
+		<instruct><![CDATA[That’ll do. Place the tubes back in the tray.]]></instruct>
+	</screen>
+	<screen name="screen8">		
+		<instruct><![CDATA[To clean the DNA, we’ll use special filters.
+		
+Use the pipette to transfer the supernatant, which contains the DNA, from both of your original tubes to the new tubes on the left.]]></instruct>
+	</screen>
+	<screen name="screen9">		
+		<instruct><![CDATA[Next, place the samples in the centrifuge and start the machine.]]></instruct>
+	</screen>
+	<screen name="screen10">		
+		<instruct><![CDATA[The fluid containing the DNA is forced through the filter due to the centrifugal force, but only the DNA molecules stick to the filter material.]]></instruct>
+		<caption num="1"><![CDATA[DNA]]></caption>
+		<caption num="2"><![CDATA[Filter]]></caption>
+	</screen>
+	<screen name="screen11">		
+		<instruct><![CDATA[Take out the samples and place them in the tray.]]></instruct>
+	</screen>
+	<screen name="screen12">		
+		<instruct><![CDATA[Next, take the filters from both of the tubes you’ve just centrifuged and place them in the corresponding empty tubes on the right.]]></instruct>
+	</screen>
+	<screen name="screen13">		
+		<instruct><![CDATA[The last step of the extraction process is to remove the cleaned DNA from the filters with fresh eluting buffer.
+
+Use the pipette to transfer a specific amount of eluting buffer to both samples.]]></instruct>
+	</screen>
+	<screen name="screen14">		
+		<instruct><![CDATA[The eluting buffer removes the DNA from the filter.]]></instruct>
+		<caption num="1"><![CDATA[DNA]]></caption>
+		<caption num="2"><![CDATA[Filter]]></caption>
+	</screen>
+	<screen name="screen15">		
+		<instruct><![CDATA[Great. Put the empty filters in the tubes on the left. We’ll store them just in case.]]></instruct>
+		<label name="floor"><![CDATA[DNA filter F]]></label>
+		<label name="wall"><![CDATA[DNA filter W]]></label>
+	</screen>
+	<screen name="screen16">		
+		<instruct><![CDATA[Now that the DNA is extracted from the blood cells, you’re ready to amplify the DNA. We’re going to do a PCR, Polymerase Chain Reaction.
+
+First, transfer a specific amount of the replicating solution to both samples.]]></instruct>
+		<label name="replicating"><![CDATA[Replicating solution]]></label>
+	</screen>
+	<screen name="screen17">		
+		<instruct><![CDATA[The polymerase enzyme in the replicating solution will make thousands of copies of the DNA in our sample.
+
+To start this 2-hour process, transfer the samples to the PCR machine and press start.]]></instruct>
+	</screen>
+	<screen name="screen18">		
+		<instruct><![CDATA[Since we don’t want to copy all of the DNA, the PCR is set up so that it only copies 13 specific DNA markers.
+
+DNA markers, also called Short Tandem Repeats (STR), are regions on the DNA that are unique in every person.]]></instruct>
+		<caption num="1"><![CDATA[DNA]]></caption>
+		<caption num="2"><![CDATA[Marker]]></caption>
+	</screen>
+	<screen name="screen19">		
+		<instruct><![CDATA[The amplification is done. Place the samples back in the tray.]]></instruct>
+	</screen>
+	<screen name="screen20">		
+		<instruct><![CDATA[Next, we need to separate and sort the DNA markers. The genetic analyzer is going to take care of that.
+
+Place our samples in the genetic analyzer.]]></instruct>
+	</screen>
+	<screen name="screen21">		
+		<instruct><![CDATA[Good. Now start the machine.]]></instruct>
+	</screen>
+	<screen name="screen22">		
+		<instruct><![CDATA[In the genetic analyzer, the DNA markers are pushed through a small gel-filled tube. Small markers move through the gel faster than large markers.
+
+A sensor then records the time the markers exit the tube.]]></instruct>
+		<caption num="1"><![CDATA[Gel-filled tube]]></caption>
+		<caption num="2"><![CDATA[DNA marker]]></caption>
+	</screen>
+	<screen name="screen23">		
+		<instruct><![CDATA[The results are in. Click on the computer to access them.]]></instruct>
+	</screen>
+	<screen name="screen24">		
+		<instruct><![CDATA[Here is your first DNA profile, also called DNA fingerprint, from the blood you collected from the wall.
+
+Click on the first marker to zoom in.]]></instruct>
+	</screen>
+	<screen name="screen25">		
+		<instruct><![CDATA[This marker is represented by two different peaks, because this person has inherited two different copies of this marker – one from the mother, one from the father.]]></instruct>
+	</screen>
+	<screen name="screen26">		
+		<instruct><![CDATA[The number below each peak indicates how often this particular copy is present in the person’s DNA.
+
+Click the marker to zoom out.]]></instruct>
+	</screen>
+	<screen name="screen27">		
+		<instruct><![CDATA[Click on another marker to zoom in.]]></instruct>
+	</screen>
+	<screen name="screen28">		
+		<instruct><![CDATA[This marker has only one peak, because the two copies the person inherited from mother and father are the same.
+
+Click on the marker again to zoom out.]]></instruct>
+	</screen>
+	<screen name="screen29">		
+		<instruct><![CDATA[Since each person has a different set AND different numbers of DNA markers, no two people have the same DNA profile.]]></instruct>
+	</screen>
+	<screen name="comparison">		
+		<instruct num="1"><![CDATA[Drag the DNA profile from the wall bloodstains to the left viewing area.]]></instruct>	
+		<instruct num="2"><![CDATA[Drag the DNA profile from the floor bloodstains to the right viewing area.]]></instruct>		
+		<instruct num="3"><![CDATA[Do these DNA profiles match?]]></instruct>	
+		<wrongText><![CDATA[The DNA profiles are identical.]]></wrongText>	
+		<codisTitle><![CDATA[CODIS]]></codisTitle>
+		<codisText><![CDATA[The Combined DNA Index Systems (CODIS) is a database of over 4 million DNA profiles. The profiles come from convicted felons, evidence, and missing persons.]]></codisText>		
+	</screen>
+	<label name="wall"><![CDATA[Bloodstains on wall]]></label>
+	<label name="floor"><![CDATA[Bloodstains on floor]]></label>
+	<label name="lysis"><![CDATA[Lysis buffer]]></label>
+	<label name="f"><![CDATA[F]]></label>
+	<label name="w"><![CDATA[W]]></label>
+	<label name="filter"><![CDATA[Tubes with filter]]></label>
+	<label name="eluting"><![CDATA[Eluting buffer]]></label>
+	<markerPrefix><![CDATA[Marker # ]]></markerPrefix>
+	<markerHeading num="1" name="wall"><![CDATA[DNA PROFILE - BLOODSTAINS ON WALL]]></markerHeading>
+	<markerHeading num="2" name="floor"><![CDATA[DNA PROFILE - BLOODSTAINS ON FLOOR]]></markerHeading>
+	<markerHeading num="3" name="stains"><![CDATA[DNA PROFILE - BLOODSTAINS]]></markerHeading>
+	<markerHeading num="4" name="victim"><![CDATA[VICTIM'S DNA PROFILE]]></markerHeading>
+	<markerHeading num="5" name="swab1"><![CDATA[DNA PROFILE #1 - FINGERNAIL SWABS]]></markerHeading>
+	<markerHeading num="6" name="swab2"><![CDATA[DNA PROFILE #2 - FINGERNAIL SWABS]]></markerHeading>
+	<profile num="1" name="wall"><![CDATA[Bloodstains on the wall]]></profile>
+	<profile num="2" name="floor"><![CDATA[Bloodstains on the floor]]></profile>
+	<profile num="3" name="stains"><![CDATA[Bloodstains]]></profile>
+	<profile num="4" name="victim"><![CDATA[Victim]]></profile>
+	<profile num="5" name="swab1"><![CDATA[Fingernail swabs #1]]></profile>
+	<profile num="5" name="swab2"><![CDATA[Fingernail swabs #2]]></profile>
+	<profileUNK><![CDATA[Unknown DNA Profiles]]></profileUNK>
+	<profileREF><![CDATA[Reference DNA Profiles]]></profileREF>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+	<matchBtn><![CDATA[MATCH]]></matchBtn>
+	<noMatchBtn><![CDATA[NO MATCH]]></noMatchBtn>
+	<okBtn><![CDATA[Okay.]]></okBtn>
+	<searchBtn><![CDATA[SEARCH CODIS]]></searchBtn>
+</activity>

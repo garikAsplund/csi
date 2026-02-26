@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<activity name="AccessLog">
+	<icon><![CDATA[Pain clinic access log]]></icon>
+	<title><![CDATA[Pain Management Center Access Log]]></title>
+	<date><![CDATA[April 29, 2012]]></date>
+	<instruct><![CDATA[Select the name of the person who accessed the pain clinic around the time the victim died (6 pm to 11 pm).]]></instruct>
+	<timeLabel><![CDATA[Time]]></timeLabel>
+	<nameLabel><![CDATA[Name]]></nameLabel>
+	<IDLabel><![CDATA[ID]]></IDLabel>
+	<typeLabel><![CDATA[Type]]></typeLabel>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+	<line num="1">
+		<time>7:32 am</time>
+		<name>Barry Fowler</name>
+		<id>BF9372694</id>
+		<type>Entry</type>
+	</line>
+	<line num="2">
+		<time>7:41 am</time>
+		<name>Anna Steward</name>
+		<id>AS9262538</id>
+		<type>Entry</type>
+	</line>
+	<line num="3">
+		<time>8:12 am</time>
+		<name>Justine Phillips</name>
+		<id>JP2693544</id>
+		<type>Entry</type>
+	</line>
+	<line num="4">
+		<time>11:57 am</time>
+		<name>Barry Fowler</name>
+		<id>BF9372694</id>
+		<type>Exit</type>
+	</line>
+	<line num="5">
+		<time>12:18 pm</time>
+		<name>Justine Phillips</name>
+		<id>JP2693544</id>
+		<type>Exit</type>
+	</line>
+	<line num="6">
+		<time>12:49 pm</time>
+		<name>Barry Fowler</name>
+		<id>BF9372694</id>
+		<type>Entry</type>
+	</line>
+	<line num="7">
+		<time>1:02 pm</time>
+		<name>Anna Steward</name>
+		<id>AS9262538</id>
+		<type>Exit</type>
+	</line>
+	<line num="8">
+		<time>1:14 pm</time>
+		<name>Justine Phillips</name>
+		<id>JP2693544</id>
+		<type>Entry</type>
+	</line>
+	<line num="9">
+		<time>1:54 pm</time>
+		<name>Anna Steward</name>
+		<id>AS9262538</id>
+		<type>Entry</type>
+	</line>
+	<line num="10">
+		<time>5:34 pm</time>
+		<name>Barry Fowler</name>
+		<id>BF9372694</id>
+		<type>Exit</type>
+	</line>
+	<line num="11">
+		<time>5:49 pm</time>
+		<name>Anna Steward</name>
+		<id>AS9262538</id>
+		<type>Exit</type>
+	</line>
+	<line num="12">
+		<time>7:32 pm</time>
+		<name>Anna Steward</name>
+		<id>AS9262538</id>
+		<type>Entry</type>
+	</line>
+	<line num="13">
+		<time>7:57 pm</time>
+		<name>Anna Steward</name>
+		<id>AS9262538</id>
+		<type>Exit</type>
+	</line>
+</activity>

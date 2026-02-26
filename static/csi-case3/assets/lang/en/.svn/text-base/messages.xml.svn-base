@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English Version -->
+	
+	<!-- MESSAGES -->
+	
+	<tag id="ID_MESSAGE1_LABEL"><![CDATA[Possible match found]]></tag>
+	<tag id="ID_MESSAGE1_BODY"><![CDATA[A report came in about a missing 21-year old.  She fits the description of your Jane Doe.
+	Her mother and boyfriend are waiting at her house.  I'll send the address to your PDA.
+	Go there and see if you can find any evidence tying together the missing girl and our murder victim.]]></tag>
+	
+	<tag id="ID_MESSAGE2_LABEL"><![CDATA[Check out the agent]]></tag>
+	<tag id="ID_MESSAGE2_BODY"><![CDATA[His fingerprints at the scene, and now the victim turns out to be one of his stars?  This Maury Wan is looking more suspicious all the time.
+	I'll start working on a search warrant, but why don't you go talk to him one more time first.  There's a chance he may choose to cooperate on his own.
+	Good luck!  Lt. Jim Brass]]></tag>
+	
+	<tag id="ID_MESSAGE3_LABEL"><![CDATA[No1 Fan ID]]></tag>
+	<tag id="ID_MESSAGE3_BODY"><![CDATA[Good news - The company that gave this "No1Fan" his e-mail address obeyed the warrant we got from the judge.  They sent me a name - Gabriel Tam - and an address.
+	Grissom wants you and Nick to go check it out.  I'll send the address to your PDA.
+	Good luck!  Lt. Jim Brass]]></tag>
+
+	<tag id="ID_MESSAGE4_LABEL"><![CDATA[Tying up loose ends]]></tag>
+	<tag id="ID_MESSAGE4_BODY"><![CDATA[I hear you've got all the details of the case. Click the attatchment to file your report.  -Grissom]]></tag>
+	
+	<tag id="ID_MESSAGE5_LABEL"><![CDATA[Need your help]]></tag>
+	<tag id="ID_MESSAGE5_BODY"><![CDATA[Nick here. I could use a little help out at the crime scene.]]></tag>
+	
+	
+</strings>	

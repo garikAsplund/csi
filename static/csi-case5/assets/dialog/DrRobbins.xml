@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<dialog name="DrRobbins">
+	<conversation location="Morgue" name="1">
+		<statement num="1" push="1,2"/>
+		<statement num="2" push="3"/>
+		<statement num="3" push="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" require="1,2" goto="4"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="Head1">
+		<statement num="1" push="1"/>		
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="Head2">
+		<statement num="1" push="1,2"/>		
+		<statement num="2"/>
+		<statement num="3" push="3"/>
+		<response num="1" goto="3" pop="all"/>
+		<response num="2" goto="2"/>
+		<response num="3" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="TattooingWrong">
+		<statement num="1" push="1,2,3"/>		
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all" />
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="TattooingRight">
+		<statement num="1" push="1,2,3"/>		
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all" />
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="Bruise1">
+		<statement num="1" push="1"/>		
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="Hand1">
+		<statement num="1" push="1"/>	
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="AutopsyFinish1">
+		<statement num="1" push="1"/>	
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="AutopsyFinish2">
+		<statement num="1" push="1"/>	
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="AutopsyFinish3">
+		<statement num="1" push="1"/>	
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Morgue" name="AutopsyDone">
+		<statement num="1" push="1"/>	
+		<response num="1" goto="end"/>
+	</conversation>
+</dialog>

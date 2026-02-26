@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<dialog name="DrRobbins" displayName="Dr. Al Robbins">
+	<conversation location="Morgue" name="1">
+		<statement num="1"><![CDATA[You’re investigating the case of Dr. Justine Phillips, our latest shooting victim, correct?
+
+What do you want to know?]]></statement>
+		<statement num="2"><![CDATA[Rigor mortis is still increasing, which means she died less than 12 hours ago.
+
+Together with the body temperature, I’d say that time of death was between 6 pm and 11 pm.]]></statement>
+		<statement num="3"><![CDATA[I have good news. There is no exit wound, which means the bullet is still inside her head and we can retrieve it.
+
+That’s all I know so far.]]></statement>
+		<statement num="4"><![CDATA[Why don’t we perform the external autopsy together?]]></statement>
+		<response num="1"><![CDATA[Do you know when she died?]]></response>
+		<response num="2"><![CDATA[What did the autopsy reveal?]]></response>
+		<response num="3"><![CDATA[How can I help?]]></response>
+		<response num="4"><![CDATA[Let’s do it.]]></response>
+	</conversation>
+	<conversation location="Morgue" name="Head1">
+		<statement num="1"><![CDATA[The fact that the bullet is still in our victim’s head means we’re looking at a PENETRATING wound, as opposed to a PERFORATING wound that results if the bullet exits on the other side.]]></statement>		
+		<statement num="2"><![CDATA[If a person commits suicide, the muzzle of the gun is typically held directly against the head, which results in a CONTACT wound.]]></statement>
+		<response num="1"><![CDATA[What else do we need to look at when examining the wound?]]></response>
+		<response num="2"><![CDATA[How do we know if this is a contact wound?]]></response>
+	</conversation>
+	<conversation location="Morgue" name="Head2">
+		<statement num="1"><![CDATA[What can you conclude based on the fact that our victim’s wound doesn’t have any markings typical for a contact wound?]]></statement>		
+		<statement num="2"><![CDATA[Remember, contact wounds have certain characteristics such as searing or blackening.
+
+We didn’t find any of that around our victim’s wound.]]></statement>
+		<statement num="3"><![CDATA[That’s the only possible explanation.
+
+From examining the wound, we can actually estimate how far away the gun was from the victim’s head.]]></statement>
+		<response num="1"><![CDATA[The muzzle of the gun was at a distance from the victim’s forehead when shot.]]></response>
+		<response num="2"><![CDATA[The muzzle of the gun was in close contact to the victim’s forehead when shot.]]></response>
+		<response num="3"><![CDATA[How can we estimate the distance?]]></response>
+	</conversation>
+	<conversation location="Morgue" name="TattooingWrong">
+		<statement num="1"><![CDATA[Are you sure? The orange spots around the wound look like small abrasions to me.
+
+What can you conclude from the presence of powder tattooing?]]></statement>		
+		<statement num="2"><![CDATA[If that were the case, we would be looking at a contact wound, which we have already ruled out. Try again.]]></statement>
+		<statement num="3"><![CDATA[Remember, for powder tattooing to occur, the muzzle can’t be farther away from the skin than four meters. Try again.]]></statement>
+		<statement num="4"><![CDATA[Precisely. It’s curious that somebody would commit suicide by shooting the gun from a distance, don’t you think?]]></statement>
+		<response num="1"><![CDATA[The shot was fired from a distance less than 1 centimeter.]]></response>
+		<response num="2"><![CDATA[The shot was fired from a distance between 1 centimeter to 4 meters.]]></response>
+		<response num="3"><![CDATA[The shot was fired from a distance more than 4 meters.]]></response>
+		<response num="4"><![CDATA[I’ll continue with the autopsy.]]></response>
+	</conversation>
+	<conversation location="Morgue" name="TattooingRight">
+		<statement num="1"><![CDATA[That’s accurate. Those little orange spots around the wound look like abrasions.
+
+What can you conclude from the presence of powder tattooing?]]></statement>			
+		<statement num="2"><![CDATA[If that were the case, we would be looking at a contact wound, which we have already ruled out. Try again.]]></statement>
+		<statement num="3"><![CDATA[Remember, for powder tattooing to occur, the muzzle can’t be farther away from the skin than four meters. Try again.]]></statement>
+		<statement num="4"><![CDATA[Precisely. It’s curious that somebody would commit suicide by shooting the gun from a distance, don’t you think?]]></statement>
+		<response num="1"><![CDATA[The shot was fired from a distance less than 1 centimeter.]]></response>
+		<response num="2"><![CDATA[The shot was fired from a distance between 1 centimeter to 4 meters.]]></response>
+		<response num="3"><![CDATA[The shot was fired from a distance more than 4 meters.]]></response>
+		<response num="4"><![CDATA[I’ll continue with the autopsy.]]></response>
+	</conversation>
+	<conversation location="Morgue" name="Bruise1">
+		<statement num="1"><![CDATA[This CONTUSION, or bruise, stretches halfway around our victim’s arm.]]></statement>	
+		<statement num="2"><![CDATA[I don’t know for sure, but based on the shape I’d say somebody grabbed her arm forcefully.]]></statement>	
+		<response num="1"><![CDATA[What caused the bruise?]]></response>
+		<response num="2"><![CDATA[I’ll continue with the autopsy.]]></response>
+	</conversation>
+	<conversation location="Morgue" name="Hand1">
+		<statement num="1"><![CDATA[To determine if Dr. Phillips had physical contact with another person before she died, we’ll swab her fingernails. Physical contact typically leaves traces such as skin tissue behind, which can be used to create DNA profiles.
+
+After that, don’t forget to collect a fingerprint.]]></statement>	
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Morgue" name="AutopsyFinish1">
+		<statement num="1"><![CDATA[This concludes our external autopsy.
+
+The next step is to retrieve the bullet from the victim’s head and to finish the internal autopsy. I’ll take it from here.]]></statement>	
+		<response num="1"><![CDATA[I’ll wait for you to finish the autopsy.]]></response>
+	</conversation>
+	<conversation location="Morgue" name="AutopsyFinish2">
+		<statement num="1"><![CDATA[I’ve finished the autopsy. Here’s your bullet.]]></statement>	
+		<response num="1"><![CDATA[Thanks.]]></response>
+	</conversation>
+	<conversation location="Morgue" name="AutopsyFinish3">
+		<statement num="1"><![CDATA[Also, here’s the victim’s blood sample for DNA analysis. You’ll need it as a reference sample.]]></statement>	
+		<response num="1"><![CDATA[Thanks for all that. I’m going to the lab now.]]></response>
+	</conversation>
+	<conversation location="Morgue" name="AutopsyDone">
+		<statement num="1"><![CDATA[That concludes our autopsy.
+
+Now go and analyze the evidence you have.]]></statement>	
+		<response num="1"><![CDATA[Thanks, I'll do that]]></response>
+	</conversation>
+</dialog>

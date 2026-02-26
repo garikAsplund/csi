@@ -1,0 +1,326 @@
+<?xml version="1.0" ?>
+<activity name="PhotoAnalysis">
+	<screen name="loading">
+		<text name="tf1"><![CDATA[Loading images...]]></text>
+	</screen>
+	<screen name="photoMenu">
+		<title num="1"><![CDATA[Select the first photograph.]]></title>
+		<title num="2"><![CDATA[Select the second photograph.]]></title>
+		<title num="3"><![CDATA[Select the third photograph.]]></title>
+		<title num="4"><![CDATA[Photo Analysis Results]]></title>
+		<continueBtn><![CDATA[Continue]]></continueBtn>
+		<button num="1">
+			<title><![CDATA[Body Position]]></title>			
+		</button>
+		<button num="2">
+			<title><![CDATA[Bloodstains on the floor]]></title>			
+		</button>
+		<button num="3">
+			<title><![CDATA[Bloodstains on the wall]]></title>
+		</button>
+		<blueprintLabel><![CDATA[Crime scene blueprint]]></blueprintLabel>
+		<label num="1"><![CDATA[5'3"]]></label>
+		<label num="2"><![CDATA[Victim's head]]></label>
+	</screen>
+	<screen name="photo1_1">
+		<title><![CDATA[Body Position]]></title>
+		<desc><![CDATA[Open the floor plan of the pain clinic to start creating the blueprint.]]></desc>
+		<nextBtn><![CDATA[Open Floor Plan]]></nextBtn>
+	</screen>
+	<screen name="photo1_2">
+		<title><![CDATA[Body Position]]></title>
+		<desc><![CDATA[This is the floor plan the pain clinic provided.
+		
+Click on the victim's office to zoom in.]]></desc>
+		<caption num="1"><![CDATA[Office Dr. Fowler]]></caption>
+		<caption num="2"><![CDATA[Office Dr. Justine Phillips]]></caption>
+		<caption num="3"><![CDATA[Front desk]]></caption>
+	</screen>
+	<screen name="photo1_3">
+		<title><![CDATA[Body Position]]></title>
+		<desc><![CDATA[The position of the furniture is already placed as it was when the victim was found.
+
+Now click and drag the drawing that represents the victim to the correct area in the floor plan.]]></desc>
+	</screen>
+	<screen name="photo1_4">
+		<title><![CDATA[Body Position]]></title>
+		<desc><![CDATA[The next step is to produce a 3D-blueprint of the room. The computer is going to take care of this based on the floor plan measurements.]]></desc>
+		<nextBtn><![CDATA[Render 3D Blueprint]]></nextBtn>
+	</screen>
+	<screen name="photo1_5">
+		<text name="tf1"><![CDATA[Rendering 3D blueprint...]]></text>
+	</screen>
+	<screen name="photo1_6">
+		<title><![CDATA[3D blueprint of crime scene]]></title>
+		<desc><![CDATA[The image shows the position of the body as it was found at the crime scene.
+		
+Use this image later to indicate the victim’s position at the time the bullet hit her.]]></desc>
+		<nextBtn><![CDATA[Close]]></nextBtn>
+	</screen>
+	
+	<screen name="photo2_1">
+		<title><![CDATA[Bloodstains on the floor]]></title>
+		<desc><![CDATA[Use the zoom to magnify the bloodstains.]]></desc>
+	</screen>
+	<screen name="photo2_2">
+		<title><![CDATA[Bloodstains on the floor]]></title>
+		<desc><![CDATA[Open the database to analyze these bloodstains.]]></desc>
+		<nextBtn><![CDATA[Open Database]]></nextBtn>
+	</screen>
+	<screen name="photo2_3">
+		<title><![CDATA[Bloodstains on the floor]]></title>
+		<desc><![CDATA[The size and shape of bloodstains depends on the way they were created.
+		
+Most bloodstains found at a crime scene are either impact stains, passive stains, or transfer stains.]]></desc>
+		<example num="1"><![CDATA[Impact stain]]></example>
+		<example num="2"><![CDATA[Passive stain]]></example>
+		<example num="3"><![CDATA[Transfer stain]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<popup num="1"><![CDATA[Impact stains (blood spatter)
+		
+Caused by an external force to the blood source
+
+Stains less than 4 mm in width]]></popup>
+		<popup num="2"><![CDATA[Passive stains (drip stains)
+		
+Caused by blood dripping down due to gravity only
+
+Stains more than 4 mm in width]]></popup>
+		<popup num="3"><![CDATA[Transfer stains
+		
+Caused by bloodstained objects that strike a surface
+
+Usually mirror images of the object (here: a hand)]]></popup>
+   		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="photo2_4">
+		<title><![CDATA[Bloodstains on the floor]]></title>
+		<desc><![CDATA[To determine the width of these stain, we’re going to use an ABFO scale.
+
+Click on the scale to learn how to use it.]]></desc>
+	</screen>
+	<screen name="scaleScreen">
+		<desc><![CDATA[Originally designed by the American Board of Forensic Odontology (ABFO), this scale is the standard for many forensic measurements.
+
+The grid is divided into 5 centimeters (cm), each containing 10 millimeters (mm).]]></desc>
+		<closeBtn><![CDATA[Continue]]></closeBtn>
+		<caption num="1"><![CDATA[1 mm]]></caption>
+		<caption num="2"><![CDATA[1 cm]]></caption>
+	</screen>
+	<screen name="photo2_5">
+		<title><![CDATA[Bloodstains on the floor]]></title>
+		<desc><![CDATA[What is the width of our stains?
+Use the ABFO scale to measure the stains.]]></desc>
+		<option num="1" correct="false"><![CDATA[Less than 1 millimeters.]]></option>			
+		<option num="2" correct="false"><![CDATA[Less than 4 millimeters.]]></option>
+		<option num="3" correct="true"><![CDATA[More than 4 millimeters.]]></option>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+		<response num="1"><![CDATA[That's not what I have measured. Try again.]]></response>
+		<response num="2"><![CDATA[Are you sure? The stains look bigger to me. Try again.]]></response>
+		<response num="3"><![CDATA[That's what I see too.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="photo2_6">
+		<title><![CDATA[Bloodstains on the floor]]></title>
+		<desc><![CDATA[Based on their width and shape, what type of stains are we looking at?]]></desc>
+		<option num="1" correct="true"><![CDATA[Passive stains]]></option>			
+		<option num="2" correct="false"><![CDATA[Impact stains]]></option>
+		<option num="3" correct="false"><![CDATA[Transfer stains]]></option>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+		<response num="1"><![CDATA[Correct. Based on their size and shape, we can conclude that these stains are passive stains, or drip stains.]]></response>
+		<response num="2"><![CDATA[If those stains were impact stains, they would be much smaller than 4 millimeters. Try again.]]></response>
+		<response num="3"><![CDATA[I don't see a mirror image of any object. Try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="photo2_7">
+		<title><![CDATA[Bloodstains on the floor]]></title>
+		<desc><![CDATA[Based on your findings, what can you conclude so far?]]></desc>
+		<option num="1" correct="false"><![CDATA[The wound was self-inflicted.]]></option>			
+		<option num="2" correct="false"><![CDATA[The body was placed in the area of the drip stains.]]></option>
+		<option num="3" correct="true"><![CDATA[The victim was in the area of the drip stains when shot.]]></option>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+		<response num="1"><![CDATA[We can't conclude this based on the bloodstains. Try again.]]></response>
+		<response num="2"><![CDATA[If that were the case, there would be more bloodstains in other areas of the room. Try again.]]></response>
+		<response num="3"><![CDATA[Yes! Since the blood dripped straight down from the source due to gravity, our victim must have been located in the area of the stains when she was shot.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="photo2_8">
+		<desc><![CDATA[The next step is to indicate the position of the victim at the time the bullet hit her in our 3D blueprint.
+
+Click on the area of the drip stains to do that.]]></desc>
+		<nextBtn><![CDATA[Close]]></nextBtn>
+	</screen>
+	
+	<screen name="photo3_1">
+		<title><![CDATA[Bloodstains on the wall]]></title>
+		<desc><![CDATA[First, zoom into the bloodstain pattern.]]></desc>
+	</screen>
+	<screen name="photo3_2">
+		<title><![CDATA[Bloodstains on the wall]]></title>
+		<desc><![CDATA[What is the WIDTH of these stains?<br/>Click the ABFO scale if you want a reminder how to read it.]]></desc>
+		<option num="1" correct="true"><![CDATA[Less than 4 millimeters]]></option>			
+		<option num="2" correct="false"><![CDATA[More than 4 millimeters]]></option>
+		<option num="3" correct="false"><![CDATA[More than 8 millimeters]]></option>
+		<response num="1"><![CDATA[I agree.]]></response>
+		<response num="2"><![CDATA[No, none of the stains are that wide.
+
+Try again and measure the narrow parts of the stains, not the length.]]></response>
+		<response num="3"><![CDATA[I don't see any stain that is that wide.
+
+Try again and measure the narrow parts of the stains, not the length.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>		
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+	</screen>
+	<screen name="photo3_3">
+		<title><![CDATA[Bloodstains on the wall]]></title>
+		<desc><![CDATA[Based on the width and shape of the stains, what type of stains are they?]]></desc>
+		<option num="1" correct="false"><![CDATA[Passive stains]]></option>			
+		<option num="2" correct="true"><![CDATA[Impact stains]]></option>
+		<option num="3" correct="false"><![CDATA[Transfer stains]]></option>
+		<response num="1"><![CDATA[These stains are way too small to be passive stains. Try again.]]></response>
+		<response num="2"><![CDATA[Yes. We’re looking at a blood spatter pattern caused by the impact of an object on the blood-shedding person.]]></response>
+		<response num="3"><![CDATA[If these were transfer stains, the pattern would resemble an object. Try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+	</screen>
+	<screen name="photo3_4">
+		<title><![CDATA[Bloodstains on the wall]]></title>
+		<desc><![CDATA[When reconstructing a crime scene from impact stains, scientists look at three main characteristics of the stains:]]></desc>
+		<bullet num="1"><![CDATA[Direction of travel]]></bullet>
+		<bullet num="2"><![CDATA[Point of convergence]]></bullet>
+		<bullet num="3"><![CDATA[Angle of impact]]></bullet>
+		<!--Captions are labeled the same as the bullets-->
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="photo3_5">
+		<title><![CDATA[Bloodstains on the wall: DIRECTION OF TRAVEL]]></title>
+		<desc><![CDATA[The physical appearance of the bloodstains can be used to determine the direction the blood traveled when it touched the wall.
+
+The pointed end of the stain always faces its direction of travel.]]></desc>
+		<example num="1"><![CDATA[Blood traveled from left to right]]></example>
+		<example num="2"><![CDATA[Blood traveled from top to bottom]]></example>
+		<example num="3"><![CDATA[Blood traveled from right to left]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<caption num="1"><![CDATA[Pointed end of stain]]></caption>
+		<popup num="1"><![CDATA[Blood spatter pattern produced by blood drops traveling from left to right.]]></popup>
+		<popup num="2"><![CDATA[Blood spatter pattern produced by blood drops traveling from top to bottom.]]></popup>
+		<popup num="3"><![CDATA[Blood spatter pattern produced by blood drops traveling from right to left.]]></popup>
+		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="photo3_6">
+		<title><![CDATA[Bloodstains on the wall: DIRECTION OF TRAVEL]]></title>
+		<desc><![CDATA[In which direction did the blood travel?]]></desc>
+		<option num="1" correct="true"><![CDATA[From left to right]]></option>			
+		<option num="2" correct="false"><![CDATA[From top to bottom]]></option>
+		<option num="3" correct="false"><![CDATA[From right to left]]></option>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+		<response num="1"><![CDATA[I agree. The pointed ends of the stains face to the right, which means the blood traveled from left to right.]]></response>
+		<response num="2"><![CDATA[If that were the case, the pointed ends of the stains would face downwards. Try again.]]></response>
+		<response num="3"><![CDATA[Remember, the pointed end of the stains always face the direction of travel. Try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<!--Reuse screen 3_4 -->
+	<screen name="photo3_7">
+		<title><![CDATA[Bloodstains on the wall: POINT OF CONVERGENCE]]></title>
+		<desc><![CDATA[First, zoom out of the picture to see a larger area.]]></desc>
+	</screen>
+	<screen name="photo3_8">
+		<title><![CDATA[Bloodstains on the wall: POINT OF CONVERGENCE]]></title>
+		<desc><![CDATA[To determine the point of convergence, scientists draw lines through the long axis of the bloodstains.
+
+Click on the highlighted stains to do that.]]></desc>
+	</screen>
+	<screen name="photo3_9">
+		<title><![CDATA[Bloodstains on the wall: POINT OF CONVERGENCE]]></title>
+		<desc><![CDATA[The computer is going to do the same for a representative sample from the rest of the stains.
+
+Click the button below to start the process.]]></desc>
+		<nextBtn><![CDATA[Create lines]]></nextBtn>
+	</screen>
+	<screen name="photo3_10">
+		<title><![CDATA[Bloodstains on the wall: POINT OF CONVERGENCE]]></title>
+		<desc><![CDATA[Since the bullet hit the victim’s head, the point of convergence (where the lines meet) indicates where the victim’s head was located during the shooting.]]></desc>
+		<caption><![CDATA[Point of convergence]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="photo3_11">
+		<title><![CDATA[Bloodstains on the wall: POINT OF CONVERGENCE]]></title>
+		<desc><![CDATA[However, since we are looking at a three-dimensional room, we still need to determine how far away the victim was from the wall.
+
+To do this, we’ll determine the ANGLES OF IMPACT.]]></desc>
+		<caption><![CDATA[Point of convergence]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<!--go back to 3_4 then continue-->
+	<screen name="photo3_12">
+		<title><![CDATA[Bloodstains on the wall: ANGLE OF IMPACT]]></title>
+		<desc><![CDATA[Blood spatter patterns typically consist of stains of many different shapes.
+
+Based on these different shapes, scientists can determine the angle in which the blood drops touched the wall.]]></desc>
+		<nextBtn><![CDATA[Open Database]]></nextBtn>
+	</screen>
+	<screen name="photo3_13">
+		<title><![CDATA[Bloodstains on the wall: ANGLE OF IMPACT]]></title>
+		<desc><![CDATA[Impact stains have different shapes depending on the ANGLE OF IMPACT.
+
+This angle is formed between the flight path of the blood drop and the target surface the drop strikes.]]></desc>
+		<example num="1"><![CDATA[90° angle]]></example>
+		<example num="2"><![CDATA[40° angle]]></example>
+		<example num="3"><![CDATA[10° angle]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<caption num="1"><![CDATA[Position of blood source]]></caption>
+		<caption num="2"><![CDATA[Bloodstain]]></caption>
+		<popup num="1"><![CDATA[A nearly circular stain is the result of blood travelling from the bleeding person to the wall in a 90° angle.]]></popup>
+		<popup num="2"><![CDATA[If the stain is slightly elongated, the blood drop must have touched the wall in an angle less than 90°
+(here: 40°)]]></popup>
+		<popup num="3"><![CDATA[A much more elongated stain is the result of blood striking the wall in a very small angle (here: 10°)]]></popup>
+		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>	
+	<screen name="photo3_14">
+		<title><![CDATA[Bloodstains on the wall: ANGLE OF IMPACT]]></title>
+		<desc><![CDATA[Forensic scientists use geometry and trigonometry to calculate the angle of impact for bloodstains.
+
+Click on the highlighted stains to display their angles of impact.]]></desc>
+	</screen>
+	<screen name="photo3_15">
+		<title><![CDATA[Bloodstains on the wall: ANGLE OF IMPACT]]></title>
+		<desc><![CDATA[The computer is going to calculate the angle of impact for some more representative stains automatically.
+
+Click “Calculate angles” to start the calculations.]]></desc>
+		<calcBtn><![CDATA[Calculate angles]]></calcBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="photo3_16">
+		<title><![CDATA[Bloodstains on the wall]]></title>
+		<desc><![CDATA[The next step is to transfer this pattern into our 3D blueprint of the crime scene.
+
+The computer will generate the image. Click the button below to start.]]></desc>
+			<caption num="1"><![CDATA[Direction of travel]]></caption>
+			<caption num="2"><![CDATA[Point of convergence]]></caption>
+		<nextBtn><![CDATA[Transfer pattern]]></nextBtn>
+	</screen>
+	<screen name="photo3_17">
+		<desc><![CDATA[The blueprint indicates where the victim’s head must have been when it was hit by the bullet based on the analysis of the impact stains.]]></desc>
+			<caption num="1"><![CDATA[5'3"]]></caption>
+			<caption num="2"><![CDATA[Victim's head]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="photo3_18">
+		<desc><![CDATA[Click the bloodstain area on the floor to see if the position of the head is consistent with the drip stains on the floor.]]></desc>
+			<caption num="1"><![CDATA[5'3"]]></caption>
+			<caption num="2"><![CDATA[Victim's head]]></caption>
+		<nextBtn><![CDATA[Close]]></nextBtn>
+	</screen>
+	<!--- Making angles in XML because of different ways of stating decimals with a comma or not, for languages -->
+	<angle num="1"><![CDATA[89.6°]]></angle>
+	<angle num="2"><![CDATA[87.9°]]></angle>
+	<angle num="3"><![CDATA[68.0°]]></angle>
+	<angle num="4"><![CDATA[52.3°]]></angle>
+	<angle num="5"><![CDATA[31.4°]]></angle>
+	<angle num="6"><![CDATA[28.9°]]></angle>
+	<angle num="7"><![CDATA[10.2°]]></angle>
+	<angle num="8"><![CDATA[7.5°]]></angle>
+</activity>

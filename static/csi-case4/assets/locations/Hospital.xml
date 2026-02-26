@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<location name="Hospital" displayName="Hospital">
+	<person name="Langston"/>
+	<object name="DoorPatient" />
+	<object name="DoorDoctor" />
+	<visit num="1" ambient="HospitalAmbient">
+		<clickable name="Langston" type="required" action="dialog:LangstonHospital">
+			<set variable="visit:Hospital" value="2"/>		
+			<clickable name="Langston" type="ignore" action="dialog:LangstonHospitalUnfinished" persist="true" />
+		</clickable>
+		<clickable name="DoorPatient" type="required" action="location:Hospital_Patient" />
+		<clickable name="DoorDoctor" type="required" action="location:Hospital_Doctor" />
+	</visit>
+	<visit num="2" ambient="HospitalAmbient">
+		<clickable name="Langston" type="ignore" action="dialog:LangstonHospitalUnfinished" persist="true" />
+		<clickable name="DoorPatient" type="ignore" action="location:Hospital_Patient" />
+		<clickable name="DoorDoctor" type="ignore" action="location:Hospital_Doctor" />
+	</visit>
+	<visit num="3" ambient="HospitalAmbient">
+		<clickable name="Langston" type="ignore" action="dialog:LangstonHospitalFinished" persist="true" />
+		<clickable name="DoorPatient" type="ignore" action="location:Hospital_Patient" />
+		<clickable name="DoorDoctor" type="ignore" action="location:Hospital_Doctor" />
+	</visit>
+</location>

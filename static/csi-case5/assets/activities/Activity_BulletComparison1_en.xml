@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<activity name="BulletComparison1">
+	<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+	<screen name="screen1">
+		<title><![CDATA[Autopsy bullet - Class characteristics]]></title>
+		<desc><![CDATA[What is the caliber of this bullet?
+Use the scale to measure the caliber.]]></desc>
+		<option num="1" correct="true"><![CDATA[9 millimeters]]></option>			
+		<option num="2" correct="false"><![CDATA[15 millimeters]]></option>
+		<option num="3" correct="false"><![CDATA[9 centimeters]]></option>
+		<response num="1"><![CDATA[Correct – a bullet’s caliber is determined by its diameter.]]></response>
+		<response num="2"><![CDATA[The caliber of a bullet is actually determined by its diameter. Try again.]]></response>
+		<response num="3"><![CDATA[Look closer at the scale and try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="screen2">
+		<title><![CDATA[Autopsy bullet - Class characteristics]]></title>
+		<desc><![CDATA[Next, we'll look at the rifling impressions on this bullet.]]></desc>
+		<nextBtn><![CDATA[Open Database]]></nextBtn>
+	</screen>
+	<screen name="screen3">
+		<title><![CDATA[Autopsy bullet - Class characteristics]]></title>
+		<desc><![CDATA[Most modern guns have spiral grooves inside their barrels, which are called RIFLING.<br/>When a bullet is fired, rifling makes the bullet spin in the air. 
+
+Rifling leaves impressions on the surface of the bullet, which can either be conventional or polygonal.]]></desc>
+		<example num="1"><![CDATA[Conventional rifling]]></example>
+		<example num="2"><![CDATA[Polygonal rifling]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<popup num="1"><![CDATA[Conventional rifling leaves deep, easy to see grooves on the surface of the bullet.]]></popup>
+		<popup num="2"><![CDATA[Polygonal rifling leaves impressions that are less easy to see, with less distinct grooves.]]></popup>
+		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen4">
+		<title><![CDATA[Autopsy bullet - Class characteristics]]></title>
+		<desc><![CDATA[What type of rifling impressions does this bullet have?]]></desc>
+		<option num="1" correct="true"><![CDATA[Conventional]]></option>			
+		<option num="2" correct="false"><![CDATA[Polygonal]]></option>
+		<option num="3" correct="false"><![CDATA[Both]]></option>
+		<response num="1"><![CDATA[That’s what I see too.]]></response>
+		<response num="2"><![CDATA[You wouldn’t be able to see the grooves that well if the rifling were polygonal. Try again.]]></response>
+		<response num="3"><![CDATA[No, rifling is either conventional or polygonal, never both. Try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="screen5">
+		<title><![CDATA[Autopsy bullet - Class characteristics]]></title>
+		<desc><![CDATA[How many rifling impressions does this bullet have?]]></desc>
+		<option num="1" correct="false"><![CDATA[5]]></option>			
+		<option num="2" correct="true"><![CDATA[6]]></option>
+		<option num="3" correct="false"><![CDATA[7]]></option>
+		<caption num="1"><![CDATA[Previous Groove]]></caption>
+		<caption num="2"><![CDATA[Next Groove]]></caption>
+		<response num="1"><![CDATA[Not quite. Try rotating the bullet if you’re not sure and try again.]]></response>
+		<response num="2"><![CDATA[I agree. Good job!]]></response>
+		<response num="3"><![CDATA[Not quite. Try rotating the bullet if you’re not sure and try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="screen6">
+		<title><![CDATA[CLASS CHARACTERISTICS - SUMMARY]]></title>
+		<row num="0">
+			<col num="1">Bullet</col>
+			<col num="2">Caliber</col>
+			<col num="3">Rifling Type</col>
+			<col num="4">Rifling Number</col>
+		</row>
+		<row num="1">
+			<col num="1"><![CDATA[Reference (autopsy bullet)]]></col>
+			<col num="2">9 mm</col>
+			<col num="3">conventional</col>
+			<col num="4">6</col>
+		</row>
+	</screen>
+</activity>

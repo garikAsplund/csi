@@ -1,0 +1,281 @@
+<?xml version="1.0" ?>
+<dialog name="Sanders">
+	<conversation location="Lab" name="1">
+		<statement num="1" push="1,2"/>
+		<statement num="2" push="3"/>
+		<response num="1" goto="2" pop="all"/>
+		<response num="2" goto="end"/>
+		<response num="3" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="WithEvidence">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+		<response num="3" goto="3" pop="2"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Evidence1Done">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+		<response num="3" goto="3" pop="2" top="true"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Evidence2Done">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+		<response num="3" goto="3" pop="2" top="true" />
+		<response num="4" goto="end" top="true" />
+	</conversation>
+	<conversation location="Lab" name="Visit3">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Visit4">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Visit5">
+		<statement num="1" push="1"/>
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Visit5Done">
+		<statement num="1" push="1,2"/>
+		<statement num="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="ExplainFingerprints">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="ExplainComputer">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="ExplainGA">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Photos1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Photos2">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="PhotosEnd">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Fingerprints1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Fingerprints2">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Fingerprints3">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Fingerprints4">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="FingerprintsEnd">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4" pop="all"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="FingernailsRejected">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Fingernails1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Fingernails2">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Fingernails3">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Fingernails4">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="4" pop="all"/>
+		<response num="2" goto="2"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="BloodStainAnalysis1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="BloodStainAnalysis2">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="BloodStainAnalysis3">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4,5,6"/>
+		<statement num="5"/>
+		<statement num="6"/>
+		<statement num="7" push="7"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="7" pop="all"/>
+		<response num="5" goto="5"/>
+		<response num="6" goto="6"/>
+		<response num="7" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="BloodStainAnalysis4">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4" pop="all"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="VictimBloodAnalysis1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="VictimBloodAnalysis2">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4" pop="all"/>
+		<response num="4" goto="end"/>
+	</conversation>	
+	<conversation location="Lab" name="McCoy1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="McCoy2">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4" pop="all"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Assistant1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Assistant2">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Pharmacist1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="Pharmacist2">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="4" pop="all"/>
+		<response num="2" goto="2"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="AccessLogStart">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="AccessLogEnd">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="VictimComputerStart">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="DrugInteractionsStart">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="DrugInteractions1">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<statement num="5" push="5"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="5"/>
+		<response num="5" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="DrugInteractions2">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="DrugInteractionsEnd">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="BankAccountStart">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="Lab" name="BankAccountEnd">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+</dialog>

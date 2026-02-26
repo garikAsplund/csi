@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<activity name="ELISA">
+	<plate>
+		<label num="1"><![CDATA[Positive control]]></label>
+		<label num="2"><![CDATA[Negative control]]></label>
+		<label num="3"><![CDATA[Blood sample]]></label>
+		<label num="4"><![CDATA[Marijuana]]></label>
+		<label num="5"><![CDATA[Cocaine]]></label>
+		<label num="6"><![CDATA[Methamphetamines/amphetamines]]></label>
+		<label num="7"><![CDATA[Opiates]]></label>
+		<label num="8"><![CDATA[Barbiturates]]></label>
+		<label num="9"><![CDATA[PCP]]></label>		
+	</plate>
+	<screen name="screen1">
+		<instruct><![CDATA[First, the blood must be diluted.
+		
+Use the pipette to fill the test tube with diluting solution.]]></instruct>
+		<label num="1"><![CDATA[Diluting solution]]></label>
+	</screen>
+	<screen name="screen2">
+		<instruct><![CDATA[Good.
+		
+Now use the pipette to transfer a certain amount of the victim’s blood to the diluting solution in the test tube.]]></instruct>
+	</screen>
+	<screen name="screen3">
+		<instruct><![CDATA[Use the special device, called a vortex mixer, to mix the sample.]]></instruct>
+	</screen>
+	<screen name="screen4">
+		<instruct num="1"><![CDATA[This is a so-called ELISA plate. Our plate contains 36 wells. Each drug is duplicated to increase the accuracy of the test.
+
+Click on the well on the upper left to see an example of what’s inside.]]></instruct>
+		<instruct num="2"><![CDATA[In each of the 36 wells, specific antibodies are attached to the bottom.
+
+The wells labeled “marijuana” contain antibodies against marijuana, the wells labeled “cocaine” contain antibodies against cocaine, and so on.]]></instruct>
+		<caption num="1"><![CDATA[Well]]></caption>
+		<caption num="2"><![CDATA[Antibodies against marijuana]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen5">
+		<instruct num="1"><![CDATA[In the wells labeled “positive control”, the different drugs have already been added to the wells.
+
+Click on the well on the upper left again to see what happens.]]></instruct>
+		<instruct num="2"><![CDATA[When a sample containing the specific drug, in this case marijuana, is added to the well, the drug molecules bind to the antibodies.]]></instruct>
+		<caption num="1"><![CDATA[Well]]></caption>
+		<caption num="2"><![CDATA[Antibodies
+against marijuana]]></caption>
+		<caption num="3"><![CDATA[Marijuana]]></caption>
+		<caption num="4"><![CDATA[Marijuana bound to antibodies]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen6">
+		<instruct><![CDATA[The wells labeled “negative control” contain just the antibodies. No drugs have been added to these wells.]]></instruct>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen7">
+		<instruct><![CDATA[Now you can use the pipette to add the diluted blood sample to the ELISA plate.]]></instruct>
+	</screen>
+	<screen name="screen8">
+		<instruct><![CDATA[The next step is to add a detection antibody to each well.
+
+Use the pipette to add the detection antibody to the plate.]]></instruct>
+		<label num="1"><![CDATA[Detection antibodies]]></label>
+	</screen>	
+	<screen name="screen9">
+		<instruct num="1"><![CDATA[Click on the upper left to see what happens with the detection antibody in the well.]]></instruct>
+		<instruct num="2"><![CDATA[The detection antibodies bind to the drugs that are bound to the antibodies at the bottom of the well.
+
+If there are no drugs in the well, the detection antibodies will NOT bind.]]></instruct>
+		<label num="1"><![CDATA[Detection antibodies]]></label>
+		<caption num="1"><![CDATA[Well]]></caption>
+		<caption num="2"><![CDATA[Marijuana bound to antibodies]]></caption>
+		<caption num="3"><![CDATA[Detection antibodies]]></caption>
+		<caption num="4"><![CDATA[Drug-antibody complexes]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen10">
+		<instruct><![CDATA[The last step is to add a reagent to each well.
+
+Use the pipette to add the reagent to the plate.]]></instruct>
+		<label num="1"><![CDATA[Reagent]]></label>
+	</screen>
+	<screen name="screen11">
+		<instruct num="1"><![CDATA[Again, click on the well on the upper left to find out what the reagent does.]]></instruct>
+		<instruct num="2"><![CDATA[When the reagent binds to the drug-antibody complexes, it changes its color. In our case, it turns blue.
+
+If there are no drugs in the sample, the reagent will NOT turn blue. It’s as simple as that.]]></instruct>
+		<label num="1"><![CDATA[Reagent]]></label>
+		<caption num="1"><![CDATA[Well]]></caption>
+		<caption num="2"><![CDATA[Drug-antibody complexes]]></caption>
+		<caption num="3"><![CDATA[Reagent]]></caption>
+		<caption num="4"><![CDATA[Drug-antibody complexes]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen12">
+		<instruct><![CDATA[Let’s see what the ELISA reveals.]]></instruct>
+		<label num="1"><![CDATA[Reagent]]></label>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+</activity>

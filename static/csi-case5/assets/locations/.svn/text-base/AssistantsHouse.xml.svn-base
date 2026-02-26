@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<location name="AssistantsHouse" displayName="Anna Steward's House">
+	<person name="AnnaSteward" />
+	<person name="Stokes" />
+	<object name="DoorExit" />
+	<object name="Note" />
+	<object name="Prescription" />	
+	<visit num="1" ambient="CatherinesOfficeAmbient">
+		<clickable name="Stokes" action="dialog:StokesAssistant1" type="ignore" checkDone="evidence:AssistantDNA">			
+			<clickable name="Stokes" fail="dialog:StokesAssistantNotDone" type="ignore" require="evidence:AssistantDNA" persist="true" action="dialog:StokesAssistantDone" />
+		</clickable>
+		<clickable name="AnnaSteward" action="dialog:AnnaStewardHouse" type="required" checkDone="dialog:AnnaStewardHouse">			
+			<clickable name="Stokes" fail="dialog:StokesAssistantNotDone" type="ignore" require="evidence:AssistantDNA" persist="true" action="dialog:StokesAssistantDone" />
+			<clickable name="AnnaSteward" require="toolInHand:Swabs" type="required" action="evidence:AssistantDNA" persist="true" checkDone="evidence:AssistantDNA" fail="dialog:AnnaStewardHouse">
+				<visible name="AnnaSteward"/>
+				<unlock type="message" name="message5"/>
+				<set variable="visit:Lab" type="required" value="6"/>
+				<dev action="location:Lab"/>
+			</clickable>
+		</clickable>
+	</visit>
+</location>

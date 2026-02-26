@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<tools>
+	<tool name="PDA">
+		<title><![CDATA[Smartphone]]></title>
+		<text><![CDATA[You've acquired a smartphone
+Check out these great features:
+<li>Messages - Instant communications!</li>
+<li>Clues - Records every clue you find.</li>
+<li>Evidence - Records all the evidence you find by locations.</li>]]></text>
+	</tool>
+	<tool name="FireSceneToolKit">
+		<title><![CDATA[Fire Scene Toolkit]]></title>
+		<text><![CDATA[You’ve acquired a fire scene tool kit
+It contains a chisel, tweezers, and fire scene evidence containers. 
+To use this tool kit, click it and then click an object at the crime scene.]]></text>
+	</tool>
+	<tool name="Camera">
+		<title><![CDATA[Camera]]></title>
+		<text><![CDATA[You’ve acquired a camera
+The camera is useful for documenting a fire scene and for taking pictures of burn patterns.
+To use this camera, click it and then click an object at the crime scene.]]></text>
+	</tool>
+</tools>

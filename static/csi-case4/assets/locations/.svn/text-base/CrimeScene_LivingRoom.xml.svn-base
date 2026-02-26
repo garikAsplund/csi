@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<location name="CrimeScene_LivingRoom" displayName="Crime Scene Living Room">
+	<person name="Langston" />
+	<object name="ToYard" />
+	<object name="Wallet" />
+	<object name="BeerBottles" />
+	<object name="SpaceHeater" />
+	<object name="Photos" />
+	<object name="FlooringSample" />
+	<visit num="1" ambient="LivingRoomAmbient">
+		<clickable name="Langston" type="ignore" action="dialog:LangstonLivingRoom" checkDone="dialog:LangstonLivingRoom">
+			<clickable name="Langston" type="ignore" action="dialog:LangstonLivingRoomUnfinished" persist="true" />
+		</clickable>
+		<clickable name="Wallet" type="required" action="clue:Wallet,custom:CheckIfDone" checkDone="clue:Wallet" />
+		<clickable name="BeerBottles" type="required" action="clue:Alcohol,custom:CheckIfDone" checkDone="clue:Alcohol" />
+		<clickable name="SpaceHeater" type="required" action="evidence:SpaceHeater,custom:CheckIfDone" checkDone="evidence:SpaceHeater">			
+		</clickable>
+		<clickable name="Photos" type="required" require="toolInHand:Camera" action="activity:Photography,evidence:Photos,custom:CheckIfDone" checkDone="evidence:Photos" >
+			<clickable name="Langston" type="required" action="dialog:LangstonLivingRoomUnfinished" persist="true" />
+			<clickable name="FlooringSample" type="required" require="toolInHand:FireSceneToolKit" action="activity:FlooringSample,evidence:FlooringSample,custom:CheckIfDone" checkDone="evidence:FlooringSample">
+				<dev action="location:Lab" />
+			</clickable>
+		</clickable>
+		<clickable name="ToYard" type="ignore" action="location:CrimeScene" />
+	</visit>
+	<visit num="2" ambient="LivingRoomAmbient" >
+		<clickable name="Langston" type="ignore" action="dialog:LangstonLivingRoomFinished" persist="true" />
+		<clickable name="ToYard" type="ignore" action="location:CrimeScene" />
+	</visit>
+	<custom name="CheckIfDone" require="evidence:Photos,evidence:FlooringSample,evidence:SpaceHeater,clue:Alcohol,evidence:Matches,clue:NeighborSuspect" >
+		<clickable name="Langston" type="required" action="dialog:LangstonLivingRoomFinished" persist="true" />
+		<set variable="visit:CrimeScene_LivingRoom" value="2"/>
+		<set variable="visit:CrimeScene" value="3" />
+	</custom>
+</location>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<activity name="PatientReport">
+	<title num="1"><![CDATA[Dr. Sharla Lewis]]></title>
+	<title num="2"><![CDATA[Report Card for:]]></title>
+	<content num="1"><![CDATA[NATALIE PEREZ (08-29-1989)]]></content>
+	<title num="3"><![CDATA[1. Medical Condition]]></title>
+	<content num="2"><![CDATA[headache, nausea, trouble breathing, dizziness. slowed reaction]]></content>
+	<title num="4"><![CDATA[2. Prescribed Medications]]></title>
+	<content num="3"><![CDATA[None]]></content>
+	<title num="5"><![CDATA[3. Lab Report]]></title>
+	<content num="4"><![CDATA[Carboxyhemoglobin: 17% (blood)
+Alcohol: negative
+Drug screen: Oxycodone 0.23 μg/ml]]></content>
+	<title num="6"><![CDATA[4. Clinical Measures]]></title>
+	<title num="7"><![CDATA[5. Vital Signs]]></title>
+</activity>

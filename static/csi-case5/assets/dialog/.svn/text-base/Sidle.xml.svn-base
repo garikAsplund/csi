@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<dialog name="Sidle">
+	<conversation location="BallisticsLab" name="1">
+		<statement num="1" push="1,2"/>
+		<statement num="2" push="3"/>
+		<response num="1" goto="2" pop="all"/>
+		<response num="2" goto="end"/>
+		<response num="3" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="GetBullet">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="PriorAutopsy">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="WithEvidence">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="NotDone">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="Done">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="DoneFinal">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="WithNextEvidence">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="ExplainFiringStation">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="ExplainMicroscope">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="FiringStation1">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="ComparisonWait">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="DeadlyBullet">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="CrimeSceneBulletStart">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="CrimeSceneBulletEnd">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4,5,6"/>
+		<statement num="5"/>
+		<statement num="6"/>
+		<statement num="7" push="7" />
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="7" pop="all"/>
+		<response num="5" goto="5"/>
+		<response num="6" goto="6"/>
+		<response num="7" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="McCoyBulletStart">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="McCoyBullet1">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2" />
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4" pop="all"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="McCoyBulletEndx">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="McCoyBulletEnd">
+		<statement num="1" push="1,2"/>
+		<statement num="2" push="3"/>
+		<statement num="3"/>
+		<response num="1" goto="2" pop="all"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="PharmacistBulletStart">
+		<statement num="1" push="1" />
+		<response num="1" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="PharmacistBullet1">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4" pop="all"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="BallisticsLab" name="PharmacistBulletEnd">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4" pop="all"/>
+		<response num="4" goto="end"/>
+	</conversation>
+</dialog>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<evidence>
+	<piece name="Matches">
+		<title><![CDATA[Streichhölzer]]></title>
+		<text><![CDATA[Eine Schachtel Streichhölzer aus dem Feuer-Szene: Sie haben einige Hinweise darauf, erworben
+Hat jemand mit diesen Spielen um das Feuer zu beginnen? Wen sie gehören? Verwenden Sie die Fingerabdruck-Station im Labor die Fingerabdrücke aus dem Schachtel Streichhölzer zu erhalten.]]></text>
+	</piece>
+	<piece name="Photos">
+		<title><![CDATA[Fotos]]></title>
+		<text><![CDATA[Fotos von dem Feuer-Szene: Sie haben einige Hinweise darauf, erworben.
+Die Fotos zeigen einige interessante Muster. Könnten sie uns sagen, wo das Feuer entstanden ist, und wenn es Brandstiftung? Verwenden Sie den Computer im Labor auf den Brandort Fotos zu analysieren.]]></text>
+	</piece>
+	<piece name="FlooringSample">
+		<title><![CDATA[Flooring Probe]]></title>
+		<text><![CDATA[Beispiel von verbranntem Holz Fußboden: Sie haben einige Hinweise darauf, erworben.
+Die Probe wird aus einer Pfütze-förmigen brennen Muster. Patterns, wie dies erfolgen kann
+wo ein zündfähiges Flüssigkeit auf den Boden gegossen wurde, was bedeuten würde, dass jemand absichtlich das Feuer gelegt. Das Material wird in einem luftdichten Behälter aufbewahrt. Verwenden Sie den Gaschromatographen im Labor, um die Probe auf Rückstände brennbarer Flüssigkeiten zu analysieren.]]></text>
+	</piece>
+	<piece name="SpaceHeater">
+		<title><![CDATA[Stillstandsheizung]]></title>
+		<text><![CDATA[Stillstandsheizung: Sie haben einige Hinweise darauf, erworben.
+Das Heizgerät ist schwer verbrannt. Könnte es sein, die Quelle des Feuers?
+Verwenden Sie den Leuchttisch im Labor auf die Raumheizung zu untersuchen.]]></text>
+	</piece>
+	<piece name="BloodSample">
+		<title><![CDATA[Blutprobe]]></title>
+		<text><![CDATA[Das Opfer der Blutprobe: Sie haben einige Hinweise darauf, erworben.
+Wenn es einen hohen Anteil an Carboxyhämoglobin in das Blut des Opfers, dann wissen wir, dass
+er starb an Rauchvergiftung. Wenn das Blut enthält keine Drogen oder Alkohol kann es erklären, warum er nicht imstande war, das Feuer zu entkommen. Verwenden Sie das Spektralfotometer an das Blut Carboxyhämoglobin Inhalte, die ELISA-Station für Medikamente zu testen, und der Kopfraum Gaschromatographen für Alkohol Suche zu messen.]]></text>
+	</piece>
+	<piece name="Oxycodone">
+		<title><![CDATA[Oxycodon]]></title>
+		<text><![CDATA[Bottle von Oxycodon: Sie haben einige Hinweise darauf, erworben.]]></text>
+	</piece>
+</evidence>

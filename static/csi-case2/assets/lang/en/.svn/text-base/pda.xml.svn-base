@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room001. </tag>
+
+		<!-- DASHBOARD -->
+
+	<tag id="ID_DASH_PDA_DEFAULT"><![CDATA[PDA]]></tag>
+	<tag id="ID_DASH_PDA_MESSAGES"><![CDATA[MESSAGE]]></tag>
+	<tag id="ID_DASH_PDA_LOCATIONS"><![CDATA[LOCATION]]></tag>
+	<tag id="ID_DASH_PDA_CLUES"><![CDATA[CLUE]]></tag>
+	<tag id="ID_DASH_TOOLS_TAB"><![CDATA[TOOLS]]></tag>
+	<tag id="ID_DASH_EVIDENCE_TAB"><![CDATA[EVIDENCE]]></tag>
+	<tag id="ID_DASH_LOCATIONS_TAB"><![CDATA[LOCATIONS]]></tag>
+	
+		<!-- OPTIONS SCREEN -->
+
+	<tag id="ID_SAVE_GAME_TEXT"><![CDATA[SAVE<br>GAME]]></tag>
+	<tag id="ID_ON_TEXT"><![CDATA[ON]]></tag>
+	<tag id="ID_OFF_TEXT"><![CDATA[OFF]]></tag>
+	<tag id="ID_SCROLL_ON"><![CDATA[scroll lock is ON]]></tag>
+	<tag id="ID_SCROLL_OFF"><![CDATA[scroll lock is OFF]]></tag>
+	<tag id="ID_MUSIC_ON"><![CDATA[background music is ON]]></tag>
+	<tag id="ID_MUSIC_OFF"><![CDATA[background music is OFF]]></tag>
+	<tag id="ID_BLANK_DIALOG"><![CDATA[]]></tag>
+	<tag id="ID_SAVE_BUTTON_DIALOG"><![CDATA[This is the Save Game button.  If you click on this, your current game progress is saved, and when you come back you will still have all the tools and clues you've collected so far.]]></tag>
+	<tag id="ID_SAVED_DIALOG"><![CDATA[Game Saved.]]></tag>
+	<tag id="ID_SCROLL_DIALOG"><![CDATA[This button controls whether the scroll lock is on.  If scroll lock is OFF, you need to hold SHIFT and move the mouse to navigate around the wider rooms.  If scroll lock is ON, you just need to move the mouse around and the screen will move with you.]]></tag>
+	<tag id="ID_MUSIC_DIALOG"><![CDATA[This button controls whether the background music is playing.]]></tag>
+	
+		<!-- MENU SCREEN -->
+
+	<tag id="ID_OPTIONS_MENU"><![CDATA[OPTIONS]]></tag>
+	<tag id="ID_MESSAGES_MENU"><![CDATA[MESSAGES]]></tag>
+	<tag id="ID_CLUES_MENU"><![CDATA[CLUES]]></tag>
+	<tag id="ID_LOCATIONS_MENU"><![CDATA[EVIDENCE BY LOCATION]]></tag>
+
+	<tag id="ID_HEADER_LABEL_MENU"><![CDATA[Main Menu]]></tag>
+	<tag id="ID_HEADER_LABEL_OPTIONS"><![CDATA[Options Menu]]></tag>
+	<tag id="ID_HEADER_LABEL_MESSAGES"><![CDATA[Messages Menu]]></tag>
+	<tag id="ID_HEADER_LABEL_CLUES"><![CDATA[Clues Menu]]></tag>
+	<tag id="ID_HEADER_LABEL_LOCATIONS"><![CDATA[Evidence By Location Menu]]></tag>
+	
+		<!-- LOCATIONS SCREEN -->
+
+	<tag id="ID_CURRENT_LOCATION_LABEL"><![CDATA[Current Location:]]></tag>
+	<tag id="ID_LOCATION_001"><![CDATA[Grissom's Office]]></tag>
+	<tag id="ID_LOCATION_002"><![CDATA[Apollo's Trailer]]></tag>
+	<tag id="ID_LOCATION_003"><![CDATA[CSI Morgue]]></tag>
+	<tag id="ID_LOCATION_004"><![CDATA[CSI Lab]]></tag>
+	<tag id="ID_LOCATION_005"><![CDATA[Vet's Office]]></tag>
+	<tag id="ID_LOCATION_006"><![CDATA[Murphy's Trailer]]></tag>
+	
+		<!-- MESSAGING SCREEN -->
+
+	<tag id="ID_INBOX_LABEL"><![CDATA[INBOX]]></tag>
+	<tag id="ID_SENDER_LABEL"><![CDATA[SENDER]]></tag>
+	<tag id="ID_ATTACHMENTS_LABEL"><![CDATA[ATTACHMENT]]></tag>
+	<tag id="ID_NO_ATTACHMENT_LABEL"><![CDATA[NONE]]></tag>
+	
+		<!-- CLUES SCREEN -->
+
+	<tag id="ID_CLUES_HEADER_LABEL"><![CDATA[<b>CLUES</b>]]></tag>
+	<tag id="ID_CLUES_GENERIC_NAME"><![CDATA[Clue Name]]></tag>
+	<tag id="ID_CLUES_GENERIC_DESCRIPTION"><![CDATA[Clue Description]]></tag>
+	
+
+</strings>	

@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<activity name="ComputerVictim">
+	<text symbol="note"><![CDATA[Victim's Computer Activity.]]></text>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+	<imaging><![CDATA[Imaging hard drive...]]></imaging>
+	<desktop>
+		<icon num="1"><![CDATA[Rising prescriptions]]></icon>
+		<icon num="2"><![CDATA[Article]]></icon>
+		<icon num="3"><![CDATA[E-mail]]></icon>
+	</desktop>
+	<emailClient>
+		<clientName><![CDATA[My E-mail Client]]></clientName>
+		<inbox>Inbox</inbox>
+		<sent>Sent</sent>
+		<trash>Trash</trash>
+		<fromLabel>From</fromLabel>
+		<subject>Subject</subject>
+		<fromPrefix>From: </fromPrefix>
+		<toPrefix>To: </toPrefix>
+		<datePrefix>Date: </datePrefix>
+		<email num="1">
+			<from>TM928727</from>
+			<to>Justine Phillips</to>
+			<date>April 27, 10:48:02 AM CST</date>
+			<subject>It's YOUR fault</subject>
+			<content><![CDATA[I thought doctors would be responsible. I thought they would be ethical. Why did you prescribe my daughter pain medications when she didn’t need them? My daughter became an addict because YOU continued to give her the drugs she wanted, even though you knew that it was irresponsible. 
+I wonder how many others you have turned into addicts. ]]></content>
+		</email>
+		<email num="2">
+			<from>Nevada Medical</from>
+			<to>Justine Phillips</to>
+			<date>April 25, 4:03:52 PM CST</date>
+			<subject>[no subject]</subject>
+			<content>
+				<title>Managing pain just got easier with Nevamegone&#8482;</title>
+				<textBox><![CDATA[If your patents are suffering from chronic pain, try prescribing Nevamegone&#8482;
+&#8226; Significant pain reduction<br/>&#8226; Proven safety<br/>&#8226; Good patient compliance<br/>&#8226; Low risk of dependence]]></textBox>
+				<graphTitle>Pain improvement</graphTitle>
+				<bar num="1">8.1</bar>
+				<bar num="2">6.8</bar>
+				<bar num="3">4.9</bar>
+				<bar num="4">2.5</bar>
+				<label num="1">Day 1</label>
+				<label num="2">Day 2</label>
+				<label num="3">Day 3</label>
+				<label num="4">Day 4</label>
+				<nevada>NEVADA MEDICAL, Inc.</nevada>
+			</content>
+		</email>
+		<email num="3">
+			<from>TM928727</from>
+			<to>Justine Phillips</to>
+			<date>April 24, 2:29:21 PM CST</date>
+			<subject>Why??</subject>
+			<content><![CDATA[I thought you might want to know that my daughter died three days ago in a car crash. She lost control of her vehicle and slammed into a truck. 
+You and I know the real reason for her accident. How can you sleep at night?]]></content>
+		</email>
+	</emailClient>
+	<document>
+		<ui num="1">File     Edit     View     Insert     Format     Tools     Window     Help     About</ui>
+		<ui num="2">Pg 1/1</ui>
+		<ui num="3">100%</ui>
+		<title>RESPONSE TO SUBPOENA</title>
+		<fileName>Response to Subpoena.doc</fileName>
+		<note>(Note to self: it concerns me that our numbers look suspicious)</note>
+		<text><![CDATA[Compared to NSAIDs, our number of prescribed opioid analgesics and muscle relaxants increased (see chart below).]]></text>
+		<chartTitle><![CDATA[Number of medications prescribed in our pain management center from 2005 to 2011]]></chartTitle>
+		<yAxis>Total number of prescriptions</yAxis>
+		<xAxis>Year</xAxis>
+		<y num="0">0</y>
+		<y num="1">2,000</y>
+		<y num="2">4,000</y>
+		<y num="3">6,000</y>
+		<y num="4">8,000</y>
+		<y num="5">10,000</y>
+		<y num="6">12,000</y>
+		<blueLine><![CDATA[<b>Opioid analgesics:</b> Vicodin® (hydrocodone), OxyContin® (oxycodone), Demerol® (meperidine)]]></blueLine>
+		<greenLine><![CDATA[<b>Muscle relaxants:</b> Soma® (carisoprodol), Robaxin® (methocarbamol)]]></greenLine>
+		<redLine><![CDATA[<b>Non-steroidal anti-inflammatory drugs (NSAIDs):</b> Voltaren® (diclofenac), Motrin® (ibuprofen), Celebrex® (celecoxib)]]></redLine>
+	</document>
+	<article>
+		<title>NEVADA'S NEWS</title>
+		<subtitle>Nevada's top newspaper</subtitle>
+		<date>March 30, 2012</date>
+		<headline>Researchers alarmed by high rate of prescription drug abuse</headline>
+		<subheadline>In 2010, approximately 7.0 million persons abused prescription drugs.</subheadline>
+		<content><![CDATA[“It is a common misunderstanding that prescription drugs are safe to take under any circumstances, because these medications are prescribed by doctors” researchers from the National Institute on Drug Abuse (NIDA) say. “Prescription drugs pose serious health risks related to their abuse, including overdose and addiction.”]]></content>
+		<medsBox><![CDATA[The medications most commonly abused are:<br/>&#8226; <b>Opioids</b> (used to treat pain)<br/>&#8226; <b>CNS depressants</b> (used to treat anxiety and
+   sleep disorders)<br/>&#8226; <b>Stimulants</b>  (used to treat ADHD)]]></medsBox>
+		<caption><![CDATA[Prescription drug abuse is the <i>intentional</i> use of the drug without a prescription, in a way other than as prescribed, or for the experience or feeling it causes. ]]></caption>
+		<available><![CDATA[<b>More available than ever</b><br/>Between 1991 and 2010, prescriptions increased<br/>&#8226; for stimulants from 5 million to nearly 45 million<br/>&#8226; for opioid pain relievers from about 75.5 million to
+   209.5 million.]]></available>
+	</article>
+</activity>

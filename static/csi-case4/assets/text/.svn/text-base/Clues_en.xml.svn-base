@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<clues>
+	<clue name="GirlfriendSuspect">
+		<title><![CDATA[Victim's girlfriend is a POI]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Victim’s girlfriend is a person of interest (POI)
+Donald Parker, the victim’s neighbor, said he often heard the victim fight with his girlfriend, Natalie Perez. 
+Did she intentionally set the fire and then call the fire department to pretend it was an accident?]]></text>
+		<icon><![CDATA[smallIcon4]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Girlfriend is a POI]]></iconName>
+	</clue>	
+	<clue name="NeighborSuspect">
+		<title><![CDATA[Neighbor is a POI]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Neighbor is a person of interest (POI)
+The victim’s neighbor, Donald Parker, mentioned some run-ins he had with the victim. Would he want to harm him?
+He claimed that he came home from work at 5:30 am, long after the fire started. Was he really working all night?]]></text>
+		<icon><![CDATA[smallIcon10]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Neighbor is a POI]]></iconName>
+	</clue>
+	<clue name="Alcohol">
+		<title><![CDATA[Alcohol might have been involved]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Alcohol might have been involved
+Alcohol can slow down a person’s reaction time. Could the reason the victim didn't escape the fire be that he was drunk? 
+You should test the victim’s blood for alcohol.]]></text>
+		<icon><![CDATA[smallIcon1]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Alcohol involved]]></iconName>
+	</clue>
+	<clue name="Wallet">
+		<title><![CDATA[Natalie left wallet behind]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Natalie left wallet at fire scene
+People who commit arson often remove their most important belongings from the scene. If the fire is an accident, there’s no time for that.
+Would Natalie leave all her credit cards and IDs behind to cover up for arson, or did she really run out in panic?]]></text>
+		<icon><![CDATA[smallIcon6]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Natalie's wallet]]></iconName>
+	</clue>
+	<clue name="NeighborAtCrimeScene">
+		<title><![CDATA[Neighbor was at crime scene]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Donald Parker was at the crime scene 
+The fingerprints on the box of matches you found at the crime scene match Donald Parker, the victim’s neighbor. 
+Why was he there? Did he use the matches to start the fire?]]></text>
+		<icon><![CDATA[smallIcon8]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Neighbor at crime scene]]></iconName>
+	</clue>
+	<clue name="Liquids">
+		<title><![CDATA[Ignitable liquids]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Ignitable liquids in puddle sample 
+The gas chromatography analysis revealed that there was gasoline in the puddle-shaped burned flooring, but not in the control sample. 
+Somebody must have poured the gasoline on the floor. Who did this? Was the gasoline used to start the fire?]]></text>
+		<icon><![CDATA[smallIcon7]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Ignitable liquids]]></iconName>
+	</clue>
+	<clue name="FireSource">
+		<title><![CDATA[Source of fire]]></title>
+		<text><![CDATA[You've acquired a CLUE: Space heater possible source of fire
+You found a piece of burned cloth, probably the remains of a piece of clothing, on the space heater. Combustibles that are too close to running heaters are a common cause of fires.
+Was our fire a case of human negligence? How did it happen?]]></text>
+		<icon><![CDATA[smallIcon3]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Fire source]]></iconName>
+	</clue>
+	<clue name="NoSoot">
+		<title><![CDATA[No soot]]></title>
+		<text><![CDATA[You've acquired a CLUE: No soot in the victim's airways
+The autopsy revealed no soot in Trevor Johnson's airways, which would be unusual if he died from smoke inhalation.
+However, no soot doesn't always mean that there isn't a deadly amount of carboxyhemoglobin in the blood. You should test the victim's blood in the lab.]]></text>
+		<icon><![CDATA[smallIcon11]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[No soot]]></iconName>
+	</clue>
+	<clue name="NotFire">
+		<title><![CDATA[Carboxyhemoglobin normal]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Carboxyhemoglobin normal
+The concentration of carboxyhemoglobin in the victim’s blood was normal, which means that the victim did not inhale smoke and was probably already dead when the fire started.
+If not the fire, what else might have killed Trevor Johnson?]]></text>
+		<icon><![CDATA[smallIcon12]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[COHb normal]]></iconName>
+	</clue>
+	<clue name="NeighborAtWork">
+		<title><![CDATA[Neighbor was at work]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Neighbor was working when fire started
+It is suspicious that Donald Parker was at the victim’s house the night the fire started and, on top of that, lost his matches there. However, he states that he left around 9 pm because he was running late for work. 
+Was he really working at the restaurant all night?]]></text>
+		<icon><![CDATA[smallIcon9]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Neighbor's alibi]]></iconName>
+	</clue>
+	<clue name="AlcoholBlood">
+		<title><![CDATA[Alcohol in victim's blood]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Victim’s BAC is 0.08%
+Headspace gas chromatography analysis revealed that the victim’s blood alcohol concentration (BAC) was 0.08%. 
+Although the alcohol might have impaired the victim, it did not kill him.]]></text>
+		<icon><![CDATA[smallIcon2]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[BAC]]></iconName>
+	</clue>
+	<clue name="OpiatesBlood">
+		<title><![CDATA[Opiates in victim's blood]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Opiates in victim’s blood
+The ELISA test turned out positive for opiates, which are mainly used as pain-relievers, but can also include drugs such as heroin or morphine. 
+What kind of opiate did the victim have in his blood? Use the gas chromatograph to answer this question.]]></text>
+		<icon><![CDATA[smallIcon13]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Opiates in blood]]></iconName>
+	</clue>
+	<clue name="OxycodoneBlood">
+		<title><![CDATA[Oxycodone in victim's blood]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Victim’s blood contains oxycodone
+The concentration of oxycodone, a prescription pain medication, in the victim’s blood was high enough to kill him. 
+Did Trevor have a prescription for the drug? How could he have overdosed?]]></text>
+		<icon><![CDATA[smallIcon15]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Oxycodone in blood]]></iconName>
+	</clue>
+	<clue name="LinaSuspect">
+		<title><![CDATA[Lina Perez is a POI]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Lina Perez is a person of interest (POI)
+The bottle contains oxycodone, the drug you’ve found in the victim’s blood, but the prescription is on a person named Lina Perez. 
+Did she give him the drugs? What is her relation to the victim’s girlfriend, Natalie Perez? ]]></text>
+		<icon><![CDATA[smallIcon5]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Lina Perez POI]]></iconName>
+	</clue>
+	<clue name="OxycodoneStolen">
+		<title><![CDATA[Trevor abused oxycodone]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Trevor abused oxycodone 
+Lina Perez, Natalie Perez’s sister, claims that the victim must have taken the oxycodone pills she got for a back injury years ago from her medical cabinet.
+This means Trevor took the pills without having a prescription for them. Maybe Natalie Perez knows more about her boyfriend’s drug habits?]]></text>
+		<icon><![CDATA[smallIcon18]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Oxycodone stolen]]></iconName>
+	</clue>
+	<clue name="OxycodoneNatalieBlood">
+		<title><![CDATA[Oxycodone in suspect’s blood]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Natalie Perez has oxycodone in her blood
+The patient report revealed that Natalie Perez had oxycodone in her blood, the same drug you found in the victim’s blood. Apparently, she didn’t have a prescription. 
+Did the victim give her the pills? If she committed the arson - how would the oxycodone have affected her judgment?]]></text>
+		<icon><![CDATA[smallIcon17]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Oxycodone suspect]]></iconName>
+	</clue>
+	<clue name="SuspectDenies">
+		<title><![CDATA[Suspect denies]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Natalie Perez denies knowledge
+Natalie Perez, our victim’s girlfriend, denies knowing anything about her boyfriend’s prescription drug abuse. She also can’t explain why there was gasoline found in the burned flooring and claims the fire was an accident. 
+Is she telling the truth or is she just protecting herself?]]></text>
+		<icon><![CDATA[smallIcon16]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Suspect denies]]></iconName>
+	</clue>
+	<clue name="OxycodoneAddictive">
+		<title><![CDATA[Oxycodone is addictive]]></title>
+		<text><![CDATA[You’ve acquired a CLUE: Oxycodone is addictive without prescription
+A person can get addicted to oxycodone if taken without a prescription, and people sometimes steal and lie to get the drug.
+Is Natalie addicted to oxycodone? How far would she go to get it? How is this connected to the fire?]]></text>
+		<icon><![CDATA[smallIcon14]]></icon>
+		<bigIcon><![CDATA[clue]]></bigIcon>
+		<iconName><![CDATA[Oxycodone addictive]]></iconName>
+	</clue>
+</clues>

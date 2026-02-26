@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<location name="CSIOffice" displayName="D.B. Russell's Office">
+	<person name="Russell" />
+	<tool name="PDA"  />
+	<tool name="Swabs" usetype="inHand" />
+	<tool name="Camera" usetype="inHand" />
+	<tool name="Tray" />
+	<object name="DoorOfficeExit" />
+	<visit num="1" ambient="CatherinesOfficeAmbient">
+		<clickable name="Russell" type="required" action="dialog:Russell1,tool:Tray" checkDone="tool:Tray">
+			<clickable name="Russell" type="ignore" action="dialog:Russell1" persist="true"/>
+			<clickable name="PDA" type="required" action="tool:PDA,custom:CheckAllTools" caption="Smartphone" checkDone="tool:PDA" />
+			<clickable name="Swabs" type="required" action="tool:Swabs,custom:CheckAllTools" caption="Swabs" checkDone="tool:Swabs" />
+			<clickable name="Camera" type="required" action="tool:Camera,custom:CheckAllTools" caption="Camera" checkDone="tool:Camera" />
+		</clickable>
+		<clickable name="PDA" type="ignore" persist="true" caption="Talk to Russell first" checkDone="tool:PDA" />
+		<clickable name="Swabs" type="ignore" persist="true" caption="Talk to Russell first" checkDone="tool:Swabs" />
+		<clickable name="Camera" type="ignore" persist="true" caption="Talk to Russell first" checkDone="tool:Camera" />
+		<visible name="DoorOfficeExit" />
+	</visit>
+	<visit num="2" ambient="CatherinesOfficeAmbient">
+		<visible name="Russell" type="ignore" />
+		<clickable name="DoorOfficeExit" type="required" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+	</visit>
+	<custom name="CheckAllTools" require="tool:PDA,tool:Swabs,tool:Camera">
+		<unlock type="location" name="Headquarters" />
+		<unlock type="location" name="Hospital" />
+		<set variable="visit:CSIOffice" value="2"/>
+		<dev action="location:Hospital"/>
+		<clickable name="DoorOfficeExit" type="ignore" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+	</custom>
+</location>

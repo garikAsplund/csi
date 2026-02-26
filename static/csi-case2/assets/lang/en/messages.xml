@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English Version -->
+	
+	<!-- MESSAGES -->
+	
+	<tag id="ID_MESSAGE1_LABEL"><![CDATA[Warrant]]></tag>
+	<tag id="ID_MESSAGE1_BODY"><![CDATA[Grissom tells me your investigation has turned up some relevant evidence about Sariel Knox, and now I hear that she's not being very cooperative.
+Well, I spoke with a judge, and he issued a warrant for a hair sample, a DNA sample and a bite impression from Dr. Knox. That should help your investigation quite a bit.
+Lt. Jim Brass]]></tag>
+
+	<tag id="ID_MESSAGE2_LABEL"><![CDATA[Tying up loose ends]]></tag>
+	<tag id="ID_MESSAGE2_BODY"><![CDATA[I hear you've got all the details of the case. Click the attachment to file your report.  -Grissom]]></tag>
+	
+</strings>	

@@ -1,0 +1,640 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room003. </tag>
+	
+		<!-- DOC0  -->
+		
+	<tag id="ID_GREG0A"><![CDATA[It looks like you've got 7 pieces of evidence. How can I help you?]]></tag>
+	<tag id="ID_GREG0B"><![CDATA[Click and put any piece of evidence to the correct processing station for analysis. Or click and then put the evidence to your P.D.A and it will tell you what to do with it.]]></tag>
+	<tag id="ID_GREG0C"><![CDATA[Are you sure? You need to check if there is still evidence that needs to be analyzed.]]></tag>
+	<tag id="ID_GREG0D"><![CDATA[Yes, I agree. The next step will be to collect a hair sample, a DNA sample and a bitemark impression from each of the three suspects.]]></tag>
+	
+		<!-- REPLIES TO GREG -->
+
+	<tag id="ID_USER0A"><![CDATA[How do I process evidence?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[I am ready to process evidence.]]></tag>
+	<tag id="ID_USER0C"><![CDATA[I think I am done here.]]></tag>
+	<tag id="ID_USER0D"><![CDATA[I'll continue my analysis.]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[I'll select my next location.]]></tag>
+	
+	<tag id="ID_GREG1A"><![CDATA[Back already? How can I help you?]]></tag>
+	
+	<tag id="ID_USER0Z"><![CDATA[I am ready to process more evidence.]]></tag>
+	
+	
+	<tag id="ID_GREG_FINGERPRINT_NONE"><![CDATA[The Fingerprint Station has all the powders and chemicals you need to process any item for fingerprints. You can also use the computer to search for prints.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT_WRONG"><![CDATA[There is a better station to use to analyze that evidence. Try using it somewhere else.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT_SPOON_AGAIN"><![CDATA[You've analyzed this evidence. The fingerprints on the spoon matched to a dog breeder named Wesley Murphy.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT0"><![CDATA[We'll use the "Superglue Fuming Method" to check for fingerprints. It can detect even the faintest prints. First, set up the experiment. It will only take 10 minutes or so to develop the prints.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT1"><![CDATA[Fumes from the evaporating superglue react with amino acids and oils left behind on everything we touch. The reaction produces a white, sticky material, and makes the fingerprint easy to see. I'll scan this print into the computer for you to analyze.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT2"><![CDATA[What did you learn from the fingerprint comparison?]]></tag>
+	<tag id="ID_GREG_FINGERPRINT3"><![CDATA[Mr. Murphy left his fingerprints at the crime scene, but we don't know yet if he murdered Marco Williams. Try again.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT4"><![CDATA[Mr. Murphy left his fingerprints at the crime scene, but we don't know if he took Apollo away. Try again.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT5"><![CDATA[How did Wesley Murphy's fingerprints get into the IAFIS Fingerprint Database?]]></tag>
+	<tag id="ID_GREG_FINGERPRINT6"><![CDATA[That's not what I read from the IAFIS database. Try again.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT7"><![CDATA[Nope. We don't have every American's fingerprints in the database. Try again.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT8"><![CDATA[What technique did you use to develop the fingerprints on the spoon?]]></tag>
+	<tag id="ID_GREG_FINGERPRINT9"><![CDATA[No, that's not the case this time. Try again.]]></tag>
+	<tag id="ID_GREG_FINGERPRINT10"><![CDATA[According to the dog show records, Wesley Murphy has a dog competing in the show against Apollo. Make sure you talk with him.]]></tag>
+	
+	<tag id="ID_USER1A"><![CDATA[Someone named Wesley Murphy murdered Marco Williams.]]></tag>
+	<tag id="ID_USER1B"><![CDATA[Someone named Wesley Murhpy kidnapped Apollo.]]></tag>
+	<tag id="ID_USER1C"><![CDATA[Someone named Wesley Murphy left his fingerprints on a spoon at the crime scene.]]></tag>
+	<tag id="ID_USER1D"><![CDATA[Wesley Murphy was arrested for drunk driving.]]></tag>
+	<tag id="ID_USER1E"><![CDATA[Wesley Murphy was fingerprinted for a background search.]]></tag>
+	<tag id="ID_USER1F"><![CDATA[Every American's fingerprint is in the IAFIS databse.]]></tag>
+	<tag id="ID_USER1G"><![CDATA[I brushed the spoon with fingerprint powder.]]></tag>
+	<tag id="ID_USER1H"><![CDATA[I used the Superglue Fuming method.]]></tag>
+	<tag id="ID_USER1I"><![CDATA[The fingerprints were naturally visible on the surface of the spoon.]]></tag>
+	<tag id="ID_USER1J"><![CDATA[I'll talk to him later.]]></tag>
+	
+	
+	<tag id="ID_GREG_TOX_NONE"><![CDATA[The <b>Forensic Toxicology Station</b> detects the presence of drugs and other chemicals in any substance.]]></tag>
+	<tag id="ID_GREG_TOX_WRONG"><![CDATA[There is a better station to use to analyze that evidence. Try using it somewhere else.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD_AGAIN"><![CDATA[You've analyzed this evidence.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD1"><![CDATA[This dog food smells like bitter almonds, and that suggests CYANIDE (SIGH-uh-nide). Cyanide is a deadly poison for humans and animals. Use FORENSIC TOXICOLOGY to detect cyanide in this dog food. The procedure is complicated, so I'll walk you through it.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD2"><![CDATA[Assuming there is cyanide in the dog food, can you predict the color change in each of the wells?]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD3"><![CDATA[No, only the wells that contain cyanide will react with the reagent and turn blue. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD4"><![CDATA[Only the wells that contain cyanide will turn blue. The negative control contains just water, not cyanide. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD5"><![CDATA[What does the positive control tell you?]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD6"><![CDATA[No. If that were the case, all the fluids would be blue. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD7"><![CDATA[Remember, we added cyanide as the positive control. It's the cyanide that turns the reagent blue. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD8"><![CDATA[Correct. Now, why didn't the "extraction buffer" liquid change colors?]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD9"><![CDATA[Remember -- no blue means no cyanide. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD10"><![CDATA[No, you added reagent to all the wells on the testing tray. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD11"><![CDATA[You are right. Final question -- what does this experiment tell you about Apollo's dog food?]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD12"><![CDATA[Are you sure? If the liquid turned blue, that means there's cyanide present. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD13"><![CDATA[Arsenic? Where did that come from? This is a test for cyanide! Try again.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD14"><![CDATA[Well done. I wonder who would want to poison Apollo -- and if Marco Williams knew about it!]]></tag>
+	
+	<tag id="ID_USER2A"><![CDATA[The sample and positive control wells will turn blue.]]></tag>
+	<tag id="ID_USER2B"><![CDATA[The extraction buffer and negative controls wells will turn blue.]]></tag>
+	<tag id="ID_USER2C"><![CDATA[All the wells will turn blue.]]></tag>
+	<tag id="ID_USER2D"><![CDATA[The positive control proves this test makes all chemicals turn blue.]]></tag>
+	<tag id="ID_USER2E"><![CDATA[The positive control proves this test detects cyanide.]]></tag>
+	<tag id="ID_USER2F"><![CDATA[The positive control proves the color blue means no cyanide is present.]]></tag>
+	<tag id="ID_USER2G"><![CDATA[Because the extraction buffer contains cyanide.]]></tag>
+	<tag id="ID_USER2H"><![CDATA[Because the extraction buffer doesn't contain cyanide.]]></tag>
+	<tag id="ID_USER2I"><![CDATA[Because the reagent wasn't added to that well.]]></tag>
+	<tag id="ID_USER2J"><![CDATA[The dog food contained cyanide.]]></tag>
+	<tag id="ID_USER2K"><![CDATA[The dog food did not contain cyanide.]]></tag>
+	<tag id="ID_USER2L"><![CDATA[The dog food contained arsenic.]]></tag>
+	<tag id="ID_USER2M"><![CDATA[I'll keep investigating.]]></tag>
+	
+	<tag id="ID_GREG_TOX_BLOODSAMPLE_AGAIN"><![CDATA[You've analyzed this evidence.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE1"><![CDATA[So, Doctor Robbins thinks our victim may have been injected with a chemical substance. Maybe it's some type of drug. I'll go ahead to run an <b>Enzyme-Linked ImmunoSorbent Assay</b> (ELISA) as a screening test. You can help me interpret the results.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE2"><![CDATA[Here's what the results look like. Let's see how much you remember from Rookie Training. What is a "positive control?"]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE3"><![CDATA[Try again. The purpose of the positive control is to make sure the test can detect the drug when present.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE4"><![CDATA[There's no charge on any of these samples. A positive control is used to make sure the test can detect each drug. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE5"><![CDATA[Good. Now, why is each test duplicated?]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE6"><![CDATA[Actually, this makes the experiment cost twice as much. But, we do it for a very important reason. Know why?]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE7"><![CDATA[No -- every blood sample on here came from Marco Williams. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE8"><![CDATA[Correct. Last question -- By looking at the result, what drug is present in Marco Williams' blood?]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE9"><![CDATA[No, if there were amphetamines in his blood, the blood sample would look like the positive control. Try again.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE10"><![CDATA[Try again. You're looking for the test where the blood sample is identical to the positive control.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE11"><![CDATA[The screening test detected some kind of barbiturates, so we'll use <b>Gas Chromatography-Mass Spectrometry</b>  (GC/MS) to confirm exactly what chemical is present. The machine is already set up to test the victim's blood.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE12"><![CDATA[According to the mass spectrum generated from the GC/MS, we found a match in our database -- Sodium thiopental.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE13"><![CDATA[A mass spectrum is a graph displaying the different properties of a specific chemical. Every chemical has its own unique mass spectrum. That's why we can confirm that sodium thiopental is in the victim's blood sample.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE14"><![CDATA[Sodium thiopental -- also known as "truth serum." This is a type of BARBITURATE that's used to induce comas and for lethal injections.]]></tag>
+	<tag id="ID_GREG_TOX_BLOODSAMPLE15"><![CDATA[Enough to knock Mr. Williams unconscious, but not enough to kill him outright. I wonder how this is related to the blow that killed him?]]></tag>
+	
+	<tag id="ID_GREG_TOX_INSTRUCT1"><![CDATA[1. The chemicals in the sample separate from each other based on the difference in their properties.]]></tag>
+	<tag id="ID_GREG_TOX_INSTRUCT2"><![CDATA[2. In the ion source, the chemical gets a positive (+) charge and breaks into fragments.]]></tag>
+	<tag id="ID_GREG_TOX_INSTRUCT3"><![CDATA[3. The analyzer sorts the fragments of each chemical by similar properties.]]></tag>
+	<tag id="ID_GREG_TOX_INSTRUCT4"><![CDATA[4. The detector adds up the chemical fragments of each type.]]></tag>
+	<tag id="ID_GREG_TOX_INSTRUCT5"><![CDATA[5. Sending these data to the computer.]]></tag>
+	<tag id="ID_MASSSPEC_1"><![CDATA[Generating a graph of these data (called mass spectrum)...]]></tag>
+	<tag id="ID_MASSSPEC_2"><![CDATA[Matching mass spectrum in the database...]]></tag>
+	
+	<tag id="ID_USER3A"><![CDATA[A sample that has a positive charge.]]></tag>
+	<tag id="ID_USER3B"><![CDATA[A sample that doesn't contain any drugs.]]></tag>
+	<tag id="ID_USER3C"><![CDATA[A sample that purposely contains a certain drug.]]></tag>
+	<tag id="ID_USER3D"><![CDATA[To save on money.]]></tag>
+	<tag id="ID_USER3E"><![CDATA[Each test sample comes from a different victim.]]></tag>
+	<tag id="ID_USER3F"><![CDATA[To help ensure no mistakes are made.]]></tag>
+	<tag id="ID_USER3G"><![CDATA[Amphetamines.]]></tag>
+	<tag id="ID_USER3H"><![CDATA[Barbiturates (bar-BICH-ur-its).]]></tag>
+	<tag id="ID_USER3I"><![CDATA[There were no drugs in his blood stream.]]></tag>
+	<tag id="ID_USER3J"><![CDATA[What is a mass spectrum?]]></tag>
+	<tag id="ID_USER3K"><![CDATA[What is sodium thiopental?]]></tag>
+	<tag id="ID_USER3L"><![CDATA[How much sodium thiopental was in his body?]]></tag>
+	<tag id="ID_USER3M"><![CDATA[I'll continue my investigation.]]></tag>
+	
+	<tag id="ID_GREG_MICROSCOPE_NONE"><![CDATA[The <b>Comparison Microscope</b> is normally used to compare two objects. It can also be used to look at a single object in detail.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_WRONG"><![CDATA[There is a better station to analyze that evidence. Try analyzing it somewhere else.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_COMPARE_START"><![CDATA[You can compare the MORPHOLOGY (the structure and form) of this hair with the unknown human hair. If they are close enough, we'll use mtDNA testing to confirm the match.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_COMPARE_AGAIN"><![CDATA[You've analyzed this evidence.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN_AGAIN"><![CDATA[You've analyzed this evidence.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN0"><![CDATA[I've prepared the hair for microscopic examination. Our first step will be to identify this as human hair, dog hair, or something else entirely. Before you do that, you'll need to know something about the hair structure.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN1"><![CDATA[Based on what you saw under the microscope, what would you conclude?]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN2"><![CDATA[Are you sure? The absence of a medulla is common in human hairs, but not animals. Try again.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN3"><![CDATA[The hair has imbricate scale pattern and no medulla. It's telling you something. Try again.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN4"><![CDATA[Exactly. If you collect hair from the suspects, we can try to identify whose hair it is. Let's examine the hair again and see if we can test it for DNA.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN5"><![CDATA[No follicular tag means no nuclear DNA, but 93% of hairs contain mitochondrial DNA. We can test for that.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN6"><![CDATA[Nuclear DNA is carried inside the nucleus of the cell. There are only two copies per cell, and no two individuals (except identical twins) have the same nuclear DNA.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN7"><![CDATA[Mitochondria are small ORGANELLES that power the cell. Each cell can contain thousands of mitochondria, so there's thousands of copies of mitochondrial DNA per cell.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN8"><![CDATA[To compare mitochondrial DNA, or mtDNA, we have to sequence it. And since that's expensive and time consuming, we can't compare the mtDNA of every suspect.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN9"><![CDATA[Collect hair samples from the suspects and compare them to the hair found at the crime scene. If we find a match, then we'll confirm it with a mtDNA comparison.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN10"><![CDATA[Wait, let's make sure we are on the same page first. What did you learn from this unidentified hair?]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN11"><![CDATA[Apollo? The missing dog? I don't think so. Try again.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN12"><![CDATA[Wrong species. The scale pattern is dog-like, but the medulla is not. Try again.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN13"><![CDATA[How do you know it's human? What characteristics did you look at?]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN14"><![CDATA[No -- many people and many dogs can have hair of this length and color. Try something more scientific.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN15"><![CDATA[That's not what I recall. We looked at the follicle to see if there was nuclear DNA, that's all. To determine the species, we looked at two different structures.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN16"><![CDATA[Correct. Final question -- what should you do next?]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN17"><![CDATA[Are you sure? Remember, there's no follicle attached, so there's no nuclear DNA to analyze. Try something else.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN18"><![CDATA[Close, but no. Testing the mtDNA is too expensive to do for every suspect, so we'll use a preliminary test first to narrow the list.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_UNKNOWN19"><![CDATA[Correct. Remember to collect samples from the suspects who have similar hair, and bring them back here to compare.]]></tag>
+	
+	<tag id="ID_USER4A"><![CDATA[The hair found at the crime scene is an animal hair.]]></tag>
+	<tag id="ID_USER4B"><![CDATA[The hair found at the crime scene is a human hair.]]></tag>
+	<tag id="ID_USER4C"><![CDATA[I can't tell.]]></tag>
+	<tag id="ID_USER4D"><![CDATA[Sure.]]></tag>
+	<tag id="ID_USER4E"><![CDATA[What's nuclear DNA?]]></tag>
+	<tag id="ID_USER4F"><![CDATA[What's mitochondrial DNA?]]></tag>
+	<tag id="ID_USER4G"><![CDATA[How do I compare mitochondrial DNA?]]></tag>
+	<tag id="ID_USER4H"><![CDATA[When will we compare mtDNA sequences?]]></tag>
+	<tag id="ID_USER4I"><![CDATA[Okay. I'm ready to continue my investigation.]]></tag>
+	<tag id="ID_USER4J"><![CDATA[The hair is from Apollo.]]></tag>
+	<tag id="ID_USER4K"><![CDATA[The hair is from an unknown dog.]]></tag>
+	<tag id="ID_USER4L"><![CDATA[The hair is from an unknown human.]]></tag>
+	<tag id="ID_USER4M"><![CDATA[Its length and color.]]></tag>
+	<tag id="ID_USER4N"><![CDATA[Its scale pattern and medulla.]]></tag>
+	<tag id="ID_USER4O"><![CDATA[Its cortex and follicle.]]></tag>
+	<tag id="ID_USER4P"><![CDATA[I should analyze every suspect's nuclear DNA.]]></tag>
+	<tag id="ID_USER4Q"><![CDATA[I should analyze every suspect's mitochondrial DNA.]]></tag>
+	<tag id="ID_USER4R"><![CDATA[I should find the suspect that has a similar hair sample.]]></tag>
+	<tag id="ID_USER4S"><![CDATA[I'll add collecting hair samples to my to-do list.]]></tag>
+	
+	<tag id="ID_GREG_MICROSCOPE_RANGER0"><![CDATA[I agree, Ms. Ranger isn't our unknown hair donor. She's not even a natural blond -- you can see her original hair color near the root. Keep looking for more hair samples.]]></tag>
+
+	<tag id="ID_GREG_MICROSCOPE_KNOX0"><![CDATA[I think we have a match! Sariel Knox's hair is the same texture and color as the unknown sample. So, what should you do next?]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_KNOX1"><![CDATA[Are you sure? Remember, there is no follicular tag attached to the hair found at the crime scene, and no tag means no nuclear DNA. Try again.]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_KNOX2"><![CDATA[Correct. You'll have to run a confirmatory test comparing the mtDNA from the crime scene hair to Dr. Knox to make a definite identification.]]></tag>
+	
+	<tag id="ID_USER_5A"><![CDATA[I have to run a mitochondrial DNA (mtDNA) comparison to confirm it.]]></tag>
+	<tag id="ID_USER_5B"><![CDATA[I have to run a nuclear DNA comparison to confirm it.]]></tag>
+	<tag id="ID_USER_5C"><![CDATA[I'll do that when I'm finished here.]]></tag>
+	
+	<tag id="ID_GREG_LIGHTTABLE_NONE"><![CDATA[The <b>Light Table</b> is very useful for analyzing and comparing pieces of evidence in detail.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_WRONG"><![CDATA[There is a better station to analyze that evidence. Try analyzing it somewhere else.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_PHOTO_AGAIN"><![CDATA[You've analyzed this evidence.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_PHOTO0"><![CDATA[First, we'll determine if this bitemark was made by a human or a dog -- both are likely suspects in this case. If it was created by a human, we can then compare it to bite impressions from your suspects.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_PHOTO1"><![CDATA[To measure the bitemark, we use the ABFO No. 2 scale, a tool designed by the American Board of Forensic Odontology.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_PHOTO2"><![CDATA[So, a human bit Marco Williams before he died? That's an interesting bit of evidence. Start collecting bite impressions from the people involved in the case. Hopefully, we can find a match -- or at least eliminate people as suspects.]]></tag>
+	
+	<tag id="ID_LIGHTTABLE_ROLL_OVER"><![CDATA[Roll over the words to compare human and canine teeth.]]></tag>
+	
+	<tag id="ID_GREG_LIGHTTABLE_NOTEPAD_AGAIN"><![CDATA[You've analyzed this evidence.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_NOTEPAD0"><![CDATA[So you think there are some indented markings left on this note pad? Let's check it out. Luckily, I have just the tool to reveal them -- an Electrostatic Detection Apparatus! We call it the ESDA for short.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_NOTEPAD1"><![CDATA[Our trusty ESDA machine is commonly used to reveal indented impressions on paper which may otherwise go unnoticed. I'll explain how it works when we are doing the analysis. Sometimes we can read three, four or even more layers below the original writing.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_NOTEPAD2"><![CDATA[Which is the newest impression on this paper?]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_NOTEPAD3"><![CDATA[No, I can read quite a few of the words here. Look harder and try again.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_NOTEPAD4"><![CDATA[No -- newer impressions are usually deeper and collect more of the powder, so they're usually the darkest. Try again.]]></tag>
+	
+	<tag id="ID_USER_6A"><![CDATA[The paper is illegible.]]></tag>
+	<tag id="ID_USER_6B"><![CDATA[The meeting note is the newer impression.]]></tag>
+	<tag id="ID_USER_6C"><![CDATA[The to-do list is the newer impression.]]></tag>
+	
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_1"><![CDATA[Place the object in the fuming chamber.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_2"><![CDATA[Add Superglue to the warming tray.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_3"><![CDATA[Place the warming tray on the hot plate inside the fuming chamber.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_4"><![CDATA[Close the door and turn on the machine.]]></tag>
+	<tag id="ID_FINGERPRINT_FUME_INSTRUCT_5"><![CDATA[The bottom of the machine serves as the hot plate and it heats up to the appropriate temperature.]]></tag>
+
+	<tag id="ID_FINGERPRINT_FUME_1"><![CDATA[Fumes from the evaporating superglue react with amino acids and oils left behind on everything we touch. The reaction produces a white, sticky material, and makes the fingerprint easy to see.
+I'll scan this print into the computer for you to analyze.]]></tag>
+
+	<tag id="ID_GREG_TOX_DOGFOOD_1"><![CDATA[To find out if the dog food contains cyanide, we need to EXTRACT (remove) it from the dog food. The test tube contains EXTRACTION BUFFER -- a chemical that dissolves any cyanide in the dog food.
+Now, put some dog food in the test tube there.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD_2"><![CDATA[Then use the pipette to transfer the dissolved dog food from the test tube to the SAMPLE well on our testing tray.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD_3"><![CDATA[To make sure the extraction buffer isn't the chemical that is reacting, we'll test some of it that wasn't exposed to the dog food.
+Here is a pipette with a new tip to avoid contamination. Use it to transfer extraction buffer from the other test tube to the EXTRACTION BUFFER well.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD_4"><![CDATA[In addition, scientists use POSITIVE CONTROLS (samples that purposely contain a certain drug) and NEGATIVE CONTROLS (samples that purposely do NOT have the drug) to ensure the test is working correctly.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD_5"><![CDATA[Cyanide is used as a positive control in our test.
+Use the pipette with a new tip to add the cyanide solution to the well marked POSITIVE CONTROL.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD_6"><![CDATA[We'll use pure water for the negative control.
+Use the pipette with a new tip to transfer some water to the well labeled NEGATIVE CONTROL.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD_7"><![CDATA[Next we'll add a reagent (ree-A-gent), a chemical that detects other chemicals by reacting with them. This reaction produces a color.
+In this case, we'll use a reagent that reacts with cyanide to produce a blue color.]]></tag>
+	<tag id="ID_GREG_TOX_DOGFOOD_8"><![CDATA[Correct. Now, use the pipette with a new tip to add reagent to EACH of the wells and we'll see the results.]]></tag>
+
+	<tag id="ID_TOX_SAMPLE"><![CDATA[SAMPLE]]></tag>
+	<tag id="ID_TOX_ETRACTIONBUFFER"><![CDATA[EXTRACTION BUFFER]]></tag>
+	<tag id="ID_TOX_POSITIVECONTROL"><![CDATA[POSITIVE CONTROL]]></tag>
+	<tag id="ID_TOX_NEGATIVECONTROL"><![CDATA[NEGATIVE CONTROL]]></tag>
+	
+	<tag id="ID_GREG_LIGHTTABLE_BITEPHOTO_1"><![CDATA[Using the scale in the photograph, what is the approximate width of the bitemark?]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_BITEPHOTO_1_WRONG"><![CDATA[Look at the scale beneath the bitemark. Use it to approximate the width and be sure to use the correct unit!]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_BITEPHOTO_2"><![CDATA[Using the same scale, what is the approximate height of the bitemark?]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_BITEPHOTO_2_WRONG"><![CDATA[Try again. The scale in this photograph is in centimeters.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_BITEPHOTO_3"><![CDATA[What type of bitemark is this -- human or canine?]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_BITEPHOTO_3_WRONG"><![CDATA[This bitemark is more circular, and the canine teeth impressions don't stand out much. Try again.]]></tag>
+	<tag id="ID_LIGHTTABLE_HUMANTEETH"><![CDATA[Human Teeth]]></tag>
+	<tag id="ID_LIGHTTABLE_CANINETEETH"><![CDATA[Canine Teeth]]></tag>
+	<tag id="ID_LIGHTTABLE_INCISORS"><![CDATA[Incisors]]></tag>
+	<tag id="ID_LIGHTTABLE_INCISORS_DESC"><![CDATA[Used for cutting off bite-sized portions.
+Humans have 8. Dogs have 12.]]></tag>
+	<tag id="ID_LIGHTTABLE_CANINE"><![CDATA[Canine]]></tag>
+	<tag id="ID_LIGHTTABLE_CANINE_DESC"><![CDATA[Used for holding prey, slashing, and tearing.
+Humans have 4. Dogs have 4.]]></tag>
+	<tag id="ID_LIGHTTABLE_BICUSPIDS"><![CDATA[Bicuspids]]></tag>
+	<tag id="ID_LIGHTTABLE_BICUSPIDS_DESC"><![CDATA[Used for holding food and breaking it into small pieces.<br>Humans have 8.<br>Dogs have 16.]]></tag>
+	<tag id="ID_LIGHTTABLE_MOLARS"><![CDATA[Molars]]></tag>
+	<tag id="ID_LIGHTTABLE_MOLARS_DESC"><![CDATA[Used to grind food into small pieces.
+Humans have 12. Dogs have 10.]]></tag>
+	<tag id="ID_LIGHTTABLE_COMPAREBITEMARKS"><![CDATA[Compare Bitemarks]]></tag>
+	<tag id="ID_LIGHTTABLE_ANTERIOR"><![CDATA[Anterior Teeth]]></tag>
+	<tag id="ID_LIGHTTABLE_ANTERIOR_DESC"><![CDATA[The anterior teeth consist of incisors and canine.<br>These front-most teeth usually produce a bitemark.]]></tag>
+	<tag id="ID_LIGHTTABLE_HUMANBITEMARK"><![CDATA[Human Bitemark]]></tag>
+	<tag id="ID_LIGHTTABLE_CANINEBITEMARK"><![CDATA[Canine Bitemark]]></tag>
+	<tag id="ID_LIGHTTABLE_HUMANANTERIOR"><![CDATA[6 Anterior Teeth that usually appear in a bitemark]]></tag>
+	<tag id="ID_LIGHTTABLE_CANINEANTERIOR"><![CDATA[8 Anterior Teeth that usually appear in a bitemark]]></tag>
+	<tag id="ID_LIGHTTABLE_HUMANCANINE"><![CDATA[Small Canine Teeth]]></tag>
+	<tag id="ID_LIGHTTABLE_CANINECANINE"><![CDATA[Large, prominent Canines]]></tag>
+	<tag id="ID_LIGHTTABLE_HUMANSHAPE"><![CDATA[Bitemark is roughly circular]]></tag>
+	<tag id="ID_LIGHTTABLE_CANINESHAPE"><![CDATA[Bitemark is oval shaped]]></tag>
+	<tag id="ID_LIGHTTABLE_1CENTIMETER"><![CDATA[1 centimeter]]></tag>
+	<tag id="ID_LIGHTTABLE_1INCH"><![CDATA[1 inch]]></tag>
+	<tag id="ID_LIGHTTABLE_4CENTIMETERS"><![CDATA[4 centimeters]]></tag>
+	<tag id="ID_LIGHTTABLE_4INCHES"><![CDATA[4 inches]]></tag>
+	<tag id="ID_LIGHTTABLE_2CENTIMETERS"><![CDATA[2 centimeters]]></tag>
+	<tag id="ID_LIGHTTABLE_2INCHES"><![CDATA[2 inches]]></tag>
+	<tag id="ID_LIGHTTABLE_3_5CENTIMETERS"><![CDATA[3.5 centimeters]]></tag>
+	<tag id="ID_LIGHTTABLE_3_5INCHES"><![CDATA[3.5 inches]]></tag>
+	
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION0"><![CDATA[Bitemarks aren't as unique as fingerprints or DNA -- people can have very similar teeth. However, bitemarks can be used to rule out suspects.
+We'll use this impression to create a 3D cast of the suspect's teeth. We'll then use a TRANSPARENT OVERLAY METHOD to compare it to the victim's bitemark photograph.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION_AGAIN"><![CDATA[You've analyzed this evidence.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION1"><![CDATA[So, who or what caused the bitemark on Marco Williams' arm?]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION2"><![CDATA[No, the first thing we did was determine if the bite was caused by a human or a dog -- and it was definitely a human bite. Try again.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION3"><![CDATA[Not quite. Remember, bitemarks are usually used to rule out suspects. On its own, a bitemark is usually not enough to convict someone.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION4"><![CDATA[I agree, Dr. Knox probably bit the victim. How can we confirm it?]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION5"><![CDATA[No, I don't think that will help us.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION6"><![CDATA[Her dental records won't help us in this situation.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_IMPRESSION7"><![CDATA[Correct. The DNA will confirm whether she was the biter.]]></tag>
+	
+	<tag id="ID_USER_7A"><![CDATA[Sariel Knox probably bit him.]]></tag>
+	<tag id="ID_USER_7B"><![CDATA[Sariel Knox definitely bit him.]]></tag>
+	<tag id="ID_USER_7C"><![CDATA[Apollo bit him.]]></tag>
+	<tag id="ID_USER_7D"><![CDATA[We can have her bite someone else and compare the result.]]></tag>
+	<tag id="ID_USER_7E"><![CDATA[We can match the DNA from the bitemark saliva with her DNA.]]></tag>
+	<tag id="ID_USER_7F"><![CDATA[We can look at her dental records.]]></tag>
+	<tag id="ID_USER_7G"><![CDATA[I'll go analyze that after I am done here.]]></tag>
+	
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_1"><![CDATA[You have some experience casting bite impressions. I can handle this one, if you want.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_2"><![CDATA[We need casts from both bottom and top teeth. Let's begin with the top one. First, mix the dental stone with the water in the bowl.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_3"><![CDATA[Now, put the impression on the vibrator and turn it on.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_4"><![CDATA[Carefully pour the dental stone mix into the impression. The vibrator can help remove bubbles when you pour the mix into the impression.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_5"><![CDATA[We need to let it set before we can remove the cast. So, let's repeat the steps to finish the bottom teeth.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_6"><![CDATA[Mix the dental stone with the water in the bowl.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_7"><![CDATA[Now, put the impression on the vibrator and turn it on.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_8"><![CDATA[Carefully pour the dental stone mix into the impression.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_9"><![CDATA[Good job! Now, we need to wait until the dental stone hardens.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_10"><![CDATA[The casts are hardened and I've made them ready for you. Now, you're going to create two transparent overlays from these casts to compare them to the victim's bitemark photograph.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_11"><![CDATA[I've placed a transparent sheet on top of this dental cast. Click each of the six anterior teeth to trace its outline onto the sheet.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_12"><![CDATA[Now, label the actual left and right side of the biter's impression on the sheet. Remember, the biter's impression is the mirror image of both the cast and the outline.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_13"><![CDATA[Well done. Now repeat the procedure with the cast of the suspect's bottom teeth.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_14"><![CDATA[This is not correct. When looking at the outline, the right side of the biter's impression is on your left, and the left side is on your right. Try again.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_15"><![CDATA[Now, label the actual left and right side of the biter's impression on the sheet. Again, the biter's impression is the mirror image of both the cast and the outline.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_16"><![CDATA[Well done. Click both tracings to switch the left and right sides and determine if there is a match or not.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_17"><![CDATA[I don't think so -- there are substantial differences between the tracings and the bitemark. Look closely at the details and try again.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_18"><![CDATA[Are you sure? They look pretty similar. Look closer and try again.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_19_RANGER"><![CDATA[It looks like Deborah Ranger's teeth didn't create this bitemark.]]></tag>
+	<tag id="ID_GREG_LIGHTTABLE_SUSPECTBITES_19_MURPHY"><![CDATA[It looks like Wesley Murphy's teeth didn't create this bitemark.]]></tag>
+	
+	<tag id="ID_LIGHTTABLE_DOITMYSELF"><![CDATA[Do it myself]]></tag>
+	<tag id="ID_LIGHTTABLE_GREGDOIT"><![CDATA[Get Greg to do it]]></tag>
+	<tag id="ID_MURPHYBITE"><![CDATA[Murphy's bite impression]]></tag>
+	<tag id="ID_RANGERBITE"><![CDATA[Ranger's bite impression]]></tag>
+	<tag id="ID_KNOXBITE"><![CDATA[Knox's bite impression]]></tag>
+	
+	<tag id="ID_NEW_PRINT_TEXT"><![CDATA[<font size="+1">Print Added</font><br><br>This new print source has been added to the computer for comparison with the prints found during the investigation.]]></tag>
+	<tag id="ID_CLASS_COMPARE_INSTRUCT_1"><![CDATA[Drag a fingerprint to a "Viewing area" to begin.]]></tag>
+	<tag id="ID_CLASS_COMPARE_INSTRUCT_2"><![CDATA[Identify as many ridge characteristics in the fingerprint as possible.]]></tag>
+	<tag id="ID_CLASS_COMPARE_INSTRUCT_3"><![CDATA[Search the database.]]></tag>
+	<tag id="ID_CLASS_COMPARE_INSTRUCT_4"><![CDATA[Select a second fingerprint for comparison.]]></tag>
+	<tag id="ID_CLASS_QUESTION_TEXT"><![CDATA[<font size="+1"><u>Class Characteristics</u></font><br><br>Is this fingerprint a loop, whorl, or arch?]]></tag>
+	<tag id="ID_SCANNED_FINGERPRINTS_LABEL"><![CDATA[Scanned fingerprints:]]></tag>
+	<tag id="ID_POSSIBLE_MATCHES_LABEL"><![CDATA[Possible matches:]]></tag>
+	<tag id="ID_LOOP_LABEL"><![CDATA[Loop]]></tag>
+	<tag id="ID_WHORL_LABEL"><![CDATA[Whorl]]></tag>
+	<tag id="ID_ARCH_LABEL"><![CDATA[Arch]]></tag>
+	<tag id="ID_CLASS_EXPLANATION_TEXT"><![CDATA[<font size="+1">Class Characteristics of Fingerprints</font><br><br>Class Characteristics of fingerprints are shared by an entire group or type of fingerprints.  For example, there are three main classes of fingerprints:]]></tag>
+	<tag id="ID_LOOP_DESCRIPTION_LABEL"><![CDATA[LOOP<br>The ridges enter and exit the same side of the finger]]></tag>
+	<tag id="ID_WHORL_DESCRIPTION_LABEL"><![CDATA[WHORL<br>The ridges form a circular or spiral pattern]]></tag>
+	<tag id="ID_ARCH_DESCRIPTION_LABEL"><![CDATA[ARCH<br>The ridges run from one side of the finger to the other]]></tag>
+	<tag id="ID_INDIVIDUAL_EXPLANATION_TITLE"><![CDATA[Individual Characteristics of Fingerprints]]></tag>
+	<tag id="ID_INDIVIDUAL_EXPLANATION_DESCRIPTION"><![CDATA[Individual Characteristics are unique to specific, individual fingerprints.  These are also called ridge characteristics or minutia.]]></tag>
+	<tag id="ID_INDIVIDUAL_EXPLANATION_EXAMPLES"><![CDATA[Common Ridge Characteristics]]></tag>
+	<tag id="ID_BIFURCATION_LABEL"><![CDATA[BIFURCATION]]></tag>
+	<tag id="ID_ISLAND_LABEL"><![CDATA[ISLAND (SHORT RIDGE)]]></tag>
+	<tag id="ID_HOOK_LABEL"><![CDATA[HOOK (SPUR)]]></tag>
+	<tag id="ID_LAKE_LABEL"><![CDATA[LAKE (ENCLOSURE)]]></tag>
+	<tag id="ID_ENDING_LABEL"><![CDATA[RIDGE ENDING]]></tag>
+	<tag id="ID_BIFURCATION_TAG"><![CDATA[Bifurcation]]></tag>
+	<tag id="ID_ISLAND_TAG"><![CDATA[Island]]></tag>
+	<tag id="ID_HOOK_TAG"><![CDATA[Hook]]></tag>
+	<tag id="ID_LAKE_TAG"><![CDATA[Lake]]></tag>
+	<tag id="ID_ENDING_TAG"><![CDATA[Ridge Ending]]></tag>
+	<tag id="ID_IAFIS_EXPLANATION_TITLE"><![CDATA[IAFIS]]></tag>
+	<tag id="ID_IAFIS_EXPLANATION_DESCRIPTION"><![CDATA[ The Integrated Automated Fingerprint Identification System (IAFIS) is the FBI's national fingerprint database.  It contains over 470,000,000 fingerprints.  On average, it takes about two hours to search the entire database.]]></tag>
+	<tag id="ID_MURPHY_INFO_TITLE"><![CDATA[Match Detected!]]></tag>
+	<tag id="ID_MURPHY_INFO_DESCRIPTION"><![CDATA[Name: Wesley Murphy<br>Occupation: Dog Breeder<br>Address: 4675 48th Street, Apt 404, Houston, TX<br><br>Fingerprint Source:<br>Arrest for DUI Oct. 6, 2000]]></tag>
+	
+	<tag id="ID_MATCH_BUTTON"><![CDATA[MATCH]]></tag>
+	<tag id="ID_NOTMATCH_BUTTON"><![CDATA[NOT A MATCH]]></tag>
+	<tag id="ID_HELP_BUTTON"><![CDATA[HELP]]></tag>
+	<tag id="ID_SEARCH_BUTTON"><![CDATA[SEARCH]]></tag>
+	<tag id="ID_SUBMIT_BUTTON"><![CDATA[SUBMIT]]></tag>
+	<tag id="ID_BEGIN_BUTTON"><![CDATA[BEGIN]]></tag>
+	<tag id="ID_DONE_BUTTON"><![CDATA[DONE]]></tag>
+	<tag id="ID_START_OVER_BUTTON"><![CDATA[START OVER]]></tag>
+	<tag id="ID_GET_HELP_BUTTON"><![CDATA[GET HELP]]></tag>
+	<tag id="ID_TELLMEMORE_LABEL"><![CDATA[Tell me more]]></tag>
+	
+	<tag id="ID_GREG_ESDA_1"><![CDATA[Remove the top sheet of the note pad and place it on the ESDA.]]></tag>
+	<tag id="ID_GREG_ESDA_2"><![CDATA[Cover the paper with a thin clear plastic film to protect the evidence.]]></tag>
+	<tag id="ID_GREG_ESDA_3"><![CDATA[Turn on the vacuum.]]></tag>
+	<tag id="ID_GREG_ESDA_4"><![CDATA[Use the wand to apply a positive charge to the paper.]]></tag>
+	<tag id="ID_GREG_ESDA_5"><![CDATA[Sprinkle the paper with the negatively charged black powder from the bottle.]]></tag>
+	<tag id="ID_GREG_ESDA_6"><![CDATA[Let's see what's going on. First, you covered the evidence with a thin piece of plastic. The vacuum from the ESDA pulled the plastic into the indentations on the paper.]]></tag>
+	<tag id="ID_GREG_ESDA_7"><![CDATA[When the wand is waved over the paper, it carries a strong electric field. This gives the paper a positive static charge, which accumulates in the indentations in the paper.]]></tag>
+	<tag id="ID_GREG_ESDA_8"><![CDATA[The toner particles have a negative charge. When they're applied to the paper, they are attracted to the positive charge in the indentations and stick there.]]></tag>
+	<tag id="ID_GREG_ESDA_9"><![CDATA[The final result looks something like this. The darker text comes from deeper, more recent impression. The lighter text is from shallower impressions -- these are probably older.]]></tag>
+
+	<tag id="ID_DNA_NONE"><![CDATA[The DNA Station processes evidence that contains DNA, such as hair, blood, saliva, sweat. Using the computer, you can search DNA samples in CODIS (<b>Co</b>mbined <b>D</b>NA <b>I</b>ndex <b>S</b>ystem).]]></tag>
+	<tag id="ID_DNA_WRONG"><![CDATA[There is a better station to analyze that evidence. Try using it somewhere else.]]></tag>
+	<tag id="ID_DNA_TYPE_UNKNOWNHAIR"><![CDATA[STOP! You don't know if that hair is from a human, dog, or something else entirely! Examining the hair sample under the microscope should be your first step.]]></tag>
+	<tag id="ID_DNA_MUST_COMPARE"><![CDATA[If you want to compare this DNA sample to another one, you'll need to drag a second sample to this station too.]]></tag>
+	<tag id="ID_DNA_PREMATURE_UNKNOWNHAIR"><![CDATA[STOP! Since the unknown hair doesn't have a follicular tag, we can't extract nuclear DNA.
+First, use the comparison microscope to find a match between the unknown hair and the suspect's hair; then we'll talk about mtDNA comparison.]]></tag>
+	<tag id="ID_DNA_PREMATURE_UNKNOWNDNA"><![CDATA[Wait! Logically we don't want to waste time and money doing DNA comparisons of the bitemark saliva until we can narrow down the possible biter. Come back to this when you have found a match between the suspect's bite impression and the bitemark photo.]]></tag>
+	<tag id="ID_DNA_NONSENSE"><![CDATA[It doesn't make sense to compare these two samples.]]></tag>
+	
+	<tag id="ID_DNA_COMPARE_UNKNOWNDNA"><![CDATA[Which sample do you want to compare the unknown DNA to?]]></tag>
+	<tag id="ID_DNA_COMPARE_UNKNOWNHAIR"><![CDATA[Which DNA sample do you want to compare the unknown hair to?]]></tag>
+	<tag id="ID_DNA_COMPARE_DNATOWHAT"><![CDATA[Which sample do you want to compare this DNA sample to?]]></tag>
+	<tag id="ID_DNA_COMPARE_KNOXDNA"><![CDATA[Knox's DNA Sample]]></tag>
+	<tag id="ID_DNA_COMPARE_RANGERDNA"><![CDATA[Ranger's DNA Sample]]></tag>
+	<tag id="ID_DNA_COMPARE_MURPHYDNA"><![CDATA[Murphy's DNA Sample]]></tag>
+	<tag id="ID_DNA_COMPARE_UNKNOWNHAIR_LABEL"><![CDATA[Unknown<br></br>Hair]]></tag>
+	<tag id="ID_DNA_COMPARE_UNKNOWNDNA_LABEL"><![CDATA[Unknown<br></br>DNA]]></tag>
+	<tag id="ID_DNA_ERROR_HAIRNOTMATCH"><![CDATA[The unknown hair doesn't match this suspect. We shouldn't waste time and money running a mtDNA comparison.]]></tag>
+	<tag id="ID_DNA_ERROR_NOTHAVEDNA"><![CDATA[You'll need to collect a DNA sample from this suspect before you can do any comparisons.]]></tag>
+	<tag id="ID_DNA_ERROR_PHOTONOTMATCH"><![CDATA[The bitemark photo doesn't match this suspect's bite impression. There is no need to do a DNA comparison.]]></tag>
+	
+	<tag id="ID_DNA_UNKNOWNDNA_1"><![CDATA[The saliva you collected from the bitemark may be our best chance to identify the murderer. You had some experience processing DNA during your Rookie Training, so I'll handle this step. I'll send the DNA profile to the computer when I'm done.]]></tag>
+	<tag id="ID_DNA_UNKNOWNDNA_2"><![CDATA[DNA Profiling
+A DNA profile contains 13 unique genetic markers (known DNA sequences). No two individuals (except identical twins) have the same exact markers.]]></tag>
+	<tag id="ID_DNA_UNKNOWNDNA_3"><![CDATA[Drag the DNA from the bitemark saliva to the left field.]]></tag>
+	<tag id="ID_DNA_UNKNOWNDNA_4"><![CDATA[Search CODIS to find possible matches.]]></tag>
+	<tag id="ID_DNA_UNKNOWNDNA_5"><![CDATA[CODIS
+The <u>Co</u>mbined <u>D</u>NA <u>I</u>ndex <u>S</u>ystem (CODIS) is a database of over 4 million DNA profiles. The profiles come from convicted felons, evidence, and missing persons.]]></tag>
+	<tag id="ID_DNA_UNKNOWNDNA_6"><![CDATA[Drag a possible match to the right field to compare them.]]></tag>
+	<tag id="ID_DNA_UNKNOWNDNA_7"><![CDATA[DNA samples are NOT identical.]]></tag>
+	
+	<tag id="ID_DNA_KNOX_IDENTICAL"><![CDATA[DNA samples are identical.]]></tag>
+	
+	<tag id="ID_DNA_UNKNOWN"><![CDATA[Unknown DNA Profile:]]></tag>
+	<tag id="ID_DNA_UNKNOWN_POSSIBLE"><![CDATA[Possible Matches:]]></tag>
+	<tag id="ID_DNA_UNKNOWN_SEARCHCODIS"><![CDATA[SEARCH CODIS]]></tag>
+	<tag id="ID_DNA_UNKNOWN_CONFIRMMATCH"><![CDATA[CONFIRM MATCH]]></tag>
+	<tag id="ID_DNA_TRACE_INTERPRETRESULTS"><![CDATA[Interpret Results]]></tag>
+	<tag id="ID_DNA_TRACE_HUMANBLOOD"><![CDATA[Human Blood]]></tag>
+	<tag id="ID_DNA_TRACE_NOHUMANBLOOD"><![CDATA[No Human Blood]]></tag>
+	<tag id="ID_DNA_TRACE_TESTERROR"><![CDATA[Test Error]]></tag>
+	<tag id="ID_DNA_TRACE_REFPICTURES"><![CDATA[Reference Pictures]]></tag>
+	<tag id="ID_DNA_PROCESSING"><![CDATA[Processing DNA...]]></tag>
+	
+	<tag id="ID_DNA_GREG_UNKNOWNDNA_1"><![CDATA[What did you learn from the DNA profile?]]></tag>
+	<tag id="ID_DNA_GREG_UNKNOWNDNA_2"><![CDATA[That's not what I recall. Try again.]]></tag>
+	<tag id="ID_DNA_GREG_UNKNOWNDNA_3"><![CDATA[I don't think so. Try again.]]></tag>
+	<tag id="ID_DNA_GREG_UNKNOWNDNA_4"><![CDATA[Right. What are you going to do next?]]></tag>
+	<tag id="ID_DNA_GREG_UNKNOWNDNA_5"><![CDATA[Don't give up so easily. There are definitely other things you can do to help the investigation.]]></tag>
+	<tag id="ID_DNA_GREG_UNKNOWNDNA_6"><![CDATA[I wouldn't suggest it. There is a more realistic solution.]]></tag>
+	<tag id="ID_DNA_GREG_UNKNOWNDNA_7"><![CDATA[That's a great idea. Good luck with your investigation!]]></tag>
+	
+	<tag id="ID_USER_8A"><![CDATA[There was a matching DNA profile in CODIS.]]></tag>
+	<tag id="ID_USER_8B"><![CDATA[There was NOT a matching DNA profile in CODIS.]]></tag>
+	<tag id="ID_USER_8C"><![CDATA[It is impossible to have a match because there is no DNA in this saliva sample.]]></tag>
+	<tag id="ID_USER_8D"><![CDATA[There is nothing else I can do.]]></tag>
+	<tag id="ID_USER_8E"><![CDATA[I'll collect DNA samples from everyone in the dog show to find a match.]]></tag>
+	<tag id="ID_USER_8F"><![CDATA[I'll start collecting DNA samples from the suspects for comparison.]]></tag>
+	<tag id="ID_USER_8G"><![CDATA[Thanks, Greg.]]></tag>
+	
+	<tag id="ID_DNA_TRACEBLOOD_1"><![CDATA[The luminol test detected blood in Dr. Knox's office, but is it human blood or animal blood? That's the first question we have to answer. The best test for this is an ABA card. It quickly and easily differentiates between human and animal blood.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_2"><![CDATA[First, we need to extract the sample. Click on the swab to start the extraction process.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_3"><![CDATA[Now, use the dropper to put the extraction to the sample well labeled with a "S" on the ABA card.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_4"><![CDATA[The card contains different ANTIBODIES. Some antibodies bind only to proteins found in human blood. When the proteins are present, a red color is produced in the "T" area. Click on the button to interpret the result.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_5"><![CDATA[Compare your card to the reference pictures. What does the result tell you? There is ______ .]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_6"><![CDATA[No, the red line in the "T" area indicates there are human blood proteins in your sample. Try again.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_7"><![CDATA[Try again -- the test seems to be working correctly, otherwise we would not see any red lines in the result.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_8"><![CDATA[Correct. Since this is human blood, the next step will be to see if it is our victim's blood. I'll process the unknown blood sample as well as our victim's blood sample and then send the DNA profiles to the computer when I'm done.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_9"><![CDATA[Drag the DNA from the unknown blood to the left field.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_10"><![CDATA[Drag Marco Williams' DNA to the right field to compare them.]]></tag>
+	<tag id="ID_DNA_TRACEBLOOD_11"><![CDATA[DNA samples are identical.]]></tag>
+	
+	<tag id="ID_DNA_GREG_TRACEBLOOD_1"><![CDATA[What did you learn from these DNA profiles?]]></tag>
+	<tag id="ID_DNA_GREG_TRACEBLOOD_2"><![CDATA[No -- You found two matching DNA profiles, but Sariel Knox's wasn't one of them. Try again.]]></tag>
+	<tag id="ID_DNA_GREG_TRACEBLOOD_3"><![CDATA[How do you figure that? You're jumping to conclusions. Try again.]]></tag>
+	<tag id="ID_DNA_GREG_TRACEBLOOD_4"><![CDATA[That's right. How do you know it was Marco Williams' blood?]]></tag>
+	<tag id="ID_DNA_GREG_TRACEBLOOD_5"><![CDATA[I don't remember any matches in CODIS. You made this match using another method.]]></tag>
+	<tag id="ID_DNA_GREG_TRACEBLOOD_6"><![CDATA[Two similar DNA profiles usually doesn't mean much, unless we are doing a family comparison. Try again.]]></tag>
+	<tag id="ID_DNA_GREG_TRACEBLOOD_7"><![CDATA[Well done. Sariel Knox is our number 1 suspect now. It will require more investigation -- I'll talk to Brass about getting a search warrant.]]></tag>
+	
+	<tag id="ID_USER_9A"><![CDATA[It was Marco Williams' blood in the vet office.]]></tag>
+	<tag id="ID_USER_9B"><![CDATA[It was Sariel Knox's blood in the vet office.]]></tag>
+	<tag id="ID_USER_9C"><![CDATA[It was the murderer's blood in the vet office.]]></tag>
+	<tag id="ID_USER_9D"><![CDATA[I found a match in CODIS.]]></tag>
+	<tag id="ID_USER_9E"><![CDATA[The DNA profiles were identical.]]></tag>
+	<tag id="ID_USER_9F"><![CDATA[The DNA profiles were similar.]]></tag>
+	<tag id="ID_USER_9G"><![CDATA[I'll go to her office again when I'm done in the lab.]]></tag>
+	
+	<tag id="ID_DNA_KNOXDNA_1"><![CDATA[Sariel Knox's bite impression matches the bitemark on our victim. Now, it's time to use DNA to confirm if she bit Mr. Williams. I'll process the samples and then send the DNA profiles to the computer when I'm done.]]></tag>
+	<tag id="ID_DNA_KNOXDNA_2"><![CDATA[Drag the DNA from the bitemark saliva to the left field.]]></tag>
+	<tag id="ID_DNA_KNOXDNA_3"><![CDATA[Drag Sariel Knox's DNA to the right field to compare them.]]></tag>
+	
+	<tag id="ID_DNA_GREG_KNOXDNA_1"><![CDATA[What did you learn from the DNA test?]]></tag>
+	<tag id="ID_DNA_GREG_KNOXDNA_2"><![CDATA[No, we've excluded Ms. Ranger as the biter because her bite impression didn't match the bitemark. Try again.]]></tag>
+	<tag id="ID_DNA_GREG_KNOXDNA_3"><![CDATA[That's not what the results show us. Try again.]]></tag>
+	<tag id="ID_DNA_GREG_KNOXDNA_4"><![CDATA[Good job! You got an important lead. See if you can find out more.]]></tag>
+	
+	<tag id="ID_USER_10A"><![CDATA[It confirmed that Deborah Ranger bit Mr. Williams.]]></tag>
+	<tag id="ID_USER_10B"><![CDATA[It confirmed that Sariel Knox bit Mr. Williams.]]></tag>
+	<tag id="ID_USER_10C"><![CDATA[It confirmed that Mr. Williams bit himself.]]></tag>
+	<tag id="ID_USER_10D"><![CDATA[I'll keep investigating.]]></tag>
+	
+	<tag id="ID_MTDNA_INSTRUCT_1"><![CDATA[Mitochondrial DNA, or mtDNA for short, is located in mitochondria within a cell. Do you know where it is?]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_2"><![CDATA[That's the nucleus, home of the nuclear DNA. A cell has only one nucleus, but hundreds of thousands of mitochondria. Try again.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_3"><![CDATA[That's the cytoplasm, all the fluid inside a cell. It contains nutrients, proteins, and other organelles. Try again.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_4"><![CDATA[It's the cell membrane. It encloses all the organelles and the cytoplasm as well as covers and protects the cell. Try again.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_5"><![CDATA[That's the golgi apparatus. It is responsible for transporting proteins to all the different organelles in the cell. Try again.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_6"><![CDATA[That's a vesicle. Vesicles are like small sacs floating in the cytoplasm. They can contain proteins and other molecules. Try again.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_7"><![CDATA[That's the endoplasmic reticulum, the location where the proteins are made. Try again.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_8"><![CDATA[Good job! A mitochondrion is the site of energy production. Each mitochondrion also contains 2 to 10 copies of mtDNA and each copy forms a complete circle.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_9"><![CDATA[Both mtDNA and nuclear DNA form a double helix, but there are differences between them. It's helpful that you know the differences before you start your analysis.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_10"><![CDATA[These are some of the differences between mtDNA and nuclear DNA. The most important one is that mtDNA is inherited only from the mother.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_11"><![CDATA[During fertilization, only the sperm nucleus is transported into the egg cell, while the father's mitochondria are excluded. The offspring cell contains nuclear DNA from both the father and the mother, but only mtDNA from the mother.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_12"><![CDATA[Since mtDNA is inherited only from the mother, a woman's children will all have identical mtDNA. In this (fictional) family tree, Rich, Jen, and Dianne all have the same mtDNA as their mom, Mary.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_13"><![CDATA[When each of Mary's children gets married, the grandchildren will inherit the mtDNA from THEIR mother.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_14"><![CDATA[For each of the grandchildren, decide which mtDNA he or she will inherit. Use the brush to paint the appropriate color that represents his or her mtDNA.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_15"><![CDATA[You assigned a wrong color to some of the grandchildren. Try again.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_16"><![CDATA[Well done! Now, lets see how we compare mtDNA.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_17"><![CDATA[The human mtDNA can be divided into the coding region and the control region. In forensic lab, we use a portion within the control region to run mtDNA comparison because they are highly variable within the human population.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_18"><![CDATA[I have some samples ready for comparison, and I can show you the process when you are ready.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_19"><![CDATA[After a sample is processed, we compare it to the "Anderson sequence" -- a STANDARD reference sequence that is used for all mtDNA comparisons. First, the computer compares Sample #1 to the Anderson sequence and marks the differences between the two. Click on "START" to begin the process.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_20"><![CDATA[Then, we are going to do the same thing with Sample #2 and Sample #3.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_21"><![CDATA[The computer is comparing Sample #2 and Sample #3 to the Anderson sequence and marking the differences.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_22"><![CDATA[Here you see the results of the three comparisons. Click the two results that are identical.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_23"><![CDATA[Look closer on the two results. They don't look similar. Try again.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_24"><![CDATA[Exactly! These two samples have identical differences from the Anderson sequence. From these results, can we conclude that both mtDNA sequences come from the same person?]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_25"><![CDATA[Now, you can compare the mtDNA from the unknown hair to the Anderson sequence and mark the differences between the two.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_26"><![CDATA[You also need to compare Sariel Knox's mtDNA to the Anderson sequence and mark the differences.]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_27"><![CDATA[Are these two mtDNA samples identical?]]></tag>
+	<tag id="ID_MTDNA_INSTRUCT_28"><![CDATA[Are you sure? The differences seem identical to me. Try again.]]></tag>
+	
+	<tag id="ID_MTDNA_GREG_1"><![CDATA[So far, all the DNA tests we've done have involved only nuclear DNA. Remember the unknown hair has no follicular tag, so our only option is mitochondrial DNA -- mtDNA -- analysis. Since this will be your first mtDNA analysis, you'll have to complete a short training course before you're ready.]]></tag>
+	<tag id="ID_MTDNA_GREG_2"><![CDATA[That's not correct. Mitochondrial DNA is NOT as unique as nuclear DNA, so different people can have identical mtDNA. Can you tell me who can have the same mtDNA?]]></tag>
+	<tag id="ID_MTDNA_GREG_3"><![CDATA[You're right. Different people can have identical mtDNA. Can you tell me who can have the same mtDNA?]]></tag>
+	<tag id="ID_MTDNA_GREG_4"><![CDATA[Race is not the determining reason if people have the same mtDNA. Try again.]]></tag>
+	<tag id="ID_MTDNA_GREG_5"><![CDATA[A person's mtDNA does come from one of his/her parents, but not the father. Try again.]]></tag>
+	<tag id="ID_MTDNA_GREG_6"><![CDATA[You're right. Now you're ready to analyze your evidence. The steps of processing mtDNA are similar to what you learned in Rookie Training, so I'll handle that part and you interpret the results.]]></tag>
+	<tag id="ID_MTDNA_GREG_7"><![CDATA[I have processed the mtDNA from the unknown hair, and from the cheek cells you got from Sariel Knox's buccal swab.]]></tag>
+	<tag id="ID_MTDNA_GREG_8"><![CDATA[So, the mtDNA in the unknown hair is a match to Sariel Knox. What does that tell us?]]></tag>
+	<tag id="ID_MTDNA_GREG_9"><![CDATA[What? You're just leaping to conclusions. Listen to what the evidence is telling you.]]></tag>
+	<tag id="ID_MTDNA_GREG_10"><![CDATA[No -- remember, mtDNA isn't as conclusive as nuclear DNA evidence. You can't be that specific. Try again.]]></tag>
+	<tag id="ID_MTDNA_GREG_11"><![CDATA[Correct. Who else would probably have a matching mtDNA besides Sariel Knox?]]></tag>
+	<tag id="ID_MTDNA_GREG_12"><![CDATA[No -- mtDNA is inherited ONLY from a person's mother. Sariel may be related to several people who don't all have the same mother.]]></tag>
+	<tag id="ID_MTDNA_GREG_13"><![CDATA[People of the same race don't necessarily have identical mtDNA. We're looking for people who are more closely related.]]></tag>
+	<tag id="ID_MTDNA_GREG_14"><![CDATA[Exactly -- all of Sariel's maternal siblings will have identical mtDNA. That's why we need other evidence.]]></tag>
+	
+	<tag id="ID_USER_11A"><![CDATA[Two people who are among the same race group.]]></tag>
+	<tag id="ID_USER_11B"><![CDATA[Two people who have the same fathers, and different mothers.]]></tag>
+	<tag id="ID_USER_11C"><![CDATA[Two people who have the same mother.]]></tag>
+	<tag id="ID_USER_11D"><![CDATA[OK.]]></tag>
+	<tag id="ID_USER_11E"><![CDATA[Sariel Knox murdered Marco Williams.]]></tag>
+	<tag id="ID_USER_11F"><![CDATA[This is definitely Sariel Knox's hair.]]></tag>
+	<tag id="ID_USER_11G"><![CDATA[This is probably Sariel Knox's hair.]]></tag>
+	<tag id="ID_USER_11H"><![CDATA[Everyone related to Sariel Knox.]]></tag>
+	<tag id="ID_USER_11I"><![CDATA[Everyone who's the same race as Sariel Knox.]]></tag>
+	<tag id="ID_USER_11J"><![CDATA[Anyone with the same mother as Sariel Knox.]]></tag>
+	<tag id="ID_USER_11K"><![CDATA[I'll go analyze more evidence.]]></tag>
+	
+	<tag id="ID_MTDNA_EXAMPLE_MTDNA_TITLE"><![CDATA[Mitochondrial DNA (mtDNA)]]></tag>
+	<tag id="ID_MTDNA_EXAMPLE_NUCLEAR_TITLE"><![CDATA[Nuclear DNA]]></tag>
+	<tag id="ID_MTDNA_1COPY"><![CDATA[mtDNA (1 copy)]]></tag>
+	<tag id="ID_MTDNA_CONTROL_REGION"><![CDATA[Control Region]]></tag>
+	<tag id="ID_MTDNA_CODING_REGION"><![CDATA[Coding Region]]></tag>
+	<tag id="ID_MTDNA_CLICK_CONTROL"><![CDATA[Click on the <b>control region</b> to continue.]]></tag>
+	<tag id="ID_MTDNA_CLICK_MITOCHONDRION"><![CDATA[Click on the <b>mitochondrion</b> when you find it.]]></tag>
+	<tag id="ID_MTDNA_CLICK_ONE_MITOCHONDRION"><![CDATA[Click on <b>one of the mitochondria</b> to continue.]]></tag>
+	<tag id="ID_MTDNA_NUCLEUS"><![CDATA[NUCLEUS]]></tag>
+	<tag id="ID_MTDNA_CYTOPLASM"><![CDATA[CYTOPLASM]]></tag>
+	<tag id="ID_MTDNA_CELLMEMBRANE"><![CDATA[CELL MEMBRANE]]></tag>
+	<tag id="ID_MTDNA_GOLGIAPPARATUS"><![CDATA[GOLGI APPARATUS]]></tag>
+	<tag id="ID_MTDNA_VESICLES"><![CDATA[VESICLES]]></tag>
+	<tag id="ID_MTDNA_ENDOPLASMIC"><![CDATA[ENDOPLASMIC RETICULUM]]></tag>
+	<tag id="ID_MTDNA_MITOCHONDRION"><![CDATA[MITOCHONDRION]]></tag>
+	<tag id="ID_MTDNA_MTDNA1"><![CDATA[thousands of copies per cell]]></tag>
+	<tag id="ID_MTDNA_NUCLEARDNA1"><![CDATA[two copies per cell]]></tag>
+	<tag id="ID_MTDNA_MTDNA2"><![CDATA[circular shape]]></tag>
+	<tag id="ID_MTDNA_NUCLEARDNA2"><![CDATA[linear shape]]></tag>
+	<tag id="ID_MTDNA_MTDNA3"><![CDATA[inherited from just the mother]]></tag>
+	<tag id="ID_MTDNA_NUCLEARDNA3"><![CDATA[inherited from both parents (one copy from each parent)]]></tag>
+	
+	<tag id="ID_MICROSCOPE_INSTRUCT_1"><![CDATA[Drag the hairs to the viewing areas.]]></tag>
+	<tag id="ID_MICROSCOPE_INSTRUCT_2"><![CDATA[Focus the microscope on the hairs.]]></tag>
+	<tag id="ID_MICROSCOPE_INSTRUCT_3_WRONG_1"><![CDATA[I'm not seeing the similarity. The color in Ms. Ranger's hair is so uniform it looks fake. In naturally colored hair, the color is more grainy and less evenly distributed.]]></tag>
+	<tag id="ID_MICROSCOPE_INSTRUCT_3_WRONG_2"><![CDATA[Are you sure? They look very similar to me.]]></tag>
+	
+	<tag id="ID_GREG_MICROSCOPE_CHOOSE_SUSPECT_HAIR"><![CDATA[Which hair sample do you want to compare the unknown hair to?]]></tag>
+	<tag id="ID_MICROSCOPE_LABEL_RANGERSAMPLE"><![CDATA[Ranger's Hair Sample]]></tag>
+	<tag id="ID_MICROSCOPE_LABEL_KNOXSAMPLE"><![CDATA[Knox's Hair Sample]]></tag>
+	<tag id="ID_GREG_MICROSCOPE_NEED_TO_COLLECT"><![CDATA[You'll need to collect a hair sample from this suspect before you can do any comparisons.]]></tag>
+	
+	<tag id="ID_MICROSCOPE_UNKNOWN_1"><![CDATA[When examined microscopically, the three distinct parts of the hair can be seen:]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_2"><![CDATA[We mainly use characteristics of the cuticle and the medulla to distinguish human hair from other species. Now, use the microscope to answer some basic questions about the unknown hair.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_3"><![CDATA[Focus the microscope on the hair.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_4"><![CDATA[Look at both light sources]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_OBLIQUE"><![CDATA[OBLIQUE LIGHTING is lighting from the side, not underneath. This lighting highlights the cuticle (surface) of the hair.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_DIRECT"><![CDATA[DIRECT LIGHTING is lighting from underneath. It reveals the inner structures of the hair.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_5"><![CDATA[Look at the unknown hair to answer a series of questions. Each question narrows the field of possible hair types.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_6"><![CDATA[What is the SCALE PATTERN of the cuticle?]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_6_CORONAL"><![CDATA[I don't think so -- coronal scales are larger, crown-shaped, and stick out more. Try again.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_6_SPINOUS"><![CDATA[No, spinous scales are smaller, more pointed, and stick out more than these.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_6_IMBRICATE"><![CDATA[Correct. The scales are flattened and lay close to each other.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_TITLE"><![CDATA[The CUTICLE, or outside covering, of the hair is formed from many small, overlapping scales. The scales grow in three different patterns. These SCALE PATTERNS are:]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_CORONAL_TITLE"><![CDATA[CORONAL
+(Pronounced car-ROW-nul, from the Latin for crown)]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_CORONAL_DESC"><![CDATA[Scales look like stacked crowns or paper cups.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_CORONAL_EXAMPLE"><![CDATA[Example: bat hair]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_SPINOUS_TITLE"><![CDATA[SPINOUS
+(Pronounced SPY-nes, shaped like a spine)]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_SPINOUS_DESC"><![CDATA[The petal-shaped scales protrude from the hair surface.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_SPINOUS_EXAMPLE"><![CDATA[Example: rabbit hair]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_IMBRICATE_TITLE"><![CDATA[IMBRICATE
+(Pronounced IM-brie-cut, having overlapping edges, as roof tiles)]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_IMBRICATE_DESC"><![CDATA[The flattened scales lie close together and overlap tightly.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_7_IMBRICATE_EXAMPLE"><![CDATA[Example: human/dog hair]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_8"><![CDATA[What type of MEDULLA does this hair have?]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_8_WRONG"><![CDATA[No -- I don't see much of a medulla at all. Try again.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_8_ABSENT"><![CDATA[You're right. I don't see a medulla in this hair either.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_TITLE"><![CDATA[The MEDULLA is a collection of cells that make up the center of the hair. Most animals have a medulla that is either continuous or interrupted, while the medulla of human head hairs is mostly fragmented or absent.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_CONTINUOUS_TITLE"><![CDATA[Continuous]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_CONTINUOUS_EXAMPLE"><![CDATA[Example: dog hair]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_CONTINUOUS_DESC"><![CDATA[Medulla forms a solid line in the center of the hair.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_INTERRUPTED_TITLE"><![CDATA[Interrupted]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_INTERRUPTED_EXAMPLE"><![CDATA[Example: rabbit hair]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_INTERRUPTED_DESC"><![CDATA[Medulla is seen as individual cells. The pattern may be regular or irregular.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_FRAGMENTED_TITLE"><![CDATA[Fragmented/Absent]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_FRAGMENTED_EXAMPLE"><![CDATA[Example: human hair]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_9_FRAGMENTED_DESC"><![CDATA[There is little or no medulla present in the hair.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_10"><![CDATA[Is there a FOLLICULAR TAG attached to the hair root?]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_10_YES"><![CDATA[I don't see any tissue around the root. Try again.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_10_NO"><![CDATA[Right, I don't see any either.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_11_TITLE"><![CDATA[The root is the site of all hair growth. A FOLLICULAR TAG surrounds the hair root and supplies it with nutrients for growth. If a hair is pulled out, the follicular tag is sometimes removed with it.]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_11_WITH_TITLE"><![CDATA[Root with Follicular Tag]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_11_WITH_DESC"><![CDATA[Root surrounded by tissue.
+<b>HAS NUCLEAR DNA</b>]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_11_WITHOUT_TITLE"><![CDATA[Root without Follicular Tag]]></tag>
+	<tag id="ID_MICROSCOPE_UNKNOWN_11_WITHOUT_DESC"><![CDATA[Root is club-shaped.
+<b>NO NUCLEAR DNA</b>]]></tag>
+	
+	<tag id="ID_COMPARE"><![CDATA[Compare]]></tag>
+	<tag id="ID_TRY_AGAIN"><![CDATA[Try Again]]></tag>
+	<tag id="ID_START"><![CDATA[Start]]></tag>
+	<tag id="ID_SEE_SAMPLES"><![CDATA[See Samples]]></tag>
+	<tag id="ID_CHECK_ANSWERS"><![CDATA[Check Answers]]></tag>
+	<tag id="ID_SEE_NEXT_GENERATION"><![CDATA[See Next Generation]]></tag>
+	<tag id="ID_SEE_MTDNA_INHERITANCE"><![CDATA[See mtDNA Inheritance]]></tag>
+	<tag id="ID_REPLAY_ANIMATION"><![CDATA[Replay Animation]]></tag>
+	<tag id="ID_SEE_ANIMATION"><![CDATA[See Animation]]></tag>
+	<tag id="ID_SEE_DIFFERENCES"><![CDATA[See Differences]]></tag>
+	<tag id="ID_SEE_EXAMPLES_AGAIN"><![CDATA[See examples again]]></tag>
+	<tag id="ID_SEE_EXAMPLES"><![CDATA[See Examples]]></tag>
+	<tag id="ID_DIFFERENT_SCALE_PATTERNS"><![CDATA[See Examples of Different Scale Patterns]]></tag>
+	<tag id="ID_DIFFERENT_MEDULLA"><![CDATA[See Examples of Different Medulla]]></tag>
+	<tag id="ID_DIRECT_LIGHT"><![CDATA[Direct]]></tag>
+	<tag id="ID_OBLIQUE_LIGHT"><![CDATA[Oblique]]></tag>
+	<tag id="ID_UNKNOWN_HAIR"><![CDATA[Unknown Hair]]></tag>
+	<tag id="ID_CHOOSE_LIGHT"><![CDATA[Choose Light Source]]></tag>
+	<tag id="ID_SEE_EXAMPLE_HAIR"><![CDATA[See example hair]]></tag>
+	<tag id="ID_MEDULLA_CONTINUOUS"><![CDATA[Continuous]]></tag>
+	<tag id="ID_MEDULLA_INTERRUPTED"><![CDATA[Interrupted]]></tag>
+	<tag id="ID_MEDULLA_ABSENT"><![CDATA[Absent]]></tag>
+	<tag id="ID_CONTINUE"><![CDATA[Continue]]></tag>
+	<tag id="ID_YES"><![CDATA[Yes]]></tag>
+	<tag id="ID_NO"><![CDATA[No]]></tag>
+	<tag id="ID_OK"><![CDATA[Ok]]></tag>
+	<tag id="ID_RIGHT"><![CDATA[Right]]></tag>
+	<tag id="ID_LEFT"><![CDATA[Left]]></tag>
+	<tag id="ID_FOCUS"><![CDATA[Focus]]></tag>
+	<tag id="ID_CLOSE"><![CDATA[Close]]></tag>
+	<tag id="ID_CORONAL"><![CDATA[CORONAL]]></tag>
+	<tag id="ID_SPINOUS"><![CDATA[SPINOUS]]></tag>
+	<tag id="ID_IMBRICATE"><![CDATA[IMBRICATE]]></tag>
+	
+</strings>	

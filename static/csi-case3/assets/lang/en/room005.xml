@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room005 - outside the car at the crime scene. </tag>
+	
+		<!-- NICK0  -->
+		
+	<tag id="ID_NICK0A"><![CDATA[Welcome to your first crime scene.  What do you want to know?]]></tag>
+	<tag id="ID_NICK0B"><![CDATA[That's what we're here to figure out.  Two teenagers found the burned-out car and body.  The rest is up to us.]]></tag>
+	<tag id="ID_NICK0C"><![CDATA[Doc Robbins already sent a team to pick it up.  He's probably started the autopsy by now in the MORGUE.]]></tag>
+	<tag id="ID_NICK0D"><![CDATA[I think there's more evidence here.]]></tag>
+	<tag id="ID_NICK0E"><![CDATA[Let's return to HEADQUARTERS. ]]></tag>
+	<tag id="ID_NICK0F"><![CDATA[Good observation. Look for the keys to open the trunk and the glove box.]]></tag>
+	<tag id="ID_NICK0G"><![CDATA[Ignore the animal tracks for now, but the shoeprints look interesting.  Did Grissom put some casting mix in your kit?  Try using it on the prints.]]></tag>
+	
+		<!-- REPLIES TO AND QUESTIONS FOR NICK -->
+
+	<tag id="ID_USER0A"><![CDATA[What happened here?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[Where's the body?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Are we finished here?]]></tag>
+	<tag id="ID_USER0EXITBAD"><![CDATA[I'll keep looking for more evidence.]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[Okay, let's go.]]></tag>
+
+		<!-- AFTER PLAYER HAS FOUND THE LOCKED PART OF THE CAR, BUT HASN'T OPENNED THEM -->
+
+	<tag id="ID_USER0D"><![CDATA[How do I open the locked parts of the car?]]></tag>
+
+		<!-- AFTER PLAYER HAS FOUND THE PRINTS ON THE GROUND, BUT HASN'T GEL CAST THEM -->
+
+	<tag id="ID_USER0E"><![CDATA[What should I do with the footprints in the sand?]]></tag>
+	
+	
+</strings>	

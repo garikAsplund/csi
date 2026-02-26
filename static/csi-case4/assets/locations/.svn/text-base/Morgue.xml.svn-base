@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<location name="Morgue" displayName="Morgue">
+	<object name="DoorMorgueExit" />
+	<object name="Autopsy" />
+	<person name="DoctorRobbins"/>
+	<visit num="1" ambient="MorgueAmbient">
+		<visible name="Autopsy" type="ignore" />
+		<clickable name="DoctorRobbins" type="required" action="dialog:DrRobbins1" checkDone="dialog:DrRobbins1">
+			<clickable name="DoctorRobbins" type="ignore" action="dialog:DrRobbins2" persist="true" />
+			<clickable name="Autopsy" type="required" action="activity:Autopsy,evidence:BloodSample,clue:NoSoot" checkDone="clue:NoSoot">
+				<clickable name="DoctorRobbins" type="ignore" action="dialog:DrRobbinsAutopsyEnd" persist="true" />
+				<set variable="visit:Lab" value="3" />
+				<set variable="visit:Morgue" value="2" />
+				<dev action="location:Lab" />
+			</clickable>
+		</clickable>
+		<clickable name="DoorMorgueExit" type="ignore" action="location:Headquarters" />
+	</visit>
+	<visit num="2" ambient="MorgueAmbient">
+		<clickable name="DoorMorgueExit" type="ignore" action="location:Headquarters" />
+	</visit>
+</location>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room010 - number one fan's apartment. </tag>
+	
+		<!-- FAN0  -->
+		
+	<tag id="ID_FAN0A"><![CDATA[How can I help you, officer?]]></tag>
+	<tag id="ID_FAN0B"><![CDATA[Freebird is dead?  That's horrible!  How?  When?  Who?]]></tag>
+	<tag id="ID_FAN0C"><![CDATA[Not personally, but I'm a HUGE fan.  In fact, I saw her concert a few days ago - Holy smokes!  I know who killed Freebird!]]></tag>
+	<tag id="ID_FAN0D"><![CDATA[What?  Well ... no, of course not.  I just like her music.  I'm no stalker!]]></tag>
+	<tag id="ID_FAN0E"><![CDATA[Of course!  I have nothing to hide!  Take whatever you need!]]></tag>
+	<tag id="ID_FAN0F"><![CDATA[She and her boyfriend got in this huge fight after the concert.  Here, I even took a picture.]]></tag>
+	<tag id="ID_FAN0G"><![CDATA[My computer?  Well ... umm ... sure!  I'll warn you, I've installed some personal security measures.  I don't think you'll find anything.]]></tag>
+	<tag id="ID_FAN0H"><![CDATA[Fingerprints??  Are you ... well ... I guess.]]></tag>
+	<tag id="ID_FAN0I"><![CDATA[Shoes?  I'm not wearing any at the moment, but I'm sure they're around here somewhere.]]></tag>
+	
+		<!-- REPLIES TO FAN -->
+
+	<tag id="ID_USER0A"><![CDATA[We're investigating the death of Freebird Reynolds.]]></tag>
+	<tag id="ID_USER0B"><![CDATA[Did you know Freebird Reynolds?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Did you ever e-mail Freebird Reynolds?]]></tag>
+	<tag id="ID_USER0D"><![CDATA[Can I look around your apartment?]]></tag>
+	<tag id="ID_USER0E"><![CDATA[You know who killed Freebird?  Who?]]></tag>
+	<tag id="ID_USER0F"><![CDATA[I want to check your computer to be sure.]]></tag>
+	<tag id="ID_USER0G"><![CDATA[I'll need your fingerprints.]]></tag>
+	<tag id="ID_USER0H"><![CDATA[I want your shoes for evidence.]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[Thank you for your time.]]></tag>
+	
+		<!-- NICK0  -->
+		
+	<tag id="ID_NICK0A"><![CDATA[What can I help you with?]]></tag>
+	<tag id="ID_NICK0B"><![CDATA[We don't have a search warrant, so you must ask Mr. Tam's permission.  Let's see if he's helpful.]]></tag>
+	<tag id="ID_NICK0C"><![CDATA[First, ask him about it.  Then we'll see if we can find any digital evidence on his computer.]]></tag>
+	<tag id="ID_NICK0D"><![CDATA[I think there's more evidence here.]]></tag>
+	<tag id="ID_NICK0E"><![CDATA[I think we're done here. Time to move on.]]></tag>
+	<tag id="ID_NICK0F"><![CDATA[They are probably here somewhere.  See if you can find them in this apartment.]]></tag>
+	<tag id="ID_NICK0G"><![CDATA[We can't do anything here, but we'll run a thorough digital forensics investigation back in the lab.]]></tag>
+	
+		<!-- REPLIES TO NICK -->
+
+	<tag id="ID_USER1A"><![CDATA[Can I legally search this apartment?]]></tag>
+	<tag id="ID_USER1B"><![CDATA[How can I show Gabriel Tam is NO1FAN?]]></tag>
+	<tag id="ID_USER1C"><![CDATA[Are we finished here?]]></tag>
+	<tag id="ID_USER1D"><![CDATA[How can I collect Mr. Tam's shoes when he's not wearing any?]]></tag>
+	<tag id="ID_USER1E"><![CDATA[What should I do with Mr. Tam's computer?]]></tag>
+	<tag id="ID_USER1BADEXIT"><![CDATA[I'll keep looking for more evidence.]]></tag>
+	<tag id="ID_USER1EXIT"><![CDATA[Let's get out of here.]]></tag>
+	
+	
+</strings>	

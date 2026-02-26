@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<activity name="GCAlcohol">
+	<screen name="screen1">
+		<instruct><![CDATA[The first step is to fill three vials with 1-propanol, which will serve as our standard.
+
+Use the pipette to place a specific amount of 1-propanol into all three glass vials.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+		<label num="4"><![CDATA[1-propanol]]></label>
+	</screen>
+	<screen name="screen2">
+		<instruct><![CDATA[As a negative control, we’ll use pure 1-Propanol. As a positive control, we’ll use a specific concentration of ethanol, which is the type of alcohol found in alcoholic beverages.
+
+Add a specific amount of ethanol to the vial labeled “positive control”.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+		<label num="4"><![CDATA[Ethanol]]></label>
+	</screen>
+	<screen name="screen3">
+		<instruct><![CDATA[Good. Now, use the pipette to add a specific amount of blood to the glass vial labeled “blood”.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+	</screen>
+	<screen name="screen4">
+		<instruct><![CDATA[Place the vials in the gas chromatograph.]]></instruct>
+		<label num="1"><![CDATA[blood]]></label>
+		<label num="2"><![CDATA[Positive control]]></label>
+		<label num="3"><![CDATA[Negative control]]></label>
+	</screen>
+	<screen name="screen5">
+		<caption num="1"><![CDATA[minutes]]></caption>
+	</screen>
+	<screen name="screen6">
+		<instruct><![CDATA[The results are in. Click on the monitor to analyze the data.]]></instruct>
+	</screen>
+	<screen name="screen7">
+		<instruct><![CDATA[Comparing the number of peaks in the blood sample to the number of peaks in the controls, what can you conclude?]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram #1: blood sample]]></caption>
+		<caption num="2"><![CDATA[Gas chromatogram #2: positive control]]></caption>
+		<caption num="3"><![CDATA[Gas chromatogram #3: negative control]]></caption>
+		<caption num="4"><![CDATA[Response]]></caption>
+		<caption num="5"><![CDATA[Time]]></caption>
+		<option num="1"><![CDATA[There's ethanol in the blood sample]]></option>
+		<option num="2"><![CDATA[There's no ethanol in the blood sample]]></option>
+		<response num="1"><![CDATA[Look closer at the sample. Does it look like the positive or the negative control?
+
+Hint: we’re only looking at the presence of the peak, not the height. Try again.]]></response>
+		<response num="2"><![CDATA[Correct. The sample looks like the positive control, which means there’s ethanol present.]]></response>
+		<closeBtn><![CDATA[Okay]]></closeBtn>
+	</screen>
+	<screen name="screen8">
+		<instruct><![CDATA[Can you identify which of the two peaks in the blood sample is the ethanol peak?
+
+Click on the ethanol peak in the blood sample.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram #1: blood sample]]></caption>
+		<caption num="2"><![CDATA[Gas chromatogram #2: positive control]]></caption>
+		<caption num="3"><![CDATA[Gas chromatogram #3: negative control]]></caption>
+		<caption num="4"><![CDATA[Response]]></caption>
+		<caption num="5"><![CDATA[Time]]></caption>
+		<response num="1"><![CDATA[Not quite.
+		
+Tip: compare the negative control with the positive control, which contained ethanol. Try again.]]></response>
+		<response num="2"><![CDATA[Correct. This peak is at the same position as the ethanol peak in the positive control.]]></response>
+		<closeBtn><![CDATA[Okay]]></closeBtn>
+	</screen>
+	<screen name="screen9">
+		<instruct><![CDATA[The next step is to determine the victim’s blood alcohol concentration (BAC).
+		
+Nowadays, chromatography systems do this calculation automatically, but you need to know the steps involved.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram #1: blood sample]]></caption>
+		<caption num="2"><![CDATA[Gas chromatogram #2: positive control]]></caption>
+		<caption num="3"><![CDATA[Gas chromatogram #3: negative control]]></caption>
+		<caption num="4"><![CDATA[Response]]></caption>
+		<caption num="5"><![CDATA[Time]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen10">
+		<instruct><![CDATA[We’ll start by looking at the height and width of the ethanol peak.]]></instruct>
+		<caption num="1"><![CDATA[Gas chromatogram #1: blood sample]]></caption>
+		<caption num="2"><![CDATA[Gas chromatogram #2: positive control]]></caption>
+		<caption num="3"><![CDATA[Gas chromatogram #3: negative control]]></caption>
+		<caption num="4"><![CDATA[Response]]></caption>
+		<caption num="5"><![CDATA[Time]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen11">
+		<instruct><![CDATA[Using the units on the x-axis, what is the width (or base) of the ethanol peak?]]></instruct>
+		<option num="1" correct="false"><![CDATA[1]]></option>
+		<option num="2" correct="true"><![CDATA[3]]></option>
+		<option num="3" correct="false"><![CDATA[5]]></option>
+		<caption><![CDATA[base (b)]]></caption>
+		<wrongPopup><![CDATA[That's not what I see. Try again.]]></wrongPopup>
+		<closeBtn><![CDATA[Okay]]></closeBtn>
+	</screen>
+	<screen name="screen12">
+		<instruct><![CDATA[Using the units on the y-axis, what is the approximate height of the peak?]]></instruct>
+		<option num="1" correct="false"><![CDATA[180,000]]></option>
+		<option num="2" correct="true"><![CDATA[240,000]]></option>
+		<option num="3" correct="false"><![CDATA[350,000]]></option>
+		<caption num="1"><![CDATA[b]]></caption>
+		<caption num="2"><![CDATA[height (h)]]></caption>
+		<caption num="3"><![CDATA[Time]]></caption>
+		<caption num="4"><![CDATA[b =]]></caption>
+		<wrongPopup><![CDATA[That's not quite right. Try again.]]></wrongPopup>
+		<closeBtn><![CDATA[Okay]]></closeBtn>
+	</screen>
+	<screen name="screen13">
+		<instruct><![CDATA[Since the peak is similar to an equilateral triangle, we can use the formula for the area of an equilateral triangle to calculate the area of the ethanol peak.
+Drag the numbers to the formula below.]]></instruct>
+		<caption num="1"><![CDATA[b]]></caption>
+		<caption num="2"><![CDATA[h]]></caption>
+		<caption num="3"><![CDATA[Time]]></caption>
+		<caption num="4"><![CDATA[b =]]></caption>
+		<caption num="5"><![CDATA[h =]]></caption>
+		<equation><![CDATA[Area = 1/2 b x h = 1/2]]></equation>
+		<multiply><![CDATA[x]]></multiply>
+		<answer><![CDATA[= 360,000]]></answer>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen14">
+		<instruct><![CDATA[The graph below is called a calibration curve. It shows the peak areas of different samples with a known ethanol concentration. We can use this calibration curve to estimate the ethanol concentration in our victim’s blood.]]></instruct>
+		<caption num="1"><![CDATA[Peak area]]></caption>
+		<caption num="2"><![CDATA[% Vol. Ethanol]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen15">
+		<instruct><![CDATA[We already know the peak area of our ethanol sample. Click the correct number on the y-axis of the graph.]]></instruct>
+		<caption num="1"><![CDATA[Peak area]]></caption>
+		<caption num="2"><![CDATA[% Vol. Ethanol]]></caption>
+		<equation><![CDATA[Area = 1/2 b x h = 1/2]]></equation>
+		<multiply><![CDATA[x]]></multiply>
+		<answer><![CDATA[= 360,000]]></answer>
+	</screen>
+	<screen name="screen16">
+		<instruct><![CDATA[Good. Now, drag a straight line from this value on the y-axis to the calibration curve.]]></instruct>
+		<caption num="1"><![CDATA[Peak area]]></caption>
+		<caption num="2"><![CDATA[% Vol. Ethanol]]></caption>
+	</screen>
+	<screen name="screen17">
+		<instruct><![CDATA[Next, draw a straight line from the value on the calibration curve to the x-axis.]]></instruct>
+		<caption num="1"><![CDATA[Peak area]]></caption>
+		<caption num="2"><![CDATA[% Vol. Ethanol]]></caption>
+	</screen>
+	<screen name="screen18">
+		<instruct><![CDATA[What is the victim’s blood alcohol concentration (BAC)?]]></instruct>
+		<caption num="1"><![CDATA[Peak area]]></caption>
+		<caption num="2"><![CDATA[% Vol. Ethanol]]></caption>
+		<option num="1" correct="true"><![CDATA[0.08 %]]></option>
+		<option num="2" correct="false"><![CDATA[0.80 %]]></option>
+		<option num="3" correct="false"><![CDATA[0.18 %]]></option>
+		<wrongPopup><![CDATA[That's not what I see. Try again.]]></wrongPopup>
+		<closeBtn><![CDATA[Okay]]></closeBtn>
+	</screen>
+</activity>

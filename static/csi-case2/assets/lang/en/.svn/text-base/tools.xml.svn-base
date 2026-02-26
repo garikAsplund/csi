@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<strings>
+
+	<!-- English -->
+	<tag id="ID_TEST">Hi [name], this is a test string from tools. </tag>
+
+	<!-- TOOLS -->
+	
+	<tag id="ID_TOOL_TOOLKIT_NAME"><![CDATA[Tool Kit]]></tag>
+	<tag id="ID_TOOL_TOOLKIT_IMAGE"><![CDATA[tool_toolkit_cu_en]]></tag>
+	<tag id="ID_TOOL_TOOLKIT_TITLE"><![CDATA[Tool Kit]]></tag>
+	<tag id="ID_TOOL_TOOLKIT_DESCRIPTION"><![CDATA[<font size="+2">You've acquired a <font color="#D6DEFE" size="+1">Field Kit</font>.
+	It contains impression materials, swabs, tweezers, and luminol. To use an item in the field kit, click the tool and then click an object or a person at the crime scene.
+	Now go collect some evidence!</font>]]></tag>
+	
+	<tag id="ID_TOOL_LUMINOL_NAME"><![CDATA[Luminol]]></tag>
+	<tag id="ID_TOOL_LUMINOL_IMAGE"><![CDATA[tool_luminol_cu_en]]></tag>
+	<tag id="ID_TOOL_LUMINOL_TITLE"><![CDATA[Luminol]]></tag>
+	<tag id="ID_TOOL_LUMINOL_DESCRIPTION"><![CDATA[<font size="+2">You've acquired a TOOL: <font color="#D6DEFE" size="+1">Luminol</font>.
+	Luminol is a chemical that will fluoresce or glow, to reveal invisible blood traces.</font>]]></tag>
+
+	<tag id="ID_TOOL_TWEEZERS_NAME"><![CDATA[Tweezers]]></tag>
+	<tag id="ID_TOOL_TWEEZERS_IMAGE"><![CDATA[tool_tweezers_cu_en]]></tag>
+	<tag id="ID_TOOL_TWEEZERS_TITLE"><![CDATA[Tweezers]]></tag>
+	<tag id="ID_TOOL_TWEEZERS_DESCRIPTION"><![CDATA[<font size="+2">You've acquired a TOOL: <font color="#D6DEFE" size="+1">Tweezers</font>.
+	The tweezers are helpful for picking up tiny objects like hair.</font>]]></tag>
+
+	<tag id="ID_TOOL_PDA_NAME"><![CDATA[LV-PDA]]></tag>
+	<tag id="ID_TOOL_PDA_IMAGE"><![CDATA[tool_pda_cu_en]]></tag>
+	<tag id="ID_TOOL_PDA_TITLE"><![CDATA[PDA]]></tag>
+	<tag id="ID_TOOL_PDA_DESCRIPTION"><![CDATA[<font size="-4">You've acquired a handheld <font color="#D6DEFE">PDA</font>.<br><br>Check out these great features:<br>&#x2022; <font color="#D6DEFE">Messages</font> - Instant communications!<br>&#x2022; <font color="#D6DEFE">Clues</font> - Records every clue you find.<br>&#x2022; <font color="#D6DEFE">Evidence</font> - Records all the evidence you find by location.<br><br><font color="#D6DEFE">TO USE THE PDA:<br>   click the <font color="#D6DEFE">right-most icon</font> in the dashboard.</font><br><br>The PDA can describe any tools you are carrying<br>     -simply drop them to its icon.</font>]]></tag>
+
+	<tag id="ID_TOOL_IMPRESSIONGEL_NAME"><![CDATA[Impression Materials]]></tag>
+	<tag id="ID_TOOL_IMPRESSIONGEL_IMAGE"><![CDATA[tool_impressiongel_cu_en]]></tag>
+	<tag id="ID_TOOL_IMPRESSIONGEL_TITLE"><![CDATA[Impression Materials]]></tag>
+	<tag id="ID_TOOL_IMPRESSIONGEL_DESCRIPTION"><![CDATA[<font size="+2">You've acquired a TOOL: <font color="#D6DEFE" size="+1">Impression Materials</font>.
+	These materials are used to obtain an impression of teeth.</font>]]></tag>
+
+	<tag id="ID_TOOL_SWABS_NAME"><![CDATA[Swabs]]></tag>
+	<tag id="ID_TOOL_SWABS_IMAGE"><![CDATA[tool_swabs_cu_en]]></tag>
+	<tag id="ID_TOOL_SWABS_TITLE"><![CDATA[Swabs]]></tag>
+	<tag id="ID_TOOL_SWABS_DESCRIPTION"><![CDATA[<font size="+2">You've acquired a TOOL: <font color="#D6DEFE" size="+1">Swabs</font>.
+	The cotton swabs are useful for collecting a variety of samples, like cheek cells and traces of dried blood or saliva.</font>]]></tag>
+
+
+</strings>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<messages>
+	<message name="message1">
+		<pic>Catherine</pic>
+		<character><![CDATA[Catherine]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Alibi Confirmed]]></title>
+		<text><![CDATA[I've talked to Donald Parker's boss and his colleagues. They have confirmed that he was at the restaurant from 9:30 pm through 5 am.
+
+Looks like you can check him off your POI list!]]></text>
+	</message>
+	<message name="message2">
+		<pic>Brass</pic>
+		<character><![CDATA[Brass]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Warrant]]></title>
+		<text><![CDATA[Natalie Perez is awake and waiting for you in the hospital. Since she's our prime arson suspect, the judge has issued a warrant that allows you to look into her patient report.
+		
+Good luck!]]></text>
+	</message>
+	<message name="message3">
+		<pic>Catherine</pic>
+		<character><![CDATA[Catherine]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Tying up loose ends]]></title>
+		<text><![CDATA[Time to wrap up the case. Click the attachment to file your report.
+
+Catherine]]></text>
+	</message>
+</messages>

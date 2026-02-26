@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<activity name="FlooringSample">
+	<screen name="screen1">
+		<instruct><![CDATA[We need to take a sample of the burned wood flooring to analyze in the lab for ignitable liquids.
+First, use the chisel to loosen up some wood chips in the puddle-shaped area.]]></instruct>
+		<label><![CDATA[Puddle sample]]></label>
+	</screen>
+	<screen name="screen2">
+		<instruct><![CDATA[Now use the tweezers to put the loose wood chips into the can.]]></instruct>
+		<label><![CDATA[Puddle sample]]></label>
+	</screen>
+	<screen name="screen3">
+		<instruct><![CDATA[This special can is air tight and has an activated carbon strip attached to the lid. This strip will have an important role later in the lab when we analyze the evidence.
+Now, close the container.]]></instruct>
+		<label><![CDATA[Puddle sample]]></label>
+	</screen>
+	<screen name="screen4">
+		<instruct><![CDATA[Next, we need to take a control sample from an area that is not burned.
+Again, use the chisel to loosen up some wood chips.]]></instruct>
+		<label><![CDATA[Control sample]]></label>
+	</screen>
+	<screen name="screen5">
+		<instruct><![CDATA[Now use the tweezers to put the loose wood chips into the can.]]></instruct>
+		<label><![CDATA[Control sample]]></label>
+	</screen>
+	<screen name="screen6">
+		<instruct><![CDATA[Great. Lastly, close the container.]]></instruct>
+		<label><![CDATA[Control sample]]></label>
+	</screen>
+</activity>

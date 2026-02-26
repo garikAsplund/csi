@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<dialog name="Stokes" displayName="Nick Stokes">
+	<conversation location="Hospital" name="1">
+		<statement num="1"><![CDATA[Good timing. I was just about to start processing the scene.]]></statement>
+		<statement num="2"><![CDATA[The victim is Dr. Justine Phillips, one of the doctors that work here. She was found by her assistant, Anna Steward.
+
+It looks like a suicide, but we need to make sure it really is.]]></statement>
+		<statement num="3"><![CDATA[No, but I contacted the security firm that controls after hour access to the building.
+
+They'll email the security access log to headquarters.]]></statement>
+		<statement num="4"><![CDATA[Yes. It's crucial to document the body's position after a shooting.]]></statement>
+		<statement num="5"><![CDATA[First, take pictures in the victim's office. Then make sure you take samples of the blood stains on the wall and on the floor with your swabs.
+
+You should also talk to the assistant.]]></statement>
+		<statement num="6"><![CDATA[You brought one from headquarters, right? It should be in your tools.]]></statement>
+		<statement num="7"><![CDATA[Use the swabs Russell gave you.
+
+And don't forget to search the scene for any other evidence.]]></statement>
+		<response num="1"><![CDATA[What happened here?]]></response>
+		<response num="2"><![CDATA[Are there any witnesses?]]></response>
+		<response num="3"><![CDATA[Is the body still here?]]></response>
+		<response num="4"><![CDATA[How can I help?]]></response>
+		<response num="5"><![CDATA[Where do I find a camera?]]></response>
+		<response num="6"><![CDATA[How do I take blood stain samples?]]></response>
+		<response num="7"><![CDATA[I'll start processing the scene]]></response>
+	</conversation>	
+	<conversation location="Hospital" name="HospitalNotDone">
+		<statement num="1"><![CDATA[How can I help you?]]></statement> 
+		<statement num="2"><![CDATA[No. Before we leave, you should ]]></statement> 
+		<statement num="2_1"><![CDATA[pick up the victim's computer.]]></statement> 
+		<statement num="2_2"><![CDATA[photograph the scene.]]></statement> 
+		<statement num="2_3"><![CDATA[use your swabs to take samples of the bloodstains on the wall and on the floor.]]></statement> 
+		<statement num="2_4"><![CDATA[pick up the gun the victim is holding in her hand.]]></statement> 
+		<response num="1"><![CDATA[Am I done here?]]></response> 
+		<response num="2"><![CDATA[I'll keep investigating.]]></response> 
+	</conversation>
+	<conversation location="Hospital" name="HospitalDone">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[Looks like you have gathered all the evidence there is.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[Let's go back to headquarters.]]></response>
+	</conversation>
+	<conversation location="Hospital" name="Visit2">
+		<statement num="1"><![CDATA[So, the victim was somehow involved with the death of this Terry McCoy's daughter?
+
+Let's see if we can find anything about this case.]]></statement>
+		<statement num="2"><![CDATA[Maybe there's a file in the victim's office.]]></statement>
+		<statement num="3"><![CDATA[The victim's colleague, Dr. Brody Fowler, has arrived. Make sure you talk to him.]]></statement>
+		<response num="1"><![CDATA[Where should I look?]]></response>
+		<response num="2"><![CDATA[What else should I do here?]]></response>
+		<response num="3"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>		
+	<conversation location="Hospital" name="Visit2NotDone">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[I think you still need to ]]></statement>
+			<statement num="2_1"><![CDATA[search for more evidence in the victim's office.]]></statement>
+			<statement num="2_2"><![CDATA[ask Dr. Fowler about the subpoena.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>	
+	<conversation location="Hospital" name="Visit2Done">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[Yes. Let's get out of here.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll select our next location.]]></response>
+	</conversation>	
+	<conversation location="McCoysHouse" name="McCoy1">
+		<statement num="1"><![CDATA[The threatening emails McCoy sent our victim make him our number one person of interest.]]></statement>
+		<statement num="2"><![CDATA[We have a warrant to search the place, but make sure you talk to him first. Maybe he's cooperative.]]></statement>
+		<statement num="3"><![CDATA[We need a DNA sample to find out if the skin tissue you found under the victim's fingernails is from him.
+
+Also, search the place for a gun.]]></statement>
+		<response num="1"><![CDATA[What should I do first?]]></response>
+		<response num="2"><![CDATA[What evidence should I collect?]]></response>
+		<response num="3"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>	
+	<conversation location="McCoysHouse" name="McCoyNotDone">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[I think you still need to ]]></statement>
+			<statement num="2_1"><![CDATA[talk to McCoy.]]></statement>
+			<statement num="2_2"><![CDATA[find more evidence.]]></statement>
+			<statement num="2_3"><![CDATA[use your swabs to collect a DNA sample from McCoy.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>	
+	<conversation location="McCoysHouse" name="McCoyDone">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[Yes. Let's get out of here.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll select our next location.]]></response>
+	</conversation>	
+	<conversation location="Pharmacy" name="Pharmacy1">
+		<statement num="1"><![CDATA[Let's see if Edgar White has some information for us.]]></statement>
+		<response num="1"><![CDATA[I'll talk to him.]]></response>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyNotDone">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[I think you still need to talk to White.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyDone">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[Yes. Let's move on.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[Let's go.]]></response>
+	</conversation>	
+	<conversation location="Pharmacy" name="Pharmacy2">
+		<statement num="1"><![CDATA[I wonder what the payment to the pharmacist was for. Five thousand bucks seems like a lot.]]></statement>
+		<statement num="2"><![CDATA[Ask White about the money, and let him know that we have a warrant to search the pharmacy.]]></statement>
+		<statement num="3"><![CDATA[To determine if the skin tissue you found under the victim's fingernails is from him, we'll need a DNA sample. Also, if he has a gun, take it.]]></statement>
+		<response num="1"><![CDATA[How can we find out?]]></response>
+		<response num="2"><![CDATA[What evidence should I collect?]]></response>
+		<response num="3"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyNotDone2">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[I think you still need to ]]></statement>
+			<statement num="2_1"><![CDATA[talk to White.]]></statement>
+			<statement num="2_2"><![CDATA[find more evidence.]]></statement>		
+			<statement num="2_3"><![CDATA[use your swabs to collect a DNA sample from White.]]></statement>		
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyDone2">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[Yes. Let's go back to the headquarters and analyze the evidence we have.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[Alright.]]></response>
+	</conversation>	
+	<conversation location="Pharmacy" name="PharmacyIgnore">
+		<statement num="1"><![CDATA[Let's not waste our time here.]]></statement>
+		<response num="1"><![CDATA[You're right. Let's move on.]]></response>
+	</conversation>	
+	<conversation location="AssistantsHouse" name="Assistant1">
+		<statement num="1"><![CDATA[Anna Steward was at the crime scene around the time our victim died. I'm curious what she has to say about that.]]></statement>
+		<statement num="2"><![CDATA[Since we don't have a warrant, you need to ask her for permission to search her home. And don't forget to ask about her late night visit to the crime scene.]]></statement>
+		<statement num="3"><![CDATA[You still haven't found a match for the skin tissue underneath the victim's fingernails. Ask her if you can get a DNA sample. Also, search the place for a weapon.]]></statement>
+		<response num="1"><![CDATA[How should I proceed?]]></response>
+		<response num="2"><![CDATA[Is there any evidence I can collect here?]]></response>
+		<response num="3"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>	
+	<conversation location="AssistantsHouse" name="AssistantNotDone">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[I think you still need to ]]></statement>
+			<statement num="2_1"><![CDATA[talk to Steward.]]></statement>
+			<statement num="2_2"><![CDATA[use your swabs to collect a DNA sample from Steward.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>	
+	<conversation location="AssistantsHouse" name="AssistantDone">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[Yes. Time to go back to headquarters.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[Let's go.]]></response>
+	</conversation>	
+</dialog>

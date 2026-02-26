@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<activity name="Database">
+	<screen name="loading">
+		<text name="tf1"><![CDATA[Loading images...]]></text>
+	</screen>
+	<screen name="photoMenu">
+		<title><![CDATA[Select the photograph you want to analyze.]]></title>
+		<alert><![CDATA[Confirmatory test required]]></alert>
+		<continueBtn><![CDATA[Continue]]></continueBtn>
+		<button num="1">
+			<title><![CDATA[V-shaped burn pattern]]></title>
+			<summary><![CDATA[Points to the space heater as possible fire origin.]]></summary>			
+		</button>
+		<button num="2">
+			<title><![CDATA[Crazed glass]]></title>
+			<summary><![CDATA[Caused by the water used for dousing the fire.]]></summary>			
+		</button>
+		<button num="3">
+			<title><![CDATA[Protected surface]]></title>
+			<summary><![CDATA[The victim was laying on the living room floor during the fire.]]></summary>			
+		</button>
+		<button num="4">
+			<title><![CDATA[Puddle-shaped burn pattern]]></title>
+			<summary><![CDATA[May be the result of using an ignitable liquid.]]></summary>			
+		</button>
+		<button num="5">
+			<title><![CDATA[Burned outlet]]></title>
+			<summary><![CDATA[The space heater was probably on when the fire started.]]></summary>			
+		</button>
+	</screen>
+	<screen name="vShaped1">
+		<title><![CDATA[V-shaped burn pattern]]></title>
+		<desc><![CDATA[This v-shaped burn pattern is right above the burned space heater. Could this be the origin of the fire? 
+
+Open the database to search for more information.]]></desc>
+		<nextBtn><![CDATA[Open Database]]></nextBtn>
+	</screen>
+	<screen name="vShaped2">
+		<title><![CDATA[V-shaped burn pattern]]></title>
+		<desc><![CDATA[Fires can produce characteristic burn patterns when they are close to a wall.
+		
+A v-shaped burn pattern like this one often develops in the area where the fire originated.]]></desc>
+		<nextBtn><![CDATA[See Example]]></nextBtn>
+	</screen>
+	<screen name="vShaped3">
+		<text name="tf1"><![CDATA[A fire starts burning with a small flame.]]></text>
+		<text name="tf2"><![CDATA[As the fire progresses, the fire and the smoke it produces are sent upward.]]></text>
+		<text name="tf3"><![CDATA[The fire continues to grow and now includes the ceiling.]]></text>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="vShaped4">
+		<title><![CDATA[A conical, v-shaped pattern results.]]></title>
+		<desc><![CDATA[This picture shows a v-shaped pattern that was caused by a burning trash can, which later turned out to be the origin of the fire.]]></desc>
+		<caption><![CDATA[The trashcan was here]]></caption>
+		<nextBtn><![CDATA[Close]]></nextBtn>
+	</screen>
+	<screen name="vShaped5">
+		<title><![CDATA[V-shaped burn pattern]]></title>
+		<desc><![CDATA[Fires can produce characteristic burn patterns when they are close to a wall.
+
+A v-shaped burn pattern like this one often develops in the area where the fire originated.]]></desc>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="vShaped6">
+		<title><![CDATA[V-shaped burn pattern]]></title>
+		<desc><![CDATA[Was the space heater the origin of the fire?]]></desc>
+		<closeBtn><![CDATA[Continue]]></closeBtn>
+		<option num="1" correct="false"><![CDATA[Definitely yes.]]></option>			
+		<option num="2" correct="true"><![CDATA[Probably.]]></option>
+		<option num="3" correct="false"><![CDATA[Definitely no.]]></option>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+		<response num="1"><![CDATA[No. A v-shaped pattern often develops at the origin of fire, but not always. Try again.]]></response>
+		<response num="2"><![CDATA[I agree. You should examine the space heater further to confirm that it was the fire origin.]]></response>
+		<response num="3"><![CDATA[We can't exclude it - a v-shaped pattern often develops at the origin of the fire. Try again.]]></response>
+	</screen>
+	<screen name="glass1">
+		<title><![CDATA[Crazed glass]]></title>
+		<desc><![CDATA[First, use the slider to zoom into a crazed area.]]></desc>
+	</screen>
+	<screen name="glass2">
+		<title><![CDATA[Crazed glass]]></title>
+		<desc><![CDATA[Good. Now let's get some information about it.]]></desc>
+		<nextBtn><![CDATA[Open Database]]></nextBtn>
+	</screen>
+	<screen name="glass3">
+		<title><![CDATA[Crazed glass]]></title>
+		<desc><![CDATA[Crazing is a term used to describe a complicated pattern of short cracks in glass.
+
+Lab tests revealed that crazing is the result of rapid cooling of hot glass by the application of water.]]></desc>
+		<example num="1"><![CDATA[Hot glass, cooled naturally.]]></example>
+		<example num="2"><![CDATA[Hot glass, rapidly cooled.]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<popup num="1"><![CDATA[Glass heated in a propane flame for 5 min, cooled naturally.]]></popup>
+		<popup num="2"><![CDATA[Glass heated in a propane flame for
+5 min, then sprayed with water.]]></popup>
+		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="glass4">
+		<title><![CDATA[Crazed glass]]></title>
+		<desc><![CDATA[Does the crazed glass prove it was arson?]]></desc>
+		<closeBtn><![CDATA[Continue]]></closeBtn>
+		<option num="1" correct="false"><![CDATA[Yes.]]></option>			
+		<option num="2" correct="false"><![CDATA[Possibly.]]></option>
+		<option num="3" correct="true"><![CDATA[No.]]></option>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+		<response num="1"><![CDATA[There's no scientific evidence that crazing has anything to do with arson. Try again.]]></response>
+		<response num="2"><![CDATA[Remember, the crazing was caused by the water used to douse the fire. Try again.]]></response>
+		<response num="3"><![CDATA[Right; the crazed glass is not conclusive.]]></response>
+	</screen>
+	<screen name="surface1">
+		<title><![CDATA[Protected Surface]]></title>
+		<desc><![CDATA[Looks like this is the outline of the victim.
+
+Let's find out how it was formed.]]></desc>
+		<nextBtn><![CDATA[Open Database]]></nextBtn>
+	</screen>
+	<screen name="surface2">
+		<title><![CDATA[Protected Surface]]></title>
+		<desc><![CDATA[Objects - and sometimes bodies - on the floor can protect the areas that they cover from charring or from soot.
+
+Thus, protected surfaces show where these objects were during the fire.]]></desc>
+		<example num="1"><![CDATA[Protected surface]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<popup num="1"><![CDATA[Area protected from charring by boxes on the floor.]]></popup>
+		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="surface3">
+		<title><![CDATA[Protected Surface]]></title>
+		<desc><![CDATA[What does the protected surface tell us about the victim?]]></desc>
+		<closeBtn><![CDATA[Continue]]></closeBtn>
+		<option num="1" correct="false"><![CDATA[The body was placed there after the fire.]]></option>			
+		<option num="2" correct="true"><![CDATA[The body was laying there during the fire.]]></option>
+		<option num="3" correct="false"><![CDATA[Nothing.]]></option>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+		<response num="1"><![CDATA[If that was the case, we wouldn't see a body-shaped protected surface. Try again.]]></response>
+		<response num="2"><![CDATA[I agree. The victim was laying in this exact area on the living room floor during the fire.]]></response>
+		<response num="3"><![CDATA[There is a conclusion you can draw from the protected surface. Try again.]]></response>
+	</screen>
+	<screen name="puddle1">
+		<title><![CDATA[Puddle-shaped burn pattern]]></title>
+		<desc><![CDATA[It looks like the fire burned more intensely in this puddle-shaped area than in other areas.]]></desc>
+		<nextBtn><![CDATA[Open Database]]></nextBtn>
+	</screen>
+	<screen name="puddle2">
+		<title><![CDATA[Puddle-shaped burn pattern]]></title>
+		<desc><![CDATA[Irregular burn patterns, such as this "puddle-shaped" pattern, often occur in areas of intense burning.
+		
+These patterns can occur with or without the use of ignitable liquids, such as gasoline.]]></desc>
+		<example num="1"><![CDATA[Pattern produced with ignitable liquid.]]></example>
+		<example num="2"><![CDATA[Pattern produced without ignitable liquid.]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<popup num="1"><![CDATA[Pattern produced by burning an ignitable liquid ("pour pattern").]]></popup>
+		<popup num="2"><![CDATA[Pattern produced by burning a cardboard box.]]></popup>
+		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="puddle3">
+		<title><![CDATA[Puddle-shaped burn pattern]]></title>
+		<desc><![CDATA[Was this pattern caused by an ignitable liquid?]]></desc>
+		<closeBtn><![CDATA[Continue]]></closeBtn>
+		<option num="1" correct="false"><![CDATA[Definitely yes.]]></option>			
+		<option num="2" correct="false"><![CDATA[Definitely no.]]></option>
+		<option num="3" correct="true"><![CDATA[Maybe.]]></option>
+		<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+		<response num="1"><![CDATA[Remember, puddle-shaped patterns can occur without using ignitable liquids. You're jumping to conclusions. Try again.]]></response>
+		<response num="2"><![CDATA[We can't exclude that it was caused by an ignitable liquid just by looking at the picture. Further tests are required. Try again.]]></response>
+		<response num="3"><![CDATA[Correct. We need to confirm the presence of ignitable liquids in the burned wood flooring with gas chromatography.]]></response>
+	</screen>
+	<screen name="outlet1">
+		<title><![CDATA[Burned outlet]]></title>
+		<desc><![CDATA[This one's easy. Do you think the space heater was running when the fire started?]]></desc>
+		<closeBtn><![CDATA[Continue]]></closeBtn>
+		<option num="1" correct="false"><![CDATA[Definitely yes.]]></option>			
+		<option num="2" correct="true"><![CDATA[Probably.]]></option>
+		<option num="3" correct="false"><![CDATA[Definitely no.]]></option>
+		<response num="1"><![CDATA[The fact that the space heater was plugged in doesn't necessarily mean it was on. Try again.]]></response>
+		<response num="2"><![CDATA[It's possible that it was on. You should confirm this by examining the space heater more closely.]]></response>
+		<response num="3"><![CDATA[We can't exclude that the space heater was on at the time the fire started. Try again.]]></response>
+	</screen>
+</activity>

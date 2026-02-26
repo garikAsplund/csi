@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room005 - murphy's trailer. </tag>
+	
+		<!-- GRISSOM0  -->
+		
+	<tag id="ID_GRISSOM0A"><![CDATA[What is your question?]]></tag>
+	<tag id="ID_GRISSOM0B"><![CDATA[You can collect evidence from the RV, but if you want something from Murphy personally, you must ask his permission.]]></tag>
+	<tag id="ID_GRISSOM0C"><![CDATA[Use the luminol in your field kit. Luminol is a chemical that glows greenish-blue when it comes in contact with blood.]]></tag>
+	<tag id="ID_GRISSOM0D"><![CDATA[Luminol reacts with the iron in blood to form excited ions that give off light. However, luminol is not specific for blood. It reacts with other things that contain iron, for example some types of bleach. So, be careful!]]></tag>
+	<tag id="ID_GRISSOM0E"><![CDATA[Simply click the luminol tool, and then click the suspicious areas where you think there might be blood.]]></tag>
+	<tag id="ID_GRISSOM0F"><![CDATA[Use your swabs to collect cheek cells.]]></tag>
+	<tag id="ID_GRISSOM0G"><![CDATA[Try using the impression materials and have people bite on it.]]></tag>
+	<tag id="ID_GRISSOM0H"><![CDATA[Are you sure? I think there is more work to do here.]]></tag>
+	<tag id="ID_GRISSOM0I"><![CDATA[Did you ask Mr. Murphy about the poison and did you collect evidence from him?]]></tag>
+	<tag id="ID_GRISSOM0J"><![CDATA[Did you use luminol to search for blood here? It will help us find the place where the death of the victim occurred.]]></tag>
+	<tag id="ID_GRISSOM0K"><![CDATA[I agree. Let's move on.]]></tag>
+	
+		<!-- REPLIES TO GRISSOM -->
+
+	<tag id="ID_USER0A"><![CDATA[How do I collect evidence from Mr. Murphy?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[How do I search for blood?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Why does it glow?]]></tag>
+	<tag id="ID_USER0D"><![CDATA[How do I use luminol?]]></tag>
+	<tag id="ID_USER0E"><![CDATA[I'll look for blood and other evidence, and talk with Mr. Murphy.]]></tag>
+	<tag id="ID_USER0F"><![CDATA[I think I'm done here.]]></tag>
+	<tag id="ID_USER0G"><![CDATA[How do I get a DNA sample?]]></tag>
+	<tag id="ID_USER0H"><![CDATA[How do I get a bite impression?]]></tag>
+	<tag id="ID_USER0I"><![CDATA[I'll keep investigating.]]></tag>
+	<tag id="ID_USER0J"><![CDATA[I'll go talk to him and collect the evidence.]]></tag>
+	<tag id="ID_USER0K"><![CDATA[I'll select the next location.]]></tag>
+	
+		<!-- MURPHY0 -->
+	
+	<tag id="ID_MURPHY0A"><![CDATA[What are you doing here?]]></tag>
+	<tag id="ID_MURPHY00A"><![CDATA[How can I help you?]]></tag>
+	<tag id="ID_MURPHY0B"><![CDATA[Yes, I was shocked to learn about it. We were supposed to meet at 12:30 this afternoon.]]></tag>
+	<tag id="ID_MURPHY0C"><![CDATA[About my job offer to him. Marco was a wonderful handler. I would have treated him much better than Ms. Ranger did.]]></tag>
+	<tag id="ID_MURPHY0D"><![CDATA[Yes. Now that Apollo is missing, my Tobias will certainly be the champion in today's show!]]></tag>
+	<tag id="ID_MURPHY0E"><![CDATA[I don't think it's necessary. I have nothing to do with Marco Williams' death.]]></tag>
+	<tag id="ID_MURPHY0F"><![CDATA[Since this is dog show property, I guess there is nothing I can do to stop you.]]></tag>
+	<tag id="ID_MURPHY0G"><![CDATA[It's a rat poison. Of course I used it to kill rats. What else would I use it for?]]></tag>
+	<tag id="ID_MURPHY0H"><![CDATA[Why would I go there? I don't even like Ms. Ranger.]]></tag>
+	<tag id="ID_MURPHY0I"><![CDATA[Well... I admit that it would help my dog's chances if Apollo got sick. But I didn't kill any dog or any person!]]></tag>
+	<tag id="ID_MURPHY0J"><![CDATA[Take whatever you need. The evidence will support my story.]]></tag>
+	
+		<!-- REPLIES TO MURPHY -->
+	
+	<tag id="ID_USER1A"><![CDATA[Have you heard about Marco Williams' death?]]></tag>
+	<tag id="ID_USER1B"><![CDATA[I need to search the RV.]]></tag>
+	<tag id="ID_USER1C"><![CDATA[May I collect some evidence from you?]]></tag>
+	<tag id="ID_USER1D"><![CDATA[Thank you for your cooperation.]]></tag>
+	<tag id="ID_USER1E"><![CDATA[Why were you meeting?]]></tag>
+	<tag id="ID_USER1F"><![CDATA[So, is that your dog over there?]]></tag>
+	<tag id="ID_USER1G"><![CDATA[What do you use this poison for?]]></tag>
+	<tag id="ID_USER1H"><![CDATA[Have you ever been to Ranger's RV?]]></tag>
+	<tag id="ID_USER1I"><![CDATA[If that's the case, why did we find your fingerprints on the spoon in her RV?]]></tag>
+	<tag id="ID_USER1J"><![CDATA[Well, we'll find that out. I need to collect some evidence from you.]]></tag>
+	<tag id="ID_USER1K"><![CDATA[I'm going to collect a DNA sample and a bite impression from you.]]></tag>
+	
+</strings>	

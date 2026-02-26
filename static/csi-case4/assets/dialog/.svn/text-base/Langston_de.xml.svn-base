@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<dialog name="Langston">
+	<conversation location="CrimeScene" visit="1" name="Outside">
+		<statement num="1"><![CDATA[Schön, dass du hier bist.]]></statement>
+		<statement num="2"><![CDATA[Das Opfer ist ein junges Männchen. Eine Hündin namens Natalie Perez hatte die Feuerwehr nach der Flucht das Feuer genannt. Der Anruf kam in ca. 3 Uhr.]]></statement>
+		<statement num="3"><![CDATA[Sie hatte offenbar keine schweren körperlichen Verletzungen haben, aber EMS hat behandeln sie für das Einatmen von Rauch und übertragen sie ins Krankenhaus.]]></statement>
+		<statement num="4"><![CDATA[Das ist, was wir herausfinden müssen. Es ist wichtig, einen offenen Geist zu behalten, wenn die Untersuchung ein Feuer.]]></statement>
+		<statement num="5"><![CDATA[Doc Robbins 'Team hat bereits hob ihn auf.]]></statement>
+		<statement num="6"><![CDATA[Erstens, nach Beweisen außerhalb des Hauses schauen und sehen, ob es irgendwelche Zeugen sind. Dann können wir untersuchen, das Feuer-Szene.]]></statement>		
+		<response num="1"><![CDATA[Was ist passiert?]]></response>
+		<response num="2"><![CDATA[Wo ist Natalie Perez jetzt?]]></response>
+		<response num="3"><![CDATA[War es Brandstiftung oder ein Unfall?]]></response>
+		<response num="4"><![CDATA[Wo ist der Körper?]]></response>
+		<response num="5"><![CDATA[Was muss ich tun?]]></response>
+		<response num="6"><![CDATA[Ich bin bereit, Nachforschungen anzustellen.]]></response>
+	</conversation>
+	<conversation location="CrimeScene" visit="1" name="OutsideUnfinished">
+		<statement num="1"><![CDATA[Haben Sie Fragen?]]></statement>
+		<statement num="2"><![CDATA[Noch nicht. Sie müssen noch ...]]></statement>
+		<response num="1"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="2"><![CDATA[Ich halte die Untersuchung.]]></response>
+	</conversation>
+	<conversation location="CrimeScene" visit="1" name="OutsideFinished">
+		<statement num="1"><![CDATA[Haben Sie Fragen?]]></statement>
+		<statement num="2"><![CDATA[Ja, gehen wir zurück in die Zentrale und analysieren die Beweise, die wir haben.]]></statement>
+		<response num="1"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="2"><![CDATA[Lassen Sie uns ins Labor zu gehen.]]></response>
+	</conversation>
+	<conversation location="CrimeScene-LivingRoom" visit="1" name="LivingRoom">		
+		<statement num="1"><![CDATA[Haben Sie eine Frage zu der Untersuchung?]]></statement>
+		<statement num="2"><![CDATA[Dokumentation ist der Schlüssel zu, wenn bei der Untersuchung Feuer. Sollten Sie schauen und fotografieren die Szene nach Beweisen.]]></statement>
+		<statement num="3"><![CDATA[Verwenden Sie die Kamera in Ihrer Werkzeuge.]]></statement>
+		<statement num="4"><![CDATA[Alles, was den Ursprung des Feuers Punkt könnte. Auch für Indizien suchen, wie Personal Habseligkeiten.]]></statement>	
+		<response num="1"><![CDATA[Was soll ich hier tun?]]></response>
+		<response num="2"><![CDATA[Wie mache ich Bilder?]]></response>
+		<response num="3"><![CDATA[Welche Art von Nachweis sollte ich achten?]]></response>
+		<response num="4"><![CDATA[Ich beginne die Verarbeitung der Szene.]]></response>
+	</conversation>
+	<conversation location="CrimeScene-LivingRoom" visit="1" name="LivingRoomUnfinished">
+		<statement num="1"><![CDATA[Wie kann ich Ihnen helfen?]]></statement>
+		<statement num="2"><![CDATA[Noch nicht. Sie müssen noch zu ...]]></statement>
+		<response num="1"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="2"><![CDATA[Ich halte Untersuchung.]]></response>
+	</conversation>
+	<conversation location="CrimeScene-LivingRoom" visit="1" name="LivingRoomFinished">
+		<statement num="1"><![CDATA[Haben Sie Fragen?]]></statement>
+		<statement num="2"><![CDATA[Ja, gehen wir zurück in die Zentrale und analysieren die Beweise, die wir haben.]]></statement>
+		<response num="1"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="2"><![CDATA[Lassen Sie uns ins Labor zu gehen.]]></response>
+		
+	<conversation location="NeighborsHouse" visit="1" name="NeighborUnfinished">
+		<statement num="1"><![CDATA[Haben Sie Fragen?]]></statement>
+		<statement num="2"><![CDATA[Noch nicht. Sie müssen noch zu ...]]></statement>
+		<response num="1"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="2"><![CDATA[Ich halte Untersuchung.]]></response>
+	</conversation>
+	<conversation location="NeighborsHouse" visit="1" name="NeighborFinished">
+		<statement num="1"><![CDATA[Haben Sie Fragen?]]></statement>
+		<statement num="2"><![CDATA[Yes. Let's move on.]]></statement>
+		<response num="1"><![CDATA[Bin ich hier gemacht?]]></response>
+		<response num="2"><![CDATA[Ich wähle meine nächste Lage.]]></response>
+	</conversation>
+	</conversation>
+</dialog>

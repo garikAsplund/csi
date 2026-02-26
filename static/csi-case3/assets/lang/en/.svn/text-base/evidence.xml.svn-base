@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<strings>
+
+	<!-- English -->
+	<tag id="ID_TEST">Hi [name], this is a test string from tools. </tag>
+
+	<!-- EVIDENCE -->
+	
+	<tag id="ID_EVIDENCE_DEFAULT_NAME"></tag>
+	<tag id="ID_EVIDENCE_DEFAULT_IMAGE"><![CDATA[evidence_default_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_DEFAULT_TITLE"></tag>
+	<tag id="ID_EVIDENCE_DEFAULT_ROOM">room000</tag>
+	<tag id="ID_EVIDENCE_DEFAULT_HEADER"></tag>
+	<tag id="ID_EVIDENCE_DEFAULT_DESCRIPTION"></tag>
+	
+	<tag id="ID_EVIDENCE_AGENTSHOES_NAME"><![CDATA[Agent's Shoes]]></tag>
+	<tag id="ID_EVIDENCE_AGENTSHOES_IMAGE"><![CDATA[evidence_agentshoes_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_AGENTSHOES_TITLE"><![CDATA[Agent's Shoes]]></tag>
+	<tag id="ID_EVIDENCE_AGENTSHOES_ROOM">room007</tag>
+	<tag id="ID_EVIDENCE_AGENTSHOES_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE" size="+1">Maury Wan's Shoes</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_AGENTSHOES_DESCRIPTION"><![CDATA[<font size="+2">	Maury Wan hasn't been very helpful so far - maybe he's hiding something.  If these shoes are a match to the shoeprint impression you made at the crime scene, he won't be able to hide for much longer.
+	Use the light table to compare these shoes with the shoeprint impression you made at the crime scene.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_BOYFRIENDPRINTS_NAME"><![CDATA[Garvey's Prints]]></tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDPRINTS_IMAGE"><![CDATA[evidence_boyfriendprints_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDPRINTS_TITLE"><![CDATA[Garvey's Prints]]></tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDPRINTS_ROOM">room009</tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDPRINTS_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE">Lawrence Garvey's Prints</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDPRINTS_DESCRIPTION"><![CDATA[<font size="+2">	It sounds like Freebird's boyfriend was one of the last people to see her alive.  If he's responsible for her death, he would have left his fingerprints somewhere - on the car or maybe on the murder weapon.  You've just got to find them.
+	Enter the fingerprints into the lab computer so you can compare them with those you find during your investigation.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_BOYFRIENDSHOES_NAME"><![CDATA[Garvey's Shoes]]></tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDSHOES_IMAGE"><![CDATA[evidence_boyfriendshoes_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDSHOES_TITLE"><![CDATA[Garvey's Shoes]]></tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDSHOES_ROOM">room009</tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDSHOES_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE">Lawrence Garvey's Shoes</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_BOYFRIENDSHOES_DESCRIPTION"><![CDATA[<font size="+2">	You still haven't identified who left the shoeprint at the crime scene.  These shoes could clear Lawrence Garvey, or indict him.  If they are a match to the impression, it will be hard for him to explain that away.
+	Use the light table in the lab to compare these shoes with the shoeprint impression you made at the crime scene.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_CRIMESCENESHOEPRINT_NAME"><![CDATA[Crime Scene Shoeprint]]></tag>
+	<tag id="ID_EVIDENCE_CRIMESCENESHOEPRINT_IMAGE"><![CDATA[evidence_crimesceneshoeprint_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_CRIMESCENESHOEPRINT_TITLE"><![CDATA[Crime Scene Shoeprint]]></tag>
+	<tag id="ID_EVIDENCE_CRIMESCENESHOEPRINT_ROOM">room005</tag>
+	<tag id="ID_EVIDENCE_CRIMESCENESHOEPRINT_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Shoeprint from the Crime Scene</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_CRIMESCENESHOEPRINT_DESCRIPTION"><![CDATA[<font size="+2">	Someone was at this crime scene, but does that mean they were involved, or perhaps just passing through? 
+	When you go to the LAB, use the light table to compare the shoeprint to ones you have collected from suspects. Maybe it can help identify the dead body in the car.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_HOUSESHOEPRINT_NAME"><![CDATA[House Shoeprint]]></tag>
+	<tag id="ID_EVIDENCE_HOUSESHOEPRINT_IMAGE"><![CDATA[evidence_houseshoeprint_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_HOUSESHOEPRINT_TITLE"><![CDATA[House Shoeprint]]></tag>
+	<tag id="ID_EVIDENCE_HOUSESHOEPRINT_ROOM">room008</tag>
+	<tag id="ID_EVIDENCE_HOUSESHOEPRINT_HEADER"><![CDATA[<font size="+2">You've acquired a <font color="#D6DEFE" size="+1">Shoeprint from the Freebird's House</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_HOUSESHOEPRINT_DESCRIPTION"><![CDATA[<font size="+2">	This shoeprint was outside Freebird's house, in front of a window.  Was someone keeping an eye on her?  This may not be related to her murder, but it couldn't hurt to compare it to the unknown shoeprint impression you made at the crime scene.
+	Use the light table in the lab to compare this impression to other shoeprints or to any shoes you collect as evidence.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_DIARYCODE_NAME"><![CDATA[Diary Code]]></tag>
+	<tag id="ID_EVIDENCE_DIARYCODE_IMAGE"><![CDATA[evidence_diarycode_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_DIARYCODE_TITLE"><![CDATA[Diary Code]]></tag>
+	<tag id="ID_EVIDENCE_DIARYCODE_ROOM">room009</tag>
+	<tag id="ID_EVIDENCE_DIARYCODE_HEADER"><![CDATA[<font size="+2">You've acquired the <font color="#D6DEFE" size="+1">Diary Code</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_DIARYCODE_DESCRIPTION"><![CDATA[<font size="+2">	This code should allow you access to the locked diary you found in Freebird's house.  It's always better to access evidence without damaging it!
+	To use the code, first click the icon under your "Evidence" tab, the click the diary.  It should grant you access.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_HUNTINGKNIFE_NAME"><![CDATA[Hunting Knife]]></tag>
+	<tag id="ID_EVIDENCE_HUNTINGKNIFE_IMAGE"><![CDATA[evidence_huntingknife_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_HUNTINGKNIFE_TITLE"><![CDATA[Hunting Knife]]></tag>
+	<tag id="ID_EVIDENCE_HUNTINGKNIFE_ROOM">room008</tag>
+	<tag id="ID_EVIDENCE_HUNTINGKNIFE_HEADER"><![CDATA[<font size="+2">You've acquired a <font color="#D6DEFE" size="+1">Hunting Knife</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_HUNTINGKNIFE_DESCRIPTION"><![CDATA[<font size="+2">	This hunting knife has blood on it. Is it the murder weapon?
+	Use the comparison microscope in the lab to compare the striations on this hunting knife with the toolmarks on our victim's ribs.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_KEYS_NAME"><![CDATA[Keys]]></tag>
+	<tag id="ID_EVIDENCE_KEYS_IMAGE"><![CDATA[evidence_keys_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_KEYS_TITLE"><![CDATA[Keys]]></tag>
+	<tag id="ID_EVIDENCE_KEYS_ROOM">room006</tag>
+	<tag id="ID_EVIDENCE_KEYS_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Keys</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_KEYS_DESCRIPTION"><![CDATA[<font size="+2">	These keys were in the ignition of the burned car found in the desert.  The car will never run again, but these keys may prove useful in other ways.  Who knows what secrets they will unlock?
+	To use the keys, CLICK on their icon under the EVIDENCE tab and move the icon over the locked object.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_LIQUORBOTTLE_NAME"><![CDATA[Liquor Bottle]]></tag>
+	<tag id="ID_EVIDENCE_LIQUORBOTTLE_IMAGE"><![CDATA[evidence_liquorbottle_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_LIQUORBOTTLE_TITLE"><![CDATA[Liquor Bottle]]></tag>
+	<tag id="ID_EVIDENCE_LIQUORBOTTLE_ROOM">room005</tag>
+	<tag id="ID_EVIDENCE_LIQUORBOTTLE_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Empty Liquor Bottle</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_LIQUORBOTTLE_DESCRIPTION"><![CDATA[<font size="+2">	Drunk Driving doesn't usually result in a burned-out car, but there's always a first.  But if the driver was drinking, why is the empty bottle in the trunk?
+	When you go to the LAB, analyze this bottle for fingerprints. Maybe it can help identify the dead body in the car.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_MOTHERDNA_NAME"><![CDATA[Sallie Reynold's DNA]]></tag>
+	<tag id="ID_EVIDENCE_MOTHERDNA_IMAGE"><![CDATA[evidence_motherdna_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_MOTHERDNA_TITLE"><![CDATA[Sallie Reynold's DNA]]></tag>
+	<tag id="ID_EVIDENCE_MOTHERDNA_ROOM">room009</tag>
+	<tag id="ID_EVIDENCE_MOTHERDNA_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE" size="+1">Sallie Reynold's DNA Sample</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_MOTHERDNA_DESCRIPTION"><![CDATA[<font size="+2">	Children inherit 50% of their DNA from their mother and 50% from their father.  If your victim really is Freebird Reynold, 50% of her DNA markers should be identical to Sallie Reynolds' DNA markers.
+	Use the DNA sequence in the lab to analyze this DNA sample and compare it to the victim's DNA profile.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_RECONSTRUCTEDFACE_NAME"><![CDATA[Picture of Reconstructed Face]]></tag>
+	<tag id="ID_EVIDENCE_RECONSTRUCTEDFACE_IMAGE"><![CDATA[evidence_reconstructedface_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_RECONSTRUCTEDFACE_TITLE"><![CDATA[Picture of Reconstructed Face]]></tag>
+	<tag id="ID_EVIDENCE_RECONSTRUCTEDFACE_ROOM">room003</tag>
+	<tag id="ID_EVIDENCE_RECONSTRUCTEDFACE_HEADER"><![CDATA[<font size="+2">You've acquired a <font color="#D6DEFE" size="+1">Picture of the Reconstructed Face</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_RECONSTRUCTEDFACE_DESCRIPTION"><![CDATA[<font size="+2">	White female, early 20's, and still missing a name.  A facial reconstruction's a long shot, but if you show this to enough people, someone might recognize her.
+	To show this photograph to people, first click the icon under your "Evidence" tab, then click the person you want to show the photograph to.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_STALKERCOMPUTER_NAME"><![CDATA[Gabriel Tam's Computer]]></tag>
+	<tag id="ID_EVIDENCE_STALKERCOMPUTER_IMAGE"><![CDATA[evidence_stalkercomputer_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_STALKERCOMPUTER_TITLE"><![CDATA[Gabriel Tam's Computer]]></tag>
+	<tag id="ID_EVIDENCE_STALKERCOMPUTER_ROOM">room010</tag>
+	<tag id="ID_EVIDENCE_STALKERCOMPUTER_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE" size="+1">Gabriel Tam's Computer</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_STALKERCOMPUTER_DESCRIPTION"><![CDATA[<font size="+2">	The e-mail service provider says Gabriel Tam sent the NO1FAN emails, but he denies knowing anything about it.  If he did send them, there will be some trace of it left on this computer.  However, beware of those "security measures" he mentioned.
+	Use the digital forensics station in the lab to analyze the data on this machine.  It could yield important impormation about Gabriel Tam's activities.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_STALKERPRINTS_NAME"><![CDATA[Tam's Prints]]></tag>
+	<tag id="ID_EVIDENCE_STALKERPRINTS_IMAGE"><![CDATA[evidence_stalkerprints_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_STALKERPRINTS_TITLE"><![CDATA[Tam's Prints]]></tag>
+	<tag id="ID_EVIDENCE_STALKERPRINTS_ROOM">room010</tag>
+	<tag id="ID_EVIDENCE_STALKERPRINTS_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE" size="+1">Gabriel Tam's Prints</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_STALKERPRINTS_DESCRIPTION"><![CDATA[<font size="+2">	Gabriel Tam claims he didn't have anything to do with Freebird's death, but do you really believe him?  You can compare these fingerprints with any you find on the murder weapon.  If he's telling the truth, he has nothing to fear.
+	Enter the fingerprints into the lab computer so you can compare them with those you find during your investigation.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_STALKERSHOES_NAME"><![CDATA[Tam's Shoes]]></tag>
+	<tag id="ID_EVIDENCE_STALKERSHOES_IMAGE"><![CDATA[evidence_stalkershoes_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_STALKERSHOES_TITLE"><![CDATA[Tam's Shoes]]></tag>
+	<tag id="ID_EVIDENCE_STALKERSHOES_ROOM">room010</tag>
+	<tag id="ID_EVIDENCE_STALKERSHOES_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE" size="+1">Gabriel Tam's Shoes</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_STALKERSHOES_DESCRIPTION"><![CDATA[<font size="+2">	You found Gabriel Tam's shoes in his apartment.  There's no reason for him to be at the crime scene or at Freebird's house, but it doesn't hurt to compare them to the impressions you made there.  If there's a match, it could help solve this case.
+	Use the light table in the lab to compare these shoes with the shoeprint impression you made at the crime scene.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_STALKERSWORD_NAME"><![CDATA[Gabriel Tam's Sword]]></tag>
+	<tag id="ID_EVIDENCE_STALKERSWORD_IMAGE"><![CDATA[evidence_stalkersword_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_STALKERSWORD_TITLE"><![CDATA[Gabriel Tam's Sword]]></tag>
+	<tag id="ID_EVIDENCE_STALKERSWORD_ROOM">room010</tag>
+	<tag id="ID_EVIDENCE_STALKERSWORD_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE" size="+1">Gabriel Tam's Sword</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_STALKERSWORD_DESCRIPTION"><![CDATA[<font size="+2">	This sword is mostly decorative, but that doesn't mean someone didn't try to use it in another fashion.
+	Use the comparison microscope in the lab to comare the striations on this sword with the striations left by the murder weapon.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_VICTIMCOMPUTER_NAME"><![CDATA[Freebird's Computer]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMCOMPUTER_IMAGE"><![CDATA[evidence_victimcomputer_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMCOMPUTER_TITLE"><![CDATA[Freebird's Computer]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMCOMPUTER_ROOM">room009</tag>
+	<tag id="ID_EVIDENCE_VICTIMCOMPUTER_HEADER"><![CDATA[<font size="+2">You've acquired <font color="#D6DEFE" size="+1">Freebird's Computer</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMCOMPUTER_DESCRIPTION"><![CDATA[<font size="+2">	People use their computers for all sorts of tasks - email, web surfing, personal calendars, document storage, etc.  All the important details of Freebird's life are probably stored on this machine.
+	Use the digital forensics station in the lab to analyze the data on this machine.  It could yield important information about Freebird.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_VICTIMDNA_NAME"><![CDATA[Victim's DNA]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMDNA_IMAGE"><![CDATA[evidence_victimdna_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMDNA_TITLE"><![CDATA[Victim's DNA]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMDNA_ROOM">room003</tag>
+	<tag id="ID_EVIDENCE_VICTIMDNA_HEADER"><![CDATA[<font size="+2">You've acquired the <font color="#D6DEFE" size="+1">Victim's DNA</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMDNA_DESCRIPTION"><![CDATA[<font size="+2">	This DNA sample could be your best chance to identify the victim.  If there's a match in the CODIS database, you'll have a name for the burned body found at the crime scene - and relatives to contact.
+	Use the DNA sequencer in the lab to analyze this DNA sample.  It will allow you to seach CODIS for a match or compare it to other samples you collect during the investigation.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_WOUNDIMPRESSION_NAME"><![CDATA[Stab Wound Impression]]></tag>
+	<tag id="ID_EVIDENCE_WOUNDIMPRESSION_IMAGE"><![CDATA[evidence_woundimpression_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_WOUNDIMPRESSION_TITLE"><![CDATA[Stab Wound Impression]]></tag>
+	<tag id="ID_EVIDENCE_WOUNDIMPRESSION_ROOM">room003</tag>
+	<tag id="ID_EVIDENCE_WOUNDIMPRESSION_HEADER"><![CDATA[<font size="+2">You've acquired the <font color="#D6DEFE" size="+1">Stab Wound Impression</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_WOUNDIMPRESSION_DESCRIPTION"><![CDATA[<font size="+2">	Our victim was stabbed before her body was burned, and this impression could help you find the murder weapon.  The small striations left in the cartilage can be compared to any knives or blades you find in your investigation.
+	Use the comparison microscope in the lab to compare this impression with any blades you find.  If the striations match, you know you've found the murder weapon.</font>]]></tag>
+
+
+</strings>

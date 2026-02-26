@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room007 - the agent's office. </tag>
+	
+		<!-- AGENT0 (BEFORE RUNNING MOTHER/DAUGHTER DNA COMPARISON) -->
+		
+	<tag id="ID_AGENT0A"><![CDATA[What do you want?]]></tag>
+	<tag id="ID_AGENT0B"><![CDATA[Yup.  Talent agent to the stars, that's me.  What's this about?  Time is money, and you're wasting mine.]]></tag>
+	<tag id="ID_AGENT0C"><![CDATA[What do I care about some dead girl.  Beat it why don't you?]]></tag>
+	<tag id="ID_AGENT0D"><![CDATA[Heck no! I'm a very private man!  Don't bother me until you know who the dead girl is.]]></tag>
+	
+		<!-- REPLIES TO AGENT, PART 0 -->
+
+	<tag id="ID_USER0A"><![CDATA[Are you Maury Wan?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[I'm investigating the murder of a Jane Doe in the desert a few days ago.]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Mind if I take a look around?]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[Okay, we'll be back.]]></tag>
+	
+		<!-- AGENT1 (AFTER RUNNING MOTHER/DAUGHTER DNA COMPARISON) -->
+		
+	<tag id="ID_AGENT1A"><![CDATA[What do you want?]]></tag>
+	<tag id="ID_AGENT1B"><![CDATA[Freebird?  She's one of my up and coming stars!  Oh, man, this will cost me millions!]]></tag>
+	<tag id="ID_AGENT1C"><![CDATA[You should talk to that "lump" she calls a boyfriend, Lawrence Garvey.  He was always jealous of her success.]]></tag>
+	<tag id="ID_AGENT1D"><![CDATA[Look - celebrity bad girls, they get all the attention.  But Freebird was so squeaky clean - she didn't drink, didn't get in trouble, and didn't make headlines!]]></tag>
+	<tag id="ID_AGENT1E"><![CDATA[What, you think I have something to do with this?  Look all you want, you won't find anything.]]></tag>
+	<tag id="ID_AGENT1F"><![CDATA[It seemed like a good idea at the time.  I could just see the headlines - "Good girl gone bad!"  I would have made millions!]]></tag>
+	<tag id="ID_AGENT1G"><![CDATA[You want the shirt on my back, too?  Go ahead, take 'em.]]></tag>
+	
+		<!-- REPLIES TO AGENT, PART 1 -->
+
+	<tag id="ID_USER1A"><![CDATA[Freebird Reynolds is dead.  Her body was found in a burned car in the desert.]]></tag>
+	<tag id="ID_USER1B"><![CDATA[Who would want to hurt Freebird?]]></tag>
+	<tag id="ID_USER1C"><![CDATA[Why were your fingerprints on a liquor bottle found at the scene?]]></tag>
+	<tag id="ID_USER1D"><![CDATA[Mind if I take a look around?]]></tag>
+	<tag id="ID_USER1E"><![CDATA[So you planted the bottle in her car?]]></tag>
+	<tag id="ID_USER1F"><![CDATA[I'll need to collect your shoes for evidence.]]></tag>
+	<tag id="ID_USER1EXIT"><![CDATA[Thank you for your time.]]></tag>
+	
+
+
+		<!-- NICK0 (BEFORE MOTHER/DAUGHTER DNA MATCH) -->
+		
+	<tag id="ID_NICK0A"><![CDATA[What would you like help with?]]></tag>
+	<tag id="ID_NICK0B"><![CDATA[Without a search warrant, we need the owner's permission.  Have you talked to Mr. Wan?]]></tag>
+	<tag id="ID_NICK0C"><![CDATA[He's demanding proof that he or his clients are involved in this.  Let's go analyze our evidence and see if we can find any proof.]]></tag>
+	
+		<!-- REPLIES TO AND QUESTIONS FOR NICK, PART 0 -->
+
+	<tag id="ID_USER2A"><![CDATA[Can I search this location?]]></tag>
+	<tag id="ID_USER2B"><![CDATA[He seems not to be very cooperative.]]></tag>
+	<tag id="ID_USER2EXIT"><![CDATA[I agree.  Let's go process the evidence I have.]]></tag>
+
+		<!-- NICK1 (AFTER MOTHER/DAUGHTER DNA MATCH, BEFORE PERMISSION IS GIVEN) -->
+		
+	<tag id="ID_NICK1A"><![CDATA[What would you like help with?]]></tag>
+	<tag id="ID_NICK1B"><![CDATA[Talk to Mr. Wan.  Our victim is one of his clients.]]></tag>
+	
+		<!-- REPLIES TO AND QUESTIONS FOR NICK, PART 1 -->
+
+	<tag id="ID_USER3A"><![CDATA[Can I search the location now?]]></tag>
+	<tag id="ID_USER3EXIT"><![CDATA[I'll go do that.]]></tag>
+
+		<!-- NICK2 (AFTER PERMISSION IS GIVEN) -->
+		
+	<tag id="ID_NICK2A"><![CDATA[What would you like help with?]]></tag>
+	<tag id="ID_NICK2B"><![CDATA[I'll agree he's not pleasant, but he gave us permission to search the place.  Take advantage of it.]]></tag>
+	<tag id="ID_NICK2C"><![CDATA[I think there's more evidence.]]></tag>
+	<tag id="ID_NICK2D"><![CDATA[I think we're done here. Time to move on.]]></tag>
+	
+		<!-- REPLIES TO AND QUESTIONS FOR NICK, PART 2 -->
+
+	<tag id="ID_USER4A"><![CDATA[Mr. Wan doesn't seem very cooperative.]]></tag>
+	<tag id="ID_USER4B"><![CDATA[Are we finished here?]]></tag>
+	<tag id="ID_USER4BADEXIT"><![CDATA[I'll keep looking for more evidence.]]></tag>
+	<tag id="ID_USER4EXIT"><![CDATA[Let's get out of here.]]></tag>
+	
+	
+</strings>	

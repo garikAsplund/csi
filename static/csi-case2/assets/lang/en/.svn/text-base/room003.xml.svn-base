@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room003. </tag>
+	
+		<!-- DOC0  -->
+		
+	<tag id="ID_DOC0A"><![CDATA[Here to inquire about our latest victim? Marco Williams, correct?]]></tag>
+	<tag id="ID_DOC0B"><![CDATA[It looks like blunt force trauma to the forehead. There was a LACERATION, or cut, on the front of his head that must have bled quite a bit before he died.]]></tag>
+	<tag id="ID_DOC0C"><![CDATA[My team recorded the body temperature and the temperature at the scene. I'd estimate death was recent, less than five hours ago.]]></tag>
+	<tag id="ID_DOC0D"><![CDATA[There're some things that stand out. Why don't we take a look at the body together so you can see for yourself?]]></tag>
+	
+		<!-- REPLIES TO DOC -->
+
+	<tag id="ID_USER0A"><![CDATA[What was the cause of death?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[What was the time of death?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Did you find any evidence on the body?]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[Sure. Let me see what I can find.]]></tag>
+	
+	
+		<!-- DOC1  -->
+		
+	<tag id="ID_DOC1A"><![CDATA[Well done. That PUNCTURE WOUND means our victim was possibly injected with a drug or other chemical. If I supply you with a blood sample, how will you analyze it?]]></tag>
+	<tag id="ID_DOC1B"><![CDATA[We know the identity of the victim, so analyzing his DNA will be helpful only when used for comparison. It won't tell us if there are chemicals in the blood. Try again.]]></tag>
+	<tag id="ID_DOC1C"><![CDATA[Histology involves staining cells or tissues and examining them under a microscope. It won't tell you if any chemicals are in his blood. Try again.]]></tag>
+	<tag id="ID_DOC1D"><![CDATA[Good idea. Toxicology analyses will tell us if any chemicals are present in his blood and help identify them.]]></tag>
+	
+	<tag id="ID_USER1A"><![CDATA[I'll do a DNA analysis on the blood.]]></tag>
+	<tag id="ID_USER1B"><![CDATA[I'll run histology tests on the blood.]]></tag>
+	<tag id="ID_USER1C"><![CDATA[I'll run toxicology tests on the blood.]]></tag>
+	<tag id="ID_USER1EXIT"><![CDATA[I'll start the tests when I'm in the lab.]]></tag>
+	
+	
+		<!-- DOC2  -->
+		
+	<tag id="ID_DOC2A"><![CDATA[That head wound would have bled profusely. I also found bruising and swelling of the brain consistent with blunt force trauma.]]></tag>
+	<tag id="ID_DOC2B"><![CDATA[BLUNT FORCE TRAUMA results when a blunt object strikes the body (or the body impacts against a blunt object). It can cause bruising, lacerations (cuts), and bone fractures.]]></tag>
+	<tag id="ID_DOC2C"><![CDATA[I think so. I found CONTUSIONS (bruises) on the outer surface of the brain. This means the impact was so hard his brain collided with the inside of his skull. I also saw hemorrhaging, or bleeding, in his brain.]]></tag>
+	<tag id="ID_DOC2D"><![CDATA[One more thing! Grissom said there wasn't much blood at the crime scene, which is odd. A wound like this would normally bleed quite a bit. You'll need to find the blood to identify the place where the death of the victim occurred.]]></tag>
+<!--
+	<tag id="ID_DOC2E"><![CDATA[I'll provide you with <b>luminol</b>. When it comes into contact with blood, a chemical reaction occurs and it starts to <u>luminesce</u>, or glow. Use it in any locations where you think there might be blood.]]></tag>
+	<tag id="ID_DOC2F"><![CDATA[Luminol reacts with the iron in blood to form excited ions that give off light. However, it can also react with elements in horseradish and some types of bleach, so be careful.]]></tag>
+	<tag id="ID_DOC2G"><![CDATA[The luminol will be in your inventory. To use it click the icon, then click anywhere in the room. Any blood residue will start to glow.]]></tag>
+-->
+	
+	<tag id="ID_USER2A"><![CDATA[What's "blunt force trauma?"]]></tag>
+	<tag id="ID_USER2B"><![CDATA[Was this the cause of death?]]></tag>
+	<tag id="ID_USER2C"><![CDATA[I'll look for other points of interest.]]></tag>
+<!--
+	<tag id="ID_USER2D"><![CDATA[How can I search for blood?]]></tag>
+	<tag id="ID_USER2E"><![CDATA[Why does it luminesce?]]></tag>
+	<tag id="ID_USER2F"><![CDATA[How do I use it?]]></tag>
+-->
+	<tag id="ID_USER2EXIT"><![CDATA[I'll keep looking for points of interest.]]></tag>
+	
+		<!-- DOC3  -->
+		
+	<tag id="ID_DOC3A"><![CDATA[How do you think we should preserve this bitemark?]]></tag>
+	<tag id="ID_DOC3B"><![CDATA[Impressions can be helpful, but you can lose many important details as well. There's a better method to document this.]]></tag>
+	<tag id="ID_DOC3C"><![CDATA[I don't think the family would appreciate that at the funeral. There's a less destructive way to preserve this evidence.]]></tag>
+	
+	<tag id="ID_USER3EXIT"><![CDATA[We should photograph it.]]></tag>
+	<tag id="ID_USER3B"><![CDATA[We should make an impression of it.]]></tag>
+	<tag id="ID_USER3C"><![CDATA[We should cut off his arm to preserve it.]]></tag>
+	
+		<!-- DOC4  -->
+
+	<tag id="ID_DOC4A"><![CDATA[You've found everything I discovered during my external autopsy. Go analyze the evidence in the Lab. I hope it proves to be helpful.]]></tag>
+	
+	<tag id="ID_USER4A"><![CDATA[Thank you, Doc. I am going to the Lab now.]]></tag>
+<!--
+	<tag id="ID_DOC4A"><![CDATA[You've found everything I discovered during my external autopsy. I hope the blood sample and bite mark impression prove useful, but there's one last thing you need.]]></tag>
+	<tag id="ID_DOC4B"><![CDATA[I've removed Mr. Williams' clothes so you can analyze them in detail in the lab. You might discover some important trace evidence on them.]]></tag>
+	
+	<tag id="ID_USER4A"><![CDATA[What's this "one last thing?"]]></tag>
+	<tag id="ID_USER4B"><![CDATA[Thank you, doctor.]]></tag>
+-->
+	
+	<tag id="ID_BODYSEARCH_INSTRUCT_1"><![CDATA[Use the magnifying glass to search the body. There are <b>three</b> points of interest.]]></tag>
+	<tag id="ID_BODYSEARCH_INSTRUCT_2"><![CDATA[You still have <b>two</b> points of interest to find.]]></tag>
+	<tag id="ID_BODYSEARCH_INSTRUCT_3"><![CDATA[There's <b>one</b> point of interest left.]]></tag>
+	<tag id="ID_BODYSEARCH_PHOTO_1"><![CDATA[Good choice. Photographing it under the right conditions should give us a lot of details for comparisons. First focus the camera with the slider on the right.]]></tag>
+	<tag id="ID_BODYSEARCH_PHOTO_2"><![CDATA[Now position the scale close to the left of the bitemark. This will help us make sure the photograph is life-size when we compare it to people's teeth impressions.]]></tag>
+	<tag id="ID_BODYSEARCH_PHOTO_3"><![CDATA[Now use the slider on the left to control the OBLIQUE LIGHTING. Oblique means "from the side." By controlling the angle of the light, we can control how detailed the photograph is.]]></tag>
+	<tag id="ID_BODYSEARCH_PHOTO_4"><![CDATA[Well done. Now click the bitemark to take a picture of it.]]></tag>
+	<tag id="ID_BODYSEARCH_SWAB_1"><![CDATA[In addition to taking pictures, we'll use the DOUBLE SWAB METHOD to collect saliva from the bite site. First, use the sterile distilled water to moisten the swab.]]></tag>
+	<tag id="ID_BODYSEARCH_SWAB_1_5"><![CDATA[Next, use the moistened swab to wash the dried saliva from the bitemark surface.]]></tag>
+	<tag id="ID_BODYSEARCH_SWAB_2"><![CDATA[Now, use a second swab that is dry to collect the moisture left on the surface by the first swab.]]></tag>
+	
+	<tag id="ID_SWAB_FIRST"><![CDATA[First Swab]]></tag>
+	<tag id="ID_SWAB_DRY"><![CDATA[Dry Swab]]></tag>
+	
+</strings>	

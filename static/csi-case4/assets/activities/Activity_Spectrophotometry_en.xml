@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<activity name="Spectrophotometry">
+	<screen name="screen1">
+		<instruct><![CDATA[The first step is to dilute the blood with a diluting solution.
+
+Use the pipette to add a certain amount of diluting solution to both empty containers, called cuvettes.]]></instruct>
+		<label num="1"><![CDATA[Sample]]></label>
+		<label num="2"><![CDATA[Control]]></label>
+		<label num="3"><![CDATA[Diluting Solution]]></label>
+	</screen>
+	<screen name="screen2">
+		<instruct><![CDATA[Good. Now add a small amount of blood to the cuvette labeled
+“sample”.
+
+The other cuvette, with only the diluting solution, will be our
+control.]]></instruct>
+		<label num="1"><![CDATA[Sample]]></label>
+		<label num="2"><![CDATA[Control]]></label>
+	</screen>
+	<screen name="screen3">
+		<instruct><![CDATA[The chemicals in the diluting solution remove the oxygen from the oxyhemoglobin, but they do not affect the carboxyhemoglobin.]]></instruct>
+		<caption num="1"><![CDATA[Sample]]></caption>
+		<caption num="2"><![CDATA[Deoxyhemoglobin (deoxyHb)]]></caption>
+		<caption num="3"><![CDATA[Oxyhemoglobin (O2Hb)]]></caption>
+		<caption num="4"><![CDATA[Carboxyhemoglobin (COHb)]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen4">
+		<instruct><![CDATA[As a result, we’ll end up having only two molecules in our sample: deoxyhemoglobin and carboxyhemoglobin.]]></instruct>
+		<caption num="1"><![CDATA[Sample]]></caption>
+		<caption num="2"><![CDATA[Deoxyhemoglobin (deoxyHb)]]></caption>
+		<caption num="3"><![CDATA[Oxyhemoglobin (O2Hb)]]></caption>
+		<caption num="4"><![CDATA[Carboxyhemoglobin (COHb)]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen5">
+		<instruct><![CDATA[This is our machine, a spectrophotometer.
+
+Let me explain how it works while we’re waiting for it to calibrate.]]></instruct>
+		<label num="1"><![CDATA[Sample]]></label>
+		<label num="2"><![CDATA[Control]]></label>
+		<label num="3"><![CDATA[Calibrating...]]></label>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen6">
+		<instruct><![CDATA[Inside the spectrophotometer is a light source, which shoots
+a beam of light of a certain wavelength on the sample.
+
+This sample contains two different molecules.]]></instruct>
+		<caption num="1"><![CDATA[Light Source]]></caption>
+		<caption num="2"><![CDATA[Light]]></caption>
+		<caption num="3"><![CDATA[High intensity]]></caption>
+		<caption num="4"><![CDATA[Sample]]></caption>
+		<caption num="5"><![CDATA[Molecule A]]></caption>
+		<caption num="6"><![CDATA[Molecule B]]></caption>
+		<caption num="7"><![CDATA[Detector]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen7">
+		<instruct><![CDATA[A detector measures the intensity of the light that leaves the sample.
+
+Since the molecules in the sample ABSORB some of the light, the light that leaves the sample is less intense than the light that went into the sample.]]></instruct>
+		<caption num="1"><![CDATA[Light Source]]></caption>
+		<caption num="2"><![CDATA[Light]]></caption>
+		<caption num="3"><![CDATA[High intensity]]></caption>
+		<caption num="4"><![CDATA[Sample]]></caption>
+		<caption num="5"><![CDATA[Light]]></caption>
+		<caption num="6"><![CDATA[Lower Intensity]]></caption>
+		<caption num="7"><![CDATA[Detector]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen8">
+		<instruct><![CDATA[Now let’s look at two different samples.
+
+Click on both light sources to see what happens when the light hits the samples.]]></instruct>
+		<caption num="1"><![CDATA[Sample 1]]></caption>
+		<caption num="2"><![CDATA[Sample 2]]></caption>
+		<caption num="3"><![CDATA[Light Source]]></caption>
+		<caption num="4"><![CDATA[Detector]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen9">
+		<instruct><![CDATA[Which of the two samples absorbed more light?]]></instruct>
+		<caption num="1"><![CDATA[Sample 1]]></caption>
+		<caption num="2"><![CDATA[Sample 2]]></caption>
+		<caption num="3"><![CDATA[Light Source]]></caption>
+		<caption num="4"><![CDATA[Detector]]></caption>
+		<option num="1" correct="false"><![CDATA[Sample 1]]></option>
+		<option num="2" correct="true"><![CDATA[Sample 2]]></option>
+		<wrongText><![CDATA[Remember, if more light is absorbed by the sample, less of the light leaves the sample. Try again.]]></wrongText>
+		<rightText><![CDATA[Yes– the light that leaves sample 2 is less intense than the light that leaves sample 1, meaning more of it has been absorbed.]]></rightText>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen10">
+		<instruct><![CDATA[Why do you think sample 2 absorbs more light than sample 1?]]></instruct>
+		<caption num="1"><![CDATA[Sample 1]]></caption>
+		<caption num="2"><![CDATA[Sample 2]]></caption>
+		<caption num="3"><![CDATA[Light Source]]></caption>
+		<caption num="4"><![CDATA[Detector]]></caption>
+		<option num="1" correct="false"><![CDATA[The width of the cuvettes is different]]></option>
+		<option num="2" correct="true"><![CDATA[The concentration of molecules is different]]></option>
+		<wrongText><![CDATA[No, both cuvettes have the same width. But there’s something different inside the cuvettes. Try again.]]></wrongText>
+		<rightText><![CDATA[Good observation. Although there are the same types of molecules in each cuvette, the concentration is different.
+
+The ABSORBANCE of a sample (the extent to which light is absorbed) depends on the concentrations of the different molecules in the sample.]]></rightText>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen11">
+		<instruct><![CDATA[Before we measure the blood sample, we'll measure the diluting
+solution alone.
+
+Place the control cuvette in the spectrophotometer and click the
+start button.]]></instruct>
+		<label num="1"><![CDATA[Sample]]></label>
+		<label num="2"><![CDATA[Control]]></label>
+	</screen>
+	<screen name="screen12">
+		<instruct><![CDATA[The machine is set up in a way that it will zero out the measured absorbance of the diluting solution.
+
+This way we can be sure that when we measure the sample, it will
+only display the absorbance of the carboxyhemoglobin.]]></instruct>
+		<label num="1"><![CDATA[Sample]]></label>
+		<label num="2"><![CDATA[Control]]></label>
+		<label num="3"><![CDATA[Measuring...]]></label>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen13">
+		<instruct><![CDATA[Now, place the control back in the cuvette holder and place the
+cuvette with the blood sample in the machine.
+
+Click the start button when you’re done.]]></instruct>
+		<label num="1"><![CDATA[Sample]]></label>
+		<label num="2"><![CDATA[Control]]></label>
+	</screen>
+	<screen name="screen14">
+		<instruct><![CDATA[The machine will automatically calculate the amount of
+carboxyhemoglobin in the sample based on the absorbance.]]></instruct>
+		<label num="1"><![CDATA[Sample]]></label>
+		<label num="2"><![CDATA[Control]]></label>
+		<label num="3"><![CDATA[Measuring...]]></label>
+		<answer><![CDATA[COHb:3.25%]]></answer>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+</activity>

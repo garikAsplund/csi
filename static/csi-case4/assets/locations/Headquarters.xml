@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<location name="Headquarters" displayName="CSI Headquarters" iconName="CSI
+HQ">
+	<object name="ToLab" />
+	<object name="ToMorgue" />
+	<object name="ToCatherinesOffice" />
+	<visit num="1" ambient="HeadquartersAmbient">
+		<clickable name="ToLab" type="ignore" action="location:Lab" caption="CSI&#10;LAB" />
+		<clickable name="ToMorgue" type="ignore" action="activity:MorgueComeBack" persist="true" caption="MORGUE" />
+		<clickable name="ToCatherinesOffice" type="ignore" action="location:CatherinesOffice" caption="CATHERINE'S OFFICE" />
+	</visit>
+	<visit num="2" ambient="HeadquartersAmbient">
+		<clickable name="ToLab" type="ignore" action="location:Lab" caption="CSI&#10;LAB"/>
+		<clickable name="ToMorgue" type="ignore" action="location:Morgue" caption="MORGUE" />
+		<clickable name="ToCatherinesOffice" type="ignore" action="location:CatherinesOffice" caption="CATHERINE'S OFFICE" />
+	</visit>
+</location>

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<messages>
+	<message name="message1">
+		<pic>Russell</pic>
+		<character><![CDATA[Russell]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Email warrant]]></title>
+		<text><![CDATA[The sender of the threatening emails claims that our victim turned his or her daughter into a drug addict? That could be a strong motive.
+
+I'll try to find out who the email sender is and ask for a warrant.]]></text>
+	</message>
+	<message name="message2">
+		<pic>Russell</pic>
+		<character><![CDATA[Russell]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Warrant granted]]></title>
+		<text><![CDATA[The sender of the threatening emails is Terry McCoy. The warrant to search his place was granted, so make sure you pay him a visit. 
+		
+Also, you should go back to the crime scene. Maybe you can find some more information about McCoy's daughter and the subpoena.]]></text>
+	</message>
+	<message name="message3">
+		<pic>Russell</pic>
+		<character><![CDATA[Russell]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Security access log]]></title>
+		<text><![CDATA[The security access log from the clinic has arrived. It's waiting for you on the lab computer. 
+		
+Also, I've asked Greg to pull up Melissa McCoy's tox screen. Ask him to show it to you when you're back here.]]></text>
+	</message>
+	<message name="message4">
+		<pic>Russell</pic>
+		<character><![CDATA[Russell]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Assistant involved?]]></title>
+		<text><![CDATA[I wonder what Anna Steward was doing at the crime scene so late that evening.
+
+Go and visit her while I'll be working on a warrant. I'll send her address to your locations.]]></text>
+	</message>
+	<message name="message5">
+		<pic>Russell</pic>
+		<character><![CDATA[Russell]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Bank account]]></title>
+		<text><![CDATA[I'm glad Anna Steward at least provided a DNA sample.
+
+In the meantime, I have been working on a warrant to look into the clinic's bank account. I get the feeling that money was involved in this case. Make sure you look into it on the lab computer when you're back.]]></text>
+	</message>
+	<message name="message6">
+		<pic>Russell</pic>
+		<character><![CDATA[Russell]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Pharmacist warrant]]></title>
+		<text><![CDATA[This pharmacist becomes more and more suspicious. Thankfully, the judge agrees and has issued a warrant to search the pharmacy and to get a DNA sample.
+
+Go and see what he has to hide.]]></text>
+	</message>
+	<message name="message7">
+		<pic>Russell</pic>
+		<character><![CDATA[Russell]]></character>
+		<job><![CDATA[]]></job>
+		<title><![CDATA[Tying up loose ends]]></title>
+		<text><![CDATA[You've gathered enough evidence to wrap up the case.
+
+Click the attachment to file your report. Russell]]></text>
+	</message>
+</messages>

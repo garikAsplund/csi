@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<location name="CatherinesOffice" displayName="Catherine's Office">
+	<person name="Catherine" />
+	<tool name="PDA"  />
+	<tool name="FireSceneToolKit" usetype="inHand" />
+	<tool name="Camera" usetype="inHand" />
+	<tool name="Tray" />
+	<object name="DoorOfficeExit" />
+	<visit num="1" ambient="CatherinesOfficeAmbient">
+		<clickable name="Catherine" type="required" action="dialog:Catherine1,tool:Tray" checkDone="tool:Tray">
+			<clickable name="Catherine" type="ignore" action="dialog:Catherine1" persist="true"/>
+			<clickable name="PDA" type="required" action="tool:PDA,custom:CheckAllTools" caption="Smartphone" checkDone="tool:PDA" />
+			<clickable name="FireSceneToolKit" type="required" action="tool:FireSceneToolKit,custom:CheckAllTools" caption="Fire Scene Tool Kit" checkDone="tool:FireSceneToolKit" />
+			<clickable name="Camera" type="required" action="tool:Camera,custom:CheckAllTools" caption="Camera" checkDone="tool:Camera" />
+		</clickable>
+		<clickable name="PDA" type="ignore" persist="true" caption="Talk to Catherine first" checkDone="tool:PDA" />
+		<clickable name="FireSceneToolKit" type="ignore" persist="true" caption="Talk to Catherine first" checkDone="tool:FireSceneToolKit" />
+		<clickable name="Camera" type="ignore" persist="true" caption="Talk to Catherine first" checkDone="tool:Camera" />
+		<visible name="DoorOfficeExit" />
+	</visit>
+	<visit num="2" ambient="CatherinesOfficeAmbient">
+		<visible name="Catherine" type="ignore" />
+		<clickable name="DoorOfficeExit" type="required" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+	</visit>
+	<custom name="CheckAllTools" require="tool:PDA,tool:FireSceneToolKit,tool:Camera">
+		<unlock type="location" name="Headquarters" />
+		<unlock type="location" name="CrimeScene" />
+		<set variable="visit:CatherinesOffice" value="2"/>
+		<dev action="location:CrimeScene"/>
+		<clickable name="DoorOfficeExit" type="ignore" action="location:Headquarters" caption="EXIT TO HALLWAY" />
+	</custom>
+</location>

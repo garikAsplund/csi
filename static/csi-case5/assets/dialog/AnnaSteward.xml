@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<dialog name="AnnaSteward">
+	<conversation location="Hospital" name="Desk">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2,3,4"/>
+		<statement num="3" push="5,6"/>
+		<statement num="4" push="5,6" />
+		<statement num="5" push="5,6" />
+		<statement num="6" push="7"/>
+		<statement num="7" push="7" />
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4"/>
+		<response num="4" goto="5"/>
+		<response num="5" require="2,3,4" goto="6"/>
+		<response num="6" require="2,3,4" goto="7"/>
+		<response num="7" require="5,6" goto="end"/>
+	</conversation>
+	<conversation location="AssistantsHouse" name="House">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<statement num="3" push="3,4,5"/>
+		<statement num="4" push="6"/>
+		<statement num="5" push="6"/>
+		<statement num="6" push="6"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4"/>
+		<response num="4" goto="5"/>
+		<response num="5" goto="6"/>
+		<response num="6" goto="end" require="3,4,5"/>
+	</conversation>
+</dialog>

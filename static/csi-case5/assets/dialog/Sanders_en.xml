@@ -1,0 +1,360 @@
+<?xml version="1.0" ?>
+<dialog name="Sanders" displayName="Greg Sanders">
+	<conversation location="Lab" name="1">
+		<statement num="1"><![CDATA[Hey, welcome to the lab. I see you don't have any evidence yet.]]></statement>
+		<statement num="2"><![CDATA[Go to the crime scene. It's under your locations.]]></statement>
+		<response num="1"><![CDATA[How do I get evidence?]]></response>
+		<response num="2"><![CDATA[I'll start collecting evidence.]]></response>
+		<response num="3"><![CDATA[I'm off to the crime scene.]]></response>
+	</conversation>
+	<conversation location="Lab" name="WithEvidence">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[You can click each station to learn what it's used for. Then click and move any piece of evidence to the correct station for analysis.
+
+Or click and move the evidence to your smartphone and it will tell you what to do with it.]]></statement>
+		<statement num="3"><![CDATA[Not yet. There's still evidence that needs to be analyzed.]]></statement>
+		<response num="1"><![CDATA[How do I process evidence?]]></response>
+		<response num="2"><![CDATA[I am ready to process evidence.]]></response>
+		<response num="3"><![CDATA[Am I done here?]]></response>
+		<response num="4"><![CDATA[I'll process more evidence.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Evidence1Done">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[You can click each station to learn what it's used for. Then click and move any piece of evidence to the correct station for analysis.
+
+Or click and move the evidence to your smartphone and it will tell you what to do with it.]]></statement>
+		<statement num="3"><![CDATA[Yes. The body should be in the morgue by now, you should go and see Doc Robbins.]]></statement>
+		<response num="1"><![CDATA[How do I process evidence?]]></response>
+		<response num="2"><![CDATA[I am ready to process evidence]]></response>
+		<response num="3"><![CDATA[Am I done here?]]></response>
+		<response num="4"><![CDATA[I'll go to the morgue.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Evidence2Done">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[You can click each station to learn what it's used for. Then click and move any piece of evidence to the correct station for analysis.
+
+Or click and move the evidence to your smartphone and it will tell you what to do with it.]]></statement>
+		<statement num="3"><![CDATA[Yes. Time to select your next location.]]></statement>
+		<response num="1"><![CDATA[How do I process evidence?]]></response>
+		<response num="2"><![CDATA[I am ready to process evidence]]></response>
+		<response num="3"><![CDATA[Am I done here?]]></response>
+		<response num="4"><![CDATA[Okay, I will.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Visit3">
+		<statement num="1"><![CDATA[Any questions?]]></statement>
+		<statement num="2"><![CDATA[I've uploaded it to our lab computer. Just click on it.]]></statement>
+		<statement num="3"><![CDATA[They're on the tablet that's on the table to my right.]]></statement>
+		<response num="1"><![CDATA[Where can I find the clinic access log?]]></response>
+		<response num="2"><![CDATA[How can I access Melissa McCoy's tox results?]]></response>
+		<response num="3"><![CDATA[I am ready to investigate.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Visit4">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[The file is on the lab computer. Just click on it.]]></statement>
+		<statement num="3"><![CDATA[They're on the tablet on the table to my right.]]></statement>
+		<response num="1"><![CDATA[How do I access the clinic's bank account?]]></response>
+		<response num="2"><![CDATA[How can I access Melissa McCoy's tox results?]]></response>
+		<response num="3"><![CDATA[I am ready to investigate.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Visit5">
+		<statement num="1"><![CDATA[Come on - you know how to process DNA samples with the genetic analyzer.]]></statement>
+		<response num="1"><![CDATA[I'll get right on it.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Visit5Done">
+		<statement num="1"><![CDATA[Any questions?]]></statement>
+		<statement num="2"><![CDATA[Looks like you've analyzed all crucial pieces of evidence. Great job!]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="ExplainFingerprints">
+		<statement num="1"><![CDATA[Use the fingerprint station to gather fingerprints from evidence and to compare them.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="ExplainComputer">
+		<statement num="1"><![CDATA[With the computer, you can analyze the photographs you took at the crime scene and any other kind of digital evidence.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="ExplainGA">
+		<statement num="1"><![CDATA[Use the genetic analyzer to create DNA profiles.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Photos1">
+		<statement num="1"><![CDATA[Let's see if the photos you took at the crime scene reveal anything about what happened the night our victim died.]]></statement>
+		<response num="1"><![CDATA[Continue]]></response>
+	</conversation>
+	<conversation location="Lab" name="Photos2">
+		<statement num="1"><![CDATA[We’ll use this photo to create a blueprint of the crime scene.
+		
+I’ve uploaded a floor plan of the pain clinic to help us do that.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="PhotosEnd">
+		<statement num="1"><![CDATA[Based on the bloodstain analysis, what can you conclude about the position of Dr. Phillips as the bullet hit her head?]]></statement>
+		<statement num="2"><![CDATA[The analysis revealed that the victim’s head was positioned in a height of 5 feet, 3 inches, so it is unlikely that she was sitting. Try again.]]></statement>
+		<statement num="3"><![CDATA[Remember, according to the bloodstain analysis, the victim’s head was located at 5 feet, 3 inches, which wouldn’t be the case if she had been lying down. Try again.]]></statement>
+		<statement num="4"><![CDATA[Yes, the bloodstains reveal that Dr. Phillips was standing when the bullet hit her head.
+
+However, that doesn't tell us if she shot herself or not.]]></statement>
+		<response num="1"><![CDATA[She was sitting.]]></response>
+		<response num="2"><![CDATA[She was standing.]]></response>
+		<response num="3"><![CDATA[She was lying down.]]></response>
+		<response num="4"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Fingerprints1">
+		<statement num="1"><![CDATA[You’re already an expert in performing the Superglue Fuming Method, so let’s get started.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Fingerprints2">
+		<statement num="1"><![CDATA[I'll scan the print and send the scan to the computer.]]></statement>
+		<response num="1"><![CDATA[I'll look at the print.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Fingerprints3">
+		<statement num="1"><![CDATA[No match in IAFIS?
+
+Seems you have to keep looking for a fingerprint that matches the one on the crime scene weapon.]]></statement>
+		<response num="1"><![CDATA[I'm on it.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Fingerprints4">
+		<statement num="1"><![CDATA[Let me scan the print you retrieved during the autopsy.
+
+I’ll send them to the computer when I’m done.]]></statement>
+		<response num="1"><![CDATA[Continue]]></response>
+	</conversation>
+	<conversation location="Lab" name="FingerprintsEnd">
+		<statement num="1"><![CDATA[So, the print you found on the crime scene weapon are from the victim.
+
+What can you conclude?]]></statement>
+		<statement num="2"><![CDATA[The gun was in the victim’s hand when she was found, but that doesn’t necessarily mean that she used the gun. Try again.]]></statement>
+		<statement num="3"><![CDATA[There is a slim possibility that somebody else used the gun and wiped it clean, but we have no evidence for that. Try again.]]></statement>
+		<statement num="4"><![CDATA[Yes, I agree. It is no wonder that Dr. Phillips’ fingerprint was on the gun since she was holding it in her hand.
+
+However, that doesn’t mean she actually used the gun to shoot herself.]]></statement>
+		<response num="1"><![CDATA[The victim shot herself.]]></response>
+		<response num="2"><![CDATA[Somebody else used the gun.]]></response>
+		<response num="3"><![CDATA[The finding is not conclusive.]]></response>
+		<response num="4"><![CDATA[I’ll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="BloodStainAnalysis1">
+		<statement num="1"><![CDATA[It is likely that the blood you found at the crime scene is from the victim, but there is a chance that some of it is from somebody else.
+
+It has been a while since you did your Rookie Training, so we’ll start by processing the DNA.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="BloodStainAnalysis2">
+		<statement num="1"><![CDATA[First, we’ll determine if the two DNA profiles obtained from the two different bloodstain areas are the same.]]></statement>
+		<response num="1"><![CDATA[I'll look at the profiles.]]></response>
+	</conversation>
+	<conversation location="Lab" name="BloodStainAnalysis3">
+		<statement num="1"><![CDATA[Let’s reflect here for a moment.
+
+When matching DNA profiles, what are we comparing?]]></statement>
+		<statement num="2"><![CDATA[No. All of our DNA profiles in CODIS have 13 markers. Try again.]]></statement>
+		<statement num="3"><![CDATA[We just color the DNA profile to better see the markers. DNA itself doesn’t have different colors. Try again.]]></statement>
+		<statement num="4"><![CDATA[You've got it.
+
+So the DNA profile from the bloodstains on the wall is identical to the one from the bloodstains on the floor. What can you conclude?]]></statement>
+		<statement num="5"><![CDATA[We can’t tell the identity of the bleeding person based on this finding. Try again.]]></statement>
+		<statement num="6"><![CDATA[We only know that the DNA profiles are the same, not from whom they are. Try again.]]></statement>
+		<statement num="7"><![CDATA[I agree.
+
+Since you don't have any reference blood samples for comparison yet, your only option now is to try to find a match in CODIS.]]></statement>
+		<response num="1"><![CDATA[The number of DNA markers.]]></response>
+		<response num="2"><![CDATA[The pattern of DNA markers.]]></response>
+		<response num="3"><![CDATA[The color of DNA markers.]]></response>
+		<response num="4"><![CDATA[The blood is from the same person.]]></response>
+		<response num="5"><![CDATA[The blood is from the victim.]]></response>
+		<response num="6"><![CDATA[The blood is from the shooter.]]></response>
+		<response num="7"><![CDATA[I'll match the DNA profile to CODIS.]]></response>
+	</conversation>
+	<conversation location="Lab" name="BloodStainAnalysis4">
+		<statement num="1"><![CDATA[So there’s no match in CODIS.
+
+What else can you do to determine the source of the bloodstains?]]></statement>
+		<statement num="2"><![CDATA[Giving up already?
+
+There IS something you could do. Try again.]]></statement>
+		<statement num="3"><![CDATA[Gas chromatography is used to identify chemicals, not to process DNA. Try again.]]></statement>
+		<statement num="4"><![CDATA[I agree.
+
+You can get a sample of the victim's blood later, but first finish analyzing your crime scene evidence if you haven't already done so.]]></statement>
+		<response num="1"><![CDATA[There’s nothing else I can do.]]></response>
+		<response num="2"><![CDATA[Run a gas chromatography analysis on the blood.]]></response>
+		<response num="3"><![CDATA[Compare the bloodstains to the victim’s blood.]]></response>
+		<response num="4"><![CDATA[I’ll finish up here and then get the sample.]]></response>
+	</conversation>
+	<conversation location="Lab" name="VictimBloodAnalysis1">
+		<statement num="1"><![CDATA[I’ll handle the DNA processing and send the profile to the computer when I’m done.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="VictimBloodAnalysis2">
+		<statement num="1"><![CDATA[So, the DNA from the bloodstains matches the victim’s.
+
+What can you conclude?]]></statement>
+		<statement num="2"><![CDATA[We have no way of knowing that. Try again.]]></statement>
+		<statement num="3"><![CDATA[Wow, hold on. The fact that the bloodstains are from the victim doesn’t tell us who the shooter was. Try again.]]></statement>
+		<statement num="4"><![CDATA[Yes, that’s what it looks like.
+		
+Still, that doesn’t tell us if she committed suicide or not.]]></statement>
+		<response num="1"><![CDATA[The victim was alone in the room.]]></response>
+		<response num="2"><![CDATA[The victim committed suicide.]]></response>
+		<response num="3"><![CDATA[The victim was the only person who shed blood.]]></response>
+		<response num="4"><![CDATA[I’ll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="McCoy1">
+		<statement num="1"><![CDATA[Let’s see if McCoy’s DNA matches the unknown tissue you found under the victim’s fingernails. 
+
+I’ll process the DNA and send the profile to the computer.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="McCoy2">
+		<statement num="1"><![CDATA[So, Terry McCoy’s DNA profile doesn’t match the tissue underneath the victim’s fingernails. 
+
+What can you conclude?]]></statement>
+		<statement num="2"><![CDATA[We can’t conclude this based on the DNA analysis.
+
+To answer the question who shot the victim, you need to examine McCoy’s gun. Try again.]]></statement>
+		<statement num="3"><![CDATA[No, the DNA analysis only tells us whose tissue is underneath the victim’s fingernails, not who pulled the trigger and shot her.  Try again.]]></statement>
+		<statement num="4"><![CDATA[Yes, it wasn’t McCoy our victim had physical contact with shortly before she died.
+
+However, that doesn’t necessarily mean that he didn’t shoot her.]]></statement>
+		<response num="1"><![CDATA[McCoy did not shoot the victim.]]></response>
+		<response num="2"><![CDATA[McCoy is the murderer.]]></response>
+		<response num="3"><![CDATA[McCoy was not the person who was scratched by the victim.]]></response>
+		<response num="4"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Assistant1">
+		<statement num="1"><![CDATA[So you think it could be the assistant’s tissue underneath our victim’s fingernails?
+
+Let me process the sample, then you compare the profiles on the computer.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Assistant2">
+		<statement num="1"><![CDATA[So, the DNA sample you collected from Anna Steward, the victim’s assistant, doesn’t match our unknown tissue. 
+
+What does that tell you? ]]></statement>
+		<statement num="2"><![CDATA[There’s no way of telling this based on the DNA analysis. Try again.]]></statement>
+		<statement num="3"><![CDATA[If that were the case, the DNA profiles would have matched. Try again.]]></statement>
+		<statement num="4"><![CDATA[I agree, we can rule out Anna Steward as the one who was in physical contact with Dr. Phillips shortly before she died.]]></statement>
+		<response num="1"><![CDATA[Anna Steward is the shooter.]]></response>
+		<response num="2"><![CDATA[Anna Steward was not the person who the victim scratched.]]></response>
+		<response num="3"><![CDATA[Anna Steward had physical contact with the victim. 
+]]></response>
+		<response num="4"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Pharmacist1">
+		<statement num="1"><![CDATA[Could this sample be the match to our unknown tissue?
+
+I’ll process it and send the profile to the computer.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Pharmacist2">
+		<statement num="1"><![CDATA[Bingo! Edgar White’s DNA profile matches the unknown tissue.
+
+What does that mean for our case?]]></statement>
+		<statement num="2"><![CDATA[Wait. We can’t tell who the shooter was based on this DNA analysis. Try again.]]></statement>
+		<statement num="3"><![CDATA[Think about it.
+
+The fact that the DNA profile from the tissue underneath the victim’s fingernails matches Edgar White’s DNA sample means that the tissue is from him. Try again.]]></statement>
+		<statement num="4"><![CDATA[Yes. Doc Robbins said that the victim was in a struggle shortly before she died, and now we know that she has Edgar White’s tissue underneath her fingernails.
+
+I’d say they must have been fighting.]]></statement>
+		<response num="1"><![CDATA[Edgar White was the person who the victim scratched.]]></response>
+		<response num="2"><![CDATA[Edgar White is the murderer.]]></response>
+		<response num="3"><![CDATA[Edgar White is not the person who had physical contact with the victim.]]></response>
+		<response num="4"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="FingernailsRejected">
+		<statement num="1"><![CDATA[You should analyze the victim’s blood first to get a reference DNA profile. We’ll look at the fingernail swabs later.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Fingernails1">
+		<statement num="1"><![CDATA[I'll process the DNA and send the profile to the computer.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Fingernails2">
+		<statement num="1"><![CDATA[Interesting – the genetic analyzer created two different DNA profiles.
+
+Let’s start by analyzing the first one.]]></statement>
+		<response num="1"><![CDATA[Let's do it.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Fingernails3">
+		<statement num="1"><![CDATA[The first DNA profile found in the fingernail swabs matches the victim’s?
+
+This is expected, because fingernail swabs always pick up the tissue from the person that is swabbed.]]></statement>
+		<response num="1"><![CDATA[I'll look at the second DNA profile.]]></response>
+	</conversation>
+	<conversation location="Lab" name="Fingernails4">
+		<statement num="1"><![CDATA[So, there’s no profile in CODIS that matches the second DNA profile in the fingernail swabs, and it is not from the victim.
+
+What can you conclude about this second DNA profile?]]></statement>
+		<statement num="2"><![CDATA[Remember, the second DNA profile from the fingernail swabs was not identical to the victim’s DNA profile. Try again.]]></statement>
+		<statement num="3"><![CDATA[It’s true that the DNA profile doesn’t belong to the victim, but just because you didn’t find a match in CODIS doesn’t mean there is nobody it belongs to. Try again.]]></statement>
+		<statement num="4"><![CDATA[Yes. Whoever this person is, he or she came into close contact with the victim shortly before she died.
+
+You should collect DNA samples from persons of interest to compare their DNA to this unknown DNA profile.]]></statement>
+		<response num="1"><![CDATA[The tissue belongs to an unknown person.]]></response>
+		<response num="2"><![CDATA[The tissue is from the victim.]]></response>
+		<response num="3"><![CDATA[The tissue belongs to neither the victim nor anybody else.]]></response>
+		<response num="4"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	
+	<conversation location="Lab" name="AccessLogStart">
+		<statement num="1"><![CDATA[According to Doc Robbins, the victim died between 6 pm and 11 pm.
+
+Let’s see if Dr. Phillips was alone in the pain clinic around that time. ]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="AccessLogEnd">
+		<statement num="1"><![CDATA[So Anna Steward, the assistant, returned to the clinic at
+7:32 pm, which falls right into our time of death frame. 
+		
+She left the clinic at 7:57 pm. I wonder what she was doing in the time between. ]]></statement>
+		<response num="1"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="VictimComputerStart">
+		<statement num="1"><![CDATA[Before you can look at the files on the victim’s computer, we’ll need to make an exact copy, or image, of the hard drive. This ensures that we don’t accidentally delete or alter any files.
+		
+I’ll start the imaging process and let you analyze the data.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="DrugInteractionsStart">
+		<statement num="1"><![CDATA[Terry McCoy suspects that his daughter Melissa was high on prescription drugs when the fatal accident happened. 
+		
+Look at the toxicology report and autopsy summary to see if there is any truth to that.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="DrugInteractions1">
+		<statement num="1"><![CDATA[What did you find out – was Terry McCoy right about his daughter’s drug use? ]]></statement>
+		<statement num="2"><![CDATA[No, the autopsy revealed that drugs were not the immediate cause of death, but they did play a role. Try again. ]]></statement>
+		<statement num="3"><![CDATA[The toxicology findings and Doc Robbins’ autopsy summary suggest otherwise.  Try again.]]></statement>
+		<statement num="4"><![CDATA[I agree. Doc Robbins concluded that Melissa was experiencing toxic effects of drug interactions when the accident happened. ]]></statement>
+		<statement num="5"><![CDATA[I knew you would ask, so I’ve uploaded some info on that on the tablet.
+
+Do you want to have a look?]]></statement>
+		<response num="1"><![CDATA[Yes, she died from a drug overdose.]]></response>
+		<response num="2"><![CDATA[Yes, drugs were involved in the accident.]]></response>
+		<response num="3"><![CDATA[No, drugs weren’t involved in the accident.]]></response>
+		<response num="4"><![CDATA[What are drug interactions?]]></response>
+		<response num="5"><![CDATA[Sure, let's see it.]]></response>
+	</conversation>
+	<conversation location="Lab" name="DrugInteractions2">
+		<statement num="1"><![CDATA[Let me be clear - all of these drugs are safe if used as prescribed by a doctor.
+
+Abuse, however, is a different story. ]]></statement>
+		<response num="1"><![CDATA[So what happens if these drugs are combined with each other?]]></response>
+	</conversation>
+	<conversation location="Lab" name="DrugInteractionsEnd">
+		<statement num="1"><![CDATA[If a doctor or pharmacist knows about a patient’s prescription history, he or she can prevent drug interactions.]]></statement>
+		<statement num="2"><![CDATA[That’s a good question. It seems this case gets more and more complicated. ]]></statement>
+		<response num="1"><![CDATA[So why was Melissa given drugs that cause drug interactions?]]></response>
+		<response num="2"><![CDATA[I’ll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Lab" name="BankAccountStart">
+		<statement num="1"><![CDATA[Let's see if the pain clinic's bank account reveals any suspicious transactions.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="Lab" name="BankAccountEnd">
+		<statement num="1"><![CDATA[Edgar White received a check for $5,000 from the pain clinic? It is very unusual for a clinic to pay a pharmacist.]]></statement>
+		<response num="1"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+</dialog>

@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<dialog name="Langston">
+	<conversation location="CrimeScene" visit="1" name="Outside">
+		<statement num="1" push="1" />
+		<statement num="2" push="2,3,4" />
+		<statement num="3" push="5" />
+		<statement num="4" push="5" />
+		<statement num="5" push="5" />
+		<statement num="6" push="6" />
+		<response num="1" goto="2" />
+		<response num="2" goto="3" />
+		<response num="3" goto="4" />
+		<response num="4" goto="5" />
+		<response num="5" require="2,3,4" goto="6" />
+		<response num="6" goto="end" />
+	</conversation>
+	<conversation location="CrimeScene" visit="1" name="OutsideUnfinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" notDone="true" />
+		<statement num="2_1" notDone="evidence:Matches"/>
+		<statement num="2_2" notDone="clue:GirlfriendSuspect"/>
+		<statement num="2_3" notDone="evidence:Photos,evidence:FlooringSample,evidence:SpaceHeater,clue:Alcohol"/>
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="CrimeScene" visit="1" name="OutsideFinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" />
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="CrimeScene-LivingRoom" visit="1" name="LivingRoom">		
+		<statement num="1" push="1" />
+		<statement num="2" push="2,3" />
+		<statement num="3" push="4" />
+		<statement num="4" push="4" />	
+		<response num="1" goto="2" />
+		<response num="2" goto="3" />
+		<response num="3" goto="4" />
+		<response num="4" require="2,3" goto="end" />
+	</conversation>
+	<conversation location="CrimeScene-LivingRoom" visit="1" name="LivingRoomUnfinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2"  notDone="true" />
+		<statement num="2_1" notDone="evidence:Photos"/>
+		<statement num="2_2" notDone="evidence:FlooringSample"/>
+		<statement num="2_3" notDone="evidence:SpaceHeater,clue:Alcohol,clue:Wallet"/>
+		<statement num="2_4" notDone="evidence:Matches"/>
+		<statement num="2_5" notDone="clue:GirlfriendSuspect"/>
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="CrimeScene-LivingRoom" visit="1" name="LivingRoomFinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" />
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="CrimeScene_LivingRoom" visit="1" name="Photos">
+		<statement num="1" push="1,2"/>
+		<statement num="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>		
+	</conversation>
+	<conversation location="NeighborsHouse" visit="1" name="NeighborUnfinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" />
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="NeighborsHouse" visit="1" name="NeighborFinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" />
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>	
+	<conversation location="CrimeScene_Bathroom" visit="1" name="BathroomUnfinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" />
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="CrimeScene_Bathroom" visit="1" name="BathroomFinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" />
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="SistersHouse" visit="1" name="SisterUnfinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" />
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="SistersHouse" visit="1" name="SisterFinished">
+		<statement num="1" push="1" />
+		<statement num="2" push="2" />
+		<response num="1" goto="2" />
+		<response num="2" goto="end" />
+	</conversation>
+	<conversation location="Hospital" visit="1" name="Hospital">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2,3,4"/>
+		<statement num="3" push="5" />
+		<statement num="4" push="5" />
+		<statement num="5" push="5" />
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4"/>
+		<response num="4" goto="5"/>
+		<response num="5" require="2,3,4" goto="end"/>
+	</conversation>
+	<conversation location="Hospital" visit="1" name="HospitalUnfinished">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2" notDone="true" />
+		<statement num="2_1" notDone="dialog:DrLewis1"/>
+		<statement num="2_2" notDone="clue:OxycodoneNatalieBlood"/>
+		<statement num="2_3" notDone="dialog:DrLewis2"/>
+		<statement num="2_4" notDone="clue:OxycodoneAddictive"/>
+		<statement num="2_5" notDone="clue:SuspectDenies"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital" visit="1" name="HospitalFinished">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+</dialog>

@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<dialog name="DrLewis">
+	<conversation location="Hospital_Doctor" visit="1" name="1">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2,3"/>
+		<statement num="3" push="4"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4"/>
+		<response num="4" require="2,3" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="2">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2" push="4"/>
+		<statement num="3" push="4"/>
+		<statement num="4" push="4"/>
+		<statement num="5" push="5"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="3"/>
+		<response num="3" goto="4"/>
+		<response num="4" require="1,2,3" goto="5" />
+		<response num="5" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation1">
+		<statement num="1" push="1,2"/>
+		<statement num="2" push="3"/>
+		<statement num="3" push="3"/>
+		<response num="1" goto="2" pop="all" setVar="general:DoFirstSim:true"/>
+		<response num="2" goto="3" pop="all" setVar="general:DoSecondSim:true" />
+		<response num="3" goto="end"/>
+	</conversation>
+	
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationA1">
+		<statement num="1" push="1,2,3" />
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all" />
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationA2">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationB1">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4"/>
+		<response num="1" goto="4" pop="all" />
+		<response num="2" goto="2"/>
+		<response num="3" goto="3"/>
+		<response num="4" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationB2">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation2">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation3">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation4">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation5">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="Simulation6">
+		<statement num="1" push="1"/>
+		<statement num="2" push="2"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="end"/>
+	</conversation>
+	<conversation location="Hospital_Doctor" visit="1" name="SimulationEnd">
+		<statement num="1" push="1,2,3"/>
+		<statement num="2"/>
+		<statement num="3"/>
+		<statement num="4" push="4,5,6"/>
+		<statement num="5"/>
+		<statement num="6"/>
+		<statement num="7" push="7,8,9"/>
+		<statement num="8"/>
+		<statement num="9"/>
+		<statement num="10" push="10,11,12"/>
+		<statement num="11"/>
+		<statement num="12"/>
+		<statement num="13" push="13"/>
+		<response num="1" goto="2"/>
+		<response num="2" goto="4" pop="all"/>
+		<response num="3" goto="3"/>		
+		<response num="4" goto="5"/>
+		<response num="5" goto="6"/>
+		<response num="6" goto="7" pop="all"/>		
+		<response num="7" goto="10" pop="all"/>
+		<response num="8" goto="8"/>
+		<response num="9" goto="9"/>		
+		<response num="10" goto="11"/>
+		<response num="11" goto="12"/>
+		<response num="12" goto="13" pop="all" />
+		<response num="13" goto="end"/>
+	</conversation>
+</dialog>

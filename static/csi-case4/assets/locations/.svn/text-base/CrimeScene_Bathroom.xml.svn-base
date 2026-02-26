@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<location name="CrimeScene_Bathroom" displayName="Crime Scene Bathroom">
+	<person name="Langston" />
+	<object name="OxycodoneBottle" />
+	<visit num="1" ambient="BathroomAmbient">
+		<clickable name="Langston" type="required" action="dialog:LangstonBathroomUnfinished" persist="true"/>
+		<clickable name="OxycodoneBottle" type="required" action="activity:OxycodoneBottle,evidence:Oxycodone,clue:LinaSuspect" checkDone="evidence:Oxycodone">
+			<standalone action="message:message1"/>
+			<unlock type="location" name="SistersHouse"/>
+			<clickable name="Langston" type="ignore" action="dialog:LangstonBathroomFinished" persist="true" />
+			<set variable="visit:CrimeScene_Bathroom" value="2" />
+			<dev action="location:SistersHouse" />
+		</clickable>
+	</visit>
+	<visit num="2">
+		<clickable name="Langston" type="ignore" action="dialog:LangstonBathroomFinished" persist="true" />		
+	</visit>
+</location>

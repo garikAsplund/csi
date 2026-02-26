@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room003 - csi morgue. </tag>
+	
+		<!-- DOC ROBBINS 0 -->
+		
+	<tag id="ID_DOC0A"><![CDATA[Ah, the newest member of our team.  Nice of you to drop by.]]></tag>
+	<tag id="ID_DOC0B"><![CDATA[I have, and I'm ready to share my preliminary findings.  What would you like to know?]]></tag>
+	<tag id="ID_DOC0C"><![CDATA[White female, approximately 20 to 25 years old, 5 foot 5 inches tall, and about 115 pounds.  Anything beyond that, you'll have to tell me.]]></tag>
+	<tag id="ID_DOC0D"><![CDATA[There's significant decomposition, and it even looks like some animals have gotten to her.  I'd say she's been dead two or three days.]]></tag>
+	<tag id="ID_DOC0E"><![CDATA[I was able to get a DNA sample from her bone marrow, so you can try searching CODIS and the Missing Persons Database.  Meanwhile, I'll X-ray her teeth for dental record comparisons.  Check back later for the results.]]></tag>
+	<tag id="ID_DOC0F"><![CDATA[NOT the fire - she was dead before it started.  I found a stab wound in her chest.  The weapon pierced her heart, so her death was quick.]]></tag>
+	<tag id="ID_DOC0G"><![CDATA[A sharp object, probably about 5 inches in length.  It left some striations on the rib cartilage; I left it out so you can make a cast. If you picked up the field kit that Grissom prepared for you, it should contain some impression gel that you can apply directly to the wound. ]]></tag>
+	
+		<!-- REPLIES TO DOC ROBBINS, PART 0 -->
+
+	<tag id="ID_USER0A"><![CDATA[Have you finished the autopsy yet?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[Who is this?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[When did she die?]]></tag>
+	<tag id="ID_USER0D"><![CDATA[How can we identify her?]]></tag>
+	<tag id="ID_USER0E"><![CDATA[What was the cause of death?]]></tag>
+	<tag id="ID_USER0F"><![CDATA[What can you tell me about the murder weapon?]]></tag>
+	<tag id="ID_USER0EXIT"><![CDATA[Thanks for the info.]]></tag>
+	
+		<!-- DOC ROBBINS 1 -->
+	
+	<tag id="ID_DOC1A"><![CDATA[Welcome back.  Have you had any luck identifying our dead girl?]]></tag>
+	<tag id="ID_DOC1B"><![CDATA[I was hoping to use her dental records, but the X-RAY showed no fillings or abnormalities, so comparing dental records could be difficult.]]></tag>
+	<tag id="ID_DOC1C"><![CDATA[Well, it's chancy, but I thought facial reconstruction might help.  I've asked an expert forensic artist to assist us.]]></tag>
+	<tag id="ID_DOC1D"><![CDATA[Facial Reconstruction is a mix of forensic anthropology, anatomy, and artistry.  It allows us to approximate a person's appearance from their skeletal remains.]]></tag>
+	<tag id="ID_DOC1E"><![CDATA[I've asked an expert forensic artist, Taylor Wilkinson, to assist us.  Go talk to her.]]></tag>
+	
+		<!-- REPLIES TO DOC ROBBINS, PART 1 -->
+
+	<tag id="ID_USER1A"><![CDATA[I can't find a DNA match.  What else can we use to identify the body?]]></tag>
+	<tag id="ID_USER1B"><![CDATA[What can you tell me about the victim?]]></tag>
+	<tag id="ID_USER1C"><![CDATA[When did she die?]]></tag>
+	<tag id="ID_USER1D"><![CDATA[Is there another technique we can use?]]></tag>
+	<tag id="ID_USER1E"><![CDATA[What's facial reconstruction?]]></tag>
+	<tag id="ID_USER1F"><![CDATA[How do I do a facial reconstruction?]]></tag>
+	<tag id="ID_USER1EXIT"><![CDATA[Thanks for the info.]]></tag>
+
+
+	
+		<!-- FORENSIC ARTIST 0 (Before talking to Doc about the forensic artist) -->
+
+	<tag id="ID_FORENSICARTIST0A"><![CDATA[I'm Taylor Wilkinson, expert forensic artist.  Doc Robbins asked me to come help.]]></tag>
+	<tag id="ID_FORENSICARTIST0B"><![CDATA[Maybe you should talk to Doc Robbins first.  I'm sure he'll explain everything.]]></tag>
+	
+		<!-- REPLIES TO FORENSIC ARTIST, PART 0 -->
+
+	<tag id="ID_USER2A"><![CDATA[What are you here for?]]></tag>
+	<tag id="ID_USER2EXIT"><![CDATA[I'll go talk to Doc.]]></tag>
+	
+		<!-- FORENSIC ARTIST 1 -->
+
+	<tag id="ID_FORENSICARTIST1A"><![CDATA[I'm glad we'll be working together.  Are you ready to begin?]]></tag>
+	<tag id="ID_FORENSICARTIST1B"><![CDATA[The first step is to boil the skull, which gently removes the burnt skin and flesh.  While that's going on, I need you to answer some questions for me.  What sex is the victim?]]></tag>
+	<tag id="ID_FORENSICARTIST1C"><![CDATA[That's not what I remember Doc saying earlier.  Would you like to try again?]]></tag>
+	<tag id="ID_FORENSICARTIST1D"><![CDATA[OK.  And what is her approximate age?]]></tag>
+	<tag id="ID_FORENSICARTIST1E"><![CDATA[And lastly, what was her racial background?]]></tag>
+	<tag id="ID_FORENSICARTIST1F"><![CDATA[The skull is clean and we're ready to begin.  The first step is to add Tissue Depth Markers.  I've already added some, but would like you to finish.]]></tag>
+	<tag id="ID_FORENSICARTIST1G"><![CDATA[These small wooden pegs indicate the average amount of muscle, skin and fat surrounding the bones.  The depth depends on a person's age, sex and race.]]></tag>
+	<tag id="ID_FORENSICARTIST1H"><![CDATA[Tissue depth depends on a person's age, sex and race.  I've cut these to the average tissue depth for a 20-25 year old white female.]]></tag>
+	
+		<!-- REPLIES TO FORENSIC ARTIST, PART 1 -->
+
+	<tag id="ID_USER3A"><![CDATA[Yes.]]></tag>
+	<tag id="ID_USER3KICKOUT"><![CDATA[No.]]></tag>
+	<tag id="ID_USER3B"><![CDATA[Male.]]></tag>
+	<tag id="ID_USER3C"><![CDATA[Female.]]></tag>
+	<tag id="ID_USER3D"><![CDATA[We can't tell.]]></tag>
+	<tag id="ID_USER3E"><![CDATA[15-20]]></tag>
+	<tag id="ID_USER3F"><![CDATA[20-25]]></tag>
+	<tag id="ID_USER3G"><![CDATA[25-30]]></tag>
+	<tag id="ID_USER3H"><![CDATA[We can't tell.]]></tag>
+	<tag id="ID_USER3I"><![CDATA[Caucasian]]></tag>
+	<tag id="ID_USER3J"><![CDATA[African-American]]></tag>
+	<tag id="ID_USER3K"><![CDATA[Asian]]></tag>
+	<tag id="ID_USER3L"><![CDATA[We can't tell.]]></tag>
+	<tag id="ID_USER3M"><![CDATA[What are tissue depth markers?]]></tag>
+	<tag id="ID_USER3N"><![CDATA[How do you know how long to cut them?]]></tag>
+	<tag id="ID_USER3EXIT"><![CDATA[Show me how to attach the tissue depth markers.]]></tag>
+
+		<!-- RECONSTRUCTION LINES -->
+
+	<tag id="ID_RECONSTRUCTION_1"><![CDATA[<u>DIRECTIONS</u><br><br>A total of 33 tissue depth markers are used in facial reconstruction.  Dr. Wilkinson has already placed 23 of these markers and wants you to finish the job.<br><br>Compare the victim's skull with the reference diagrams to determine where to place the missing markers.  Click the correct area to place the marker.]]></tag>
+	<tag id="ID_ROTATE_SKULL_LABEL"><![CDATA[Rotate Skull]]></tag>
+	<tag id="ID_RECONSTRUCTION_2"><![CDATA[We will now attach various muscles and glands on the face.  These will help to flesh out the face and give it the correct shape.]]></tag>
+	<tag id="ID_RECONSTRUCTION_2_A"><![CDATA[Of course not!  I'll form the appropriate organ from modeling clay.]]></tag>
+	<tag id="ID_RECONSTRUCTION_2_REPLY_A"><![CDATA[Are these real muscles and glands?]]></tag>
+	<tag id="ID_RECONSTRUCTION_2_REPLY_B"><![CDATA[I want to help attach the muscles and glands.]]></tag>
+	<tag id="ID_RECONSTRUCTION_3"><![CDATA[<u>DIRECTIONS</u><br><br>We need to attach 10 different muscles and structures to the skull.<br><br>You will be given a molded organ and a brief description of its function.  Drag that organ to the correct location.]]></tag>
+	<tag id="ID_FUNCTION_LABEL"><![CDATA[Function:]]></tag>
+	<tag id="ID_TEMPORALIS_LABEL"><![CDATA[Name: Temporalis]]></tag>
+	<tag id="ID_TEMPORALIS_DESCRIP"><![CDATA[This fan-shaped muscle gives the side of the head a smooth, rounded appearance.]]></tag>
+	<tag id="ID_MASSETER_LABEL"><![CDATA[Name: Masseter]]></tag>
+	<tag id="ID_MASSETER_DESCRIP"><![CDATA[This bulky, strong muscle fills out the cheek area.  It helps us chew our food.]]></tag>
+	<tag id="ID_ORBICULARIS_ORIS_LABEL"><![CDATA[Name: Orbicularis Oris]]></tag>
+	<tag id="ID_ORBICULARIS_ORIS_DESCRIP"><![CDATA[This circular muscle forms the slit of the mouth and is the basis for the lips.]]></tag>
+	<tag id="ID_MENTALIS_LABEL"><![CDATA[Name: Mentalis and Depressor Muscles]]></tag>
+	<tag id="ID_MENTALIS_DESCRIP"><![CDATA[This group of muscles help to pull our lips downward when we frown.]]></tag>
+	<tag id="ID_ORBICULARIS_OCULI_LABEL"><![CDATA[Name: Orbicularis Oculi]]></tag>
+	<tag id="ID_ORBICULARIS_OCULI_DESCRIP"><![CDATA[This round muscle controls both sets of eyelids.]]></tag>
+	<tag id="ID_NASAL_CARTILAGE_LABEL"><![CDATA[Name: Nasal Cartilage]]></tag>
+	<tag id="ID_NASAL_CARTILAGE_DESCRIP"><![CDATA[The shape of this structure can be deduced from the shape of the nasal cavity and the surrounding bones.]]></tag>
+	<tag id="ID_ZYGOMATICUS_LABEL"><![CDATA[Name: Zygomaticus Muscles]]></tag>
+	<tag id="ID_ZYGOMATICUS_DESCRIP"><![CDATA[These muscles bring the corners of the mouth upwards when you smile.]]></tag>
+	<tag id="ID_OCCIPITOFRONTALIS_LABEL"><![CDATA[Name: Occipitofrontalis]]></tag>
+	<tag id="ID_OCCIPITOFRONTALIS_DESCRIP"><![CDATA[This large flat muscle can raise the eyebrows or wrinkle the forehead.]]></tag>
+	<tag id="ID_PAROTID_GLAND_LABEL"><![CDATA[Name: Parotid Gland]]></tag>
+	<tag id="ID_PAROTID_GLAND_DESCRIP"><![CDATA[This large gland suppies the saliva that helps food dissolve.]]></tag>
+	<tag id="ID_EARS_LABEL"><![CDATA[Name: Ears]]></tag>
+	<tag id="ID_EARS_DESCRIP"><![CDATA[The size and angle of the ears can be deduced from the surrounding bone, but we must guess at the details.]]></tag>
+	<tag id="ID_RECONSTRUCTION_3"><![CDATA[Well done.  Lastly, we add skin and features.  It would be best if I handle this part, and you watch.]]></tag>
+	<tag id="ID_RECONSTRUCTION_3_A"><![CDATA[Most of it I can deduce from the bone structure.  For example, teeth height tells me about the thickness of the lips, and the width of the eye sockets tells me about the eye lids and eyebrows.]]></tag>
+	<tag id="ID_RECONSTRUCTION_3_REPLY_A"><![CDATA[How do you know what the features look like?]]></tag>
+	<tag id="ID_RECONSTRUCTION_3_REPLY_B"><![CDATA[I want to watch you work.]]></tag>
+	<tag id="ID_RECONSTRUCTION_4"><![CDATA[There we go - that's our victim.  I'll give you a picture of the facial reconstruction to aid your investigation.]]></tag>
+	<tag id="ID_RECONSTRUCTION_4_A"><![CDATA[Brown is the most common eye color, and the wig I used is a very popular hair style.  However, the victim's actual eye and hair color may be different - be alert!]]></tag>
+	<tag id="ID_RECONSTRUCTION_4_B"><![CDATA[Facial Reconstruction works some of the time, but not always.  Good training and working in close collaboration with forensic scientists increases the success rate.]]></tag>
+	<tag id="ID_RECONSTRUCTION_4_REPLY_A"><![CDATA[How do you know what color eyes and hair to use?]]></tag>
+	<tag id="ID_RECONSTRUCTION_4_REPLY_B"><![CDATA[Are you sure this is accurate?]]></tag>
+	<tag id="ID_RECONSTRUCTION_4_REPLY_C"><![CDATA[Thank you for your help.]]></tag>
+
+	
+</strings>	

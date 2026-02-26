@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<activity name="Autopsy">
+	<screen name="overview">
+		<title num="3"><![CDATA[Use the magnifying glass to search the body. There are three points of interest.]]></title>
+		<title num="2"><![CDATA[There are two more points of interest.]]></title>
+		<title num="1"><![CDATA[There is one more point of interest.]]></title>
+	</screen>
+	<screen name="head1">
+		<title><![CDATA[Contact wound markings]]></title>
+		<text><![CDATA[Contact wounds typically have seared and blackened margins from the flame and gunpowder that accompany the bullet. Some even have a muzzle imprint around them. Others might have a stellar shape.]]></text>
+		<text2><![CDATA[If the bullet is shot from a longer distance, the resulting wound doesn’t have any of those markings.]]></text2>
+		<caption num="1"><![CDATA[Seared abrasions and blackening]]></caption>
+		<caption num="2"><![CDATA[Muzzle imprint]]></caption>
+		<caption num="3"><![CDATA[Stellate split-opening]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="head2">
+		<text><![CDATA[Does this wound show any of the following markings?]]></text>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+		<option num="1" correct="false"><![CDATA[Searing and blackening]]></option>			
+		<option num="2" correct="false"><![CDATA[A muzzle imprint]]></option>
+		<option num="3" correct="false"><![CDATA[A stellate split-opening]]></option>
+		<option num="4" correct="true"><![CDATA[None of these markings]]></option>
+		<response num="1"><![CDATA[The margin of our wound looks pretty clean to me. Try again.]]></response>
+		<response num="2"><![CDATA[I don’t see a muzzle imprint. Try again.]]></response>
+		<response num="3"><![CDATA[No – this wound is round, not stellate-shaped. Try again.]]></response>
+		<response num="4"><![CDATA[Yes, I don’t see any markings that would suggest a contact wound either.]]></response>
+	</screen>
+	<screen name="head3">
+		<title><![CDATA[Intermediate range (1 cm to 4 m) gunshot wound]]></title>
+		<text><![CDATA[If the muzzle of the gun is held at least one centimeter away from the body, but closer than four meters, the powder grains emerging together with the bullet strike the skin.
+The grains cause small abrasions on the skin,
+which is called powder tattooing.]]></text>
+		<caption><![CDATA[Powder tattooing]]></caption>
+		<nextBtn><![CDATA[Continue]]></nextBtn>		
+	</screen>
+	<screen name="head4">
+		<text><![CDATA[Do you see any powder tattooing around the wound?]]></text>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+		<option num="1" correct="true"><![CDATA[Yes, there is powder tattooing]]></option>			
+		<option num="2" correct="false"><![CDATA[No, there is no powder tattooing.]]></option>
+	</screen>
+	<screen name="hand1">
+		<text><![CDATA[First, moisten the swab bulb with 1 drop of water.]]></text>
+		<caption><![CDATA[Sterile Water]]></caption>
+	</screen>
+	<screen name="hand2">
+		<text><![CDATA[Next, thoroughly swab underneath all five fingernails to collect a sample from the right hand.]]></text>
+	</screen>
+	<screen name="hand3">
+		<text><![CDATA[Good. Now place the swab in the container.]]></text>
+		<caption><![CDATA[Fingernail swab right hand]]></caption>
+	</screen>
+	<screen name="hand4">
+		<text><![CDATA[You’ll have to swab the left hand, too. Again, moisten the swab with a drop of sterile water.]]></text>
+		<caption><![CDATA[Sterile Water]]></caption>
+	</screen>
+	<screen name="hand5">
+		<text><![CDATA[Next, thoroughly swab underneath all five fingernails to collect a sample from the left hand.]]></text>
+	</screen>
+	<screen name="hand6">
+		<text><![CDATA[Good. Now place the swab in the container.]]></text>
+		<caption><![CDATA[Fingernail swab left hand]]></caption>
+	</screen>
+	<screen name="fingerprint1">
+		<text><![CDATA[To collect the victim’s fingerprint, pick up a sheet of lift tape and place it on the victim’s thumb.]]></text>
+	</screen>
+	<screen name="fingerprint2">
+		<text><![CDATA[Good. Now place the print in the evidence container.]]></text>
+		<caption><![CDATA[Evidence]]></caption>
+	</screen>
+</activity>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room011 - interrogation room. </tag>
+	
+		<!-- FAN0  -->
+		
+	<tag id="ID_KNOX0A"><![CDATA[It's you again.]]></tag>
+	<tag id="ID_KNOX0B"><![CDATA[It was not supposed to be like this. I just tried to protect myself.....and then he died.....]]></tag>
+	<tag id="ID_KNOX0C"><![CDATA[We were at my office. He was so angry.....he grabbed my neck so tight that I couldn't breathe....I bit him, but he didn't let go until I used the syringe...]]></tag>
+	<tag id="ID_KNOX0D"><![CDATA[It was because of Apollo. Poor dog...he was sick too often...So, I reported my evaluation to the SPCA. Marco Williams was so mad at me when he knew about this report.]]></tag>
+	<tag id="ID_KNOX0E"><![CDATA[He fell and hit his head on the examination table. There was a lot of blood, then I realized he was dead....It was an accident. I didn't mean to kill anybody.]]></tag>
+	<tag id="ID_KNOX0F"><![CDATA[I was afraid.....I didn't have time to think...So, I just snuck his body back to the RV.]]></tag>
+	
+		<!-- REPLIES TO FAN -->
+
+	<tag id="ID_USER0A"><![CDATA[All evidence points to your involvement in the death of Marco Williams.]]></tag>
+	<tag id="ID_USER0B"><![CDATA[Can you tell me what happened?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[Why was he angry with you?]]></tag>
+	<tag id="ID_USER0D"><![CDATA[What happened after you used the syringe?]]></tag>
+	<tag id="ID_USER0E"><![CDATA[Why did you move the body?]]></tag>
+	<tag id="ID_USER0F"><![CDATA[See you in court.]]></tag>
+
+		<!-- END SCREEN -->
+
+	<tag id="ID_NEWSPAPER_NAME"><![CDATA[The Vegas Chronicle]]></tag>
+	<tag id="ID_NEWSPAPER_HEADLINE"><![CDATA[Prized Dog Found!]]></tag>
+	<tag id="ID_CONGRATS"><![CDATA[CONGRATULATIONS!]]></tag>
+	<tag id="ID_CONGRATS_DETAILS"><![CDATA[You've solved the case.<br><br>Stay tuned for CSI: The Experience Case Three]]></tag>
+	<tag id="ID_NEXT_TITLE"><![CDATA[A Dog Eat Dog World]]></tag>
+	<tag id="ID_LINK_HEADER"><![CDATA[Meanwhile, make sure to check out the links below:]]></tag>
+	<tag id="ID_LINK_DESCRIPTION_1"><![CDATA[For cool links and more online CSI activities:]]></tag>
+	<tag id="ID_LINK_DESCRIPTION_2"><![CDATA[To leave feedback about this web adventure:]]></tag>
+	<tag id="ID_LINK_DESCRIPTION_3"><![CDATA[To return to the homepage:]]></tag>
+	<tag id="ID_LINK_CLICK_TEXT"><![CDATA[Click Here!]]></tag>
+	<tag id="ID_EPILOGUE"><![CDATA[The DA charged Sariel Knox with manslaughter. Dr Knox has been advised by her lawyer to plead self-defense and is currently out on bail awaiting her trial.
+On the day of the crime, the SPCA responded to the call by Dr. Knox and picked up Apollo. Abuse was not established and Apollo was returned safely to Deborah Ranger. Ms Ranger continues to show Apollo competitively.
+Wesley Murphy was banned from the competition for attempting to poison Apollo. He is no longer allowed in dog show competitions.]]></tag>
+	
+</strings>	

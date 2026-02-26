@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<strings>
+
+	<!-- English -->
+	<tag id="ID_TEST">Hi [name], this is a test string from tools. </tag>
+
+	<!-- EVIDENCE -->
+	
+	<tag id="ID_EVIDENCE_DEFAULT_NAME"></tag>
+	<tag id="ID_EVIDENCE_DEFAULT_IMAGE"><![CDATA[evidence_default_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_DEFAULT_TITLE"></tag>
+	<tag id="ID_EVIDENCE_DEFAULT_ROOM">room000</tag>
+	<tag id="ID_EVIDENCE_DEFAULT_HEADER"></tag>
+	<tag id="ID_EVIDENCE_DEFAULT_DESCRIPTION"></tag>
+
+	<tag id="ID_EVIDENCE_DOGFOOD_NAME"><![CDATA[Dog Food]]></tag>
+	<tag id="ID_EVIDENCE_DOGFOOD_IMAGE"><![CDATA[evidence_dogfood_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_DOGFOOD_TITLE"><![CDATA[Dog Food]]></tag>
+	<tag id="ID_EVIDENCE_DOGFOOD_ROOM">room002</tag>
+	<tag id="ID_EVIDENCE_DOGFOOD_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">A bowl of dog food</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_DOGFOOD_DESCRIPTION"><![CDATA[<font size="+2">Could this food have been used to sedate or poison the dog? A good question to answer in the lab.
+Use the TOXICOLOGY STATION in the LAB to analyze the dog food.</font>]]></tag>
+	
+	<tag id="ID_EVIDENCE_NOTEPAD_NAME"><![CDATA[Notepad]]></tag>
+	<tag id="ID_EVIDENCE_NOTEPAD_IMAGE"><![CDATA[evidence_notepad_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_NOTEPAD_TITLE"><![CDATA[Notepad]]></tag>
+	<tag id="ID_EVIDENCE_NOTEPAD_ROOM">room002</tag>
+	<tag id="ID_EVIDENCE_NOTEPAD_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">A note pad</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_NOTEPAD_DESCRIPTION"><![CDATA[<font size="+2">There is some indented writing on this blank note pad. What does it say?
+Use the LIGHT TABLE in the LAB to reveal the information.</font>]]></tag>
+	
+	<tag id="ID_EVIDENCE_SPOON_NAME"><![CDATA[Spoon]]></tag>
+	<tag id="ID_EVIDENCE_SPOON_IMAGE"><![CDATA[evidence_spoon_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_SPOON_TITLE"><![CDATA[Spoon]]></tag>
+	<tag id="ID_EVIDENCE_SPOON_ROOM">room002</tag>
+	<tag id="ID_EVIDENCE_SPOON_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">A spoon</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_SPOON_DESCRIPTION"><![CDATA[<font size="+2">This spoon was found next to the dog food. Could it tell us who recently fed the dog?
+When you go to the LAB, analyze this spoon for fingerprints. It may lead you to a possible suspect.</font>]]></tag>
+
+	<tag id="ID_EVIDENCE_UNKNOWNHAIR_NAME"><![CDATA[Unknown Hair]]></tag>
+	<tag id="ID_EVIDENCE_UNKNOWNHAIR_IMAGE"><![CDATA[evidence_unknownhair_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_UNKNOWNHAIR_TITLE"><![CDATA[Unknown Hair]]></tag>
+	<tag id="ID_EVIDENCE_UNKNOWNHAIR_ROOM">room002</tag>
+	<tag id="ID_EVIDENCE_UNKNOWNHAIR_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Unknown hair</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_UNKNOWNHAIR_DESCRIPTION"><![CDATA[<font size="+2">Is the hair from a human or a dog? This may help lead us to the murderer.
+Use the COMPARISON MICROSCOPE in the LAB to determine its origin and to compare it to other samples.</font>]]></tag>
+	
+	<tag id="ID_EVIDENCE_VICTIMBLOOD_NAME"><![CDATA[Victim Blood]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMBLOOD_IMAGE"><![CDATA[evidence_victimblood_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMBLOOD_TITLE"><![CDATA[Victim's Blood Sample]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMBLOOD_ROOM">room003</tag>
+	<tag id="ID_EVIDENCE_VICTIMBLOOD_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">The victim's blood sample</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_VICTIMBLOOD_DESCRIPTION"><![CDATA[<font size="+2">The blood sample from Marco Williams should contain any drugs or other chemicals present in his body at the time of death. It may help explain the puncture wound on his neck.
+<b>When you go to the CSI lab, use the TOXICOLOGY STATION to run a toxicology test on the blood sample.</b></font>]]></tag>	
+
+	<tag id="ID_EVIDENCE_BITEMARKPHOTO_NAME"><![CDATA[Bitemark Photo]]></tag>
+	<tag id="ID_EVIDENCE_BITEMARKPHOTO_IMAGE"><![CDATA[evidence_bitemarkphoto_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_BITEMARKPHOTO_TITLE"><![CDATA[Bitemark Photograph]]></tag>
+	<tag id="ID_EVIDENCE_BITEMARKPHOTO_ROOM">room003</tag>
+	<tag id="ID_EVIDENCE_BITEMARKPHOTO_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">A bitemark photograph</font>.</font>]]></tag>
+	<tag id="ID_EVIDENCE_BITEMARKPHOTO_DESCRIPTION"><![CDATA[<font size="+2">The victim suffered a bitemark on his arm shortly before death. This photograph should help us identify who or what bit him. We can also compare it to other bite impressions.
+<b>Use the LIGHT TABLE in the CSI lab to examine the photograph and compare it to any impressions you collect as evidence.</b></font>]]></tag>	
+
+	<tag id="ID_EVIDENCE_UNKNOWNDNA_NAME"><![CDATA[Unknown DNA]]></tag>
+	<tag id="ID_EVIDENCE_UNKNOWNDNA_IMAGE"><![CDATA[evidence_unknowndna_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_UNKNOWNDNA_TITLE"><![CDATA[Unknown DNA Sample]]></tag>
+	<tag id="ID_EVIDENCE_UNKNOWNDNA_ROOM">room003</tag>
+	<tag id="ID_EVIDENCE_UNKNOWNDNA_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">An unknown DNA Sample from the bitemark saliva</font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_UNKNOWNDNA_DESCRIPTION"><![CDATA[<font size="+2">The saliva collected from Mr. Williams' bitemark can be used for DNA analysis. If he was bit by a human, this may help us find out who did it.
+<b>Use the DNA STATION in the CSI lab to compare the DNA from the saliva to any DNA samples you collect from the suspects.</b></font> ]]></tag>
+	
+	<tag id="ID_EVIDENCE_RANGERDNA_NAME"><![CDATA[Ranger's DNA]]></tag>
+	<tag id="ID_EVIDENCE_RANGERDNA_IMAGE"><![CDATA[evidence_rangerdna_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_RANGERDNA_TITLE"><![CDATA[Ranger's DNA Sample]]></tag>
+	<tag id="ID_EVIDENCE_RANGERDNA_ROOM">room002</tag>
+	<tag id="ID_EVIDENCE_RANGERDNA_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Deborah Ranger's DNA sample </font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_RANGERDNA_DESCRIPTION"><![CDATA[If Deborah Ranger's bite impression matches the bitemark on our victim, we will need to run a DNA comparison to confirm it.
+If her hair matches the unknown hair, we can use this DNA sample to confirm whether the hair is hers.
+Use the DNA STATION to perform the DNA tests.]]></tag>
+
+	<tag id="ID_EVIDENCE_RANGERHAIR_NAME"><![CDATA[Ranger's Hair]]></tag>
+	<tag id="ID_EVIDENCE_RANGERHAIR_IMAGE"><![CDATA[evidence_rangerhair_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_RANGERHAIR_TITLE"><![CDATA[Ranger's Hair Sample]]></tag>
+	<tag id="ID_EVIDENCE_RANGERHAIR_ROOM">room002</tag>
+	<tag id="ID_EVIDENCE_RANGERHAIR_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Deborah Ranger's hair sample </font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_RANGERHAIR_DESCRIPTION"><![CDATA[We need to test whether the unknown hair found at Ms. Ranger's RV belongs to Ms. Ranger. If it's not hers, it may lead us to a suspect.
+Use the COMARISON MICROSCOPE in the LAB to compare her hair to the unknown hair.]]></tag>
+
+	<tag id="ID_EVIDENCE_RANGERIMPRESSION_NAME"><![CDATA[Ranger's Impression]]></tag>
+	<tag id="ID_EVIDENCE_RANGERIMPRESSION_IMAGE"><![CDATA[evidence_rangerimpression_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_RANGERIMPRESSION_TITLE"><![CDATA[Ranger's Bite Impression]]></tag>
+	<tag id="ID_EVIDENCE_RANGERIMPRESSION_ROOM">room002</tag>
+	<tag id="ID_EVIDENCE_RANGERIMPRESSION_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Deborah Ranger's bite impression </font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_RANGERIMPRESSION_DESCRIPTION"><![CDATA[If Ms. Ranger's impression is a match to the bitemark photo, you know whom you should keep an eye on.
+Use the LIGHT TABLE in the LAB to compare it with the bitemark photo you took from the victim's arm.]]></tag>
+
+	<tag id="ID_EVIDENCE_MURPHYDNA_NAME"><![CDATA[Murphy's DNA]]></tag>
+	<tag id="ID_EVIDENCE_MURPHYDNA_IMAGE"><![CDATA[evidence_murphydna_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_MURPHYDNA_TITLE"><![CDATA[Murphys's DNA Sample]]></tag>
+	<tag id="ID_EVIDENCE_MURPHYDNA_ROOM">room006</tag>
+	<tag id="ID_EVIDENCE_MURPHYDNA_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Wesley Murphy's DNA sample </font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_MURPHYDNA_DESCRIPTION"><![CDATA[If his dental impression matches the bitemark, a DNA comparison of Mr. Murphy with the saliva on the bitemark will confirm whether he bit the victim.
+Use the DNA STATION to compare Mr. Murphy's DNA with the DNA sample from the bitemark saliva.]]></tag>
+
+	<tag id="ID_EVIDENCE_MURPHYIMPRESSION_NAME"><![CDATA[Murphy's Impression]]></tag>
+	<tag id="ID_EVIDENCE_MURPHYIMPRESSION_IMAGE"><![CDATA[evidence_murphyimpression_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_MURPHYIMPRESSION_TITLE"><![CDATA[Murphy's Bite Impression]]></tag>
+	<tag id="ID_EVIDENCE_MURPHYIMPRESSION_ROOM">room006</tag>
+	<tag id="ID_EVIDENCE_MURPHYIMPRESSION_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Wesley Murphy's bite impression </font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_MURPHYIMPRESSION_DESCRIPTION"><![CDATA[If Mr. Murphy's impression matches the bitemark, he may be our prime suspect.
+Use the LIGHT TABLE in the LAB to compare it with the bitemark photo you took from the victim's arm.]]></tag>
+
+	<tag id="ID_EVIDENCE_TRACEBLOOD_NAME"><![CDATA[Trace Blood]]></tag>
+	<tag id="ID_EVIDENCE_TRACEBLOOD_IMAGE"><![CDATA[evidence_traceblood_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_TRACEBLOOD_TITLE"><![CDATA[Trace Blood Found]]></tag>
+	<tag id="ID_EVIDENCE_TRACEBLOOD_ROOM">room005</tag>
+	<tag id="ID_EVIDENCE_TRACEBLOOD_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Trace blood spatter in vet's office</font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_TRACEBLOOD_DESCRIPTION"><![CDATA[That blood spatter found behind the crooked picture is suspicious. Is it animal or human blood?
+Use the DNA STATION to find out if it is human blood. If so, compare the DNA of the blood sample to the victim's DNA sample.]]></tag>
+
+	<tag id="ID_EVIDENCE_KNOXHAIR_NAME"><![CDATA[Knox's Hair]]></tag>
+	<tag id="ID_EVIDENCE_KNOXHAIR_IMAGE"><![CDATA[evidence_knoxhair_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_KNOXHAIR_TITLE"><![CDATA[Knox's Hair Sample]]></tag>
+	<tag id="ID_EVIDENCE_KNOXHAIR_ROOM">room005</tag>
+	<tag id="ID_EVIDENCE_KNOXHAIR_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Sariel Knox's hair sample </font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_KNOXHAIR_DESCRIPTION"><![CDATA[Sariel Knox has blond hair that looks similar to the hair found at the crime scene.
+Use the COMPARISON MICROSCOPE to compare this hair with the unknown hair.]]></tag>
+
+	<tag id="ID_EVIDENCE_KNOXIMPRESSION_NAME"><![CDATA[Knox's Impression]]></tag>
+	<tag id="ID_EVIDENCE_KNOXIMPRESSION_IMAGE"><![CDATA[evidence_knoximpression_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_KNOXIMPRESSION_TITLE"><![CDATA[Knox's Bite Impression]]></tag>
+	<tag id="ID_EVIDENCE_KNOXIMPRESSION_ROOM">room005</tag>
+	<tag id="ID_EVIDENCE_KNOXIMPRESSION_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Sariel Knox's bite impression </font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_KNOXIMPRESSION_DESCRIPTION"><![CDATA[If Dr. Knox's bite impression matches the bitemark, it is likely that she had something to do with Williams' death.
+Use the LIGHT TABLE in the LAB to compare it with the bitemark photo you took from the victim's arm.]]></tag>
+
+	<tag id="ID_EVIDENCE_KNOXDNA_NAME"><![CDATA[Knox's DNA]]></tag>
+	<tag id="ID_EVIDENCE_KNOXDNA_IMAGE"><![CDATA[evidence_knoxdna_cu_en]]></tag>
+	<tag id="ID_EVIDENCE_KNOXDNA_TITLE"><![CDATA[Knox's DNA Sample]]></tag>
+	<tag id="ID_EVIDENCE_KNOXDNA_ROOM">room005</tag>
+	<tag id="ID_EVIDENCE_KNOXDNA_HEADER"><![CDATA[<font size="+2">You've acquired some EVIDENCE: <font color="#D6DEFE" size="+1">Sariel Knox's DNA sample </font> </font> ]]></tag>
+	<tag id="ID_EVIDENCE_KNOXDNA_DESCRIPTION"><![CDATA[If her dental impression matches the bitemark, a DNA comparison of Dr. Knox with the saliva on the bitemark will confirm whether she bit the victim.
+If her hair matches the unknown hair, we can use this DNA sample to confirm whether the hair is hers.
+Use the DNA STATION to run the confirmatory tests.]]></tag>
+
+</strings>

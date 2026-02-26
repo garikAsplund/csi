@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<dialog name="Parker" displayName="Donald Parker">
+	<conversation location="CrimeScene" visit="1" name="1">
+		<statement num="1"><![CDATA[So, you have questions for me?]]></statement>
+		<statement num="2"><![CDATA[Donald Parker, I live next door.]]></statement>
+		<statement num="3"><![CDATA[Well, the fire was pretty much over when I came home from work. The firefighters were about to leave.]]></statement>
+		<statement num="4"><![CDATA[Around 5:30 am. I work the night shift at a restaurant a few blocks from here.]]></statement>
+		<statement num="5"><![CDATA[A guy named Trevor Johnson. Did something happen to him?]]></statement>
+		<statement num="6"><![CDATA[I saw him going into the house with his girlfriend last night before I left.]]></statement>
+		<statement num="7"><![CDATA[Well, I heard them shouting, but that's not really unusual. The guy's really hot-headed. I had a few run-ins with him myself.]]></statement>
+		<statement num="8"><![CDATA[Uuuhh... nothing, really. About parking, loud music, stuff like that.]]></statement>
+		<statement num="9"><![CDATA[We try to avoid each other if we can.]]></statement>
+		<statement num="10"><![CDATA[I never met her, but I think her name is Natalie. I heard Trevor shouting that.]]></statement>
+		<response num="1"><![CDATA[Who are you?]]></response>
+		<response num="2"><![CDATA[When and how did you notice the fire?]]></response>
+		<response num="3"><![CDATA[Who lives in the house?]]></response>
+		<response num="4"><![CDATA[When did you come home?]]></response>
+		<response num="5"><![CDATA[When was the last time you saw Mr. Johnson?]]></response>
+		<response num="6"><![CDATA[Did you notice anything unusual?]]></response>
+		<response num="7"><![CDATA[Run-ins? About what?]]></response>
+		<response num="8"><![CDATA[How well do you know Mr. Johnson?]]></response>
+		<response num="9"><![CDATA[Do you know Mr. Johnson's girlfriend?]]></response>
+		<response num="10"><![CDATA[Thanks for the information.]]></response>
+	</conversation>
+	<conversation location="NeighborsHouse" visit="1" name="2">
+		<statement num="1"><![CDATA[Do you have more questions? I've told you everything I know.]]></statement>
+		<statement num="2"><![CDATA[Why would I? I told you that Trevor and I try to avoid each other.]]></statement>
+		<response num="1"><![CDATA[Were you around Mr. Johnson's house lately?]]></response>
+		<response num="2"><![CDATA[Let me show you a box of matches we found.]]></response>
+	</conversation>
+	<conversation location="NeighborsHouse" visit="1" name="3">
+		<statement num="1"><![CDATA[These are my matches. Where did you find them?]]></statement>
+		<statement num="2"><![CDATA[Uuuhh... well they must have slipped my pocket.]]></statement>
+		<statement num="3"><![CDATA[Remember I told you I heard Trevor and his girlfriend shouting? I was worried about the girl and wanted to check what's going on.]]></statement>
+		<statement num="4"><![CDATA[No. I was running late for work as it was. Besides, I figured it was probably the best to not get involved with their business.]]></statement>
+		<statement num="5"><![CDATA[Must have been around 9 pm, shortly before I left for work.]]></statement>
+		<response num="1"><![CDATA[They were on Mr. Johnson's doorsteps. How can you explain that?]]></response>
+		<response num="2"><![CDATA[What did you do at Mr. Johnson's house?]]></response>
+		<response num="3"><![CDATA[Did you enter the house?]]></response>
+		<response num="4"><![CDATA[When were you at Mr. Johnson's house?]]></response>
+		<response num="5"><![CDATA[Thank you for your time.]]></response>
+	</conversation>
+</dialog>

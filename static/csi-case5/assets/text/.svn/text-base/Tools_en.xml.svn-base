@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<tools>
+	<tool name="PDA">
+		<title><![CDATA[Smartphone]]></title>
+		<text><![CDATA[You've acquired a smartphone
+Check out these great features:
+<li>Messages - Instant communications!</li>
+<li>Clues - Records every clue you find.</li>
+<li>Evidence - Records all the evidence you find by locations.</li>]]></text>
+	</tool>
+	<tool name="Swabs">
+		<title><![CDATA[Swabs]]></title>
+		<text><![CDATA[You’ve acquired some swabs
+These swabs can be used to collect cheek cells from persons of interest for DNA analysis. 
+To use these swabs, click them and then click a person of interest.
+]]></text>
+	</tool>
+	<tool name="Camera">
+		<title><![CDATA[Camera]]></title>
+		<text><![CDATA[You’ve acquired a camera
+Photos from the crime scene can be used to determine the position of the body at the time of shooting.
+To use this camera, click it and then click an object at the crime scene.]]></text>
+	</tool>
+</tools>

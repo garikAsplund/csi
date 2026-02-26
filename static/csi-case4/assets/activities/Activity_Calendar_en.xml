@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<activity name="Calendar">
+	<month><![CDATA[February]]></month>
+	<day num="1"><![CDATA[Sun]]></day>
+	<day num="2"><![CDATA[Mon]]></day>
+	<day num="3"><![CDATA[Tues]]></day>
+	<day num="4"><![CDATA[Wed]]></day>
+	<day num="5"><![CDATA[Thur]]></day>
+	<day num="6"><![CDATA[Fri]]></day>
+	<day num="7"><![CDATA[Sat]]></day>
+	<note><![CDATA[Work Schedule: 
+	9pm - 5am]]></note>
+</activity>

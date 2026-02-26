@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<!-- ROOM -->
+	
+	<tag id="ID_TOOL_SAVED"><![CDATA[Tool Obtained!]]></tag>
+	<tag id="ID_CLUE_SAVED"><![CDATA[Clue Saved!]]></tag>
+	<tag id="ID_LOC_1"><![CDATA[CSI Headquarters]]></tag>
+	<tag id="ID_LOC_2"><![CDATA[Desert Crime Scene]]></tag>
+	<tag id="ID_LOC_3"><![CDATA[Maury Wan's Office]]></tag>
+	<tag id="ID_LOC_4"><![CDATA[Reynolds' Residence]]></tag>
+	<tag id="ID_LOC_5"><![CDATA[Gabriel Tam's Apartment]]></tag>
+
+	<tag id="ID_SPEAKER_LABEL_GRISSOM"><![CDATA[Dr. Gil Grissom]]></tag>
+	<tag id="ID_SPEAKER_LABEL_NICK"><![CDATA[Nick Stokes]]></tag>
+	<tag id="ID_SPEAKER_LABEL_CATHERINE"><![CDATA[Catherine Willows]]></tag>
+	<tag id="ID_SPEAKER_LABEL_DOC"><![CDATA[Dr. Al Robbins]]></tag>
+	<tag id="ID_SPEAKER_LABEL_FORENSIC_ARTIST"><![CDATA[Taylor Wilkinson]]></tag>
+	<tag id="ID_SPEAKER_LABEL_AGENT"><![CDATA[Maury Wan, Agent]]></tag>
+	<tag id="ID_SPEAKER_LABEL_BOYFRIEND"><![CDATA[Lawrence Garvey]]></tag>
+	<tag id="ID_SPEAKER_LABEL_MOTHER"><![CDATA[Mrs. Sallie Reynolds]]></tag>
+	<tag id="ID_SPEAKER_LABEL_STALKER"><![CDATA[Gabriel Tam]]></tag>
+	
+</strings>

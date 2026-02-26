@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<activity name="BulletComparison3">
+	<reviewBtn><![CDATA[Review Data]]></reviewBtn>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+	<matchBtn>MATCH</matchBtn>
+	<noMatchBtn>NO MATCH</noMatchBtn>
+	<screen name="screen1">
+		<title><![CDATA[Bullet from McCoy’s gun – Class characteristics]]></title>
+		<desc><![CDATA[What is the caliber of this bullet?
+Use the scale to measure the caliber.]]></desc>
+		<option num="1" correct="true"><![CDATA[9 millimeters]]></option>			
+		<option num="2" correct="false"><![CDATA[15 millimeters]]></option>
+		<option num="3" correct="false"><![CDATA[9 centimeters]]></option>
+		<response num="1"><![CDATA[That’s right.]]></response>
+		<response num="2"><![CDATA[When determining the caliber, you need to measure the width of the bullet, not the length. Try again.]]></response>
+		<response num="3"><![CDATA[The scale is in millimeters, not centimeters. Try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<examples>
+		<title><![CDATA[Bullet from McCoy’s gun – Class characteristics]]></title>
+		<desc><![CDATA[Most modern guns have spiral grooves inside their barrels, which are called RIFLING.<br/>When a bullet is fired, rifling makes the bullet spin in the air. 
+
+Rifling leaves impressions on the surface of the bullet, which can either be conventional or polygonal.]]></desc>
+		<example num="1"><![CDATA[Conventional rifling]]></example>
+		<example num="2"><![CDATA[Polygonal rifling]]></example>
+		<exampleBtn><![CDATA[See example]]></exampleBtn>
+		<popup num="1"><![CDATA[Conventional rifling leaves deep, easy to see grooves on the surface of the bullet.]]></popup>
+		<popup num="2"><![CDATA[Polygonal rifling leaves impressions that are less easy to see, with less distinct grooves.]]></popup>
+		<closeBtn><![CDATA[Close]]></closeBtn>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</examples>
+	<screen name="screen2">
+		<title><![CDATA[Bullet from McCoy’s gun – Class characteristics]]></title>
+		<desc><![CDATA[What type of rifling impressions does this bullet have?]]></desc>
+		<option num="1" correct="true"><![CDATA[Conventional]]></option>			
+		<option num="2" correct="false"><![CDATA[Polygonal]]></option>
+		<option num="3" correct="false"><![CDATA[Both]]></option>
+		<response num="1"><![CDATA[Yes, the grooves are very distinct, so we’re looking at conventional rifling.]]></response>
+		<response num="2"><![CDATA[If this rifling were polygonal, you couldn’t see the grooves that well. Try again.]]></response>
+		<response num="3"><![CDATA[No, rifling is either one or the other. Try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="screen3">
+		<title><![CDATA[Bullet from McCoy's gun - Class characteristics]]></title>
+		<desc><![CDATA[How many rifling impressions does this bullet have?]]></desc>
+		<option num="1" correct="false"><![CDATA[5]]></option>			
+		<option num="2" correct="true"><![CDATA[6]]></option>
+		<option num="3" correct="false"><![CDATA[7]]></option>
+		<caption num="1"><![CDATA[Previous Groove]]></caption>
+		<caption num="2"><![CDATA[Next Groove]]></caption>
+		<response num="1"><![CDATA[Not quite.
+
+Try rotating the bullet if you’re not sure and try again.]]></response>
+		<response num="2"><![CDATA[I agree.]]></response>
+		<response num="3"><![CDATA[Not quite.
+
+Try rotating the bullet if you’re not sure and try again.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="screen4">
+		<title><![CDATA[CLASS CHARACTERISTICS - SUMMARY]]></title>
+		<row num="0">
+			<col num="1">Bullet</col>
+			<col num="2">Caliber</col>
+			<col num="3">Rifling Type</col>
+			<col num="4">Rifling Number</col>
+			<col num="5">Do class characteristics match?</col>
+		</row>
+		<row num="1">
+			<col num="1"><![CDATA[Reference (autopsy bullet)]]></col>
+			<col num="2">9 mm</col>
+			<col num="3">conventional</col>
+			<col num="4">6</col>
+			<col num="5"></col>	
+		</row>
+		<row num="2">
+			<col num="1"><![CDATA[Gun found at crime scene]]></col>
+			<col num="2">9 mm</col>
+			<col num="3">conventional</col>
+			<col num="4">9</col>
+			<col num="5">NO MATCH</col>			
+		</row>
+		<row num="3">
+			<col num="1"><![CDATA[McCoy’s gun]]></col>
+			<col num="2">9 mm</col>
+			<col num="3">conventional</col>
+			<col num="4">6</col>
+			<col num="5">MATCH</col>		
+		</row>
+		<response><![CDATA[Looks like a match to me – all three class characteristics are the same.]]></response>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+	</screen>
+	<screen name="screen5">
+		<title><![CDATA[Bullet from McCoy’s gun - Individual characteristics]]></title>
+		<desc><![CDATA[When a bullet is shot, the barrel of the gun leaves tiny, microscopic scratches on its surface.
+
+These scratches are called STRIATIONS.]]></desc>
+		<nextBtn><![CDATA[Continue]]></nextBtn>
+	</screen>
+	<screen name="screen6">
+		<text><![CDATA[No two firearms will produce exactly the same striations. If the striations match, we’ll have our murder weapon.
+
+Comparing striations is not easy and takes years of training. Give it your best shot.]]></text>
+		<startBtn><![CDATA[Start comparison]]></startBtn>
+		<title><![CDATA[COMPARISON MICROSCOPE]]></title>
+		<load>LOAD BULLET</load>
+		<bulletName>Bullet from McCoy's gun</bulletName>
+		<instruct>Click here when the suspect bullet's groove matches the crime scene bullet's groove</instruct>
+		<rightBullet>BULLET FROM MCCOY'S GUN</rightBullet>
+		<leftBullet>AUTOPSY BULLET</leftBullet>
+		<matchBtn>MATCH</matchBtn>
+		<noMatchBtn>NO MATCH</noMatchBtn>
+		<focus>FOCUS SUSPECT</focus>
+		<rotate>ROTATE BULLETS</rotate>
+		<both>BOTH</both>
+		<suspect>SUSPECT</suspect>
+		<chooseGroove>CHOOSE GROOVE TO VIEW</chooseGroove>
+		<helpBtn>VIEW HELP</helpBtn>
+		<closeHelp>CLOSE HELP</closeHelp>
+		<help num="1"><![CDATA[Slide the slider to focus the bullet you have loaded]]></help>
+		<help num="2"><![CDATA[Move the loaded bullet to align the groove mark with the autopsy bullet]]></help>
+		<help num="3"><![CDATA[Move both bullets into view]]></help>
+		<help num="4"><![CDATA[Click to change grooves]]></help>
+		<help num="5"><![CDATA[Click here when you think the chosen suspect's bullet groove matches the autopsy bullet's groove]]></help>
+		<response num="1"><![CDATA[The striations don’t look exactly the same. Try again.]]></response>
+		<response num="2"><![CDATA[There are small differences between the two bullets. Try again.]]></response>
+		<response num="3"><![CDATA[No, these striations don’t look the same.
+
+Would you like me to take it from here?]]></response>
+		<noMatch num="1"><![CDATA[That’s right, the striations don’t match.
+
+Why don't you try checking another groove?]]></noMatch>
+		<noMatch num="2"><![CDATA[I don’t see a match either.
+
+Try another groove.]]></noMatch>
+		<noMatch num="3"><![CDATA[Correct, the striations are different.
+
+Would you like me to take it from here?]]></noMatch>
+		<finish><![CDATA[It seems that none of the grooves match.
+
+Let me finish up.]]></finish>
+		<closeBtn><![CDATA[Okay.]]></closeBtn>
+		<youGoBtn><![CDATA[You go, Sara!]]></youGoBtn>
+		<continueBtn><![CDATA[Continue]]></continueBtn>
+		<keepOnBtn><![CDATA[I'll keep analyzing.]]></keepOnBtn>
+	</screen>
+	<screen name="screen7">
+		<title><![CDATA[CLASS CHARACTERISTICS + INDIVIDUAL CHARACTERISTICS]]></title>
+		<row num="0">
+			<col num="1">Bullet</col>
+			<col num="2">Caliber</col>
+			<col num="3">Rifling Type</col>
+			<col num="4">Rifling Number</col>
+			<col num="5">Do class characteristics match?</col>
+			<col num="6">Do individual characteristics match?</col>
+		</row>
+		<row num="1">
+			<col num="1"><![CDATA[Reference (autopsy bullet)]]></col>
+			<col num="2">9 mm</col>
+			<col num="3">conventional</col>
+			<col num="4">6</col>
+			<col num="5"></col>	
+			<col num="6"></col>	
+		</row>
+		<row num="2">
+			<col num="1"><![CDATA[Gun found at crime scene]]></col>
+			<col num="2">9 mm</col>
+			<col num="3">conventional</col>
+			<col num="4">9</col>
+			<col num="5">NO MATCH</col>
+			<col num="6"></col>	
+		</row>
+		<row num="3">
+			<col num="1"><![CDATA[McCoy’s gun]]></col>
+			<col num="2">9 mm</col>
+			<col num="3">conventional</col>
+			<col num="4">6</col>
+			<col num="5">MATCH</col>
+			<col num="6">NO MATCH</col>			
+		</row>
+	</screen>
+</activity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<location name="CrimeScene" displayName="Crime Scene" iconName="Crime Scene">
+	<person name="Langston" />
+	<person name="DonaldParker" />
+	<object name="ToLivingRoom" />
+	<object name="Matches" />
+	<visit num="1" ambient="CrimeSceneAmbient">
+		<clickable name="Langston" type="required" action="dialog:LangstonOutside" checkDone="dialog:LangstonOutside">
+			<clickable name="Langston" type="ignore" action="dialog:LangstonOutsideUnfinished" persist="true" />
+		</clickable>
+		<clickable name="DonaldParker" type="required" action="dialog:Parker1,clue:GirlfriendSuspect,clue:NeighborSuspect,custom:CheckOutsideDone" persist="true" >
+      </clickable>     
+		<clickable name="Matches" type="required" action="evidence:Matches,custom:CheckOutsideDone,custom:CheckDoneMatches" checkDone="evidence:Matches">
+		</clickable>
+	</visit>
+	<visit num="2" ambient="CrimeSceneAmbient">
+		<clickable name="Langston" type="required" action="dialog:LangstonOutsideUnfinished" persist="true" />
+		<clickable name="ToLivingRoom" type="ignore" action="location:CrimeScene_LivingRoom" />
+	</visit>
+	<visit num="3" ambient="CrimeSceneAmbient">
+		<clickable name="Langston" type="required" action="dialog:LangstonOutsideFinished" persist="true" />
+		<clickable name="ToLivingRoom" type="ignore" action="location:CrimeScene_LivingRoom" />
+	</visit>
+	<visit num="4" ambient="CrimeSceneAmbient">
+		<clickable name="ToLivingRoom" type="ignore" action="location:CrimeScene_Bathroom" />
+	</visit>
+   <custom name="CheckDoneMatches" require="evidence:Matches">
+         <set variable="visit:Lab" value="2" />           
+   </custom>   
+	<custom name="CheckOutsideDone" require="evidence:Matches,clue:NeighborSuspect">
+         <set variable="visit:CrimeScene" value="2" /> 
+         <set variable="visit:Lab" value="2" />           
+		<clickable name="ToLivingRoom" type="required" action="location:CrimeScene_LivingRoom" />
+	</custom>
+	<custom name="CheckIfDone" require="evidence:Photos,evidence:FlooringSample,evidence:SpaceHeater,clue:Alcohol,evidence:Matches,clue:NeighborSuspect">
+		<clickable name="Langston" type="required" action="dialog:LangstonOutsideFinished" persist="true" />
+		<set variable="visit:CrimeScene" value="3" />
+		<set variable="visit:CrimeScene_LivingRoom" value="2" />
+	</custom>
+</location>

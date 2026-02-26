@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<dialog name="Langston" displayName="Sara Sidle">
+	<conversation location="CrimeScene" visit="1" name="Outside">
+		<statement num="1"><![CDATA[Glad you're here.]]></statement>
+		<statement num="2"><![CDATA[The victim is a young male. A female named Natalie Perez had called the fire department after escaping the fire.
+
+The call came in around 3 am.]]></statement>
+		<statement num="3"><![CDATA[She did not appear to have any severe physical injuries, but EMS did treat her for smoke inhalation and transferred her to the hospital.]]></statement>
+		<statement num="4"><![CDATA[That's what we need to find out. It's important to keep an open mind when investigating a fire.]]></statement>
+		<statement num="5"><![CDATA[Doc Robbins' team has already picked it up.]]></statement>
+		<statement num="6"><![CDATA[First, look for evidence outside the house and see if there are any witnesses.
+
+Then we can investigate the fire scene.]]></statement>		
+		<response num="1"><![CDATA[What happened?]]></response>
+		<response num="2"><![CDATA[Where is Natalie Perez now?]]></response>
+		<response num="3"><![CDATA[Was it arson or an accident?]]></response>
+		<response num="4"><![CDATA[Where is the body?]]></response>
+		<response num="5"><![CDATA[What do I need to do?]]></response>
+		<response num="6"><![CDATA[I'm ready to start investigating.]]></response>
+	</conversation>
+	<conversation location="CrimeScene" visit="1" name="OutsideUnfinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Not yet. You still need to ]]></statement>
+		<statement num="2_1"><![CDATA[search for evidence outside the house.]]></statement>
+		<statement num="2_2"><![CDATA[talk to the witness.]]></statement>
+		<statement num="2_3"><![CDATA[investigate the fire scene inside the house.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="CrimeScene" visit="1" name="OutsideFinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Yes, let's go back to headquarters and analyze the evidence we have.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[Let's go to the lab.]]></response>
+	</conversation>
+	<conversation location="CrimeScene_LivingRoom" visit="1" name="LivingRoom">		
+		<statement num="1"><![CDATA[Do you have a question about the investigation?]]></statement>
+		<statement num="2"><![CDATA[Documentation is key when investigating a fire.
+
+You should photograph the scene and look for evidence.]]></statement>
+		<statement num="3"><![CDATA[Use the camera in your tools.]]></statement>
+		<statement num="4"><![CDATA[Anything that might point to the origin of the fire.
+
+Also, look for circumstantial evidence such as personal belongings.]]></statement>	
+		<response num="1"><![CDATA[What should I do here?]]></response>
+		<response num="2"><![CDATA[How do I take pictures?]]></response>
+		<response num="3"><![CDATA[What kind of evidence should I look for?]]></response>
+		<response num="4"><![CDATA[I'll start processing the scene.]]></response>
+	</conversation>
+	<conversation location="CrimeScene_LivingRoom" visit="1" name="LivingRoomUnfinished">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[Not yet. You still need to ]]></statement>
+		<statement num="2_1"><![CDATA[use your camera to photograph the scene.]]></statement>
+		<statement num="2_2"><![CDATA[use your chisel to take a sample of the floor material with the puddle-shaped burn pattern.]]></statement>
+		<statement num="2_3"><![CDATA[find more evidence.]]></statement>
+		<statement num="2_4"><![CDATA[search for evidence outside the house.]]></statement>
+		<statement num="2_5"><![CDATA[talk to the witness.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="CrimeScene_LivingRoom" visit="1" name="LivingRoomFinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Yes, let's go back to headquarters and analyze the evidence we have.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[Let's go to the lab.]]></response>
+	</conversation>
+	<conversation location="CrimeScene_LivingRoom" visit="1" name="Photos">
+		<statement num="1"><![CDATA[This puddle-shaped burn pattern is suspicious. Patterns like this can occur in areas where ignitable liquids were poured on the floor.
+
+You should take a sample of the burned wood flooring so that we can test it for ignitable liquids in the lab.]]></statement>
+		<statement num="2"><![CDATA[Try to use the fire scene tool kit from your tool collection.]]></statement>
+		<response num="1"><![CDATA[How can I take a sample of the flooring?]]></response>
+		<response num="2"><![CDATA[I'll finish taking pictures and then take a sample.]]></response>		
+	</conversation>
+	<conversation location="NeighborsHouse" visit="1" name="NeighborUnfinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Not yet. You still need to confront Mr. Parker with the matches from the fire scene.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="NeighborsHouse" visit="1" name="NeighborFinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Yes. Let's see if Doc Robbins has started the autopsy.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll select my next location.]]></response>
+	</conversation>
+	<conversation location="CrimeScene_Bathroom" visit="1" name="BathroomUnfinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Not yet. You still need to search the house for the source of the oxycodone you found in the victim's blood.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="CrimeScene_Bathroom" visit="1" name="BathroomFinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Yes. Let's move on.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll select my next location.]]></response>
+	</conversation>
+	<conversation location="SistersHouse" visit="1" name="SisterUnfinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Not yet. You still need to confront Lina Perez with the prescription you found at the victim's house.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="SistersHouse" visit="1" name="SisterFinished">
+		<statement num="1"><![CDATA[Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[Yes. Let's move on.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll select my next location.]]></response>
+	</conversation>
+	<conversation location="Hospital" visit="1" name="Hospital">
+		<statement num="1"><![CDATA[Good job so far. Do you have any questions?]]></statement>
+		<statement num="2"><![CDATA[You need to talk to the victim's girlfriend, Natalie Perez.
+
+Also, ask her doctor to give you access to her patient report.]]></statement>
+		<statement num="3"><![CDATA[You'll find her room in the corridor behind me.]]></statement>
+		<statement num="4"><![CDATA[Her office is to your right.]]></statement>
+		<statement num="5"><![CDATA[Yes - since the medical data is relevant for the case, Brass made sure your search warrant includes Natalie's patient record.]]></statement>
+		<response num="1"><![CDATA[What should I do here?]]></response>
+		<response num="2"><![CDATA[Where can I find Natalie Perez?]]></response>
+		<response num="3"><![CDATA[Where can I find Natalie's doctor?]]></response>
+		<response num="4"><![CDATA[Can I legally obtain the medical data?]]></response>
+		<response num="5"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Hospital" visit="1" name="HospitalUnfinished">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[Not yet. You still need to ]]></statement>
+		<statement num="2_1"><![CDATA[talk to Dr. Lewis.]]></statement>
+		<statement num="2_2"><![CDATA[take a look at Natalie's patient report.]]></statement>
+		<statement num="2_3"><![CDATA[as Dr. Lewis about the patient report.]]></statement>
+		<statement num="2_4"><![CDATA[access the simulation on the doctor's computer.]]></statement>
+		<statement num="2_5"><![CDATA[talk to the patient, Natalie Perez.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="Hospital" visit="1" name="HospitalFinished">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[Yes. It's time to report your findings. Open your smartphone to access the file.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I’ll check my smartphone.]]></response>
+	</conversation>
+</dialog>

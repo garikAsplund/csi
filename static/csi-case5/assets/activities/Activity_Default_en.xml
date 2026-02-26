@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<activity name="Default">
+	<text symbol="note"><![CDATA[Default activity yay.]]></text>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+</activity>

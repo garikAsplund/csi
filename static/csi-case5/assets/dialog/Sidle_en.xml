@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+<dialog name="Sidle" displayName="Sara Sidle">
+	<conversation location="BallisticsLab" name="1">
+		<statement num="1"><![CDATA[Hi there. Do you have any firearms and bullets to analyze?]]></statement>
+		<statement num="2"><![CDATA[The crime scene is your best bet. You'll find it under your locations.]]></statement>
+		<response num="1"><![CDATA[No. Where can I find this evidence?]]></response>
+		<response num="2"><![CDATA[I'll start collecting evidence.]]></response>
+		<response num="3"><![CDATA[I'm headed to the crime scene.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="GetBullet">
+		<statement num="1"><![CDATA[It only makes sense to test fire this gun if you have a bullet to compare it to.
+		
+Since there weren’t any bullets at the crime scene, there’s a good chance that the bullet is still in the victim’s head. Come back after you have done the autopsy.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="PriorAutopsy">
+		<statement num="1"><![CDATA[Yes?]]></statement>
+		<statement num="2"><![CDATA[Yes, for now. Come back when you have the bullet that is in the victim's head.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I will do that.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="WithEvidence">
+		<statement num="1"><![CDATA[How can I help you?]]></statement>
+		<statement num="2"><![CDATA[Use the water tank to obtain bullets from test fired guns.
+
+Then compare the obtained bullets with the autopsy bullet using the comparison microscope.]]></statement>
+		<response num="1"><![CDATA[What should I do here?]]></response>
+		<response num="2"><![CDATA[I am ready to process evidence.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="NotDone">
+		<statement num="1"><![CDATA[Yes?]]></statement>
+		<statement num="2"><![CDATA[Not yet. There's still evidence that needs to be analyzed.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I am ready to process evidence.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="Done">
+		<statement num="1"><![CDATA[Yes?]]></statement>
+		<statement num="2"><![CDATA[Yes. Come back if you have more evidence to analyze.]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[See you later.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="DoneFinal">
+		<statement num="1"><![CDATA[Yes?]]></statement>
+		<statement num="2"><![CDATA[Yes. Good job!]]></statement>
+		<response num="1"><![CDATA[Am I done here?]]></response>
+		<response num="2"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="WithNextEvidence">
+		<statement num="1"><![CDATA[Do you have a question?]]></statement>
+		<statement num="2"><![CDATA[You know how it works. Use the water tank to produce test fired bullets.
+
+Then use the comparison microscope to compare this bullet with the autopsy bullet.]]></statement>
+		<response num="1"><![CDATA[What should I do here?]]></response>
+		<response num="2"><![CDATA[I am ready to process evidence.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="ExplainFiringStation">
+		<statement num="1"><![CDATA[The water tank is where you test fire your firearms to produce bullets for comparison.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="ExplainMicroscope">
+		<statement num="1"><![CDATA[Use this comparison microscope to analyze and compare bullets.]]></statement>
+		<response num="1"><![CDATA[Okay.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="FiringStation1">
+		<statement num="1"><![CDATA[You need to test fire the gun in the water tank to get a comparison bullet.
+		
+Don’t worry – it’s completely safe.]]></statement>
+		<response num="1"><![CDATA[Let's do it.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="ComparisonWait">
+		<statement num="1"><![CDATA[Wait! Examine the autopsy bullet first so that you know what to look for when comparing it to other bullets.]]></statement>
+		<response num="1"><![CDATA[I'll do that.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="DeadlyBullet">
+		<statement num="1"><![CDATA[You already know from your rookie training that bullets have CLASS CHARACTERISTICS that can help narrow down the type of gun they were shot from.
+
+Let’s determine the class characteristics of the autopsy bullet first.]]></statement>
+		<response num="1"><![CDATA[I’ll look at class characteristics.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="CrimeSceneBulletStart">
+		<statement num="1"><![CDATA[First, you need to compare the bullets’ class characteristics to find out if they were fired from the same TYPE of gun.]]></statement>
+		<response num="1"><![CDATA[Let's do it.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="CrimeSceneBulletEnd">
+		<statement num="1"><![CDATA[What can you conclude based on the class characteristics?]]></statement>
+		<statement num="2"><![CDATA[If that were the case, all class characteristics would be the same. Try again.]]></statement>
+		<statement num="3"><![CDATA[The fact that the two bullets have different rifling numbers gives you a clear answer. Try again.]]></statement>
+		<statement num="4"><![CDATA[You’ve got it. So if the gun found at the crime scene is NOT the murder weapon, what can you conclude?]]></statement>
+		<statement num="5"><![CDATA[It is very unlikely that the victim shot herself with a different weapon.
+
+How would she have switched the guns AFTER she died? Try again.]]></statement>
+		<statement num="6"><![CDATA[The comparison of class characteristics leaves little room for error. Try again.]]></statement>
+		<statement num="7"><![CDATA[That’s what it seems like. Looks like you have to keep looking for the real murder weapon – and a murderer.]]></statement>
+		<response num="1"><![CDATA[The autopsy bullet was definitely fired from the crime scene gun.]]></response>
+		<response num="2"><![CDATA[The autopsy bullet was definitely NOT fired from the crime scene gun.]]></response>
+		<response num="3"><![CDATA[The autopsy bullet was probably fired from the crime scene gun.]]></response>
+		<response num="4"><![CDATA[The crime scene was staged to look like suicide.]]></response>
+		<response num="5"><![CDATA[The victim used a different weapon to shoot herself.]]></response>
+		<response num="6"><![CDATA[The bullet analysis did not work.]]></response>
+		<response num="7"><![CDATA[I'll keep investigating.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="McCoyBulletStart">
+		<statement num="1"><![CDATA[Let’s see if the class characteristics of this gun match the autopsy bullet.]]></statement>
+		<response num="1"><![CDATA[I'll look at the class characteristics.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="McCoyBullet1">
+		<statement num="1"><![CDATA[What can you conclude based on the class characteristics?]]></statement>
+		<statement num="2"><![CDATA[Hold on. Class characteristics are only specific for a certain brand or type of firearm, not individual guns. Try again.]]></statement>
+		<statement num="3"><![CDATA[Since the class characteristics match, there is a good chance that McCoy’s gun was the murder weapon. Try again.]]></statement>
+		<statement num="4"><![CDATA[Yes. To confirm that McCoy’s gun is the murder weapon, we’ll have to look at individual characteristics.
+		
+Are you ready to do that?]]></statement>
+		<response num="1"><![CDATA[The autopsy bullet WAS fired from McCoy’s gun.]]></response>
+		<response num="2"><![CDATA[The autopsy bullet WAS NOT fired from McCoy’s gun.]]></response>
+		<response num="3"><![CDATA[The autopsy bullet MAY OR MAY NOT have been fired from McCoy’s gun.]]></response>
+		<response num="4"><![CDATA[I’m ready.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="McCoyBulletEndx">
+		<statement num="1"><![CDATA[I couldn’t find a match between any of the grooves.
+
+What does that tell us?]]></statement>
+		<statement num="2"><![CDATA[There is a definite conclusion you can make based on the comparison of individual striations. Try again.]]></statement>
+		<statement num="3"><![CDATA[There is no way that the autopsy bullet was fired from McCoy’s gun.
+
+If that were the case, the individual characteristics would match. Try again.]]></statement>
+		<statement num="4"><![CDATA[I agree. It seems you have to keep looking.]]></statement>
+		<response num="1"><![CDATA[McCoy’s gun is probably the murder weapon.]]></response>
+		<response num="2"><![CDATA[McCoy’s gun is definitely NOT the murder weapon.]]></response>
+		<response num="3"><![CDATA[McCoy’s gun is definitely the murder weapon.]]></response>
+		<response num="4"><![CDATA[I’ll keep investigating.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="McCoyBulletEnd">
+		<statement num="1"><![CDATA[I couldn’t find a match between any of the grooves.
+
+What does that tell us?]]></statement>
+		<statement num="2"><![CDATA[That's what it seems like.
+
+However, you can only confirm this by finding a gun whose bullet's individual characteristics match the autopsy bullet.]]></statement>
+		<statement num="3"><![CDATA[There is no way that the autopsy bullet was fired from McCoy’s gun.
+
+If that were the case, the individual characteristics would match. Try again.]]></statement>
+		<response num="1"><![CDATA[McCoy’s gun is NOT the murder weapon.]]></response>
+		<response num="2"><![CDATA[McCoy’s gun IS the murder weapon.]]></response>
+		<response num="3"><![CDATA[I’ll keep investigating.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="PharmacistBulletStart">
+		<statement num="1"><![CDATA[First, determine if the autopsy bullet could have been fired by this type of gun by looking at the class characteristics.]]></statement>
+		<response num="1"><![CDATA[I'll look at the class characteristics.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="PharmacistBullet1">
+		<statement num="1"><![CDATA[What can you conclude based on the class characteristics?]]></statement>
+		<statement num="2"><![CDATA[You’re jumping to conclusions.
+
+Based on class characteristics, you can only narrow down the brand or type of gun, not individual guns. Try again.]]></statement>
+		<statement num="3"><![CDATA[The class characteristics match, so it is very possible that the pharmacist’s gun is the murder weapon. Try again.]]></statement>
+		<statement num="4"><![CDATA[Exactly. Next, we’ll have to look at the bullets’ individual characteristics to determine if the pharmacist’s gun is really the murder weapon.]]></statement>
+		<response num="1"><![CDATA[The autopsy bullet was definitely fired from the pharmacist’s gun.]]></response>
+		<response num="2"><![CDATA[The autopsy bullet was definitely NOT fired from the pharmacist’s gun.]]></response>
+		<response num="3"><![CDATA[The autopsy bullet MAY OR MAY NOT have been fired from the pharmacist’s gun.]]></response>
+		<response num="4"><![CDATA[I’ll look at individual characteristics.]]></response>
+	</conversation>
+	<conversation location="BallisticsLab" name="PharmacistBulletEnd">
+		<statement num="1"><![CDATA[What can you conclude based on the striations comparison?]]></statement>
+		<statement num="2"><![CDATA[If two bullets’ individual characteristics match, then the answer is crystal clear. Try again.]]></statement>
+		<statement num="3"><![CDATA[Remember, only one individual firearm can produce the exact same striation pattern. Try again.]]></statement>
+		<statement num="4"><![CDATA[There you go!
+
+Now, this doesn’t proove that Edgar White was the shooter, but he’ll have some explaining to do.]]></statement>
+		<response num="1"><![CDATA[Edgar White’s gun is probably the murder weapon.]]></response>
+		<response num="2"><![CDATA[Edgar White’s gun is definitely NOT the murder weapon.]]></response>
+		<response num="3"><![CDATA[Edgar White’s gun is definitely the murder weapon.]]></response>
+		<response num="4"><![CDATA[I’ll keep investigating.]]></response>
+	</conversation>
+</dialog>

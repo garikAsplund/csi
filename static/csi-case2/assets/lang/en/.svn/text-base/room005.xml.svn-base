@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<strings>
+	<!-- English -->
+	
+	<tag id="ID_TEST">Hi [name], this is a test string from room005 - dr. knox's office. </tag>
+	
+		<!-- GRISSOM0  -->
+		
+	<tag id="ID_GRISSOM0A"><![CDATA[What would you like help with?]]></tag>
+	<tag id="ID_GRISSOM0B"><![CDATA[We are allowed to search dog show property. You'll have to ask Dr. Knox's permission for anything you collect directly from her.]]></tag>
+	<tag id="ID_GRISSOM0C"><![CDATA[Well, this is a vet's office. There is probably animal blood, but we need to know if there is human blood. You can use luminol to find blood that's been cleaned up, but also search for and take samples of stains that could be blood.]]></tag>
+	<tag id="ID_GRISSOM0D"><![CDATA[Once you use the luminol, the blood can no longer be used for analysis.]]></tag>
+	<tag id="ID_GRISSOM0E"><![CDATA[It's in your field kit. Luminol is a chemical that glows greenish-blue when it comes in contact with blood.]]></tag>
+	<tag id="ID_GRISSOM0F"><![CDATA[Luminol reacts with the iron in blood to form excited ions that give off light. However, luminol is not specific for blood. It reacts with other things that contain iron, for example some types of bleach. So, be careful!]]></tag>
+	<tag id="ID_GRISSOM0G"><![CDATA[Simply click the luminol tool, and then click the suspicious areas where you think there might be blood.]]></tag>
+	<tag id="ID_GRISSOM0H"><![CDATA[Are you sure? Did you search for blood and use a swab to collect possible blood?]]></tag>
+	<tag id="ID_GRISSOM0I"><![CDATA[I agree. We'll come back when we have a warrant to collect more evidence.]]></tag>
+	
+		<!-- REPLIES TO GRISSOM -->
+
+	<tag id="ID_USER0A"><![CDATA[How do I collect evidence from Dr. Knox?]]></tag>
+	<tag id="ID_USER0B"><![CDATA[Should I search for blood here?]]></tag>
+	<tag id="ID_USER0C"><![CDATA[I'll look for blood and other evidence, and talk to Dr. Knox.]]></tag>
+	<tag id="ID_USER0D"><![CDATA[I think I'm done here.]]></tag>
+	<tag id="ID_USER0E"><![CDATA[Why should I search for and collect stains that could be blood?]]></tag>
+	<tag id="ID_USER0F"><![CDATA[Where can I find luminol?]]></tag>
+	<tag id="ID_USER0G"><![CDATA[Why does it glow?]]></tag>
+	<tag id="ID_USER0H"><![CDATA[How do I use luminol?]]></tag>
+	<tag id="ID_USER0I"><![CDATA[I'll keep investigating.]]></tag>
+	<tag id="ID_USER0J"><![CDATA[I'll select our next location.]]></tag>
+	
+		<!-- KNOX0 -->
+	
+	<tag id="ID_KNOX0A"><![CDATA[Yes? Can I help you?]]></tag>
+	<tag id="ID_KNOX0B"><![CDATA[Oh, that poor man. We all heard he was dead, but no one seems to know any details.]]></tag>
+	<tag id="ID_KNOX0C"><![CDATA[You mean Apollo? I hope whoever took him takes better care of him!]]></tag>
+	<tag id="ID_KNOX0D"><![CDATA[That poor dog was always ill! I tried to tell Ms. Ranger, but she always ignored me! I wonder now if she or Mr. Williams were doing something to him.]]></tag>
+	<tag id="ID_KNOX0E"><![CDATA[I know the contest organizers gave you permission to search the dog show facility. But please hurry because I am really busy.]]></tag>
+	<tag id="ID_KNOX0F"><![CDATA[Sorry, I can't do that now. Besides, if you want anything personal, you'll need a warrant.]]></tag>
+	
+		<!-- REPLIES TO KNOX -->
+	
+	<tag id="ID_USER1A"><![CDATA[Did you know Marco Williams?]]></tag>
+	<tag id="ID_USER1B"><![CDATA[Can you tell me anything about the missing dog?]]></tag>
+	<tag id="ID_USER1C"><![CDATA[Why did you say that?]]></tag>
+	<tag id="ID_USER1D"><![CDATA[I'd like to take a look around.]]></tag>
+	<tag id="ID_USER1E"><![CDATA[May I collect some evidence from you?]]></tag>
+	<tag id="ID_USER1F"><![CDATA[Thank you for your time.]]></tag>
+	
+		<!-- GRISSOM1  -->
+		
+	<tag id="ID_GRISSOM1A"><![CDATA[Do you have a question?]]></tag>
+	<tag id="ID_GRISSOM1B"><![CDATA[Use your swabs to collect cheek cells.]]></tag>
+	<tag id="ID_GRISSOM1C"><![CDATA[Your tweezers are a good tool to collect evidence like human head hair.]]></tag>
+	<tag id="ID_GRISSOM1D"><![CDATA[Try using the impression materials and have people bit on it.]]></tag>
+	<tag id="ID_GRISSOM1E"><![CDATA[I don't think so. There is more evidence to look for.]]></tag>
+	<tag id="ID_GRISSOM1F"><![CDATA[I agree. Let's move on.]]></tag>
+	
+		<!-- REPLIES TO GRISSOM -->
+
+	<tag id="ID_USER2A"><![CDATA[How do I get a DNA sample?]]></tag>
+	<tag id="ID_USER2B"><![CDATA[How do I get a hair sample?]]></tag>
+	<tag id="ID_USER2C"><![CDATA[How do I get a bite impression?]]></tag>
+	<tag id="ID_USER2D"><![CDATA[I'm going to talk with Dr. Knox.]]></tag>
+	<tag id="ID_USER2E"><![CDATA[I think I'm done here.]]></tag>
+	<tag id="ID_USER2F"><![CDATA[I'll keep investigating.]]></tag>
+	<tag id="ID_USER2G"><![CDATA[I'll select the next place.]]></tag>
+	
+		<!-- KNOX1 -->
+	
+	<tag id="ID_KNOX1A"><![CDATA[You again! I don't have time for you today.]]></tag>
+	<tag id="ID_KNOX1B"><![CDATA[Fine! Take what you need.]]></tag>
+	
+		<!-- REPLIES TO KNOX -->
+	
+	<tag id="ID_USER3A"><![CDATA[I have a warrant to collect evidence.]]></tag>
+	<tag id="ID_USER3B"><![CDATA[I need samples of your DNA, hair, and bite impression. I'll make it quick.]]></tag>
+
+	<tag id="ID_CELLPHONE"><![CDATA[Dr. Knox, an agent from the SPCA will investigate Apollo's case and decide if the dog should be taken away from the owner. --Sarah]]></tag>
+	
+</strings>	

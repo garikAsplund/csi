@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<activity name="Photography">
+	<title num="1"><![CDATA[Body position]]></title>
+	<title num="2"><![CDATA[Bloodstains on the floor]]></title>
+	<title num="3"><![CDATA[Bloodstains on the wall]]></title>
+	<caption num="1"><![CDATA[of 3]]></caption>
+	<caption num="2"><![CDATA[found]]></caption>
+	<cameraText><![CDATA[Click to take picture.]]></cameraText>
+</activity>

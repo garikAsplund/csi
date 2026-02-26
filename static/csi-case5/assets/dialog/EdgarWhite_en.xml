@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<dialog name="EdgarWhite" displayName="Edgar White">
+	<conversation location="Pharmacy" visit="1" name="1">
+		<statement num="1"><![CDATA[Yes? How can I help you?]]></statement>
+		<statement num="2"><![CDATA[I'm not sure if I can help, but sure.]]></statement>
+		<statement num="3"><![CDATA[Yes... not personally, but I think she's a doctor at the local pain management center.]]></statement>
+		<statement num="4"><![CDATA[The name doesn't ring a bell. She could be one of our customers, but I would have to check our database.]]></statement>
+		<statement num="5"><![CDATA[Of course. We are required by law to do so.]]></statement>
+		<response num="1"><![CDATA[May I ask you some questions related to a case we're working on?]]></response>
+		<response num="2"><![CDATA[Do you know Dr. Jessica Phillips?]]></response>
+		<response num="3"><![CDATA[Do you know Melissa McCoy?]]></response>
+		<response num="4"><![CDATA[Do you warn your customers about drug interactions?]]></response>
+		<response num="5"><![CDATA[Thank you for your time.]]></response>
+	</conversation>
+	<conversation location="Pharmacy" visit="1" name="2">
+		<statement num="1"><![CDATA[I have already answered your questions. I have to go back to work now.]]></statement>
+		<response num="1"><![CDATA[Nevermind.]]></response>
+	</conversation>
+	<conversation location="Pharmacy" visit="1" name="3">
+		<statement num="1"><![CDATA[I'm really busy.]]></statement>
+		<statement num="2"><![CDATA[Money? I don't know what you're talking about.]]></statement>
+		<statement num="3"><![CDATA[A warrant? That's ridiculous. Well, if you insist, take the sample.]]></statement>
+		<statement num="4"><![CDATA[Of course, I keep a gun here for protection.]]></statement>
+		<statement num="5"><![CDATA[I guess I can't say no.]]></statement>
+		<response num="1"><![CDATA[I'll make this quick. What was the money for that you received from the pain clinic?]]></response>
+		<response num="2"><![CDATA[I have a warrant for a DNA sample.]]></response>
+		<response num="3"><![CDATA[Do you own a gun?]]></response>
+		<response num="4"><![CDATA[I'll have to ask you to hand it over.]]></response>
+		<response num="5"><![CDATA[Thank you for your time.]]></response>
+	</conversation>
+</dialog>

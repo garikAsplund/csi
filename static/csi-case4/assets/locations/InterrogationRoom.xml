@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<location name="InterrogationRoom" displayName="Interrogation Room">
+	<person name="NataliePerez"/>
+	<visit num="1" ambient="HospitalAmbient">
+		<clickable name="NataliePerez" type="required" action="dialog:NataliePerezEnd,activity:End"/>
+	</visit>
+</location>

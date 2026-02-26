@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<activity name="FindMcCoyGun">
+	<text symbol="note"><![CDATA[Find McCoy's Gun.]]></text>
+	<continueBtn><![CDATA[Continue]]></continueBtn>
+</activity>
