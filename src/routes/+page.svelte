@@ -1,5 +1,12 @@
-<a href="/csi-case1/index.html">Case 1</a>
-<a href="/csi-case2/index.html">Case 2</a>
-<a href="/csi-case3/index.html">Case 3</a>
-<a href="/csi-case4/index.html">Case 4</a>
-<a href="/csi-case5/index.html">Case 5</a>
+<div class="flex flex-col gap-4 items-center justify-center min-h-screen">
+    <h1 class="text-4xl font-bold mb-8">CSI Cases</h1>
+    
+    {#each [1, 2, 3, 4, 5] as caseNum}
+      <a 
+        href={`/csi-case${caseNum}/index.html`} 
+        class="px-6 py-3 bg-orange-600 text-white font-semibold text-lg rounded-lg hover:bg-orange-700 transition"
+      >
+        Case {caseNum}
+      </a>
+    {/each}
+  </div>
